@@ -1,0 +1,11 @@
+# Datos regenerables: se reconstruyen con el pipeline (ver CLAUDE.md)
+fuentes/gutenberg/txt/
+fuentes/gutenberg/pg_catalog.csv
+atlas/pasajes.json
+atlas/*.npy
+atlas/universo.xlsx
+atlas/universo.html
+atlas/universo3d.html
+*.log
+__pycache__/
+.venv/

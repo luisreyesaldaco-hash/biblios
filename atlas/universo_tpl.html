@@ -1,0 +1,249 @@
+<title>Nebulosas filosóficas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Un solo mundo visual (cielo nocturno, a propósito): mapa a la izquierda, carta del observador a la derecha. */
+:root {
+  color-scheme: dark;
+  --void: #0b0d14;
+  --panel: #12151f;
+  --line: #262b3b;
+  --ink: #e6e3da;
+  --dim: #8d93a6;
+  --star: #f3ead2;
+  --display: "Spectral", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--void); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.wrap { display: grid; grid-template-columns: minmax(0, 1fr) 320px; height: 100%; }
+.cielo { position: relative; min-width: 0; overflow: hidden; }
+canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; }
+canvas:active { cursor: grabbing; }
+.encabezado { position: absolute; top: 16px; left: max(16px, env(safe-area-inset-left, 0px)); max-width: 30rem; pointer-events: none; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 1.9rem; line-height: 1.1; margin: 0 0 .35rem; letter-spacing: .01em; text-wrap: balance; }
+.sub { color: var(--dim); font-size: .85rem; margin: 0; }
+.pista { position: absolute; bottom: 12px; left: max(16px, env(safe-area-inset-left, 0px)); color: var(--dim); font-family: var(--mono); font-size: .72rem; pointer-events: none; }
+.tip { position: absolute; max-width: 22rem; background: color-mix(in srgb, var(--panel) 94%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: .6rem .75rem; pointer-events: none; font-size: .8rem; }
+.tip b { font-family: var(--display); font-weight: 600; font-size: .95rem; }
+.tip .obra { color: var(--dim); font-style: italic; display: block; margin-bottom: .3rem; }
+.tip q { color: var(--ink); quotes: "“" "”"; }
+aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding-block: 16px; padding-left: 16px; padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+.rotulo { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin: 0 0 .4rem; }
+.foco { min-height: 9rem; }
+.foco h2 { font-family: var(--display); font-weight: 400; font-size: 1.5rem; margin: 0 0 .5rem; }
+.foco ol { list-style: none; margin: 0 0 .6rem; padding: 0; display: grid; gap: .2rem; }
+.foco li { display: grid; grid-template-columns: 10px minmax(0,1fr) auto; gap: .5rem; align-items: center; font-size: .85rem; }
+.foco li span:last-child { font-family: var(--mono); font-size: .75rem; color: var(--dim); font-variant-numeric: tabular-nums; }
+.vacio { color: var(--dim); font-size: .85rem; margin: 0; }
+.punto { width: 10px; height: 10px; border-radius: 50%; }
+.lista { display: grid; grid-template-columns: 1fr 1fr; gap: 2px .5rem; }
+.lista button { all: unset; display: flex; align-items: center; gap: .45rem; padding: .2rem .3rem; border-radius: 4px; font-size: .82rem; cursor: pointer; color: var(--ink); min-width: 0; }
+.lista button span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lista button:hover, .lista button:focus-visible { background: var(--line); }
+.lista button:focus-visible { outline: 1px solid var(--dim); }
+.lista button[aria-pressed="true"] { background: var(--line); font-weight: 500; }
+.nota { color: var(--dim); font-size: .78rem; margin: 0; }
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: 1fr; grid-template-rows: 62vh auto; height: auto; }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  h1 { font-size: 1.5rem; }
+}
+</style>
+
+<div class="wrap">
+  <section class="cielo" id="cielo">
+    <canvas id="lienzo" aria-label="Mapa de pasajes de los filósofos del canon; cada color es un filósofo"></canvas>
+    <div class="encabezado">
+      <h1>Nebulosas filosóficas</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="pista">arrastra para mover · rueda para acercar · clic en una nebulosa para enfocarla</div>
+    <div class="tip" id="tip" hidden></div>
+  </section>
+  <aside>
+    <div class="foco" id="foco">
+      <p class="rotulo">Enfoque</p>
+      <p class="vacio">Elige un filósofo para ver quién le queda cerca y quién lejos.</p>
+    </div>
+    <div>
+      <p class="rotulo">Filósofos, por orden cronológico</p>
+      <div class="lista" id="lista"></div>
+    </div>
+    <p class="nota">Cada punto es un pasaje de ~200 palabras de una traducción inglesa de dominio público (Project Gutenberg), con hasta 350 por autor repartidos parejo entre sus obras. La posición viene de embeddings (multilingual-e5-large) proyectados con t-SNE. La cercanía indica que dos pasajes hablan de lo mismo, no que estén de acuerdo. La distancia de la lista es 1 − coseno entre los centros de cada autor.</p>
+  </aside>
+</div>
+
+<script>
+const DATOS = /*DATOS*/null;
+const { autores, obras, pts, vecinos } = DATOS;
+const N = autores.length;
+const color = k => `hsl(${18 + (k / (N - 1)) * 300}, 78%, 64%)`;
+document.getElementById('sub').textContent =
+  `${pts.length.toLocaleString('es-MX')} pasajes de ${N} filósofos. El color va de la Antigüedad (ámbar) a los modernos (violeta).`;
+
+const cv = document.getElementById('lienzo'), ctx = cv.getContext('2d');
+const tip = document.getElementById('tip');
+let W = 0, H = 0, dpr = 1;
+let vista = { s: 1, x: 0, y: 0 };
+let foco = -1, hover = -1;
+
+// Sprites de nebulosa: un degradado radial por autor, dibujado miles de veces en modo aditivo.
+const R = 34;
+const sprites = autores.map((_, k) => {
+  const c = document.createElement('canvas'); c.width = c.height = R * 2;
+  const g = c.getContext('2d'), gr = g.createRadialGradient(R, R, 0, R, R, R);
+  const base = color(k);
+  gr.addColorStop(0, base.replace('64%)', '64%, 0.10)').replace('hsl', 'hsla'));
+  gr.addColorStop(1, base.replace('64%)', '64%, 0)').replace('hsl', 'hsla'));
+  g.fillStyle = gr; g.fillRect(0, 0, R * 2, R * 2);
+  return c;
+});
+
+// Centros (mediana) para rotular cada nebulosa.
+const centros = autores.map((_, k) => {
+  const xs = [], ys = [];
+  for (const p of pts) if (p[2] === k) { xs.push(p[0]); ys.push(p[1]); }
+  xs.sort((a, b) => a - b); ys.sort((a, b) => a - b);
+  return [xs[xs.length >> 1], ys[ys.length >> 1]];
+});
+
+function aPantalla(px, py) {
+  const m = Math.min(W, H) * 0.88;
+  return [W / 2 + ((px - 0.5) * m) * vista.s + vista.x, H / 2 + ((py - 0.5) * m) * vista.s + vista.y];
+}
+
+function dibujar() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  ctx.globalCompositeOperation = 'source-over';
+  ctx.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--void');
+  ctx.fillRect(0, 0, W, H);
+  ctx.globalCompositeOperation = 'lighter';
+  const r = R * Math.max(0.6, Math.min(1.6, vista.s));
+  for (const p of pts) {
+    if (foco >= 0 && p[2] !== foco) continue;
+    const [x, y] = aPantalla(p[0], p[1]);
+    if (x < -r || y < -r || x > W + r || y > H + r) continue;
+    ctx.drawImage(sprites[p[2]], x - r, y - r, r * 2, r * 2);
+  }
+  ctx.globalCompositeOperation = 'source-over';
+  const rp = Math.max(0.8, Math.min(2.2, vista.s));
+  for (let i = 0; i < pts.length; i++) {
+    const p = pts[i];
+    const [x, y] = aPantalla(p[0], p[1]);
+    if (x < 0 || y < 0 || x > W || y > H) continue;
+    ctx.globalAlpha = foco < 0 ? 0.55 : (p[2] === foco ? 0.95 : 0.12);
+    ctx.fillStyle = color(p[2]);
+    ctx.fillRect(x - rp / 2, y - rp / 2, rp, rp);
+  }
+  ctx.globalAlpha = 1;
+  ctx.font = '500 12px "IBM Plex Sans", system-ui, sans-serif';
+  ctx.textAlign = 'center';
+  centros.forEach(([cx, cy], k) => {
+    if (foco >= 0 && k !== foco) return;
+    const [x, y] = aPantalla(cx, cy);
+    ctx.lineWidth = 3; ctx.strokeStyle = 'rgba(11,13,20,.85)'; ctx.strokeText(autores[k], x, y);
+    ctx.fillStyle = '#f3ead2'; ctx.fillText(autores[k], x, y);
+  });
+  if (hover >= 0) {
+    const [x, y] = aPantalla(pts[hover][0], pts[hover][1]);
+    ctx.strokeStyle = '#f3ead2'; ctx.lineWidth = 1.5;
+    ctx.beginPath(); ctx.arc(x, y, 5, 0, Math.PI * 2); ctx.stroke();
+  }
+}
+
+let pendiente = false;
+const pedir = () => { if (!pendiente) { pendiente = true; requestAnimationFrame(() => { pendiente = false; dibujar(); }); } };
+
+function medir() {
+  const r = cv.parentElement.getBoundingClientRect();
+  dpr = window.devicePixelRatio || 1; W = r.width; H = r.height;
+  cv.width = Math.round(W * dpr); cv.height = Math.round(H * dpr);
+  pedir();
+}
+new ResizeObserver(medir).observe(cv.parentElement);
+
+function masCercano(mx, my) {
+  let best = -1, bd = 14 * 14;
+  for (let i = 0; i < pts.length; i++) {
+    if (foco >= 0 && pts[i][2] !== foco) continue;
+    const [x, y] = aPantalla(pts[i][0], pts[i][1]);
+    const d = (x - mx) ** 2 + (y - my) ** 2;
+    if (d < bd) { bd = d; best = i; }
+  }
+  return best;
+}
+
+let arrastre = null, movio = false;
+cv.addEventListener('pointerdown', e => { arrastre = { x: e.clientX, y: e.clientY, vx: vista.x, vy: vista.y }; movio = false; cv.setPointerCapture(e.pointerId); });
+cv.addEventListener('pointermove', e => {
+  const r = cv.getBoundingClientRect(), mx = e.clientX - r.left, my = e.clientY - r.top;
+  if (arrastre) {
+    const dx = e.clientX - arrastre.x, dy = e.clientY - arrastre.y;
+    if (Math.abs(dx) + Math.abs(dy) > 3) movio = true;
+    vista.x = arrastre.vx + dx; vista.y = arrastre.vy + dy; tip.hidden = true; pedir(); return;
+  }
+  const h = masCercano(mx, my);
+  if (h !== hover) { hover = h; pedir(); }
+  if (h < 0) { tip.hidden = true; return; }
+  const p = pts[h];
+  tip.innerHTML = '';
+  const b = document.createElement('b'); b.textContent = autores[p[2]]; b.style.color = color(p[2]);
+  const o = document.createElement('span'); o.className = 'obra'; o.textContent = obras[p[3]];
+  const q = document.createElement('q'); q.textContent = p[4] + '…';
+  tip.append(b, o, q); tip.hidden = false;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  tip.style.left = Math.min(mx + 14, W - tw - 8) + 'px';
+  tip.style.top = Math.min(my + 14, H - th - 8) + 'px';
+});
+cv.addEventListener('pointerup', e => {
+  const r = cv.getBoundingClientRect();
+  if (!movio) { const h = masCercano(e.clientX - r.left, e.clientY - r.top); enfocar(h >= 0 ? (foco === pts[h][2] ? -1 : pts[h][2]) : -1); }
+  arrastre = null;
+});
+cv.addEventListener('pointerleave', () => { tip.hidden = true; hover = -1; pedir(); });
+cv.addEventListener('wheel', e => {
+  e.preventDefault();
+  const r = cv.getBoundingClientRect(), mx = e.clientX - r.left - W / 2, my = e.clientY - r.top - H / 2;
+  const f = Math.exp(-e.deltaY * 0.0015), s2 = Math.min(12, Math.max(0.6, vista.s * f)), k = s2 / vista.s;
+  vista.x = mx - (mx - vista.x) * k; vista.y = my - (my - vista.y) * k; vista.s = s2; pedir();
+}, { passive: false });
+
+const lista = document.getElementById('lista');
+const botones = autores.map((a, k) => {
+  const b = document.createElement('button'); b.type = 'button'; b.id = 'autor-' + k; b.setAttribute('aria-pressed', 'false');
+  const s = document.createElement('span'); s.className = 'punto'; s.style.background = color(k);
+  const t = document.createElement('span'); t.textContent = a;
+  b.append(s, t); b.addEventListener('click', () => enfocar(foco === k ? -1 : k));
+  lista.append(b); return b;
+});
+
+function fila(j, d) {
+  const li = document.createElement('li');
+  const s = document.createElement('span'); s.className = 'punto'; s.style.background = color(j);
+  const n = document.createElement('span'); n.textContent = autores[j];
+  const v = document.createElement('span'); v.textContent = d.toFixed(3);
+  li.append(s, n, v); return li;
+}
+
+function enfocar(k) {
+  foco = k;
+  botones.forEach((b, i) => b.setAttribute('aria-pressed', String(i === k)));
+  const box = document.getElementById('foco'); box.innerHTML = '';
+  const rot = document.createElement('p'); rot.className = 'rotulo'; rot.textContent = 'Enfoque'; box.append(rot);
+  if (k < 0) {
+    const p = document.createElement('p'); p.className = 'vacio'; p.textContent = 'Elige un filósofo para ver quién le queda cerca y quién lejos.'; box.append(p);
+  } else {
+    const h = document.createElement('h2'); h.textContent = autores[k]; h.style.color = color(k); box.append(h);
+    const v = vecinos[k];
+    const r1 = document.createElement('p'); r1.className = 'rotulo'; r1.textContent = 'Más cerca'; box.append(r1);
+    const o1 = document.createElement('ol'); v.cerca.forEach(([j, d]) => o1.append(fila(j, d))); box.append(o1);
+    const r2 = document.createElement('p'); r2.className = 'rotulo'; r2.textContent = 'Más lejos'; box.append(r2);
+    const o2 = document.createElement('ol'); v.lejos.forEach(([j, d]) => o2.append(fila(j, d))); box.append(o2);
+  }
+  pedir();
+}
+medir();
+</script>

@@ -1,0 +1,362 @@
+<title>Nebulosas filosóficas 3D</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Un solo mundo visual (cielo nocturno, a propósito): espacio 3D a la izquierda, carta del observador a la derecha. */
+:root {
+  color-scheme: dark;
+  --void: #07080d;
+  --panel: #12151f;
+  --line: #262b3b;
+  --ink: #e6e3da;
+  --dim: #8d93a6;
+  --star: #f3ead2;
+  --display: "Spectral", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+html, body { height: 100%; }
+body { background: var(--void); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+.wrap { display: grid; grid-template-columns: minmax(0, 1fr) 320px; height: 100%; }
+.cielo { position: relative; min-width: 0; overflow: hidden; }
+#gl { position: absolute; inset: 0; }
+#gl canvas { display: block; cursor: grab; touch-action: none; }
+#gl canvas:active { cursor: grabbing; }
+.encabezado { position: absolute; top: 16px; left: max(16px, env(safe-area-inset-left, 0px)); max-width: 30rem; pointer-events: none; }
+h1 { font-family: var(--display); font-weight: 400; font-size: 1.9rem; line-height: 1.1; margin: 0 0 .35rem; letter-spacing: .01em; text-wrap: balance; }
+.sub { color: var(--dim); font-size: .85rem; margin: 0; }
+.controles { position: absolute; bottom: 12px; left: max(16px, env(safe-area-inset-left, 0px)); right: 16px; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; color: var(--dim); font-family: var(--mono); font-size: .72rem; }
+.controles button { all: unset; cursor: pointer; border: 1px solid var(--line); border-radius: 4px; padding: .2rem .55rem; color: var(--ink); background: var(--panel); }
+.controles button:focus-visible { outline: 1px solid var(--dim); }
+.etq { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; font-weight: 500; color: var(--star); text-shadow: 0 0 4px var(--void), 0 0 2px var(--void); white-space: nowrap; transform: translate(-50%, -50%); }
+.tip { position: absolute; max-width: 22rem; background: color-mix(in srgb, var(--panel) 94%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: .6rem .75rem; pointer-events: none; font-size: .8rem; z-index: 2; }
+.tip b { font-family: var(--display); font-weight: 600; font-size: .95rem; }
+.tip .obra { color: var(--dim); font-style: italic; display: block; margin-bottom: .3rem; }
+.tip q { color: var(--ink); quotes: "“" "”"; }
+aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding-block: 16px; padding-left: 16px; padding-right: max(16px, env(safe-area-inset-right, 0px)); display: flex; flex-direction: column; gap: 1rem; min-width: 0; }
+.rotulo { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin: 0 0 .4rem; }
+.foco { min-height: 9rem; }
+.foco h2 { font-family: var(--display); font-weight: 400; font-size: 1.5rem; margin: 0 0 .5rem; }
+.foco ol { list-style: none; margin: 0 0 .6rem; padding: 0; display: grid; gap: .2rem; }
+.foco li { display: grid; grid-template-columns: 10px minmax(0,1fr) auto; gap: .5rem; align-items: center; font-size: .85rem; }
+.foco li span:last-child { font-family: var(--mono); font-size: .75rem; color: var(--dim); font-variant-numeric: tabular-nums; }
+.vacio { color: var(--dim); font-size: .85rem; margin: 0; }
+.punto { width: 10px; height: 10px; border-radius: 50%; }
+.lista { display: grid; grid-template-columns: 1fr 1fr; gap: 2px .5rem; }
+.lista button { all: unset; display: flex; align-items: center; gap: .45rem; padding: .2rem .3rem; border-radius: 4px; font-size: .82rem; cursor: pointer; color: var(--ink); min-width: 0; }
+.lista button span:last-child { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lista button:hover, .lista button:focus-visible { background: var(--line); }
+.lista button:focus-visible { outline: 1px solid var(--dim); }
+.lista button[aria-pressed="true"] { background: var(--line); font-weight: 500; }
+.nota { color: var(--dim); font-size: .78rem; margin: 0; }
+.toggle { display: flex; align-items: center; gap: .4rem; font-size: .82rem; margin-bottom: .4rem; cursor: pointer; }
+.amplitud { font-size: .8rem; color: var(--dim); margin: 0 0 .5rem; }
+.matriz { overflow-x: auto; }
+.matriz table { border-collapse: collapse; font-family: var(--mono); font-size: .7rem; font-variant-numeric: tabular-nums; }
+.matriz th, .matriz td { padding: .15rem .3rem; text-align: center; }
+.matriz th .punto { display: inline-block; }
+.obra-etq { font-size: 11px; font-style: italic; }
+.error { position: absolute; inset: 0; display: grid; place-items: center; color: var(--dim); padding: 2rem; text-align: center; }
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: 1fr; grid-template-rows: 64vh auto; height: auto; }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  h1 { font-size: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) { .controles #giro { display: none; } }
+</style>
+
+<div class="wrap">
+  <section class="cielo" id="cielo">
+    <div id="gl" aria-label="Espacio 3D con los pasajes de los filósofos del canon; cada color es un filósofo"></div>
+    <div id="etiquetas"></div>
+    <div class="encabezado">
+      <h1>Nebulosas filosóficas</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="controles">
+      <button type="button" id="giro">Pausar giro</button>
+      <button type="button" id="nombres">Ocultar nombres</button>
+      <span>arrastra para girar · rueda para acercar · clic derecho para mover · clic en una nebulosa para aislarla</span>
+    </div>
+    <div class="tip" id="tip" hidden></div>
+  </section>
+  <aside>
+    <div class="foco" id="foco">
+      <p class="rotulo">Enfoque</p>
+      <p class="vacio">Elige un filósofo para ver quién le queda cerca y quién lejos.</p>
+    </div>
+    <div>
+      <p class="rotulo">Filósofos, por orden cronológico</p>
+      <div class="lista" id="lista"></div>
+    </div>
+    <p class="nota">Cada punto es un pasaje de ~200 palabras de una traducción inglesa de dominio público (Project Gutenberg), con hasta 350 por autor repartidos parejo entre sus obras. La posición viene de embeddings (multilingual-e5-large) proyectados a tres dimensiones con t-SNE. La cercanía indica que dos pasajes hablan de lo mismo, no que estén de acuerdo. La distancia de la lista es 1 − coseno entre los centros de cada autor, medida en el espacio completo de 1,024 dimensiones.</p>
+  </aside>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const DATOS = /*DATOS*/null;
+const { autores, obras, pts, vecinos, obrasAutor, distObras } = DATOS;
+const PALETA = ['#f2b84b', '#5ec8e0', '#ee6f91', '#8bd46a', '#b48cf0', '#f08a4b', '#6ad4b8'];
+const tono = (k, o) => { const l = obrasAutor[k].findIndex(x => x[0] === o); return PALETA[l % PALETA.length]; };
+const corto = t => t.replace(/^(The |Kant's |Hegel's |Plotinos: |Voltaire's |Pascal's |Cicero's )/, '').split(/[;:,(—]/)[0].trim().slice(0, 34);
+const N = autores.length;
+const hue = k => 18 + (k / (N - 1)) * 300;
+const css = k => `hsl(${hue(k)}, 78%, 64%)`;
+document.getElementById('sub').textContent =
+  `${pts.length.toLocaleString('es-MX')} pasajes de ${N} filósofos. El color va de la Antigüedad (ámbar) a los modernos (violeta).`;
+
+const cielo = document.getElementById('cielo'), host = document.getElementById('gl');
+const tip = document.getElementById('tip');
+let foco = -1, porObra = true, girar = !matchMedia('(prefers-reduced-motion: reduce)').matches, conNombres = true;
+
+if (!window.THREE) {
+  host.innerHTML = '<div class="error">No se pudo cargar la librería 3D. Recarga la página.</div>';
+} else iniciar();
+
+function iniciar() {
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+  renderer.setClearColor(new THREE.Color('#07080d'));
+  host.append(renderer.domElement);
+
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(50, 1, 0.01, 50);
+  camera.position.set(0, 0.6, 3.1);
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true; controls.dampingFactor = 0.08;
+  controls.minDistance = 0.3; controls.maxDistance = 8;
+  controls.autoRotate = girar; controls.autoRotateSpeed = 0.5;
+
+  // Sprite circular con caída suave: sirve para el halo (nebulosa) y para la estrella.
+  function sprite(dura) {
+    const c = document.createElement('canvas'); c.width = c.height = 64;
+    const g = c.getContext('2d'), gr = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    gr.addColorStop(0, 'rgba(255,255,255,1)');
+    gr.addColorStop(dura ? 0.35 : 0.15, dura ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.35)');
+    gr.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = gr; g.fillRect(0, 0, 64, 64);
+    return new THREE.CanvasTexture(c);
+  }
+
+  const pos = new Float32Array(pts.length * 3);
+  const base = new Float32Array(pts.length * 3);
+  pts.forEach((p, i) => {
+    pos.set([p[0], p[1], p[2]], i * 3);
+    const c = new THREE.Color().setHSL(hue(p[3]) / 360, 0.78, 0.64);
+    base.set([c.r, c.g, c.b], i * 3);
+  });
+  const geo = new THREE.BufferGeometry();
+  geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const colHalo = new THREE.BufferAttribute(new Float32Array(base), 3);
+  const colEstrella = new THREE.BufferAttribute(new Float32Array(base), 3);
+  const geoHalo = geo.clone(); geoHalo.setAttribute('color', colHalo);
+  const geoEstr = geo.clone(); geoEstr.setAttribute('color', colEstrella);
+
+  const halo = new THREE.Points(geoHalo, new THREE.PointsMaterial({
+    size: 0.16, map: sprite(false), vertexColors: true, transparent: true, opacity: 0.09,
+    depthWrite: false, blending: THREE.AdditiveBlending, sizeAttenuation: true }));
+  const estrellas = new THREE.Points(geoEstr, new THREE.PointsMaterial({
+    size: 0.018, map: sprite(true), vertexColors: true, transparent: true, opacity: 0.9,
+    depthWrite: false, blending: THREE.AdditiveBlending, sizeAttenuation: true }));
+  scene.add(halo, estrellas);
+
+  // Marca del pasaje bajo el cursor.
+  const marca = new THREE.Mesh(new THREE.RingGeometry(0.018, 0.024, 24),
+    new THREE.MeshBasicMaterial({ color: 0xf3ead2, side: THREE.DoubleSide, transparent: true }));
+  marca.visible = false; scene.add(marca);
+
+  // Centros (mediana por eje) para los nombres.
+  const centros = autores.map((_, k) => {
+    const ax = [[], [], []];
+    for (const p of pts) if (p[3] === k) { ax[0].push(p[0]); ax[1].push(p[1]); ax[2].push(p[2]); }
+    return new THREE.Vector3(...ax.map(a => (a.sort((x, y) => x - y), a[a.length >> 1])));
+  });
+  const capa = document.getElementById('etiquetas');
+  const etqs = autores.map(a => { const d = document.createElement('div'); d.className = 'etq'; d.textContent = a; capa.append(d); return d; });
+  const etqsObra = [];
+  autores.forEach((_, k) => obrasAutor[k].forEach(([o]) => {
+    const ax = [[], [], []];
+    for (const p of pts) if (p[3] === k && p[4] === o) { ax[0].push(p[0]); ax[1].push(p[1]); ax[2].push(p[2]); }
+    const c = new THREE.Vector3(...ax.map(a => (a.sort((x, y) => x - y), a[a.length >> 1])));
+    const d = document.createElement('div'); d.className = 'etq obra-etq'; d.textContent = corto(obras[o]);
+    d.style.color = tono(k, o); d.hidden = true; capa.append(d);
+    etqsObra.push({ k, c, d });
+  }));
+
+  function pintar() {
+    const tmp = new THREE.Color();
+    for (let i = 0; i < pts.length; i++) {
+      const on = foco < 0 || pts[i][3] === foco;
+      let c = [base[i * 3], base[i * 3 + 1], base[i * 3 + 2]];
+      if (on && foco >= 0 && porObra) { tmp.set(tono(foco, pts[i][4])); c = [tmp.r, tmp.g, tmp.b]; }
+      for (let j = 0; j < 3; j++) {
+        colHalo.array[i * 3 + j] = c[j] * (on ? 1 : 0.02);
+        colEstrella.array[i * 3 + j] = c[j] * (on ? 1 : 0.06);
+      }
+    }
+    etqsObra.forEach(e => { e.d.hidden = true; });
+    colHalo.needsUpdate = colEstrella.needsUpdate = true;
+  }
+
+  function medir() {
+    const r = cielo.getBoundingClientRect();
+    renderer.setSize(r.width, r.height);
+    camera.aspect = r.width / r.height; camera.updateProjectionMatrix();
+  }
+  new ResizeObserver(medir).observe(cielo); medir();
+
+  const ray = new THREE.Raycaster(); ray.params.Points.threshold = 0.02;
+  const mouse = new THREE.Vector2();
+  let hover = -1, abajo = null;
+
+  function elegir(e) {
+    const r = renderer.domElement.getBoundingClientRect();
+    mouse.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(mouse, camera);
+    const hits = ray.intersectObject(estrellas);
+    const h = hits.find(x => foco < 0 || pts[x.index][3] === foco);
+    return { i: h ? h.index : -1, x: e.clientX - r.left, y: e.clientY - r.top };
+  }
+
+  renderer.domElement.addEventListener('pointerdown', e => { abajo = { x: e.clientX, y: e.clientY }; });
+  renderer.domElement.addEventListener('pointermove', e => {
+    if (e.buttons) { tip.hidden = true; return; }
+    const { i, x, y } = elegir(e);
+    hover = i;
+    if (i < 0) { tip.hidden = true; marca.visible = false; return; }
+    const p = pts[i];
+    marca.position.set(p[0], p[1], p[2]); marca.visible = true;
+    tip.innerHTML = '';
+    const b = document.createElement('b'); b.textContent = autores[p[3]]; b.style.color = css(p[3]);
+    const o = document.createElement('span'); o.className = 'obra'; o.textContent = obras[p[4]];
+    const q = document.createElement('q'); q.textContent = p[5] + '…';
+    tip.append(b, o, q); tip.hidden = false;
+    const W = cielo.clientWidth, H = cielo.clientHeight;
+    tip.style.left = Math.min(x + 14, W - tip.offsetWidth - 8) + 'px';
+    tip.style.top = Math.min(y + 14, H - tip.offsetHeight - 8) + 'px';
+  });
+  renderer.domElement.addEventListener('pointerup', e => {
+    if (!abajo || e.button !== 0) return;
+    const movio = Math.abs(e.clientX - abajo.x) + Math.abs(e.clientY - abajo.y) > 4; abajo = null;
+    if (movio) return;
+    const { i } = elegir(e);
+    enfocar(i >= 0 ? (foco === pts[i][3] ? -1 : pts[i][3]) : -1);
+  });
+  renderer.domElement.addEventListener('pointerleave', () => { tip.hidden = true; marca.visible = false; });
+
+  const bGiro = document.getElementById('giro');
+  const syncGiro = () => { controls.autoRotate = girar; bGiro.textContent = girar ? 'Pausar giro' : 'Girar'; };
+  bGiro.addEventListener('click', () => { girar = !girar; syncGiro(); }); syncGiro();
+  const bNom = document.getElementById('nombres');
+  bNom.addEventListener('click', () => { conNombres = !conNombres; bNom.textContent = conNombres ? 'Ocultar nombres' : 'Mostrar nombres'; });
+
+  const v = new THREE.Vector3();
+  function cuadro() {
+    controls.update();
+    marca.quaternion.copy(camera.quaternion);
+    renderer.render(scene, camera);
+    const W = cielo.clientWidth, H = cielo.clientHeight;
+    centros.forEach((c, k) => {
+      const d = etqs[k];
+      const visible = conNombres && (foco < 0 || (foco === k && !porObra));
+      v.copy(c).project(camera);
+      if (!visible || v.z > 1) { d.hidden = true; return; }
+      d.hidden = false;
+      d.style.left = ((v.x + 1) / 2 * W) + 'px';
+      d.style.top = ((1 - v.y) / 2 * H) + 'px';
+      const dist = camera.position.distanceTo(c);
+      d.style.opacity = Math.max(0.35, Math.min(1, 2.6 / dist)).toFixed(2);
+    });
+    etqsObra.forEach(({ k, c, d }) => {
+      if (!(conNombres && porObra && foco === k)) { d.hidden = true; return; }
+      v.copy(c).project(camera);
+      if (v.z > 1) { d.hidden = true; return; }
+      d.hidden = false;
+      d.style.left = ((v.x + 1) / 2 * W) + 'px';
+      d.style.top = ((1 - v.y) / 2 * H) + 'px';
+    });
+    requestAnimationFrame(cuadro);
+  }
+  cuadro();
+
+  window.__pintar = pintar;
+}
+
+const lista = document.getElementById('lista');
+const botones = autores.map((a, k) => {
+  const b = document.createElement('button'); b.type = 'button'; b.id = 'autor-' + k; b.setAttribute('aria-pressed', 'false');
+  const s = document.createElement('span'); s.className = 'punto'; s.style.background = css(k);
+  const t = document.createElement('span'); t.textContent = a;
+  b.append(s, t); b.addEventListener('click', () => enfocar(foco === k ? -1 : k));
+  lista.append(b); return b;
+});
+
+function fila(j, d) {
+  const li = document.createElement('li');
+  const s = document.createElement('span'); s.className = 'punto'; s.style.background = css(j);
+  const n = document.createElement('span'); n.textContent = autores[j];
+  const v = document.createElement('span'); v.textContent = d.toFixed(3);
+  li.append(s, n, v); return li;
+}
+
+function obrasPanel(k, box) {
+  const ob = obrasAutor[k], D = distObras[k];
+  const r = document.createElement('p'); r.className = 'rotulo'; r.textContent = `Obras (${ob.length})`; box.append(r);
+  const t = document.createElement('label'); t.className = 'toggle';
+  const cb = document.createElement('input'); cb.type = 'checkbox'; cb.id = 'por-obra'; cb.checked = porObra;
+  cb.addEventListener('change', () => { porObra = cb.checked; if (window.__pintar) window.__pintar(); });
+  t.append(cb, document.createTextNode(' Colorear por obra')); box.append(t);
+  const ol = document.createElement('ol');
+  ob.forEach(([o, n]) => {
+    const li = document.createElement('li');
+    const s = document.createElement('span'); s.className = 'punto'; s.style.background = tono(k, o);
+    const nm = document.createElement('span'); nm.textContent = corto(obras[o]); nm.title = obras[o];
+    const c = document.createElement('span'); c.textContent = n + ' pas.';
+    li.append(s, nm, c); ol.append(li);
+  });
+  box.append(ol);
+  if (ob.length > 1) {
+    let m = [-1, 0, 0];
+    D.forEach((f, i) => f.forEach((x, j) => { if (j > i && x > m[0]) m = [x, i, j]; }));
+    const p = document.createElement('p'); p.className = 'amplitud';
+    p.textContent = `Amplitud ${m[0].toFixed(3)}: el par de obras más lejano es ${corto(obras[ob[m[1]][0]])} ↔ ${corto(obras[ob[m[2]][0]])}.`;
+    box.append(p);
+    if (ob.length > 2) {
+      const wrap = document.createElement('div'); wrap.className = 'matriz';
+      const tb = document.createElement('table');
+      const hr = document.createElement('tr'); hr.append(document.createElement('th'));
+      ob.forEach(([o]) => { const th = document.createElement('th'); const s = document.createElement('span'); s.className = 'punto'; s.style.background = tono(k, o); th.append(s); th.title = obras[o]; hr.append(th); });
+      tb.append(hr);
+      D.forEach((f, i) => {
+        const tr = document.createElement('tr');
+        const th = document.createElement('th'); const s = document.createElement('span'); s.className = 'punto'; s.style.background = tono(k, ob[i][0]); th.append(s); th.title = obras[ob[i][0]]; tr.append(th);
+        f.forEach((x, j) => { const td = document.createElement('td'); td.textContent = i === j ? '·' : x.toFixed(3); if (i !== j) td.style.opacity = (0.45 + 0.55 * x / m[0]).toFixed(2); tr.append(td); });
+        tb.append(tr);
+      });
+      wrap.append(tb); box.append(wrap);
+    }
+  }
+}
+
+function enfocar(k) {
+  foco = k;
+  botones.forEach((b, i) => b.setAttribute('aria-pressed', String(i === k)));
+  const box = document.getElementById('foco'); box.innerHTML = '';
+  const rot = document.createElement('p'); rot.className = 'rotulo'; rot.textContent = 'Enfoque'; box.append(rot);
+  if (k < 0) {
+    const p = document.createElement('p'); p.className = 'vacio'; p.textContent = 'Elige un filósofo para ver quién le queda cerca y quién lejos.'; box.append(p);
+  } else {
+    const h = document.createElement('h2'); h.textContent = autores[k]; h.style.color = css(k); box.append(h);
+    const v = vecinos[k];
+    const r1 = document.createElement('p'); r1.className = 'rotulo'; r1.textContent = 'Más cerca'; box.append(r1);
+    const o1 = document.createElement('ol'); v.cerca.forEach(([j, d]) => o1.append(fila(j, d))); box.append(o1);
+    const r2 = document.createElement('p'); r2.className = 'rotulo'; r2.textContent = 'Más lejos'; box.append(r2);
+    const o2 = document.createElement('ol'); v.lejos.forEach(([j, d]) => o2.append(fila(j, d))); box.append(o2);
+    obrasPanel(k, box);
+  }
+  if (window.__pintar) window.__pintar();
+}
+</script>
