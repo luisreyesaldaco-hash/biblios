@@ -1,0 +1,142 @@
+{
+ "Platón": {
+  "pasaje": "NO",
+  "autor": "SÍ",
+  "autor_p": {
+   "apoya": 0.66,
+   "contradice": 0.19,
+   "trata_sin_resolver": 0.15,
+   "no_trata": 0.0
+  },
+  "cuenta": {
+   "apoya": 2,
+   "contradice": 5,
+   "trata_sin_resolver": 1,
+   "no_trata": 2
+  },
+  "ap": 0.86,
+  "co": 0.94,
+  "cita": "The question which Plato has raised respecting the origin and nature of ideas belongs to the infancy of philosophy; in modern times it would no longer be asked. Their origin is only their history, so far as we know it; there can be no other",
+  "obra": "Meno"
+ },
+ "Descartes": {
+  "pasaje": "SÍ",
+  "autor": "SÍ",
+  "autor_p": {
+   "apoya": 0.99,
+   "contradice": 0.01,
+   "trata_sin_resolver": 0.0,
+   "no_trata": 0.0
+  },
+  "cuenta": {
+   "apoya": 6,
+   "contradice": 2,
+   "trata_sin_resolver": 0,
+   "no_trata": 2
+  },
+  "ap": 1.0,
+  "co": 0.97,
+  "cita": "It will be sufficient to remark that the perceptions of the senses are merely to be referred to this intimate union of the human body and mind, and that they usually make us aware of what, in external objects, may be useful or adverse to th",
+  "obra": "Selections from the Principles of Philosophy"
+ },
+ "Leibniz": {
+  "pasaje": "NO",
+  "autor": "SÍ",
+  "autor_p": {
+   "apoya": 0.94,
+   "contradice": 0.06,
+   "trata_sin_resolver": 0.0,
+   "no_trata": 0.0
+  },
+  "cuenta": {
+   "apoya": 3,
+   "contradice": 2,
+   "trata_sin_resolver": 0,
+   "no_trata": 5
+  },
+  "ap": 0.88,
+  "co": 0.96,
+  "cita": "Is it? No, I fear it is not. There is really no avoiding the pre-established harmony. And so we shall discover, if we pursue our train of reflexion a little further. It is natural, we were saying, than an idea should represent an environmen",
+  "obra": "Theodicy"
+ },
+ "Locke": {
+  "pasaje": "NO",
+  "autor": "NO",
+  "autor_p": {
+   "apoya": 0.0,
+   "contradice": 1.0,
+   "trata_sin_resolver": 0.0,
+   "no_trata": 0.0
+  },
+  "cuenta": {
+   "apoya": 0,
+   "contradice": 10,
+   "trata_sin_resolver": 0,
+   "no_trata": 0
+  },
+  "ap": 0.06,
+  "co": 1.0,
+  "cita": "Our first inquiry then shall be,—how they come into the mind. CHAPTER II. NO INNATE SPECULATIVE PRINCIPLES. 1. The way shown how we come by any Knowledge, sufficient to prove it not innate. It is an established opinion amongst some men, tha",
+  "obra": "An Essay Concerning Humane Understanding, Volume 1"
+ },
+ "Hume": {
+  "pasaje": "NO",
+  "autor": "NO",
+  "autor_p": {
+   "apoya": 0.0,
+   "contradice": 1.0,
+   "trata_sin_resolver": 0.0,
+   "no_trata": 0.0
+  },
+  "cuenta": {
+   "apoya": 0,
+   "contradice": 7,
+   "trata_sin_resolver": 0,
+   "no_trata": 3
+  },
+  "ap": 0.02,
+  "co": 1.0,
+  "cita": "[13] See Mr. Locke, chapter of power. I shall only infer from them, that since reason can never give rise to the idea of efficacy, that idea must be derived from experience, and from some particular instances of this efficacy, which make th",
+  "obra": "A Treatise of Human Nature"
+ },
+ "Berkeley": {
+  "pasaje": "NO",
+  "autor": "NO",
+  "autor_p": {
+   "apoya": 0.04,
+   "contradice": 0.88,
+   "trata_sin_resolver": 0.0,
+   "no_trata": 0.08
+  },
+  "cuenta": {
+   "apoya": 0,
+   "contradice": 6,
+   "trata_sin_resolver": 0,
+   "no_trata": 4
+  },
+  "ap": 0.31,
+  "co": 0.75,
+  "cita": "HYL. I own there is a great deal in what you say. Nor can any one be more entirely satisfied of the truth of those odd consequences, so long as I have in view the reasonings that lead to them. But, when these are out of my thoughts, there s",
+  "obra": "Three Dialogues Between Hylas and Philonous in Opposition to Sceptics and Atheists"
+ },
+ "Kant": {
+  "pasaje": "NO",
+  "autor": "SÍ",
+  "autor_p": {
+   "apoya": 0.55,
+   "contradice": 0.36,
+   "trata_sin_resolver": 0.03,
+   "no_trata": 0.06
+  },
+  "cuenta": {
+   "apoya": 4,
+   "contradice": 3,
+   "trata_sin_resolver": 0,
+   "no_trata": 3
+  },
+  "ap": 0.68,
+  "co": 0.78,
+  "cita": "We must carefully bear in mind the proof which shows the possibility of this cognition a priori, and at the same time limits all such principles to a condition which must never be lost sight of, if we desire it not to be misunderstood, and ",
+  "obra": "Kant's Prolegomena to Any Future Metaphysics"
+ }
+}
