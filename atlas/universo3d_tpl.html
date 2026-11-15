@@ -26,6 +26,7 @@ body { background: var(--void); color: var(--ink); font-family: var(--body); fon
 .encabezado { position: absolute; top: 16px; left: max(16px, env(safe-area-inset-left, 0px)); max-width: 30rem; pointer-events: none; }
 h1 { font-family: var(--display); font-weight: 400; font-size: 1.9rem; line-height: 1.1; margin: 0 0 .35rem; letter-spacing: .01em; text-wrap: balance; }
 .sub { color: var(--dim); font-size: .85rem; margin: 0; }
+.ir { pointer-events: auto; color: var(--star); }
 .controles { position: absolute; bottom: 12px; left: max(16px, env(safe-area-inset-left, 0px)); right: 16px; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; color: var(--dim); font-family: var(--mono); font-size: .72rem; }
 .controles button { all: unset; cursor: pointer; border: 1px solid var(--line); border-radius: 4px; padding: .2rem .55rem; color: var(--ink); background: var(--panel); }
 .controles button:focus-visible { outline: 1px solid var(--dim); }
@@ -73,6 +74,7 @@ aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y
     <div class="encabezado">
       <h1>Nebulosas filosóficas</h1>
       <p class="sub" id="sub"></p>
+      <p class="sub"><a class="ir" href="platon.html">Platón por estrellas: sus diálogos divididos por orador y colapsados en temas →</a></p>
     </div>
     <div class="controles">
       <button type="button" id="giro">Pausar giro</button>

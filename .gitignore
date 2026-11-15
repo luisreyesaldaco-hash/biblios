@@ -16,3 +16,4 @@ __pycache__/
 # oradores: regenerables con corpus_platon.py (los *_turnos.json de narrados SÍ van: etiquetas pagadas a Jev)
 oradores/platon_turnos.json
 oradores/platon_unidades.json
+oradores/platon.html

@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Platón por estrellas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap">
+<style>
+/* Mismo cielo nocturno que el universo: espacio 3D a la izquierda, carta de la estrella a la derecha. */
+:root {
+  color-scheme: dark;
+  --void: #07080d; --panel: #12151f; --line: #262b3b; --ink: #e6e3da; --dim: #8d93a6; --star: #f3ead2;
+  --pro: #7fd08a; --contra: #ee6f7a; --neutro: #8d93a6;
+  --display: "Spectral", Georgia, "Times New Roman", serif;
+  --body: "IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body { background: var(--void); color: var(--ink); font-family: var(--body); font-size: 14px; line-height: 1.5; }
+a { color: var(--star); }
+.wrap { display: grid; grid-template-columns: minmax(0, 1fr) 360px; height: 100%; }
+.cielo { position: relative; min-width: 0; overflow: hidden; }
+#gl { position: absolute; inset: 0; }
+#gl canvas { display: block; cursor: grab; touch-action: none; }
+#gl canvas:active { cursor: grabbing; }
+.encabezado { position: absolute; top: 16px; left: 16px; right: 16px; max-width: 32rem; pointer-events: none; }
+.encabezado a { pointer-events: auto; font-size: .8rem; color: var(--dim); }
+h1 { font-family: var(--display); font-weight: 400; font-size: 1.9rem; line-height: 1.1; margin: .3rem 0 .35rem; }
+.sub { color: var(--dim); font-size: .85rem; margin: 0; }
+.controles { position: absolute; bottom: 12px; left: 16px; right: 16px; display: flex; flex-wrap: wrap; gap: .5rem 1rem; align-items: center; color: var(--dim); font-family: var(--mono); font-size: .72rem; }
+.controles button { all: unset; cursor: pointer; border: 1px solid var(--line); border-radius: 4px; padding: .2rem .55rem; color: var(--ink); background: var(--panel); }
+.controles button:focus-visible { outline: 1px solid var(--dim); }
+.etq { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; font-weight: 500; text-shadow: 0 0 4px var(--void), 0 0 2px var(--void); white-space: nowrap; transform: translate(-50%, -50%); }
+.etq.est { font-size: 11px; font-style: italic; font-weight: 400; }
+.tip { position: absolute; max-width: 24rem; background: color-mix(in srgb, var(--panel) 94%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: .6rem .75rem; pointer-events: none; font-size: .8rem; z-index: 2; }
+.tip b { font-family: var(--display); font-weight: 600; font-size: .95rem; }
+.tip .obra { color: var(--dim); font-style: italic; display: block; margin-bottom: .3rem; }
+aside { background: var(--panel); border-left: 1px solid var(--line); overflow-y: auto; padding: 16px; display: flex; flex-direction: column; gap: 1.1rem; min-width: 0; }
+.rotulo { font-size: .7rem; letter-spacing: .12em; text-transform: uppercase; color: var(--dim); margin: 0 0 .4rem; }
+.vacio, .nota { color: var(--dim); font-size: .82rem; margin: 0; }
+.foco h2 { font-family: var(--display); font-weight: 400; font-size: 1.35rem; line-height: 1.2; margin: 0 0 .2rem; }
+.meta { color: var(--dim); font-size: .78rem; margin: 0 0 .7rem; font-family: var(--mono); }
+.barras { display: grid; gap: .25rem; margin-bottom: .8rem; }
+.barra { display: grid; grid-template-columns: 7.5rem minmax(0,1fr) 3.2rem; gap: .5rem; align-items: center; font-size: .8rem; }
+.barra .b { height: 6px; border-radius: 3px; background: var(--star); opacity: .75; }
+.barra span:last-child { font-family: var(--mono); font-size: .72rem; color: var(--dim); text-align: right; font-variant-numeric: tabular-nums; }
+.pasaje { border-left: 2px solid var(--line); padding: .1rem 0 .1rem .6rem; margin: 0 0 .7rem; font-size: .82rem; }
+.pasaje .de { color: var(--dim); font-style: italic; font-size: .75rem; display: block; margin-bottom: .2rem; }
+.pasaje p { margin: 0 0 .25rem; }
+.pasaje p b { font-weight: 500; color: var(--star); }
+.postura { background: color-mix(in srgb, var(--void) 50%, var(--panel)); border: 1px solid var(--line); border-radius: 6px; padding: .7rem .75rem; margin-bottom: .8rem; }
+.postura .tesis { font-family: var(--display); font-style: italic; font-size: .95rem; margin: 0 0 .6rem; }
+.postura table { width: 100%; border-collapse: collapse; font-size: .78rem; font-variant-numeric: tabular-nums; }
+.postura th, .postura td { padding: .2rem .25rem; text-align: right; }
+.postura th:first-child, .postura td:first-child { text-align: left; }
+.postura th { color: var(--dim); font-weight: 400; font-size: .7rem; }
+.pro { color: var(--pro); } .contra { color: var(--contra); }
+.cita { font-size: .78rem; margin: .5rem 0 0; }
+.gal { border-top: 1px solid var(--line); padding-top: .4rem; }
+.gal > button { all: unset; cursor: pointer; display: flex; gap: .5rem; align-items: center; width: 100%; font-size: .85rem; padding: .2rem 0; }
+.gal > button:focus-visible, .est-l button:focus-visible { outline: 1px solid var(--dim); }
+.punto { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.gal small { color: var(--dim); font-family: var(--mono); font-size: .7rem; margin-left: auto; }
+.est-l { display: flex; flex-wrap: wrap; gap: .25rem; margin: .3rem 0 .4rem 1.1rem; }
+.est-l button { all: unset; cursor: pointer; font-size: .74rem; border: 1px solid var(--line); border-radius: 10px; padding: .05rem .5rem; color: var(--ink); }
+.est-l button[aria-pressed="true"] { background: var(--line); }
+.est-l button .j { color: var(--pro); }
+.error { position: absolute; inset: 0; display: grid; place-items: center; color: var(--dim); padding: 2rem; text-align: center; }
+@media (max-width: 760px) {
+  .wrap { grid-template-columns: 1fr; grid-template-rows: 64vh auto; height: auto; }
+  aside { border-left: 0; border-top: 1px solid var(--line); }
+  h1 { font-size: 1.5rem; }
+}
+@media (prefers-reduced-motion: reduce) { .controles #giro { display: none; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="cielo" id="cielo">
+    <div id="gl" aria-label="Espacio 3D con los fragmentos de los diálogos de Platón; cada color es una galaxia de temas"></div>
+    <div id="etiquetas"></div>
+    <div class="encabezado">
+      <a href="./">← Universo de los 52 filósofos</a>
+      <h1>Platón por estrellas</h1>
+      <p class="sub" id="sub"></p>
+    </div>
+    <div class="controles">
+      <button type="button" id="giro">Pausar giro</button>
+      <button type="button" id="ruido">Ocultar polvo</button>
+      <span>arrastra para girar · rueda para acercar · clic en un punto para abrir su estrella</span>
+    </div>
+    <div class="tip" id="tip" hidden></div>
+  </section>
+  <aside>
+    <div class="foco" id="foco">
+      <p class="rotulo">Estrella</p>
+      <p class="vacio">Elige una estrella en el mapa o en la lista. Las estrellas con <span class="pro">●</span> ya tienen posturas medidas con Jev.</p>
+    </div>
+    <div>
+      <p class="rotulo">Galaxias y sus estrellas</p>
+      <div id="lista"></div>
+    </div>
+    <p class="nota">Los 29 diálogos de la traducción de Jowett (Project Gutenberg), divididos por orador: con las etiquetas de cada turno en los dramáticos, y con reglas y Jev en los narrados. Cada punto es un fragmento de 120 a 260 palabras de turnos consecutivos. Las posiciones vienen de embeddings (multilingual-e5-large) sin nombres de orador, proyectados con UMAP. Las galaxias y estrellas las encuentra HDBSCAN por densidad (mínimos de 60 y 12 fragmentos); el polvo gris son fragmentos que no cayeron en ningún grupo. Las palabras de cada grupo salen de c-TF-IDF. Platón no habla en ningún diálogo: aquí hablan sus personajes.</p>
+  </aside>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+<script>
+const DATOS = /*DATOS*/null;
+const { pts, galaxias, estrellas, posturas } = DATOS;
+const GIDS = Object.keys(galaxias).map(Number);
+const hueG = g => g < 0 ? null : (20 + 340 * GIDS.indexOf(g) / GIDS.length) % 360;
+const css = g => g < 0 ? '#5a5f70' : `hsl(${hueG(g)}, 72%, 64%)`;
+const nombre = ws => ws.slice(0, 3).join(' · ');
+const galDe = e => estrellas[e].galaxia;
+document.getElementById('sub').textContent =
+  `${pts.length.toLocaleString('es-MX')} fragmentos colapsados en ${GIDS.length} galaxias y ${Object.keys(estrellas).length} estrellas.`;
+
+const cielo = document.getElementById('cielo'), host = document.getElementById('gl'), tip = document.getElementById('tip');
+let foco = -1, girar = !matchMedia('(prefers-reduced-motion: reduce)').matches, conRuido = true;
+
+if (!window.THREE) host.innerHTML = '<div class="error">No se pudo cargar la librería 3D. Recarga la página.</div>';
+else iniciar();
+
+function iniciar() {
+  const renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
+  renderer.setClearColor(new THREE.Color('#07080d'));
+  host.append(renderer.domElement);
+  const scene = new THREE.Scene();
+  const camera = new THREE.PerspectiveCamera(50, 1, 0.01, 50);
+  camera.position.set(0, 0.5, 2.9);
+  const controls = new THREE.OrbitControls(camera, renderer.domElement);
+  controls.enableDamping = true; controls.dampingFactor = 0.08; controls.minDistance = 0.2; controls.maxDistance = 8;
+  controls.autoRotate = girar; controls.autoRotateSpeed = 0.45;
+
+  function sprite(dura) {
+    const c = document.createElement('canvas'); c.width = c.height = 64;
+    const g = c.getContext('2d'), gr = g.createRadialGradient(32, 32, 0, 32, 32, 32);
+    gr.addColorStop(0, 'rgba(255,255,255,1)');
+    gr.addColorStop(dura ? 0.35 : 0.15, dura ? 'rgba(255,255,255,0.9)' : 'rgba(255,255,255,0.35)');
+    gr.addColorStop(1, 'rgba(255,255,255,0)');
+    g.fillStyle = gr; g.fillRect(0, 0, 64, 64);
+    return new THREE.CanvasTexture(c);
+  }
+  const pos = new Float32Array(pts.length * 3), base = new Float32Array(pts.length * 3), tmp = new THREE.Color();
+  pts.forEach((p, i) => { pos.set([p[0], p[1], p[2]], i * 3); tmp.set(css(p[3])); base.set([tmp.r, tmp.g, tmp.b], i * 3); });
+  const geo = new THREE.BufferGeometry(); geo.setAttribute('position', new THREE.BufferAttribute(pos, 3));
+  const colH = new THREE.BufferAttribute(new Float32Array(base), 3), colE = new THREE.BufferAttribute(new Float32Array(base), 3);
+  const gH = geo.clone(); gH.setAttribute('color', colH);
+  const gE = geo.clone(); gE.setAttribute('color', colE);
+  const halo = new THREE.Points(gH, new THREE.PointsMaterial({ size: 0.14, map: sprite(false), vertexColors: true, transparent: true, opacity: 0.1, depthWrite: false, blending: THREE.AdditiveBlending }));
+  const puntos = new THREE.Points(gE, new THREE.PointsMaterial({ size: 0.02, map: sprite(true), vertexColors: true, transparent: true, opacity: 0.92, depthWrite: false, blending: THREE.AdditiveBlending }));
+  scene.add(halo, puntos);
+  const marca = new THREE.Mesh(new THREE.RingGeometry(0.018, 0.024, 24), new THREE.MeshBasicMaterial({ color: 0xf3ead2, side: THREE.DoubleSide, transparent: true }));
+  marca.visible = false; scene.add(marca);
+
+  const mediana = sel => { const ax = [[], [], []]; pts.forEach(p => { if (sel(p)) { ax[0].push(p[0]); ax[1].push(p[1]); ax[2].push(p[2]); } });
+    return new THREE.Vector3(...ax.map(a => (a.sort((x, y) => x - y), a[a.length >> 1] || 0))); };
+  const capa = document.getElementById('etiquetas');
+  const etqG = GIDS.map(g => { const d = document.createElement('div'); d.className = 'etq'; d.textContent = nombre(galaxias[g].palabras); d.style.color = css(g); capa.append(d); return { g, c: mediana(p => p[3] === g), d }; });
+  const etqE = Object.keys(estrellas).map(Number).map(e => { const d = document.createElement('div'); d.className = 'etq est'; d.textContent = nombre(estrellas[e].palabras); d.style.color = 'var(--star)'; d.hidden = true; capa.append(d); return { e, c: mediana(p => p[4] === e), d }; });
+
+  function pintar() {
+    const gf = foco >= 0 ? galDe(foco) : null;
+    for (let i = 0; i < pts.length; i++) {
+      const p = pts[i];
+      let k = foco < 0 ? 1 : p[4] === foco ? 1.25 : p[3] === gf ? 0.28 : 0.05;
+      if (p[3] < 0 && !conRuido) k = 0;
+      for (let j = 0; j < 3; j++) { colH.array[i * 3 + j] = base[i * 3 + j] * k * (p[3] < 0 ? 0.4 : 1); colE.array[i * 3 + j] = base[i * 3 + j] * Math.min(1, k); }
+    }
+    colH.needsUpdate = colE.needsUpdate = true;
+  }
+  window.__pintar = pintar;
+
+  function medir() { const r = cielo.getBoundingClientRect(); renderer.setSize(r.width, r.height); camera.aspect = r.width / r.height; camera.updateProjectionMatrix(); }
+  new ResizeObserver(medir).observe(cielo); medir();
+  const ray = new THREE.Raycaster(); ray.params.Points.threshold = 0.02; const mouse = new THREE.Vector2(); let abajo = null;
+  function elegir(e) {
+    const r = renderer.domElement.getBoundingClientRect();
+    mouse.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
+    ray.setFromCamera(mouse, camera);
+    const h = ray.intersectObject(puntos).find(x => conRuido || pts[x.index][3] >= 0);
+    return { i: h ? h.index : -1, x: e.clientX - r.left, y: e.clientY - r.top };
+  }
+  renderer.domElement.addEventListener('pointerdown', e => { abajo = { x: e.clientX, y: e.clientY }; });
+  renderer.domElement.addEventListener('pointermove', e => {
+    if (e.buttons) { tip.hidden = true; return; }
+    const { i, x, y } = elegir(e);
+    if (i < 0) { tip.hidden = true; marca.visible = false; return; }
+    const p = pts[i]; marca.position.set(p[0], p[1], p[2]); marca.visible = true;
+    tip.innerHTML = '';
+    const b = document.createElement('b'); b.textContent = p[6]; b.style.color = css(p[3]);
+    const o = document.createElement('span'); o.className = 'obra';
+    o.textContent = p[5] + (p[4] >= 0 ? ' · ' + nombre(estrellas[p[4]].palabras) : ' · polvo');
+    const q = document.createElement('span'); q.textContent = p[7] + '…';
+    tip.append(b, o, q); tip.hidden = false;
+    tip.style.left = Math.min(x + 14, cielo.clientWidth - tip.offsetWidth - 8) + 'px';
+    tip.style.top = Math.min(y + 14, cielo.clientHeight - tip.offsetHeight - 8) + 'px';
+  });
+  renderer.domElement.addEventListener('pointerup', e => {
+    if (!abajo || e.button !== 0) return;
+    const movio = Math.abs(e.clientX - abajo.x) + Math.abs(e.clientY - abajo.y) > 4; abajo = null; if (movio) return;
+    const { i } = elegir(e); const s = i >= 0 ? pts[i][4] : -1;
+    enfocar(s >= 0 && s !== foco ? s : -1);
+  });
+  renderer.domElement.addEventListener('pointerleave', () => { tip.hidden = true; marca.visible = false; });
+  const bG = document.getElementById('giro');
+  const syncG = () => { controls.autoRotate = girar; bG.textContent = girar ? 'Pausar giro' : 'Girar'; };
+  bG.addEventListener('click', () => { girar = !girar; syncG(); }); syncG();
+  const bR = document.getElementById('ruido');
+  bR.addEventListener('click', () => { conRuido = !conRuido; bR.textContent = conRuido ? 'Ocultar polvo' : 'Mostrar polvo'; pintar(); });
+
+  const v = new THREE.Vector3();
+  function ubicar(c, d) { v.copy(c).project(camera); if (v.z > 1) { d.hidden = true; return; } d.hidden = false;
+    d.style.left = ((v.x + 1) / 2 * cielo.clientWidth) + 'px'; d.style.top = ((1 - v.y) / 2 * cielo.clientHeight) + 'px'; }
+  function cuadro() {
+    controls.update(); marca.quaternion.copy(camera.quaternion); renderer.render(scene, camera);
+    const gf = foco >= 0 ? galDe(foco) : null;
+    etqG.forEach(({ g, c, d }) => { if (foco >= 0) { d.hidden = true; return; } ubicar(c, d); });
+    etqE.forEach(({ e, c, d }) => { if (foco < 0 || galDe(e) !== gf) { d.hidden = true; return; } ubicar(c, d); d.style.opacity = e === foco ? 1 : 0.55; });
+    requestAnimationFrame(cuadro);
+  }
+  cuadro();
+}
+
+// Lista: galaxias con sus estrellas.
+const lista = document.getElementById('lista'), botones = {};
+GIDS.sort((a, b) => galaxias[b].n - galaxias[a].n).forEach(g => {
+  const box = document.createElement('div'); box.className = 'gal';
+  const h = document.createElement('button'); h.type = 'button';
+  const s = document.createElement('span'); s.className = 'punto'; s.style.background = css(g);
+  const t = document.createElement('span'); t.textContent = nombre(galaxias[g].palabras);
+  const n = document.createElement('small'); n.textContent = galaxias[g].n;
+  h.append(s, t, n); box.append(h);
+  const el = document.createElement('div'); el.className = 'est-l';
+  Object.keys(estrellas).map(Number).filter(e => galDe(e) === g).sort((a, b) => estrellas[b].n - estrellas[a].n).forEach(e => {
+    const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-pressed', 'false');
+    b.textContent = nombre(estrellas[e].palabras) + ' ';
+    if (posturas[e]) { const j = document.createElement('span'); j.className = 'j'; j.textContent = '●'; b.append(j); }
+    b.addEventListener('click', () => enfocar(foco === e ? -1 : e)); botones[e] = b; el.append(b);
+  });
+  h.addEventListener('click', () => { const first = el.querySelector('button'); if (first) first.click(); });
+  box.append(el); lista.append(box);
+});
+// Estrellas cuya galaxia mayoritaria es polvo: al final.
+const sueltas = Object.keys(estrellas).map(Number).filter(e => galDe(e) < 0);
+if (sueltas.length) {
+  const box = document.createElement('div'); box.className = 'gal';
+  const p = document.createElement('p'); p.className = 'rotulo'; p.textContent = 'Estrellas fuera de galaxia'; box.append(p);
+  const el = document.createElement('div'); el.className = 'est-l';
+  sueltas.forEach(e => { const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-pressed', 'false');
+    b.textContent = nombre(estrellas[e].palabras); b.addEventListener('click', () => enfocar(foco === e ? -1 : e)); botones[e] = b; el.append(b); });
+  box.append(el); lista.append(box);
+}
+
+const ETQ = { apoya: 'a favor', contradice: 'en contra', trata_sin_resolver: 'sin resolver', no_trata: 'no trata' };
+function el(tag, cls, txt) { const x = document.createElement(tag); if (cls) x.className = cls; if (txt != null) x.textContent = txt; return x; }
+
+function enfocar(e) {
+  foco = e;
+  Object.entries(botones).forEach(([k, b]) => b.setAttribute('aria-pressed', String(Number(k) === e)));
+  const box = document.getElementById('foco'); box.innerHTML = '';
+  box.append(el('p', 'rotulo', 'Estrella'));
+  if (e < 0) { box.append(el('p', 'vacio', 'Elige una estrella en el mapa o en la lista.')); if (window.__pintar) window.__pintar(); return; }
+  const s = estrellas[e];
+  const h = el('h2', null, s.palabras.slice(0, 5).join(' · ')); h.style.color = css(s.galaxia); box.append(h);
+  box.append(el('p', 'meta', `${s.n} fragmentos · ${s.dialogos.map(d => d[0]).join(', ')}`));
+
+  const P = posturas[e];
+  if (P) {
+    const d = el('div', 'postura');
+    d.append(el('p', 'rotulo', 'Posturas medidas con Jev'));
+    d.append(el('p', 'tesis', '«' + P.proposicion + '»'));
+    const tb = el('table'); const hr = el('tr');
+    ['Orador', 'a favor', 'en contra', 'sin resolver', 'no trata'].forEach((x, i) => { const th = el('th', i === 1 ? 'pro' : i === 2 ? 'contra' : null, x); hr.append(th); });
+    tb.append(hr);
+    Object.entries(P.tabla).sort((a, b) => sumar(b[1]) - sumar(a[1])).forEach(([o, c]) => {
+      const tr = el('tr'); tr.append(el('td', null, o));
+      ['apoya', 'contradice', 'trata_sin_resolver', 'no_trata'].forEach((k, i) => tr.append(el('td', i === 0 ? 'pro' : i === 1 ? 'contra' : null, c[k] || 0)));
+      tb.append(tr);
+    });
+    d.append(tb);
+    P.citas.forEach(c => { const p = el('p', 'cita'); const b = el('b', c.postura === 'apoya' ? 'pro' : 'contra', `${c.orador}, ${ETQ[c.postura]}: `); p.append(b, document.createTextNode('«' + c.texto + '»')); d.append(p); });
+    box.append(d);
+  }
+
+  box.append(el('p', 'rotulo', 'Quién habla aquí'));
+  const br = el('div', 'barras'); const tot = s.voces.reduce((a, x) => a + x[1], 0), max = s.voces[0][1];
+  s.voces.forEach(([o, n]) => { const r = el('div', 'barra'); r.append(el('span', null, o));
+    const b = el('span', 'b'); b.style.width = (100 * n / max) + '%'; r.append(b); r.append(el('span', null, Math.round(100 * n / tot) + ' %')); br.append(r); });
+  box.append(br);
+
+  box.append(el('p', 'rotulo', 'Fragmentos centrales'));
+  s.rep.forEach(r => { const d = el('div', 'pasaje'); d.append(el('span', 'de', r.dialogo));
+    r.lineas.forEach(([o, t]) => { const p = el('p'); p.append(el('b', null, o + ': '), document.createTextNode(t)); d.append(p); }); box.append(d); });
+  if (window.__pintar) window.__pintar();
+}
+function sumar(c) { return Object.values(c).reduce((a, b) => a + b, 0); }
+</script>
+</body>
+</html>

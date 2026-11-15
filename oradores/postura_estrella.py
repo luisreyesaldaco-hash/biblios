@@ -34,3 +34,8 @@ for o in [o for o, c in sorted(tab.items(), key=lambda kv: -sum(kv[1].values()))
         if (o, k) in mejor and mejor[(o, k)][0] > 0.8:
             p, d, t = mejor[(o, k)]; print(f"\n[{o} · {k} {p:.2f} · {d}] «{t[:230]}…»")
 print(f"\ntokens {TOK[0]:,} ≈${TOK[0]*0.042/1e6:.4f}")
+json.dump({"estrella": est, "proposicion": H,
+           "tabla": {o: dict(c) for o, c in tab.items()},
+           "intervenciones": [{"dialogo": d, "orador": o, "texto": t, "postura": r["choice"], "conf": round(r["confidence"], 3)}
+                              for (d, o, t, _), r in zip(segs, res)]},
+          open(AQUI / f"posturas_{est}.json", "w"), ensure_ascii=False)
