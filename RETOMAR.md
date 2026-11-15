@@ -19,3 +19,16 @@
    Los embeddings sirven para *encontrar* los pasajes que contestan cada pregunta.
 3. Primer ensayo de quaestio: mentir para salvar una vida (Kant vs. Constant 1797, Tomás II-II q.110).
 4. Nombre de la familia de lenguajes (pendiente, decide Luis).
+
+## 15-nov-2026 — Jev, Platón por orador y la nebulosa que colapsa
+- **Jev funciona** (`TYPESAFE_API_KEY` en `.env`, `jev-latest` = jev-1.14.0). Control de negación perfecto; ideas innatas
+  5/6 a ciegas leyendo 10 pasajes juntos (NLI 3/6). Nunca darle el nombre del autor (sube a 6/6 por memoria).
+- **`oradores/`**: Platón completo (29 diálogos Jowett) dividido por orador → 19,322 turnos, 72 voces.
+  Dramáticos por rótulo; narrados por reglas + Jev con contexto (~$0.28); Parménides II por alternancia cerrada.
+  Revisión a mano: República 8/8; Cármides: Jev 8/10 vs. alternancia 1/10. Faltan las Cartas (no están en Jowett/Gutenberg).
+- **Colapso** (`colapso.py`, en Newton): e5 → UMAP 10D → HDBSCAN: 21 galaxias, 85 estrellas con sentido
+  (caverna, Diotima, Atlántida, auriga, Trasímaco…). La reminiscencia cae dentro de la inmortalidad (Fedón).
+- **Postura por orador** (`postura_estrella.py`): estrella 16 contra la tesis de Trasímaco → Sócrates 0/69, Trasímaco 14/0,
+  Calicles a favor. Con contexto previo es indispensable. Pendiente: Glaucón sale "a favor" (11) cuando hace de abogado
+  del diablo (libro II): la voz no es la creencia.
+- **Siguiente:** mapa visual de las estrellas; que Luis escriba/elija tesis por estrella; examen común con soporte (OK pendiente).
