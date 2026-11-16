@@ -31,7 +31,7 @@ for k in range(len(autores)):
     distObras[k] = [[round(float(x), 4) for x in fila] for fila in (1 - cs @ cs.T)]
 # Colapso por temas (colapso_universo.json, de Newton): galaxias y estrellas; cada pasaje conserva el color de su autor.
 from gravedad import colapsar
-R = json.load(open('colapso_universo.json'))
+R = json.load(open('colapso_universo_centrado.json'))   # sin el acento de cada autor (ver colapso_universo.py --centrar)
 G, E = R['galaxias']['etiquetas'], R['estrellas']['etiquetas']
 Q, gal_de, gal_de_pt = colapsar(P, G, E, hueco_gal=0.3, abrir=1.5, cielo=1.35)
 for i, p in enumerate(pts):
