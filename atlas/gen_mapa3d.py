@@ -29,7 +29,19 @@ for k in range(len(autores)):
     obrasAutor[k] = [[o, len(porObra[(k, o)])] for o in ks]
     cs = np.stack([V[porObra[(k, o)]].mean(0) for o in ks]); cs /= np.linalg.norm(cs, axis=1, keepdims=True)
     distObras[k] = [[round(float(x), 4) for x in fila] for fila in (1 - cs @ cs.T)]
-datos = {'autores': autores, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
+# Colapso por temas (colapso_universo.json, de Newton): galaxias y estrellas; cada pasaje conserva el color de su autor.
+from gravedad import colapsar
+R = json.load(open('colapso_universo.json'))
+G, E = R['galaxias']['etiquetas'], R['estrellas']['etiquetas']
+Q, gal_de, gal_de_pt = colapsar(P, G, E, hueco_gal=0.3, abrir=1.5, cielo=1.35)
+for i, p in enumerate(pts):
+    p += [gal_de_pt[i], E[i], round(float(Q[i, 0]), 4), round(float(Q[i, 1]), 4), round(float(Q[i, 2]), 4)]
+temas = {'galaxias': {int(k): {'n': v['n'], 'palabras': v['palabras'][:5], 'autores': v['autores']} for k, v in R['galaxias']['grupos'].items()
+                      if int(k) in set(gal_de.values())},
+         'estrellas': {int(k): {'n': v['n'], 'palabras': v['palabras'][:5], 'autores': v['autores'], 'galaxia': gal_de[int(k)]}
+                       for k, v in R['estrellas']['grupos'].items()}}
+print(len(temas['galaxias']), 'galaxias con estrellas,', len(temas['estrellas']), 'estrellas')
+datos = {'autores': autores, 'temas': temas, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
          'obrasAutor': obrasAutor, 'distObras': distObras}
 
 tpl = open('universo3d_tpl.html', encoding='utf-8').read()
