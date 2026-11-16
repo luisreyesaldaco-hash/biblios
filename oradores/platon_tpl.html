@@ -33,6 +33,7 @@ h1 { font-family: var(--display); font-weight: 400; font-size: 1.9rem; line-heig
 .controles button { all: unset; cursor: pointer; border: 1px solid var(--line); border-radius: 4px; padding: .2rem .55rem; color: var(--ink); background: var(--panel); }
 .controles button:focus-visible { outline: 1px solid var(--dim); }
 .etq { position: absolute; left: 0; top: 0; pointer-events: none; font-size: 12px; font-weight: 500; text-shadow: 0 0 4px var(--void), 0 0 2px var(--void); white-space: nowrap; transform: translate(-50%, -50%); }
+.etq.grande { font-size: 14px; font-weight: 600; letter-spacing: .02em; }
 .etq.est { font-size: 11px; font-style: italic; font-weight: 400; }
 .tip { position: absolute; max-width: 24rem; background: color-mix(in srgb, var(--panel) 94%, transparent); border: 1px solid var(--line); border-radius: 6px; padding: .6rem .75rem; pointer-events: none; font-size: .8rem; z-index: 2; }
 .tip b { font-family: var(--display); font-weight: 600; font-size: .95rem; }
@@ -151,13 +152,8 @@ function iniciar() {
   pts.forEach((p, i) => { pos.set([p[0], p[1], p[2]], i * 3); tmp.set(css(p[3])); base.set([tmp.r, tmp.g, tmp.b], i * 3); });
   // Gravedad: cada fragmento cae hacia el centro de su estrella (contracción que conserva la forma interna).
   const p0 = new Float32Array(pos), p1 = new Float32Array(pos);
-  const centroDe = {};
-  Object.keys(estrellas).forEach(e => {
-    const ax = [[], [], []]; pts.forEach(p => { if (p[4] === +e) { ax[0].push(p[0]); ax[1].push(p[1]); ax[2].push(p[2]); } });
-    centroDe[e] = ax.map(a => (a.sort((x, y) => x - y), a[a.length >> 1]));
-  });
-  pts.forEach((p, i) => { if (p[4] < 0) return; const c = centroDe[p[4]];
-    for (let j = 0; j < 3; j++) p1[i * 3 + j] = c[j] + (p[j] - c[j]) * 0.09; });
+  // El destino viene calculado por jerarquía (gen_platon.py): galaxias apartadas, estrellas dentro, fragmentos dentro.
+  pts.forEach((p, i) => { if (p.length > 8) p1.set([p[8], p[9], p[10]], i * 3); });
   const atrPos = new THREE.BufferAttribute(pos, 3);
   const colH = new THREE.BufferAttribute(new Float32Array(base), 3), colE = new THREE.BufferAttribute(new Float32Array(base), 3);
   const gH = new THREE.BufferGeometry(); gH.setAttribute('position', atrPos); gH.setAttribute('color', colH);
@@ -178,11 +174,13 @@ function iniciar() {
   const marca = new THREE.Mesh(new THREE.RingGeometry(0.018, 0.024, 24), new THREE.MeshBasicMaterial({ color: 0xf3ead2, side: THREE.DoubleSide, transparent: true }));
   marca.visible = false; scene.add(marca);
 
-  const mediana = sel => { const ax = [[], [], []]; pts.forEach(p => { if (sel(p)) { ax[0].push(p[0]); ax[1].push(p[1]); ax[2].push(p[2]); } });
+  const mediana = (sel, o) => { const ax = [[], [], []]; pts.forEach(p => { if (sel(p)) for (let j = 0; j < 3; j++) ax[j].push(p.length > 8 ? p[o + j] : p[j]); });
     return new THREE.Vector3(...ax.map(a => (a.sort((x, y) => x - y), a[a.length >> 1] || 0))); };
+  // Cada etiqueta guarda dónde va en la nebulosa difusa (c0) y en la colapsada (c1); se mueve con los puntos.
+  const doble = sel => ({ c0: mediana(sel, 0), c1: mediana(sel, 8), c: new THREE.Vector3() });
   const capa = document.getElementById('etiquetas');
-  const etqG = GIDS.map(g => { const d = document.createElement('div'); d.className = 'etq'; d.textContent = nombre(galaxias[g].palabras); d.style.color = css(g); capa.append(d); return { g, c: mediana(p => p[3] === g), d }; });
-  const etqE = Object.keys(estrellas).map(Number).map(e => { const d = document.createElement('div'); d.className = 'etq est'; d.textContent = nombre(estrellas[e].palabras); d.style.color = 'var(--star)'; d.hidden = true; capa.append(d); return { e, c: mediana(p => p[4] === e), d }; });
+  const etqG = GIDS.map(g => { const d = document.createElement('div'); d.className = 'etq'; d.textContent = nombre(galaxias[g].palabras); d.style.color = css(g); capa.append(d); return { g, ...doble(p => p[3] === g && p[4] >= 0), d }; });
+  const etqE = Object.keys(estrellas).map(Number).map(e => { const d = document.createElement('div'); d.className = 'etq est'; d.textContent = nombre(estrellas[e].palabras); d.style.color = 'var(--star)'; d.hidden = true; capa.append(d); return { e, ...doble(p => p[4] === e), d }; });
 
   function pintar() {
     const gf = foco >= 0 ? galDe(foco) : null;
@@ -211,7 +209,7 @@ function iniciar() {
     if (e.buttons) { tip.hidden = true; return; }
     const { i, x, y } = elegir(e);
     if (i < 0) { tip.hidden = true; marca.visible = false; return; }
-    const p = pts[i]; marca.position.set(p[0], p[1], p[2]); marca.visible = true;
+    const p = pts[i]; marca.position.set(pos[i * 3], pos[i * 3 + 1], pos[i * 3 + 2]); marca.visible = true;
     tip.innerHTML = '';
     const b = document.createElement('b'); b.textContent = p[6]; b.style.color = css(p[3]);
     const o = document.createElement('span'); o.className = 'obra';
@@ -246,9 +244,12 @@ function iniciar() {
     controls.update(); marca.quaternion.copy(camera.quaternion); renderer.render(scene, camera);
     const gf = foco >= 0 ? galDe(foco) : null;
     // Difuso: nombres de galaxias. Colapsado: nombres de las estrellas grandes. Con foco: las estrellas de su galaxia.
-    etqG.forEach(({ g, c, d }) => { if (foco >= 0 || t > 0.6) { d.hidden = true; return; } ubicar(c, d); });
-    etqE.forEach(({ e, c, d }) => {
-      const ver = foco >= 0 ? galDe(e) === gf : t > 0.6 && estrellas[e].n >= 30;
+    const k = t * t * (3 - 2 * t);
+    etqG.forEach(({ g, c0, c1, c, d }) => { if (foco >= 0) { d.hidden = true; return; }
+      c.copy(c0).lerp(c1, k); ubicar(c, d); d.classList.toggle('grande', k > 0.5); });
+    etqE.forEach(({ e, c0, c1, c, d }) => {
+      c.copy(c0).lerp(c1, k);
+      const ver = foco >= 0 && galDe(e) === gf;
       if (!ver) { d.hidden = true; return; } ubicar(c, d);
       d.style.opacity = foco < 0 ? 0.8 : e === foco ? 1 : 0.55; d.style.color = foco < 0 ? css(galDe(e)) : 'var(--star)';
     });
