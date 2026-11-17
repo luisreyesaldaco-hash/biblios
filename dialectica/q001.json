@@ -1,0 +1,27 @@
+{
+ "id": "q001",
+ "proposicion": "It is permissible to lie in order to save the life of an innocent person.",
+ "proposicion_es": "Es lícito mentir para salvar la vida de un inocente.",
+ "tesis": [
+  "It is permissible to lie to a murderer to save an innocent life.",
+  "Deceiving an enemy or a robber is no wrong, because he has no right to the truth.",
+  "A physician or a ruler may tell a useful lie for the good of others.",
+  "The duty to preserve life outweighs the duty of truthfulness; moral rules admit exceptions.",
+  "A falsehood told to prevent a great harm is justified."
+ ],
+ "antitesis": [
+  "Lying is always wrong, whatever good may come of it.",
+  "One must never tell a lie, not even to save a life; truthfulness is an unconditional duty.",
+  "A lie corrupts the soul and destroys trust among men."
+ ],
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (17-nov-2026), de historia de la filosofía. Ojo: varias obras decisivas NO están en el corpus (Kant 'Sobre un presunto derecho a mentir', Agustín 'De mendacio', Tomás II-II q.110).",
+  "Platón": "apoya (mentira noble / mentira medicinal de los gobernantes, República)",
+  "Grocio": "apoya (no hay mentira contra quien no tiene derecho a la verdad, De iure belli III.1)",
+  "Mill": "apoya (excepción utilitarista: ocultar información al malhechor)",
+  "Kant": "contradice (deber incondicional de veracidad; en el corpus solo la Fundamentación)",
+  "Agustín": "contradice (toda mentira es pecado; en el corpus solo Confesiones)",
+  "Tomás de Aquino": "contradice (pero la cuestión de la mentira está en II-II, que no está en el corpus)",
+  "Montaigne": "contradice (Of liars: la mentira es un vicio maldito)"
+ }
+}

@@ -1,0 +1,1217 @@
+{
+ "q": {
+  "id": "q001",
+  "proposicion": "It is permissible to lie in order to save the life of an innocent person.",
+  "proposicion_es": "Es lícito mentir para salvar la vida de un inocente.",
+  "tesis": [
+   "It is permissible to lie to a murderer to save an innocent life.",
+   "Deceiving an enemy or a robber is no wrong, because he has no right to the truth.",
+   "A physician or a ruler may tell a useful lie for the good of others.",
+   "The duty to preserve life outweighs the duty of truthfulness; moral rules admit exceptions.",
+   "A falsehood told to prevent a great harm is justified."
+  ],
+  "antitesis": [
+   "Lying is always wrong, whatever good may come of it.",
+   "One must never tell a lie, not even to save a life; truthfulness is an unconditional duty.",
+   "A lie corrupts the soul and destroys trust among men."
+  ],
+  "clave_previa": {
+   "_nota": "Fijada ANTES de correr (17-nov-2026), de historia de la filosofía. Ojo: varias obras decisivas NO están en el corpus (Kant 'Sobre un presunto derecho a mentir', Agustín 'De mendacio', Tomás II-II q.110).",
+   "Platón": "apoya (mentira noble / mentira medicinal de los gobernantes, República)",
+   "Grocio": "apoya (no hay mentira contra quien no tiene derecho a la verdad, De iure belli III.1)",
+   "Mill": "apoya (excepción utilitarista: ocultar información al malhechor)",
+   "Kant": "contradice (deber incondicional de veracidad; en el corpus solo la Fundamentación)",
+   "Agustín": "contradice (toda mentira es pecado; en el corpus solo Confesiones)",
+   "Tomás de Aquino": "contradice (pero la cuestión de la mentira está en II-II, que no está en el corpus)",
+   "Montaigne": "contradice (Of liars: la mentira es un vicio maldito)"
+  }
+ },
+ "pasajes": [
+  {
+   "i": 9737,
+   "autor": "Kant",
+   "obra": "Fundamental Principles of the Metaphysic of Morals",
+   "texto": "On the other hand, it is a duty to maintain one's life; and, in addition, everyone has also a direct inclination to do so. But on this account the often anxious care which most men take for it has no intrinsic worth, and their maxim has no moral import. They preserve their life as duty requires, no doubt, but not because duty requires. On the other hand, if adversity and hopeless sorrow have completely taken away the relish for life; if the unfortunate one, strong in mind, indignant at his fate rather than desponding or dejected, wishes for death, and yet preserves his life without loving it- not from inclination or fear, but from duty- then his maxim has a moral worth.",
+   "sim": 0.8411,
+   "vias": [
+    "tesis",
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.97
+  },
+  {
+   "i": 14273,
+   "autor": "William James",
+   "obra": "Pragmatism: A New Name for Some Old Ways of Thinking",
+   "texto": "It is quite evident that our obligation to acknowledge truth, so far from being unconditional, is tremendously conditioned. Truth with a big T, and in the singular, claims abstractly to be recognized, of course; but concrete truths in the plural need be recognized only when their recognition is expedient. A truth must always be preferred to a falsehood when both relate to the situation; but when neither does, truth is as little of a duty as falsehood. If you ask me what o'clock it is and I tell you that I live at 95 Irving Street, my answer may indeed be true, but you don't see why it is my duty to give it. A false address would be as much to the purpose.",
+   "sim": 0.8366,
+   "vias": [
+    "tesis",
+    "antitesis"
+   ],
+   "postura": "apoya",
+   "conf": 0.64
+  },
+  {
+   "i": 8617,
+   "autor": "Voltaire",
+   "obra": "Voltaire's Philosophical Dictionary",
+   "texto": "This horrible discord, which has lasted for so many centuries, is a very striking lesson that we should pardon each other's errors; discord is the great ill of mankind; and tolerance is the only remedy for it. There is nobody who is not in agreement with this truth, whether he meditates soberly in his study, or peaceably examines the truth with his friends. Why then do the same men who admit in private indulgence, kindness, justice, rise in public with so much fury against these virtues? Why? it is that their own interest is their god, and that they sacrifice everything to this monster that they worship. I possess a dignity and a power founded on ignorance and credulity; I walk on the heads of the men who lie prostrate at my feet; if they should rise and look me in the face, I am lost; I must bind them to the ground, therefore, with iron chains.",
+   "sim": 0.8364,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.91
+  },
+  {
+   "i": 11846,
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "texto": "It appears from what has been said, that justice is a name for certain moral requirements, which, regarded collectively, stand higher in the scale of social utility, and are therefore of more paramount obligation, than any others; though particular cases may occur in which some other social duty is so important, as to overrule any one of the general maxims of justice. Thus, to save a life, it may not only be allowable, but a duty, to steal, or take by force, the necessary food or medicine, or to kidnap, and compel to officiate, the only qualified medical practitioner. In such cases, as we do not call anything justice which is not a virtue, we usually say, not that justice must give way to some other moral principle, but that what is just in ordinary cases is, by reason of that other principle, not just in the particular case. By this useful accommodation of language, the character of indefeasibility attributed to justice is kept up, and we are saved from the necessity of maintaining that there can be laudable injustice.",
+   "sim": 0.8362,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "apoya",
+   "conf": 0.44
+  },
+  {
+   "i": 4825,
+   "autor": "Montaigne",
+   "obra": "Essays of Michel de Montaigne — Volume 02",
+   "texto": "In plain truth, lying is an accursed vice. We are not men, nor have other tie upon one another, but by our word. If we did but discover the horror and gravity of it, we should pursue it with fire and sword, and more justly than other crimes. I see that parents commonly, and with indiscretion enough, correct their children for little innocent faults, and torment them for wanton tricks, that have neither impression nor consequence; whereas, in my opinion, lying only, and, which is of something a lower form, obstinacy, are the faults which are to be severely whipped out of them, both in their infancy and in their progress, otherwise they grow up and increase with them; and after a tongue has once got the knack of lying, 'tis not to be imagined how impossible it is to reclaim it whence it comes to pass that we see some, who are otherwise very honest men, so subject and enslaved to this vice. I have an honest lad to my tailor, whom I never knew guilty of one truth, no, not when it had been to his advantage. If falsehood had, like truth, but one face only, we should be upon better terms; for we should then take for certain the contrary to what the liar says: but the reverse of truth has a hundred thousand forms, and a field indefinite, without bound or limit. The Pythagoreans make good to be certain and finite, and evil, infinite and uncertain. There are a thousand ways to miss the white, there",
+   "sim": 0.836,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.96
+  },
+  {
+   "i": 12404,
+   "autor": "Stirner",
+   "obra": "The Ego and His Own",
+   "texto": "It is despicable to deceive a confidence that we voluntarily call forth; but it is no shame to egoism to let every one who wants to get us into his power by an oath bleed to death by the unsuccessfulness of his untrustful craft. If you have wanted to bind me, then learn that I know how to burst your bonds. The point is whether _I_ give the confider the right to confidence. If the pursuer of my friend asks me where he has fled to, I shall surely put him on a false trail. Why does he ask precisely me, the pursued man's friend? In order not to be a false, traitorous friend, I prefer to be false to the enemy. I might certainly, in courageous conscientiousness, answer \"I will not tell\" (so Fichte decides the case); by that I should salve my love of truth and do for my friend as much as--nothing, for, if I do not mislead the enemy, he may accidentally take the right street, and my love of truth would have given up my friend as a prey, because it hindered me from the--courage for a lie. He who has in the truth an idol, a sacred thing, must _humble_ himself before it, must not defy its demands, not resist courageously; in short, he must renounce the _heroism of the lie_. For to the lie belongs not less courage than to the truth: a courage that young men are most apt to be defective in, who would rather confess the truth and mount the",
+   "sim": 0.8355,
+   "vias": [
+    "tesis",
+    "tesis",
+    "antitesis",
+    "antitesis",
+    "antitesis",
+    "proposicion"
+   ],
+   "postura": "apoya",
+   "conf": 0.88
+  },
+  {
+   "i": 6244,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "This evil is no doubt greater and more common among the higher classes; but the lower are not exempt from it, since there is always some advantage in making men love us. Human life is thus only a perpetual illusion; men deceive and flatter each other. No one speaks of us in our presence as he does of us in our absence. Human society is founded on mutual deceit; few friendships would endure if each knew what his friend said of him in his absence, although he then spoke in sincerity and without passion. Man is then only disguise, falsehood, and hypocrisy, both in himself and in regard to others. He does not wish any one to tell him the truth; he avoids telling it to others, and all these dispositions, so removed from justice and reason, have a natural root in his heart.",
+   "sim": 0.835,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.21
+  },
+  {
+   "i": 6761,
+   "autor": "Spinoza",
+   "obra": "Ethics",
+   "texto": "Note.--It would be too long a task to enumerate here all the evil results of pride, inasmuch as the proud are a prey to all the emotions, though to none of them less than to love and pity. I cannot, however, pass over in silence the fact, that a man may be called proud from his underestimation of other people; and, therefore, pride in this sense may be defined as pleasure arising from the false opinion, whereby a man may consider himself superior to his fellows. The dejection, which is the opposite quality to this sort of pride, may be defined as pain arising from the false opinion, whereby a man may think himself inferior to his fellows. Such being the ease, we can easily see that a proud man is necessarily envious (III. xli. note), and only takes pleasure in the company, who fool his weak mind to the top of his bent, and make him insane instead of merely foolish.",
+   "sim": 0.8339,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 7317,
+   "autor": "Leibniz",
+   "obra": "Theodicy",
+   "texto": "33. But it must be borne in mind that when one has foreseen the evil and has not prevented it although it seems as if one could have done so with ease, and one has even done things that have facilitated it, it does not follow on that account _necessarily_ that one is accessary thereto. It is only a very strong presumption, such as commonly replaces truth in human affairs, but which would be destroyed by an exact consideration of the facts, supposing we were capable of that in relation to God. For amongst lawyers that is called 'presumption' which must provisionally pass for truth in case the contrary is not proved; and it says more than 'conjecture', although the _Dictionary_ of the Academy has not sifted the difference. Now there is every reason to conclude unquestionably that one would find through this consideration, if only it were attainable, that reasons most just, and stronger than those which appear contrary to them, have compelled the All-Wise to permit the evil, and even to do things which have facilitated it. Of this some instances will be given later.",
+   "sim": 0.8332,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.95
+  },
+  {
+   "i": 6757,
+   "autor": "Spinoza",
+   "obra": "Ethics",
+   "texto": "Note.--He who rightly realizes, that all things follow from the necessity of the divine nature, and come to pass in accordance with the eternal laws and rules of nature, will not find anything worthy of hatred, derision, or contempt, nor will he bestow pity on anything, but to the utmost extent of human virtue he will endeavour to do well, as the saying is, and to rejoice. We may add, that he, who is easily touched with compassion, and is moved by another's sorrow or tears, often does something which he afterwards regrets; partly because we can never be sure that an action caused by emotion is good, partly because we are easily deceived by false tears. I am in this place expressly speaking of a man living under the guidance of reason. He who is moved to help others neither by reason nor by compassion, is rightly styled inhuman, for (III. xxvii.) he seems unlike a man.",
+   "sim": 0.8332,
+   "vias": [
+    "antitesis",
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.84
+  },
+  {
+   "i": 6242,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "How unjust and unreasonable is the heart of man, which feels it disagreeable to be obliged to do in regard to one man what in some measure it were right to do to all men! For is it right that we should deceive men? There are different degrees in this aversion to truth; but all may perhaps be said to have it in some degree, because it is inseparable from self-love. It is this false delicacy which makes those who are under the necessity of reproving others choose so many windings and middle courses to avoid offence. They must lessen our faults, appear to excuse them, intersperse praises and evidence of love and esteem. Despite all this, the medicine does not cease to be bitter to self-love. It takes as little as it can, always with disgust, and often with a secret spite against those who administer it.",
+   "sim": 0.832,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.23
+  },
+  {
+   "i": 12699,
+   "autor": "Kierkegaard",
+   "obra": "Selections from the Writings of Kierkegaard",
+   "texto": "It is untruthful of me to impute to a person words which he never used. But it is likewise untruthful, and the words he used likewise become untruthful, or it becomes untrue that he used them, if I assign to him a nature essentially unlike the one he had when he did use them. Essentially unlike; for an untruth concerning this or the other trifling circumstance will not make it untrue that \"he\" said them. And therefore, if it please God to walk on earth in such strict incognito as only one all-powerful can assume, in guise impenetrable to all men; if it please him--and why he does it, for what purpose, that he knows best himself; but whatever the reason and the purpose, it is certain that the incognito is of essential significance--I say, if it please God to walk on earth in the guise of a servant and, to judge from his appearance, exactly like any other man; if it please him to teach men in this guise--if, now, any one repeats his very words, but gives the saying the appearance that it was God that spoke these words: then it is untruthful; for it is untrue that h e said these words.",
+   "sim": 0.8319,
+   "vias": [
+    "tesis",
+    "tesis",
+    "antitesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.48
+  },
+  {
+   "i": 12790,
+   "autor": "Kierkegaard",
+   "obra": "Selections from the Writings of Kierkegaard",
+   "texto": "WHAT SAYS THE FIRE-MARSHAL (No. VI, 5) That a man who in some fashion or other has what one calls a \"cause,\" something he seriously purposes to accomplish--and there are other persons who make it their business to counteract, and antagonize, and hurt him--that he must take measures against these his enemies, this will be evident to every one. But that there is a well-intentioned kindness by far more dangerous, perhaps, and one that seems calculated to prevent the serious accomplishment of his mission, this will not at once be clear to every one. When a person suddenly falls ill, kindly-intentioned folk will straightway rush to his help, and one will suggest this, another that--and if all those about him had a chance to have their way it would certainly result in the sick man's death; seeing that even one person's well-meaning advice may be dangerous enough. And even if nothing is done, and the advice of neither the assembled and well-meaning crowd nor of any one person is taken, yet their busy and flurried presence may be harmful, nevertheless, inasmuch as they are in the way of the physician.",
+   "sim": 0.8319,
+   "vias": [
+    "tesis",
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": 7683,
+   "autor": "Mandeville",
+   "obra": "The Fable of the Bees; Or, Private Vices, Public Benefits",
+   "texto": "These are the apologies, the excuses, and common pleas, not only of those who are notoriously vicious, but the generality of mankind, when you touch the copy-hold of their inclinations; and trying the real value they have for spirituals, would actually strip them of what their minds are wholly bent upon. Ashamed of the many frailties they feel within, all men endeavour to hide themselves, their ugly nakedness, from each other, and wrapping up the true motives of their hearts, in the specious cloak of sociableness, and their concern for the public good, they are in hopes of concealing their filthy appetites, and the deformity of their desires; while they are conscious within of the fondness for their darling lusts, and their incapacity, bare-faced, to tread the arduous, rugged path of virtue.",
+   "sim": 0.8317,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.84
+  },
+  {
+   "i": 13578,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "Even with actions which work diffused and indefinite mischiefs it is the same. Suppose that the man, instead of being dealt with fraudulently, is calumniated. There is, as before, a hinderance to the carrying on of life-sustaining activities; for the loss of character detrimentally affects his business. Nor is this all. The mental depression caused partially incapacitates him for energetic activity, and perhaps brings on ill-health. So that maliciously or carelessly propagating false statements tends both to diminish his life and to diminish his ability to maintain life. Hence its flagitiousness. Moreover, if we trace to their ultimate ramifications the effects wrought by any of these acts which morality called intuitive reprobates--if we ask what results not to the individual himself only, but also to his belongings--if we observe how impoverishment hinders the rearing of his children, by entailing under-feeding or inadequate clothing, resulting perhaps in the death of some and the constitutional injury of others; we see that by the necessary connections of things these acts, besides tending primarily to lower the life of the individual aggressed upon, tend, secondarily, to lower the lives of all his family, and thirdly, to lower the life of society at large; which is damaged by whatever damages its units.",
+   "sim": 0.8313,
+   "vias": [
+    "tesis",
+    "antitesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.36
+  },
+  {
+   "i": 6513,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "817 Having considered how it comes that there are so many false miracles, false revelations, sorceries, etc., it has seemed to me that the true cause is that there are some true; for it would not be possible that there should be so many false miracles, if there were none true, nor so many false revelations, if there were none true, nor so many false religions, if there were not one true. For if there had never been all this, it is almost impossible that men should have imagined it, and still more impossible that so many others should have believed it. But as there have been very great things true, and as they have been believed by great men, this impression has been the cause that nearly everybody is rendered capable of believing also the false. And thus, instead of concluding that there are no true miracles, since there are so many false, it must be said, on the contrary, that there are true miracles, since there are so many false; and that there are false ones only because there are true; and that in the same way there are false religions because there is one true.--Objection to this: savages have a religion. But this is because they have heard the true spoken of, as appears by the cross of Saint Andrew, the deluge, circumcision, etc.--This arises from the fact that the human mind, finding itself inclined to that side by the truth, becomes thereby susceptible of all the falsehoods of this ...",
+   "sim": 0.8305,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 6243,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "Hence it happens that if any have some interest in being loved by us, they are averse to render us a service which they know to be disagreeable. They treat us as we wish to be treated. We hate the truth, and they hide it from us. We desire flattery, and they flatter us. We like to be deceived, and they deceive us. So each degree of good fortune which raises us in the world removes us farther from truth, because we are most afraid of wounding those whose affection is most useful and whose dislike is most dangerous. A prince may be the byword of all Europe, and he alone will know nothing of it. I am not astonished. To tell the truth is useful to those to whom it is spoken, but disadvantageous to those who tell it, because it makes them disliked. Now those who live with princes love their own interests more than that of the prince whom they serve; and so they take care not to confer on him a benefit so as to injure themselves.",
+   "sim": 0.83,
+   "vias": [
+    "tesis",
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.39
+  },
+  {
+   "i": 4815,
+   "autor": "Montaigne",
+   "obra": "Essays of Michel de Montaigne — Volume 02",
+   "texto": "And, doubtless, war has naturally many privileges that appear reasonable even to the prejudice of reason. And therefore here the rule fails, \"Neminem id agere ut ex alte rius praedetur inscitia.\"--[\"No one should preys upon another's folly.\"--Cicero, De Offic., iii. 17.]--But I am astonished at the great liberty allowed by Xenophon in such cases, and that both by precept and by the example of several exploits of his complete emperor; an author of very great authority, I confess, in those affairs, as being in his own person both a great captain and a philosopher of the first form of Socrates' disciples; and yet I cannot consent to such a measure of licence as he dispenses in all things and places.",
+   "sim": 0.8291,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.2
+  },
+  {
+   "i": 7718,
+   "autor": "Mandeville",
+   "obra": "The Fable of the Bees; Or, Private Vices, Public Benefits",
+   "texto": "I am very well persuaded, that what I have said in the last paragraph, will be no news to most of my readers; but if it be truth, why should it be stifled, and why must our concern for religion be eternally made a cloak to hide our real drifts and worldly intentions? Would both parties agree to pull off the mask, we should soon discover that whatever they pretend to, they aim at nothing so much in charity schools, as to strengthen their party; and that the great sticklers for the church, by educating children in the principles of religion, mean inspiring them with a superlative veneration for the clergy of the church of England, and a strong aversion and immortal animosity against all that dissent from it. To be assured of this, we are but to mind on the one hand, what divines are most admired for their charity sermons, and most fond to preach them; and on the other, whether of late years we have had any riots or party scuffles among the mob, in which the youth of a famous hospital in this city, were not always the most forward ringleaders.",
+   "sim": 0.8291,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 11416,
+   "autor": "Emerson",
+   "obra": "Essays — Second Series",
+   "texto": "Nothing shall warp me from the belief that every man is a lover of truth. There is no pure lie, no pure malignity in nature. The entertainment of the proposition of depravity is the last profligacy and profanation. There is no skepticism, no atheism but that. Could it be received into common belief, suicide would unpeople the planet. It has had a name to live in some dogmatic theology, but each man's innocence and his real liking of his neighbor have kept it a dead letter. I remember standing at the polls one day when the anger of the political contest gave a certain grimness to the faces of the independent electors, and a good man at my side, looking on the people, remarked, \"I am satisfied that the largest part of these men, on either side, mean to vote right.\" I suppose considerate observers, looking at the masses of men in their blameless and in their equivocal actions, will assent, that in spite of selfishness and frivolity, the general purpose in the great number of persons is fidelity. The reason why any one refuses his assent to your opinion, or his aid to your benevolent design, is in you: he refuses to accept you as a bringer of truth, because, though you think you have it, he feels that you have it not. You have not given him the authentic sign.",
+   "sim": 0.8291,
+   "vias": [
+    "antitesis",
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.31
+  },
+  {
+   "i": 7359,
+   "autor": "Leibniz",
+   "obra": "Theodicy",
+   "texto": "24. Concerning sin or moral evil, although it happens very often that it may serve as a means of obtaining good or of preventing another evil, it is not this that renders it a sufficient object of the divine will or a legitimate object of a created will. It must only be admitted or _permitted_ in so far as it is considered to be a certain consequence of an indispensable duty: as for instance if a man who was determined not to permit another's sin were to fail of his own duty, or as if an officer on guard at an important post were to leave it, especially in time of danger, in order to prevent a quarrel in the town between two soldiers of the garrison who wanted to kill each other.",
+   "sim": 0.829,
+   "vias": [
+    "tesis",
+    "tesis",
+    "tesis",
+    "proposicion"
+   ],
+   "postura": "contradice",
+   "conf": 0.4
+  },
+  {
+   "i": 645,
+   "autor": "Platón",
+   "obra": "Phaedo",
+   "texto": "***** 1. The doctrine of the immortality of the soul has sunk deep into the heart of the human race; and men are apt to rebel against any examination of the nature or grounds of their belief. They do not like to acknowledge that this, as well as the other 'eternal ideas; of man, has a history in time, which may be traced in Greek poetry or philosophy, and also in the Hebrew Scriptures. They convert feeling into reasoning, and throw a network of dialectics over that which is really a deeply-rooted instinct. In the same temper which Socrates reproves in himself they are disposed to think that even fallacies will do no harm, for they will die with them, and while they live they will gain by the delusion. And when they consider the numberless bad arguments which have been pressed into the service of theology, they say, like the companions of Socrates, 'What argument can we ever trust again?' But there is a better and higher spirit to be gathered from the Phaedo, as well as from the other writings of Plato, which says that first principles should be most constantly reviewed (Phaedo and Crat.), and that the highest subjects demand of us the greatest accuracy (Republic); also that we must not become misologists because arguments are apt to be deceivers.",
+   "sim": 0.829,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 1386,
+   "autor": "Zhuangzi",
+   "obra": "Chuang Tzu: Mystic, Moralist, and Social Reformer",
+   "texto": "Self-conceit and assurance, which lead men to quit society, and be different from their fellows, to indulge in tall talk and abuse of others,--these are nothing more than personal over-estimation, the affectation of recluses and those who have done with the world and have closed their hearts to mundane influences. Preaching of charity and duty to one's neighbour, of loyalty and truth, of respect, of economy, and of humility,--this is but moral culture, affected by would-be pacificators and teachers of mankind, and by scholars at home or abroad. Preaching of meritorious services, of fame, of ceremonial between sovereign and minister, of due relationship between upper and lower classes,--this is mere government, affected by courtiers or patriots who strive to extend the boundaries of their own State and to swallow up the territory of others.",
+   "sim": 0.8288,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.79
+  },
+  {
+   "i": 2106,
+   "autor": "Cicerón",
+   "obra": "Treatises on Friendship and Old Age",
+   "texto": "25. Well, then, if it is true that to give and receive advice--the former with freedom and yet without bitterness, the latter with patience and without irritation--is peculiarly appropriate to genuine friendship, it is no less true that there can be nothing more utterly subversive of friendship than flattery, adulation, and base compliance. I use as many terms as possible to brand this vice of light-minded, untrustworthy men, whose sole object in speaking is to please without any regard to truth. In everything false pretence is bad, for it suspends and vitiates our power of discerning the truth. But to nothing it is so hostile as to friendship; for it destroys that frankness without which friendship is an empty name. For the essence of friendship being that two minds become as one, how can that ever take place if the mind of each of the separate parties to it is not single and uniform, but variable, changeable, and complex? Can anything be so pliable, so wavering, as the mind of a man whose attitude depends not only on another's feeling and wish, but on his very looks and nods?",
+   "sim": 0.8288,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.69
+  },
+  {
+   "i": 1998,
+   "autor": "Cicerón",
+   "obra": "Cicero's Tusculan Disputations",
+   "texto": "_Laelius._ No, I trust them to myself alone. _Scipio._ Well, in your whole establishment, is there any other master but yourself? _Laelius._ Not one. _Scipio._ Then I think you must grant me that, as respects the State, the government of single individuals, provided they are just, is superior to any other. _Laelius._ You have conducted me to this conclusion, and I entertain very nearly that opinion. XL. And Scipio said: You would still further agree with me, my Laelius, if, omitting the common comparisons, that one pilot is better fitted to steer a ship, and a physician to treat an invalid, provided they be competent men in their respective professions, than many could be, I should come at once to more illustrious examples.",
+   "sim": 0.8283,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 3789,
+   "autor": "Boecio",
+   "obra": "The Consolation of Philosophy",
+   "texto": "'Anything but that; they deem it to be the best, as indeed it is.' 'What, then, of that which remains, which, though it is harsh, puts the restraint of just punishment on the bad--does popular opinion deem it good?' 'Nay; of all that can be imagined, it is accounted the most miserable.' 'Observe, then, if, in following popular opinion, we have not ended in a conclusion quite paradoxical.' 'How so?' said I. 'Why, it results from our admissions that of all who have attained, or are advancing in, or are aiming at virtue, the fortune is in every case good, while for those who remain in their wickedness fortune is always utterly bad.' 'It is true,' said I; 'yet no one dare acknowledge it.'",
+   "sim": 0.8283,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.93
+  },
+  {
+   "i": 9222,
+   "autor": "Rousseau",
+   "obra": "The social contract & discourses",
+   "texto": "It is under these circumstances that the voice of duty no longer speaks in men's hearts, and their rulers are obliged to substitute the cry of terror, or the lure of an apparent interest, of which they subsequently trick their creatures. In this situation they are compelled to have recourse to all the petty and despicable shifts which they call _rules of State_ and _mysteries of the cabinet_. All the vigour that is left in the government is used by its members in ruining and supplanting one another, while the public business is neglected, or is transacted only as personal interest requires and directs. In short, the whole art of those great politicians lies in so mesmerising those they stand in need of, that each may think he is labouring for his own interest in working for theirs: I say _theirs_ on the false supposition that it is the real interest of rulers to annihilate a people in order to make it subject, and to; ruin their own property in order to secure their possession of it.",
+   "sim": 0.8282,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.53
+  },
+  {
+   "i": 14209,
+   "autor": "William James",
+   "obra": "Pragmatism: A New Name for Some Old Ways of Thinking",
+   "texto": "If the Absolute means this, and means no more than this, who can possibly deny the truth of it? To deny it would be to insist that men should never relax, and that holidays are never in order. I am well aware how odd it must seem to some of you to hear me say that an idea is 'true' so long as to believe it is profitable to our lives. That it is GOOD, for as much as it profits, you will gladly admit. If what we do by its aid is good, you will allow the idea itself to be good in so far forth, for we are the better for possessing it. But is it not a strange misuse of the word 'truth,' you will say, to call ideas also 'true' for this reason?",
+   "sim": 0.8281,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "apoya",
+   "conf": 0.35
+  },
+  {
+   "i": 904,
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "texto": "And so, viewing it in respect of its essence and definition, Virtue is a mean state; but in reference to the chief good and to excellence it is the highest state possible. But it must not be supposed that every action or every feeling is capable of subsisting in this mean state, because some there are which are so named as immediately to convey the notion of badness, as malevolence, shamelessness, envy; or, to instance in actions, adultery, theft, homicide; for all these and suchlike are blamed because they are in themselves bad, not the having too much or too little of them. In these then you never can go right, but must always be wrong: nor in such does the right or wrong depend on the selection of a proper person, time, or manner (take adultery for instance), but simply doing any one soever of those things is being wrong.",
+   "sim": 0.828,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.75
+  },
+  {
+   "i": 12140,
+   "autor": "Stirner",
+   "obra": "The Ego and His Own",
+   "texto": "Pushed to this extremity of disinterested warm-heartedness, we must finally become conscious that the spirit, which alone the Christian loves, is nothing; in other words, that the spirit is--a lie. What has here been set down roughly, summarily, and doubtless as yet incomprehensibly, will, it is to be hoped, become clear as we go on. Let us take up the inheritance left by the ancients, and, as active workmen, do with it as much as--can be done with it! The world lies despised at our feet, far beneath us and our heaven, into which its mighty arms are no longer thrust and its stupefying breath does not come. Seductively as it may pose, it can delude nothing but our _sense_; it cannot lead astray the spirit--and spirit alone, after all, we really are. Having once got _back_ of things, the spirit has also got _above_ them, and become free from their bonds, emancipated supernal, free. So speaks \"spiritual freedom.\"",
+   "sim": 0.8279,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.48
+  },
+  {
+   "i": 13736,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "This corollary I here emphasize because it will presently play an important part in the argument. CHAPTER XI. EGOISM VERSUS ALTRUISM. § 68. If insistance on them tends to unsettle established systems of belief, self-evident truths are by most people silently passed over; or else there is a tacit refusal to draw from them the most obvious inferences. Of self-evident truths so dealt with, the one which here concerns us is that a creature must live before it can act. From this it is a corollary that the acts by which each maintains his own life must, speaking generally, precede in imperativeness all other acts of which he is capable. For if it be asserted that these other acts must precede in imperativeness the acts which maintain life; and if this, accepted as a general law of conduct, is conformed to by all, then by postponing the acts which maintain life to the other acts which makes life possible, all must lose their lives. That is to say, Ethics has to recognize the truth, recognized in unethical thought, that egoism comes before altruism. The acts required for continued self-preservation, including the enjoyment of benefits achieved by such acts, are the first requisites to universal welfare. Unless each duly cares for himself, his care for all others is ended by death; and if each thus dies, there remain no others to be cared for.",
+   "sim": 0.8277,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.8
+  },
+  {
+   "i": 11394,
+   "autor": "Emerson",
+   "obra": "Essays — Second Series",
+   "texto": "If we could have any security against moods! If the profoundest prophet could be holden to his words, and the hearer who is ready to sell all and join the crusade could have any certificate that tomorrow his prophet shall not unsay his testimony! But the Truth sits veiled there on the Bench, and never interposes an adamantine syllable; and the most sincere and revolutionary doctrine, put as if the ark of God were carried forward some furlongs, and planted there for the succor of the world, shall in a few weeks be coldly set aside by the same speaker, as morbid; \"I thought I was right, but I was not,\"--and the same immeasurable credulity demanded for new audacities. If we were not of all opinions! if we did not in any moment shift the platform on which we stand, and look and speak from another! if there could be any regulation, any 'one-hour-rule,' that a man should never leave his point of view without sound of trumpet. I am always insincere, as always knowing there are other moods.",
+   "sim": 0.8272,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.93
+  },
+  {
+   "i": 830,
+   "autor": "Platón",
+   "obra": "Phaedrus",
+   "texto": "SOCRATES: I will. Suppose a person to come to your friend Eryximachus, or to his father Acumenus, and to say to him: 'I know how to apply drugs which shall have either a heating or a cooling effect, and I can give a vomit and also a purge, and all that sort of thing; and knowing all this, as I do, I claim to be a physician and to make physicians by imparting this knowledge to others,'--what do you suppose that they would say? PHAEDRUS: They would be sure to ask him whether he knew 'to whom' he would give his medicines, and 'when,' and 'how much.' SOCRATES: And suppose that he were to reply: 'No; I know nothing of all that; I expect the patient who consults me to be able to do these things for himself'?",
+   "sim": 0.8271,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 11134,
+   "autor": "Emerson",
+   "obra": "Essays — First Series",
+   "texto": "We feel defrauded of the retribution due to evil acts, because the criminal adheres to his vice and contumacy and does not come to a crisis or judgment anywhere in visible nature. There is no stunning confutation of his nonsense before men and angels. Has he therefore outwitted the law? Inasmuch as he carries the malignity and the lie with him he so far deceases from nature. In some manner there will be a demonstration of the wrong to the understanding also; but, should we not see it, this deadly deduction makes square the eternal account. Neither can it be said, on the other hand, that the gain of rectitude must be bought by any loss. There is no penalty to virtue; no penalty to wisdom; they are proper additions of being. In a virtuous action I properly _am;_ in a virtuous act I add to the world; I plant into deserts conquered from Chaos and Nothing and see the darkness receding on the limits of the horizon. There can be no excess to love, none to knowledge, none to beauty, when these attributes are considered in the purest sense. The soul refuses limits, and always affirms an Optimism, never a Pessimism.",
+   "sim": 0.827,
+   "vias": [
+    "tesis",
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.39
+  },
+  {
+   "i": 5311,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "III. It has already been proved that when our lives are threatened with immediate danger, it is lawful to kill the aggressor, if the danger cannot otherwise be avoided: an instance, as it has been shewn, on which the justice of private war rests. We must observe that this kind of defence derives its origin from the principle of self-preservation, which nature has given to every living creature, and not from the injustice or misconduct of the aggressor. Wherefore though he may be clear of guilt, as for instance a soldier in actual service, mistaking my person for that of another, or a madman in his frenzy, or a man walking in his sleep, none of these cases deprive me of the right of self-defence against those persons. For I am not bound to submit to the danger or mischief intended, any more than to expose myself to the attacks of a wild beast.",
+   "sim": 0.8268,
+   "vias": [
+    "tesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.99
+  },
+  {
+   "i": 3767,
+   "autor": "Boecio",
+   "obra": "The Consolation of Philosophy",
+   "texto": "Then said I: 'A wonderful inference, and difficult to grant; but I see that it agrees entirely with our previous conclusions.' 'Thou art right,' said she; 'but if anyone finds it hard to admit the conclusion, he ought in fairness either to prove some falsity in the premises, or to show that the combination of propositions does not adequately enforce the necessity of the conclusion; otherwise, if the premises be granted, nothing whatever can be said against the inference of the conclusion. And here is another statement which seems not less wonderful, but on the premises assumed is equally necessary.' 'What is that?' 'The wicked are happier in undergoing punishment than if no penalty of justice chasten them. And I am not now meaning what might occur to anyone--that bad character is amended by retribution, and is brought into the right path by the terror of punishment, or that it serves as an example to warn others to avoid transgression; but I believe that in another way the wicked are more unfortunate when they go unpunished, even though no account be taken of amendment, and no regard be paid to example.'",
+   "sim": 0.8268,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.87
+  },
+  {
+   "i": 8679,
+   "autor": "Hume",
+   "obra": "An Enquiry Concerning Human Understanding",
+   "texto": "It was a wise policy in that false prophet, Alexander, who though now forgotten, was once so famous, to lay the first scene of his impostures in Paphlagonia, where, as Lucian tells us, the people were extremely ignorant and stupid, and ready to swallow even the grossest delusion. People at a distance, who are weak enough to think the matter at all worth enquiry, have no opportunity of receiving better information. The stories come magnified to them by a hundred circumstances. Fools are industrious in propagating the imposture; while the wise and learned are contented, in general, to deride its absurdity, without informing themselves of the particular facts, by which it may be distinctly refuted. And thus the impostor above mentioned was enabled to proceed, from his ignorant Paphlagonians, to the enlisting of votaries, even among the Grecian philosophers, and men of the most eminent rank and distinction in Rome: nay, could engage the attention of that sage emperor Marcus Aurelius; so far as to make him trust the success of a military expedition to his delusive prophecies.",
+   "sim": 0.8267,
+   "vias": [
+    "tesis",
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.91
+  },
+  {
+   "i": 11798,
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "texto": "I submit, that he who saves another from drowning in order to kill him by torture afterwards, does not differ only in motive from him who does the same thing from duty or benevolence; the act itself is different. The rescue of the man is, in the case supposed, only the necessary first step of an act far more atrocious than leaving him to drown would have been. Had Mr. Davis said, \"The rightness or wrongness of saving a man from drowning does depend very much\"--not upon the motive, but--\"upon the _intention_\" no utilitarian would have differed from him. Mr. Davis, by an oversight too common not to be quite venial, has in this case confounded the very different ideas of Motive and Intention. There is no point which utilitarian thinkers (and Bentham pre-eminently) have taken more pains to illustrate than this. The morality of the action depends entirely upon the intention--that is, upon what the agent _wills to do_. But the motive, that is, the feeling which makes him will so to do, when it makes no difference in the act, makes none in the morality: though it makes a great difference in our moral estimation of the agent, especially if it indicates a good or a bad habitual _disposition_--a bent of character from which useful, or from which hurtful actions are likely to arise.]",
+   "sim": 0.8262,
+   "vias": [
+    "tesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.81
+  },
+  {
+   "i": 5487,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "It may be observed likewise, that the injury done to the freedom of judgment is, in such a case, of less consequence, because it is but momentary, and the real fact is soon discovered. XV. There is a fourth case, which bears a near affinity to those above mentioned, and that is, when any one, possessing pre-eminent authority, orders another, in a subordinate capacity, to execute some device or stratagem, conducive either to his individual, or to the public welfare. Which Plato seems to have had particularly in view, in allowing those in authority to avail themselves of pretexts, or stratagems. The same writer is very correct in his notion of not making such a device a characteristic of that authority, which belongs to the supreme being. For all such devices, however justifiable they may be in CERTAIN CASES, strongly betray that imperfection, which is inseparable from all human systems.",
+   "sim": 0.8261,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "apoya",
+   "conf": 0.81
+  },
+  {
+   "i": 14410,
+   "autor": "William James",
+   "obra": "The Meaning of Truth",
+   "texto": "We affirm nothing as silly as Mr. Russell supposes. Good consequences are not proposed by us merely as a sure sign, mark, or criterion, by which truth's presence is habitually ascertained, tho they may indeed serve on occasion as such a sign; they are proposed rather as the lurking motive inside of every truth-claim, whether the 'trower' be conscious of such motive, or whether he obey it blindly. They are proposed as the causa existendi of our beliefs, not as their logical cue or premise, and still less as their objective deliverance or content. They assign the only intelligible practical meaning to that difference in our beliefs which our habit of calling them true or false comports. No truth-claimer except the pragmatist himself need ever be aware of the part played in his own mind by consequences, and he himself is aware of it only abstractly and in general, and may at any moment be quite oblivious of it with respect to his own beliefs.",
+   "sim": 0.8259,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.85
+  },
+  {
+   "i": 8955,
+   "autor": "Hume",
+   "obra": "Dialogues Concerning Natural Religion",
+   "texto": "But not to insist upon these topics, continued PHILO, though most obvious, certain, and important; I must use the freedom to admonish you, CLEANTHES, that you have put the controversy upon a most dangerous issue, and are unawares introducing a total scepticism into the most essential articles of natural and revealed theology. What! no method of fixing a just foundation for religion, unless we allow the happiness of human life, and maintain a continued existence even in this world, with all our present pains, infirmities, vexations, and follies, to be eligible and desirable! But this is contrary to every one's feeling and experience: It is contrary to an authority so established as nothing can subvert. No decisive proofs can ever be produced against this authority; nor is it possible for you to compute, estimate, and compare, all the pains and all the pleasures in the lives of all men and of all animals: And thus, by your resting the whole system of religion on a point, which, from its very nature, must for ever be uncertain, you tacitly confess, that that system is equally uncertain.",
+   "sim": 0.8257,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 13767,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "Yet again, each has a private interest in public morals and profits by improving them. Not in large ways only, by aggressions and breaches of contract, by adulterations and short measures, does each suffer from the general unconscientiousness; but in more numerous small ways. Now it is through the untruthfulness of one who gives a good character to a bad servant; now it is by the recklessness of a laundress who, using bleaching agents to save trouble in washing, destroys his linen; now it is by the acted falsehood of railway passengers who, by dispersed coats, make him believe that all the seats in a compartment are taken when they are not. Yesterday the illness of his child due to foul gases, led to the discovery of a drain that had become choked because it was ill-made by a dishonest builder under supervision of a careless or bribed surveyor. To-day workmen employed to rectify it bring on him cost and inconvenience by dawdling; and their low standard of work, determined by the unionist principle that the better workers must not discredit the worse by exceeding them in efficiency, he may trace to the immoral belief that the unworthy should fare as well as the worthy. To-morrow it turns out that business for the plumber has been provided by damage which the bricklayers have done.",
+   "sim": 0.8255,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.6
+  },
+  {
+   "i": 7751,
+   "autor": "Mandeville",
+   "obra": "The Fable of the Bees; Or, Private Vices, Public Benefits",
+   "texto": "It is in morality as it is in nature, there is nothing so perfectly good in creatures, that it cannot be hurtful to any one of the society, nor any thing so entirely evil, but it may prove beneficial to some part or other of the creation: so that things are only good and evil in reference to something else, and according to the light and position they are placed in. What pleases us is good in that regard, and by this rule every man wishes well for himself to the best of his capacity, with little respect to his neighbour. There never was any rain yet, though in a very dry season when public prayers had been made for it, but somebody or other who wanted to go abroad, wished it might be fair weather only for that day. When the corn stands thick in the spring, and the generality of the country rejoice at the pleasing object, the rich farmer who kept his last year's crop for a better market, pines at the sight, and inwardly grieves at the prospect of a plentiful harvest. Nay, we shall often hear your idle people openly wish for the possessions of others, and not to be injurious forsooth add this wise proviso, that it should be without detriment to the owners: but I am afraid they often do it without any such restriction in their hearts.",
+   "sim": 0.8253,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.37
+  },
+  {
+   "i": 11907,
+   "autor": "Mill",
+   "obra": "On Liberty",
+   "texto": "We have now recognised the necessity to the mental well-being of mankind (on which all their other well-being depends) of freedom of opinion, and freedom of the expression of opinion, on four distinct grounds; which we will now briefly recapitulate. First, if any opinion is compelled to silence, that opinion may, for aught we can certainly know, be true. To deny this is to assume our own infallibility. Secondly, though the silenced opinion be an error, it may, and very commonly does, contain a portion of truth; and since the general or prevailing opinion on any subject is rarely or never the whole truth, it is only by the collision of adverse opinions, that the remainder of the truth has any chance of being supplied.",
+   "sim": 0.8251,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": 7673,
+   "autor": "Mandeville",
+   "obra": "The Fable of the Bees; Or, Private Vices, Public Benefits",
+   "texto": "To prove this assertion, I could produce many instances; but one or two will be sufficient. Jordanus Bruno of Nola, who wrote that silly piece of blasphemy, called Spaccio della Bestia triumphante, and the infamous Vanini, were both executed for openly professing and teaching of atheism: the latter might have been pardoned the moment before the execution, if he would have retracted his doctrine; but rather than recant, he chose to be burnt to ashes. As he went to the stake, he was so far from showing any concern, that he held his hand out to a physician whom he happened to know, desiring him to judge of the calmness of his mind by the regularity of his pulse, and from thence taking an opportunity of making an impious comparison, uttered a sentence too execrable to be mentioned. To these we may join one Mahomet Effendi, who, as Sir Paul Ricaut tells us, was put to death at Constantinople, for having advanced some notions against the existence of a God. He likewise might have saved his life by confessing his error, and renouncing it for the future; but chose rather to persist in his blasphemies, saying, \"Though he had no reward to expect, the love of truth constrained him to suffer martyrdom in its defence.\"",
+   "sim": 0.8249,
+   "vias": [
+    "tesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.68
+  },
+  {
+   "i": 12402,
+   "autor": "Stirner",
+   "obra": "The Ego and His Own",
+   "texto": "Now, let one imagine a French revolutionist in the year 1788, who among friends let fall the now well-known phrase, \"the world will have no rest till the last king is hanged with the guts of the last priest.\" The king then still had all power, and, when the utterance is betrayed by an accident, yet without its being possible to produce witnesses, confession is demanded from the accused. Is he to confess or not? If he denies, he lies and--remains unpunished; if he confesses, he is candid and--is beheaded. If truth is more than everything else to him, all right, let him die. Only a paltry poet could try to make a tragedy out of the end of his life; for what interest is there in seeing how a man succumbs from cowardice? But, if he had the courage not to be a slave of truth and sincerity, he would ask somewhat thus: Why need the judges know what I have spoken among friends? If I had _wished_ them to know, I should have said it to them as I said it to my friends. I will not have them know it. They force themselves into my confidence without my having called them to it and made them my confidants; they _will_ learn what I _will_ keep secret. Come on then, you who wish to break my will by your will, and try your arts. You can torture me by the rack, you can threaten me with hell and eternal damnation, you can make me so nerveless that I",
+   "sim": 0.8246,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "apoya",
+   "conf": 0.85
+  },
+  {
+   "i": 6297,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "258 _Unusquisque sibi Deum fingit._[101] Disgust. 259 Ordinary people have the power of not thinking of that about which they do not wish to think. \"Do not meditate on the passages about the Messiah,\" said the Jew to his son. Thus our people often act. Thus are false religions preserved, and even the true one, in regard to many persons. But there are some who have not the power of thus preventing thought, and who think so much the more as they are forbidden. These undo false religions, and even the true one, if they do not find solid arguments. 260 They hide themselves in the press, and call numbers to their rescue. Tumult. _Authority._--So far from making it a rule to believe a thing because you have heard it, you ought to believe nothing without putting yourself into the position as if you had never heard it.",
+   "sim": 0.8246,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 13677,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "This compromise, vague, ambiguous, illogical, though it may be, is nevertheless for the time being authoritative. For if, as above shown, the welfare of the society must take precedence of the welfares of its component individuals, during those stages in which the individuals have to preserve themselves by preserving their society, then such temporary compromise between the two codes of conduct as duly regards external defense, while favoring internal co-operation to the greatest extent practicable, subserves the maintenance of life in the highest degree; and thus gains the ultimate sanction. So that the perplexed and inconsistent moralities of which each society and each age shows us a more or less different one, are severally justified as being approximately the best under the circumstances.",
+   "sim": 0.8245,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.39
+  },
+  {
+   "i": 4619,
+   "autor": "Maquiavelo",
+   "obra": "Discourses on the First Decade of Titus Livius",
+   "texto": "But since a people may happen to be deceived as regards the character, reputation, and actions of a man, thinking them better or greater than in truth they are, an error a prince is less likely to fall into from his being informed and warned by his advisers, in order that the people may not lack similar advice, wise founders of republics have provided, that when the highest dignities of the State, to which it would be dangerous to appoint incapable men, have to be filled up, and it appears that some incapable man is the object of the popular choice, it shall be lawful and accounted honourable for any citizen to declare in the public assemblies the defects of the favoured candidate, that the people, being made acquainted therewith, may be better able to judge of his fitness. That this was the practice in Rome we have proof in the speech made by Fabius Maximus to the people during the second Punic war, when in the appointment of consuls public favour leaned towards Titus Ottacilius. For Fabius judging him unequal to the duties of the consulship at such a crisis, spoke against him and pointed out his insufficiency, and so prevented his appointment, turning the popular favour towards another who deserved it more.",
+   "sim": 0.8244,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.87
+  },
+  {
+   "i": 10347,
+   "autor": "Wollstonecraft",
+   "obra": "A Vindication of the Rights of Woman",
+   "texto": "The oracles of old were thus delivered by priests dedicated to the service of the God, who was supposed to inspire them. The glare of worldly pomp which surrounded these impostors, and the respect paid to them by artful politicians, who knew how to avail themselves of this useful engine to bend the necks of the strong under the dominion of the cunning, spread a sacred mysterious veil of sanctity over their lies and abominations. Impressed by such solemn devotional parade, a Greek or Roman lady might be excused, if she inquired of the oracle, when she was anxious to pry into futurity, or inquire about some dubious event: and her inquiries, however contrary to reason, could not be reckoned impious. But, can the professors of Christianity ward off that imputation? Can a Christian suppose, that the favourites of the most High, the highly favoured would be obliged to lurk in disguise, and practise the most dishonest tricks to cheat silly women out of the money, which the poor cry for in vain?",
+   "sim": 0.8241,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.33
+  },
+  {
+   "i": 5314,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "VIII. Though some, as it has been already said, admit the lawfulness of killing the person, who attempts with open violence to destroy one's life, yet they deem it more commendable to spare the life of another, even at the hazard of one's own. Yet to persons, in whose preservation the public interest is involved, they will grant an exemption from this rule of forbearance. Indeed it seems unsafe to impose upon ANY, whose lives are of importance to others, a rule of forebearance so contrary to all the principles of all law. This exemption therefore must be allowed to all vested with any public office, which makes them responsible for the safety of others; as the generals who conduct armies, or the rulers of the state, and many others in similar situations; to whom may be applied the lines of Lucan--\"When the lives and safety of so many nations depend upon yours, and so great a portion of the world has chosen you for its head; it is cruelty to expose yourself wilfully to death.\"",
+   "sim": 0.8239,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.85
+  },
+  {
+   "i": 7664,
+   "autor": "Mandeville",
+   "obra": "The Fable of the Bees; Or, Private Vices, Public Benefits",
+   "texto": "The chief and most important care a man of honour ought to have, is the preservation of this principle, and rather than forfeit it, he must lose his employments and estate, nay, life itself; for which reason, whatever humility he may show by way of good-breeding, he is allowed to put an inestimable value upon himself, as a possessor of this invisible ornament. The only method to preserve this principle, is to live up to the rules of honour, which are laws he is to walk by: himself is obliged always to be faithful to his trust, to prefer the public interest to his own, not to tell lies, nor defraud or wrong any body, and from others to suffer no affront, which is a term of art for every action designedly done to undervalue him.",
+   "sim": 0.8239,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 1.0
+  },
+  {
+   "i": 4835,
+   "autor": "Montaigne",
+   "obra": "Essays of Michel de Montaigne — Volume 02",
+   "texto": "I see some who are mightily given to study and comment upon their almanacs, and produce them to us as an authority when anything has fallen out pat; and, for that matter, it is hardly possible but that these alleged authorities sometimes stumble upon a truth amongst an infinite number of lies. \"Quis est enim, qui totum diem jaculans non aliquando collineet?\" [\"For who shoots all day at butts that does not sometimes hit the white?\"--Cicero, De Divin., ii. 59.] I think never the better of them for some such accidental hit. There would be more certainty in it if there were a rule and a truth of always lying. Besides, nobody records their flimflams and false prognostics, forasmuch as they are infinite and common; but if they chop upon one truth, that carries a mighty report, as being rare, incredible, and prodigious. So Diogenes, surnamed the Atheist, answered him in Samothrace, who, showing him in the temple the several offerings and stories in painting of those who had escaped shipwreck, said to him, \"Look, you who think the gods have no care of human things, what do you say to so many persons preserved from death by their especial favour?\" \"Why, I say,\" answered he, \"that their pictures are not here who were cast away, who are by much the greater number.\"--[Cicero, De Natura Deor., i. 37.]",
+   "sim": 0.8238,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": 5593,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "[3] By moral necessity is meant nothing more than that the Laws of Nature must always bind us. [4] To explain the meaning of Grotius in this place, recourse must be had to first principles. Thus the law of nature authorizing self-defence in its fullest extent, the laws of nations, which authorize war for the same purpose, cannot be repugnant to it. [5] The Law of England on homicide excusable by self-defence, will throw light on the sentiments of Grotius in this place. \"The law requires, that the person who kills another in his own defence, should have retreated as far as he conveniently or safely can, to avoid the violence of the assault, before he turns upon his assailant; and that, not fictitiously, or in order to watch his opportunity, but from a real tenderness of shedding his brother's blood. And though it may be cowardice, in time of war, between two independent nations, to flee from our enemy; yet between two fellow subjects the law countenances no such point of honour; because the king and his courts are the _vindices injuriarum_, and will give to the party wronged all the satisfaction he deserves. And this is the doctrine of universal justice, as well as of the municipal law.\"--Blackstone's Com. vol. 4, chap. 14.",
+   "sim": 0.8232,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": 934,
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "texto": "And on this principle acts done from anger are fairly judged not to be from malice prepense, because it is not the man who acts in wrath who is the originator really but he who caused his wrath. And again, the question at issue in such cases is not respecting the fact but respecting the justice of the case, the occasion of anger being a notion of injury.[25] I mean, that the parties do not dispute about the fact, as in questions of contract (where one of the two must be a rogue, unless real forgetfulness can be pleaded), but, admitting the fact, they dispute on which side the justice of the case lies (the one who plotted against the other, _i.e._ the real aggressor, of course, cannot be ignorant),[26] so that the one thinks there is injustice committed while the other does not.",
+   "sim": 0.823,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 12782,
+   "autor": "Kierkegaard",
+   "obra": "Selections from the Writings of Kierkegaard",
+   "texto": "The same is true in religion. The worst of all is to satisfy a craving which has not as yet made its appearance, to anticipate it, or--worse still--by the help of stimulants to produce something which looks like a craving, which then is promptly satisfied. Ah, the shame of it! And yet this is exactly what is being done in religion where people are in very truth fooled out of the real meaning of life and helped to waste their lives. That is in very truth, the effect of this whole machinery of a state church and a thousand royal officials who, under the pretense of being spiritual guides for the people, trick them out of the highest thing in life, which is, the solicitude about one's self, and the need which would surely of itself find a teacher or minister after its own mind; whereas now the need--and it is just the growth of this sense, of a need which gives life its highest significance--whereas now this need does not arise at all, but on the contrary is forestalled by being satisfied long before it can arise. And this is the way, they claim, this is the way to continue the work which the Savior of Mankind did begin--stunting the human race as they do. And why is this so? Because there happen to be a thousand and one royal officials who have to support their families by furnishing what is called--spiritual guidance for men's souls!",
+   "sim": 0.823,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.97
+  },
+  {
+   "i": 11150,
+   "autor": "Emerson",
+   "obra": "Essays — First Series",
+   "texto": "Dreadful limits are set in nature to the powers of dissimulation. Truth tyrannizes over the unwilling members of the body. Faces never lie, it is said. No man need be deceived who will study the changes of expression. When a man speaks the truth in the spirit of truth, his eye is as clear as the heavens. When he has base ends and speaks falsely, the eye is muddy and sometimes asquint. I have heard an experienced counsellor say that he never feared the effect upon a jury of a lawyer who does not believe in his heart that his client ought to have a verdict. If he does not believe it his unbelief will appear to the jury, despite all his protestations, and will become their unbelief. This is that law whereby a work of art, of whatever kind, sets us in the same state of mind wherein the artist was when he made it. That which we do not believe we cannot adequately say, though we may repeat the words never so often. It was this conviction which Swedenborg expressed when he described a group of persons in the spiritual world endeavoring in vain to articulate a proposition which they did not believe; but they could not, though they twisted and folded their lips even to indignation.",
+   "sim": 0.8225,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.63
+  },
+  {
+   "i": 7134,
+   "autor": "Locke",
+   "obra": "Second Treatise of Government",
+   "texto": "Sect. 18. This makes it lawful for a man to kill a thief, who has not in the least hurt him, nor declared any design upon his life, any farther than, by the use of force, so to get him in his power, as to take away his money, or what he pleases, from him; because using force, where he has no right, to get me into his power, let his pretence be what it will, I have no reason to suppose, that he, who would take away my liberty, would not, when he had me in his power, take away every thing else. And therefore it is lawful for me to treat him as one who has put himself into a state of war with me, i.e. kill him if I can; for to that hazard does he justly expose himself, whoever introduces a state of war, and is aggressor in it.",
+   "sim": 0.8224,
+   "vias": [
+    "tesis",
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 4502,
+   "autor": "Maquiavelo",
+   "obra": "Discourses on the First Decade of Titus Livius",
+   "texto": "CHAPTER XLVIII.—_He who would not have an Office bestowed on some worthless or wicked Person, should contrive that it be solicited by one who is utterly worthless and wicked, or else by one who is in the highest degree noble and good._ Whenever the senate saw a likelihood of the tribunes with consular powers being chosen exclusively from the commons, it took one or other of two ways,—either by causing the office to be solicited by the most distinguished among the citizens; or else, to confess the truth, by bribing some base and ignoble fellow to fasten himself on to those other plebeians of better quality who were seeking the office, and become a candidate conjointly with them. The latter device made the people ashamed to give, the former ashamed to refuse.",
+   "sim": 0.8222,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.95
+  },
+  {
+   "i": 5508,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "But the rights of war, for which these writers plead, could not PERFECTLY JUSTIFY the putting prisoners to death, but could only grant IMPUNITY to those who availed themselves of the barbarous custom. There is a wide difference however between actions like these, and destroying an enemy by proper means of hostility. For, as Tacitus says, \"in the leisure hours of peace the merits and demerits of every case may be examined and weighed, but, in the tumult and confusion of war, the innocent must fall with the guilty\": and the same writer, in another place, observes, that \"there are many actions, which the principles of humanity cannot ENTIRELY approve, but which the policy of war requires.\" And it is in this, and no other sense that Lucan has said, \"the complexion of right may be assigned to what is wrong.\"",
+   "sim": 0.8218,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.85
+  },
+  {
+   "i": 6779,
+   "autor": "Spinoza",
+   "obra": "Ethics",
+   "texto": "PROP. LXXII. The free man never acts fraudulently, but always in good faith. Proof.--If it be asked: What should a man's conduct be in a case where he could by breaking faith free himself from the danger of present death? Would not his plan of self--preservation completely persuade him to deceive? This may be answered by pointing out that, if reason persuaded him to act thus, it would persuade all men to act in a similar manner, in which case reason would persuade men not to agree in good faith to unite their forces, or to have laws in common, that is, not to have any general laws, which is absurd. PROP. LXXIII. The man, who is guided by reason, is more free in a State, where he lives under a general system of law, than in solitude, where he is independent.",
+   "sim": 0.8217,
+   "vias": [
+    "proposicion"
+   ],
+   "postura": "contradice",
+   "conf": 0.95
+  },
+  {
+   "i": 8009,
+   "autor": "Berkeley",
+   "obra": "A Treatise Concerning the Principles of Human Knowledge",
+   "texto": "52. IN THE ORDINARY AFFAIRS OF LIFE, ANY PHRASES MAY BE RETAINED, so long as they excite in us proper sentiments, or dispositions to act in such a manner as is necessary for our WELL-BEING, how false soever they may be if taken in a strict and SPECULATIVE SENSE. Nay, this is unavoidable, since, propriety being regulated by CUSTOM, language is suited to the RECEIVED opinions, which are not always the truest. Hence it is impossible, even in the most rigid, philosophic reasonings, so far to alter the bent and genius of the tongue we speak, as never to give a handle for cavillers to pretend difficulties and inconsistencies. But, a fair and ingenuous reader will collect the sense from the scope and tenor and connexion of a discourse, making allowances for those inaccurate modes of speech which use has made inevitable.",
+   "sim": 0.8216,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.63
+  },
+  {
+   "i": 5488,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "The stratagem, which Joseph employed to obtain further discoveries without making himself known to his brethren, is much commended by Philo, as a mark of great policy, when, contrary to the convictions and feelings of his own mind, he accused them of being spies, and afterwards charged them with theft. It was by a stratagem of the same kind, that Solomon gave proof of his inspired wisdom, when he used the FICTITIOUS threat of dividing the living child in order to discover the real mother. XVI. The fifth case, which allows a stratagem to be practised, is that, where it may be the ONLY means of saving the life of an innocent person, of obtaining some object of equal importance, or of diverting another from the perpetration of some horrid design. The heathen poet has given a beautiful illustration of this in his praises of Hypermnestra, whose conduct he calls \"a splendid stratagem, ennobling the virgin to all posterity.\"",
+   "sim": 0.8214,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "apoya",
+   "conf": 1.0
+  },
+  {
+   "i": 1862,
+   "autor": "Cicerón",
+   "obra": "Cicero's Tusculan Disputations",
+   "texto": "_M._ Can you, then, help calling any one miserable who lives ill? or will you deny that any one who you allow lives well must inevitably live happily? _A._ Why may I not? for a man may be upright in his life, honest, praiseworthy, even in the midst of torments, and therefore live well. Provided you understand what I mean by well; for when I say well, I mean with constancy, and dignity, and wisdom, and courage; for a man may display all these qualities on the rack; but yet the rack is inconsistent with a happy life. _M._ What, then? is your happy life left on the outside of the prison, while constancy, dignity, wisdom, and the other virtues, are surrendered up to the executioner, and bear punishment and pain without reluctance?",
+   "sim": 0.8205,
+   "vias": [
+    "tesis",
+    "antitesis",
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.97
+  },
+  {
+   "i": 5556,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "CHAPTER XIX.[73] ON GOOD FAITH BETWEEN ENEMIES. Good faith due to enemies of every description--Due even to pirates, and others of the same kind, in all treaties with them--A promise given to them, binding, when not extorted by fear--Oaths to be inviolably observed--The law of nations does not allow fear to be alleged as an exception to the above rules--Good faith to be observed even to a treacherous enemy--This obligation ceases, where one of the parties violates his engagements--Or refuses a just compensation--Even where the obligation arose from a different contract--From loss occasioned--Or from a penalty--Application of these principles to war. I. It was before said that the number and extent of actions, lawful in war, may be considered either upon their own intrinsic merits, or as rising out of some antecedent engagement. The former point having before been fully explained, this is the proper place for discussing the latter, which comprehends the good faith of enemies towards each other.",
+   "sim": 0.8201,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.65
+  },
+  {
+   "i": 13627,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "But while recognizing the desirableness of, and indeed the necessity for, systems of ethics adapted, like religious systems and political systems, to their respective times and places, we have here to regard the first as, like the others, transitional. We must infer that like a purer creed and a better government, a truer ethics belongs to a more advanced social state. Led, _à priori_, to conclude that distortions must exist, we are enabled to recognize as such the distortions we find: answering in nature, as these do, to expectation. And there is forced on us the truth that a scientific morality arises only as fast as the one-sided conceptions adapted to transitory conditions are developed into both-sided conceptions. The science of right living has to take account of all consequences in so far as they affect happiness, personally or socially, directly or indirectly; and by as much as it ignores any class of consequences, by so much does it fail to be science.",
+   "sim": 0.8201,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.4
+  },
+  {
+   "i": 9224,
+   "autor": "Rousseau",
+   "obra": "The social contract & discourses",
+   "texto": "In fact, does not the undertaking entered into by the whole body of the nation bind it to provide for the security of the least of its members with as much care as for that of all the rest? Is the welfare of a single citizen any less the common cause than that of the whole State? It may be said that it is good that one should perish for all. I am ready to admire such a saying when it comes from the lips of a virtuous and worthy patriot, voluntarily and dutifully sacrificing himself for the good of his country: but if we are to understand by it, that it is lawful for the government to sacrifice an innocent man for the good of the multitude, I look upon it as one of the most execrable rules tyranny ever invented, the greatest falsehood that can be advanced, the most dangerous admission that can be made, and a direct contradiction of the fundamental laws of society. So little is it the case that any one person ought to perish for all, that all have pledged their lives and properties for the defence of each, in order that the weakness of individuals may always be protected by the strength of the public, and each member by the whole State. Suppose we take from the whole people one individual after another, and then press the advocates of this rule to explain more exactly what they mean by the _body of the State_, and we shall see that it will at length",
+   "sim": 0.8198,
+   "vias": [
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.44
+  },
+  {
+   "i": 12450,
+   "autor": "Stirner",
+   "obra": "The Ego and His Own",
+   "texto": "If there is even one truth only to which man has to devote his life and his powers because he is man, then he is subjected to a rule, dominion, law, etc.; he is a servingman. It is supposed that, _e. g._, man, humanity, liberty, etc., are such truths. On the other hand, one can say thus: Whether you will further occupy yourself with thinking depends on you; only know that, _if_ in your thinking you would like to make out anything worthy of notice, many hard problems are to be solved, without vanquishing which you cannot get far. There exists, therefore, no duty and no calling for you to meddle with thoughts (ideas, truths); but, if you will do so, you will do well to utilize what the forces of others have already achieved toward clearing up these difficult subjects.",
+   "sim": 0.8191,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.88
+  },
+  {
+   "i": 11962,
+   "autor": "Mill",
+   "obra": "On Liberty",
+   "texto": "It is not in the matter of education only, that misplaced notions of liberty prevent moral obligations on the part of parents from being recognised, and legal obligations from being imposed, where there are the strongest grounds for the former always, and in many cases for the latter also. The fact itself, of causing the existence of a human being, is one of the most responsible actions in the range of human life. To undertake this responsibility--to bestow a life which may be either a curse or a blessing--unless the being on whom it is to be bestowed will have at least the ordinary chances of a desirable existence, is a crime against that being. And in a country either over-peopled, or threatened with being so, to produce children, beyond a very small number, with the effect of reducing the reward of labour by their competition, is a serious offence against all who live by the remuneration of their labour. The laws which, in many countries on the Continent, forbid marriage unless the parties can show that they have the means of supporting a family, do not exceed the legitimate powers of the state: and whether such laws be expedient or not (a question mainly dependent on local circumstances and feelings), they are not objectionable as violations of liberty. Such laws are interferences of the state to prohibit a mischievous act--an act injurious to others, which ought to be a subject of reprobation, and social stigma, even when it is not deemed expedient to superadd legal punishment. Yet the current",
+   "sim": 0.8185,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 13569,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "If it be said by any belonging to this school that certain moral obligations, to be distinguished as cardinal, must be admitted to have a basis deeper than legislation, and that it is for legislation not to create but merely to enforce them--if, I say, admitting this, they go on to allege a legislative origin for minor claims and duties; then we have the implication that whereas some kinds of conduct do, in the nature of things, tend to work out certain kinds of results, other kinds of conduct do not, in the nature of things, tend to work out certain kinds of results. While of these acts the naturally good or bad consequences must be allowed, it may be denied of those acts that they have naturally good or bad consequences. Only after asserting this can it be consistently asserted that acts of the last class are made right or wrong by law. For if such acts have any intrinsic tendencies to produce beneficial or mischievous effects, then these intrinsic tendencies furnish the warrant for legislative requirements or interdicts; and to say that the requirements or interdicts make them right or wrong is to say that they have no intrinsic tendencies to produce beneficial or mischievous effects.",
+   "sim": 0.8184,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.77
+  },
+  {
+   "i": 5465,
+   "autor": "Grocio",
+   "obra": "The Rights of War and Peace",
+   "texto": "V. It may happen in many disputed points, that the intrinsic merits of the case, or the opinions of the learned, are equal on both sides. When that happens, if the matters in discussion are of no great importance, there is nothing to blame in the person, that makes his choice either way. But in matters of moment, where the lives of men are at stake, the decision should incline to the safer side, according to the proverbial maxim, which pronounces it better to acquit the guilty than to condemn the innocent. VI. War then being an object of such weighty magnitude, in which the innocent must often be involved in the sufferings of the guilty, between wavering opinions the balance should incline in favour of peace.",
+   "sim": 0.8182,
+   "vias": [
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 0.91
+  },
+  {
+   "i": 575,
+   "autor": "Platón",
+   "obra": "The Republic",
+   "texto": "Nothing, he said, can be more just than such a description of him. And will the love of a lie be any part of a philosopher’s nature? Will he not utterly hate a lie? He will. And when truth is the captain, we cannot suspect any evil of the band which he leads? Impossible. Justice and health of mind will be of the company, and temperance will follow after? True, he replied. Neither is there any reason why I should again set in array the philosopher’s virtues, as you will doubtless remember that courage, magnificence, apprehension, memory, were his natural gifts. And you objected that, although no one could deny what I then said, still, if you leave words and look at facts, the persons who are thus described are some of them manifestly useless, and the greater number utterly depraved; we were then led to enquire into the grounds of these accusations, and have now arrived at the point of asking why are the majority bad, which question of necessity brought us back to the examination and definition of the true philosopher.",
+   "sim": 0.818,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "contradice",
+   "conf": 0.6
+  },
+  {
+   "i": 12163,
+   "autor": "Stirner",
+   "obra": "The Ego and His Own",
+   "texto": "\"But surely one cannot put a rascal and an honest man on the same level!\" Now, no human being does that oftener than you judges of morals; yes, still more than that, you imprison as a criminal an honest man who speaks openly against the existing constitution, against the hallowed institutions, etc., and you entrust portfolios and still more important things to a crafty rascal. So _in praxi_ you have nothing to reproach me with. \"But in theory!\" Now there I do put both on the same level, as two opposite poles,--to wit, both on the level of the moral law. Both have meaning only in the \"moral\" world, just as in the pre-Christian time a Jew who kept the law and one who broke it had meaning and significance only in respect to the Jewish law; before Jesus Christ, on the contrary, the Pharisee was no more than the \"sinner and publican.\" So before self-ownership the moral Pharisee amounts to as much as the immoral sinner.",
+   "sim": 0.8175,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.44
+  },
+  {
+   "i": 11101,
+   "autor": "Emerson",
+   "obra": "Essays — First Series",
+   "texto": "Life only avails, not the having lived. Power ceases in the instant of repose; it resides in the moment of transition from a past to a new state, in the shooting of the gulf, in the darting to an aim. This one fact the world hates; that the soul _becomes;_ for that for ever degrades the past, turns all riches to poverty, all reputation to a shame, confounds the saint with the rogue, shoves Jesus and Judas equally aside. Why then do we prate of self-reliance? Inasmuch as the soul is present there will be power not confident but agent. To talk of reliance is a poor external way of speaking. Speak rather of that which relies because it works and is. Who has more obedience than I masters me, though he should not raise his finger. Round him I must revolve by the gravitation of spirits. We fancy it rhetoric when we speak of eminent virtue. We do not yet see that virtue is Height, and that a man or a company of men, plastic and permeable to principles, by the law of nature must overpower and ride all cities, nations, kings, rich men, poets, who are not.",
+   "sim": 0.8174,
+   "vias": [
+    "antitesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.99
+  },
+  {
+   "i": 13679,
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "texto": "Respect for these primary moral laws is not enough, however. Associated men pursuing their several lives without injuring one another but without helping one another, reap no advantages from association beyond those of companionship. If, while there is no co-operation for defensive purposes (which is here excluded by the hypothesis) there is also no co-operation for satisfying wants, the social state loses its _raison d'être_--almost, if not entirely. There are, indeed, people who live in a condition little removed from this: as the Esquimaux. But though these, exhibiting none of the co-operation necessitated by war, which is unknown to them, lead lives such that each family is substantially independent of others, occasional co-operation occurs. And, indeed, that families should live in company without ever yielding mutual aid, is scarcely conceivable.",
+   "sim": 0.8172,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.97
+  },
+  {
+   "i": 8149,
+   "autor": "Berkeley",
+   "obra": "Three Dialogues Between Hylas and Philonous in Opposition to Sceptics and Atheists",
+   "texto": "HYL. You need say no more on this head. I am free to own, if there be no secret error or oversight in our proceedings hitherto, that all sensible qualities are alike to be denied existence without the mind. But, my fear is that I have been too liberal in my former concessions, or overlooked some fallacy or other. In short, I did not take time to think. PHIL. For that matter, Hylas, you may take what time you please in reviewing the progress of our inquiry. You are at liberty to recover any slips you might have made, or offer whatever you have omitted which makes for your first opinion. HYL. One great oversight I take to be this--that I did not sufficiently distinguish the OBJECT from the SENSATION. Now, though this latter may not exist without the mind, yet it will not thence follow that the former cannot.",
+   "sim": 0.8162,
+   "vias": [
+    "proposicion"
+   ],
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": 6205,
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "texto": "9 When we wish to correct with advantage, and to show another that he errs, we must notice from what side he views the matter, for on that side it is usually true, and admit that truth to him, but reveal to him the side on which it is false. He is satisfied with that, for he sees that he was not mistaken, and that he only failed to see all sides. Now, no one is offended at not seeing everything; but one does not like to be mistaken, and that perhaps arises from the fact that man naturally cannot see everything, and that naturally he cannot err in the side he looks at, since the perceptions of our senses are always true.",
+   "sim": 0.8155,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.92
+  },
+  {
+   "i": 928,
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "texto": "But the Just which arises in transactions between men is an equal in a certain sense, and the Unjust an unequal, only not in the way of that proportion but of arithmetical.[12] Because it makes no difference whether a robbery, for instance, is committed by a good man on a bad or by a bad man on a good, nor whether a good or a bad man has committed adultery: the law looks only to the difference created by the injury and treats the men as previously equal, where the one does and the other suffers injury, or the one has done and the other suffered harm. And so this Unjust, being unequal, the judge endeavours to reduce to equality again, because really when the one party has been wounded and the other has struck him, or the one kills and the other dies, the suffering and the doing are divided into unequal shares; well, the judge tries to restore equality by penalty, thereby taking from the gain.",
+   "sim": 0.8155,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.93
+  },
+  {
+   "i": 3333,
+   "autor": "Agustín",
+   "obra": "The Confessions of St. Augustine",
+   "texto": "When, then, we ask why a crime was done, we believe it not, unless it appear that there might have been some desire of obtaining some of those which we called lower goods, or a fear of losing them. For they are beautiful and comely; although compared with those higher and beatific goods, they be abject and low. A man hath murdered another; why? he loved his wife or his estate; or would rob for his own livelihood; or feared to lose some such things by him; or, wronged, was on fire to be revenged. Would any commit murder upon no cause, delighted simply in murdering? who would believe it? for as for that furious and savage man, of whom it is said that he was gratuitously evil and cruel, yet is the cause assigned; \"lest\" (saith he) \"through idleness hand or heart should grow inactive.\" And to what end? that, through that practice of guilt, he might, having taken the city, attain to honours, empire, riches, and be freed from fear of the laws, and his embarrassments from domestic needs, and consciousness of villainies. So then, not even Catiline himself loved his own villainies, but something else, for whose sake he did them.",
+   "sim": 0.8144,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.95
+  },
+  {
+   "i": 2689,
+   "autor": "Marco Aurelio",
+   "obra": "Meditations",
+   "texto": "VII. From Alexander the Grammarian, to be un-reprovable myself, and not reproachfully to reprehend any man for a barbarism, or a solecism, or any false pronunciation, but dextrously by way of answer, or testimony, or confirmation of the same matter (taking no notice of the word) to utter it as it should have been spoken; or by some other such close and indirect admonition, handsomely and civilly to tell him of it. VIII. Of Fronto, to how much envy and fraud and hypocrisy the state of a tyrannous king is subject unto, and how they who are commonly called εὐπατρίδαι, _i.e._ nobly born, are in some sort incapable, or void of natural affection. IX. Of Alexander the Platonic, not often nor without great necessity to say, or to write to any man in a letter, 'I am not at leisure'; nor in this manner still to put off those duties, which we owe to our friends and acquaintances (to every one in his kind) under pretence of urgent affairs.",
+   "sim": 0.814,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.85
+  },
+  {
+   "i": 4566,
+   "autor": "Maquiavelo",
+   "obra": "Discourses on the First Decade of Titus Livius",
+   "texto": "[9] Nam facetiæ asperæ, quando nimium ex vero traxere, acrem sui memoriam relinquunt. _Tacit. An._ xv. 68. CHAPTER XXVII.—_That prudent Princes and Republics should be content to have obtained a Victory; for, commonly, when they are not, theft-Victory turns to Defeat._ The use of dishonouring language towards an enemy is mostly caused by an insolent humour, bred by victory or the false hope of it, whereby men are oftentimes led not only to speak, but also to act amiss. For such false hopes, when they gain an entry into men’s minds, cause them to overrun their goal, and to miss opportunities for securing a certain good, on the chance of obtaining some thing better, but uncertain. And this, being a matter that deserves attention, because in deceiving themselves men often injure their country, I desire to illustrate it by particular instances, ancient and recent, since mere argument might not place it in so clear a light.",
+   "sim": 0.8139,
+   "vias": [
+    "tesis"
+   ],
+   "postura": "no_trata",
+   "conf": 0.93
+  }
+ ],
+ "autores": {
+  "Kant": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  },
+  "William James": {
+   "veredicto": "apoya",
+   "conf": 0.63,
+   "pasajes": 3,
+   "relevantes": 2,
+   "cuenta": {
+    "apoya": 2,
+    "no_trata": 1
+   }
+  },
+  "Voltaire": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  },
+  "Mill": {
+   "veredicto": "apoya",
+   "conf": 0.43,
+   "pasajes": 4,
+   "relevantes": 1,
+   "cuenta": {
+    "apoya": 1,
+    "no_trata": 3
+   }
+  },
+  "Montaigne": {
+   "veredicto": "contradice",
+   "conf": 0.91,
+   "pasajes": 3,
+   "relevantes": 2,
+   "cuenta": {
+    "contradice": 2,
+    "no_trata": 1
+   }
+  },
+  "Stirner": {
+   "veredicto": "apoya",
+   "conf": 0.93,
+   "pasajes": 5,
+   "relevantes": 2,
+   "cuenta": {
+    "apoya": 2,
+    "no_trata": 3
+   }
+  },
+  "Pascal": {
+   "veredicto": "contradice",
+   "conf": 0.4,
+   "pasajes": 6,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 5,
+    "contradice": 1
+   }
+  },
+  "Spinoza": {
+   "veredicto": "contradice",
+   "conf": 0.95,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 2,
+    "contradice": 1
+   }
+  },
+  "Leibniz": {
+   "veredicto": "contradice",
+   "conf": 0.43,
+   "pasajes": 2,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 1,
+    "contradice": 1
+   }
+  },
+  "Kierkegaard": {
+   "veredicto": "no_trata",
+   "pasajes": 3
+  },
+  "Mandeville": {
+   "veredicto": "contradice",
+   "conf": 0.99,
+   "pasajes": 5,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 4,
+    "contradice": 1
+   }
+  },
+  "Spencer": {
+   "veredicto": "no_trata",
+   "pasajes": 7
+  },
+  "Emerson": {
+   "veredicto": "contradice",
+   "conf": 0.52,
+   "pasajes": 5,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 4,
+    "contradice": 1
+   }
+  },
+  "Platón": {
+   "veredicto": "contradice",
+   "conf": 0.56,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 2,
+    "contradice": 1
+   }
+  },
+  "Zhuangzi": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  },
+  "Cicerón": {
+   "veredicto": "contradice",
+   "conf": 0.69,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1,
+    "no_trata": 2
+   }
+  },
+  "Boecio": {
+   "veredicto": "no_trata",
+   "pasajes": 2
+  },
+  "Rousseau": {
+   "veredicto": "no_trata",
+   "pasajes": 2
+  },
+  "Aristóteles": {
+   "veredicto": "no_trata",
+   "pasajes": 3
+  },
+  "Grocio": {
+   "veredicto": "apoya",
+   "conf": 1.0,
+   "pasajes": 8,
+   "relevantes": 2,
+   "cuenta": {
+    "no_trata": 6,
+    "apoya": 2
+   }
+  },
+  "Hume": {
+   "veredicto": "no_trata",
+   "pasajes": 2
+  },
+  "Maquiavelo": {
+   "veredicto": "no_trata",
+   "pasajes": 3
+  },
+  "Wollstonecraft": {
+   "veredicto": "no_trata",
+   "conf": 0.33,
+   "pasajes": 1,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1
+   }
+  },
+  "Locke": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  },
+  "Berkeley": {
+   "veredicto": "no_trata",
+   "pasajes": 2
+  },
+  "Agustín": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  },
+  "Marco Aurelio": {
+   "veredicto": "no_trata",
+   "pasajes": 1
+  }
+ }
+}
