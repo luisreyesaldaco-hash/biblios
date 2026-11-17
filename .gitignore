@@ -17,3 +17,6 @@ __pycache__/
 oradores/platon_turnos.json
 oradores/platon_unidades.json
 oradores/platon.html
+
+# corpus completo: regenerable con atlas/completo.py
+atlas/completo.json

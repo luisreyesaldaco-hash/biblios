@@ -23,5 +23,20 @@
   "Agustín": "contradice (toda mentira es pecado; en el corpus solo Confesiones)",
   "Tomás de Aquino": "contradice (pero la cuestión de la mentira está en II-II, que no está en el corpus)",
   "Montaigne": "contradice (Of liars: la mentira es un vicio maldito)"
- }
+ },
+ "terminos": [
+  "lie",
+  "lies",
+  "lying",
+  "liar",
+  "falsehood",
+  "deceive",
+  "deceit",
+  "deception",
+  "untruth",
+  "truthfulness",
+  "veracity",
+  "lying promise",
+  "false promise"
+ ]
 }
