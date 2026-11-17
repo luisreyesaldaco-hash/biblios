@@ -38,5 +38,27 @@
   "veracity",
   "lying promise",
   "false promise"
- ]
+ ],
+ "clave_alcance": {
+  "_nota": "Fijada ANTES de correr el filtro de alcance (17-nov-2026). 'expreso' = aborda la excepción (mentir/engañar para evitar un daño o por un fin bueno); 'inferido' = solo habla de la verdad o la mentira en general.",
+  "expreso": [
+   "Mill",
+   "Stirner",
+   "Grocio",
+   "Spinoza",
+   "Platón",
+   "Schopenhauer"
+  ],
+  "inferido": [
+   "Kant",
+   "Montaigne",
+   "Agustín",
+   "Thoreau",
+   "Erasmo",
+   "Confucio",
+   "Santayana",
+   "Emerson"
+  ]
+ },
+ "nucleo": "whether lying or deceiving can be justified in particular cases: to prevent a harm, to protect someone, against an aggressor or a robber, or for the good of others (exceptions to the duty of truthfulness)"
 }

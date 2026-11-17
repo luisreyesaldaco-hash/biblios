@@ -39,7 +39,29 @@
    "veracity",
    "lying promise",
    "false promise"
-  ]
+  ],
+  "clave_alcance": {
+   "_nota": "Fijada ANTES de correr el filtro de alcance (17-nov-2026). 'expreso' = aborda la excepción (mentir/engañar para evitar un daño o por un fin bueno); 'inferido' = solo habla de la verdad o la mentira en general.",
+   "expreso": [
+    "Mill",
+    "Stirner",
+    "Grocio",
+    "Spinoza",
+    "Platón",
+    "Schopenhauer"
+   ],
+   "inferido": [
+    "Kant",
+    "Montaigne",
+    "Agustín",
+    "Thoreau",
+    "Erasmo",
+    "Confucio",
+    "Santayana",
+    "Emerson"
+   ]
+  },
+  "nucleo": "whether lying or deceiving can be justified in particular cases: to prevent a harm, to protect someone, against an aggressor or a robber, or for the good of others (exceptions to the duty of truthfulness)"
  },
  "pasajes": [
   {
@@ -58,7 +80,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.79
+   "conf": 0.85,
+   "alcance": "especifica",
+   "alcance_conf": 0.64
   },
   {
    "i": 1185,
@@ -72,7 +96,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.77
+   "conf": 0.76,
+   "alcance": "especifica",
+   "alcance_conf": 0.32
   },
   {
    "i": 1020,
@@ -101,7 +127,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.25
+   "conf": 0.13,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 20899,
@@ -119,7 +147,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.43
+   "conf": 0.39
   },
   {
    "i": 22926,
@@ -149,7 +177,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.97
+   "conf": 0.97,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 25769,
@@ -165,7 +195,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.76
+   "conf": 0.76,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
   },
   {
    "i": 29040,
@@ -179,7 +211,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.8
+   "conf": 0.8,
+   "alcance": "especifica",
+   "alcance_conf": 0.68
   },
   {
    "i": 13847,
@@ -194,7 +228,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.71
+   "conf": 0.69,
+   "alcance": "especifica",
+   "alcance_conf": 0.88
   },
   {
    "i": 2778,
@@ -208,7 +244,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.63
+   "conf": 0.61
   },
   {
    "i": 31507,
@@ -224,7 +260,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.57
+   "conf": 0.64,
+   "alcance": "general",
+   "alcance_conf": 0.64
   },
   {
    "i": 19594,
@@ -252,7 +290,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.43
+   "conf": 0.53,
+   "alcance": "general",
+   "alcance_conf": 0.78
   },
   {
    "i": 1079,
@@ -269,7 +309,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.35
+   "conf": 0.32,
+   "alcance": "general",
+   "alcance_conf": 0.3
   },
   {
    "i": 12563,
@@ -284,7 +326,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.97
+   "conf": 0.97,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 29208,
@@ -301,7 +345,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.88
+   "conf": 0.85,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
   },
   {
    "i": 12191,
@@ -315,7 +361,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.89
   },
   {
    "i": 12214,
@@ -330,7 +376,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.6
+   "conf": 0.61
   },
   {
    "i": 19748,
@@ -345,7 +391,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.92
   },
   {
    "i": 15225,
@@ -360,7 +406,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.23
+   "conf": 0.19
   },
   {
    "i": 889,
@@ -373,7 +419,9 @@
     "antitesis"
    ],
    "postura": "apoya",
-   "conf": 0.31
+   "conf": 0.17,
+   "alcance": "general",
+   "alcance_conf": 0.1
   },
   {
    "i": 16013,
@@ -403,7 +451,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.41
+   "conf": 0.4
   },
   {
    "i": 17462,
@@ -432,7 +480,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.84
   },
   {
    "i": 4941,
@@ -449,7 +497,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.47
+   "conf": 0.55,
+   "alcance": "general",
+   "alcance_conf": 0.74
   },
   {
    "i": 4527,
@@ -463,7 +513,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.95
   },
   {
    "i": 32008,
@@ -479,7 +529,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.31
+   "conf": 0.29,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 15276,
@@ -493,7 +545,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.92
   },
   {
    "i": 930,
@@ -506,7 +558,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 1.0
+   "conf": 0.97
   },
   {
    "i": 26125,
@@ -523,7 +575,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.8
+   "conf": 0.81,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
   },
   {
    "i": 999,
@@ -536,7 +590,9 @@
     "antitesis"
    ],
    "postura": "apoya",
-   "conf": 0.67
+   "conf": 0.69,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
   },
   {
    "i": 15223,
@@ -550,7 +606,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.25
+   "conf": 0.33,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 29645,
@@ -564,7 +622,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.99
   },
   {
    "i": 29554,
@@ -578,7 +636,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.71
+   "conf": 0.6
   },
   {
    "i": 18169,
@@ -605,7 +663,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.64
+   "conf": 0.71
   },
   {
    "i": 998,
@@ -618,7 +676,9 @@
     "antitesis"
    ],
    "postura": "contradice",
-   "conf": 0.32
+   "conf": 0.36,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 28977,
@@ -632,7 +692,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.84
+   "conf": 0.79
   },
   {
    "i": 13811,
@@ -646,7 +706,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.6
+   "conf": 0.59
   },
   {
    "i": 15635,
@@ -674,7 +734,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.95
   },
   {
    "i": 24095,
@@ -686,8 +746,10 @@
    "vias": [
     "por_autor"
    ],
-   "postura": "no_trata",
-   "conf": 0.32
+   "postura": "contradice",
+   "conf": 0.27,
+   "alcance": "general",
+   "alcance_conf": 0.74
   },
   {
    "i": 918,
@@ -700,7 +762,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.55
+   "conf": 0.65
   },
   {
    "i": 13856,
@@ -713,7 +775,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.32
+   "conf": 0.31,
+   "alcance": "especifica",
+   "alcance_conf": 0.96
   },
   {
    "i": 16532,
@@ -726,7 +790,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.95
   },
   {
    "i": 13444,
@@ -739,7 +803,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.91
   },
   {
    "i": 1259,
@@ -752,7 +816,9 @@
     "tesis"
    ],
    "postura": "apoya",
-   "conf": 0.32
+   "conf": 0.43,
+   "alcance": "especifica",
+   "alcance_conf": 0.34
   },
   {
    "i": 12553,
@@ -766,7 +832,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.4
+   "conf": 0.43,
+   "alcance": "especifica",
+   "alcance_conf": 0.64
   },
   {
    "i": 18255,
@@ -792,7 +860,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 5089,
@@ -805,7 +873,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.6
+   "conf": 0.63,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 3751,
@@ -832,7 +902,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.68
+   "conf": 0.68,
+   "alcance": "general",
+   "alcance_conf": 0.9
   },
   {
    "i": 26126,
@@ -845,7 +917,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.47
+   "conf": 0.52,
+   "alcance": "especifica",
+   "alcance_conf": 0.94
   },
   {
    "i": 7164,
@@ -884,7 +958,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.55
+   "conf": 0.57
   },
   {
    "i": 31383,
@@ -897,7 +971,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.51
+   "conf": 0.49,
+   "alcance": "general",
+   "alcance_conf": 0.12
   },
   {
    "i": 2654,
@@ -910,7 +986,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.72
+   "conf": 0.73
   },
   {
    "i": 28755,
@@ -923,7 +999,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.53
+   "conf": 0.51
   },
   {
    "i": 24376,
@@ -936,7 +1012,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.76
+   "conf": 0.8
   },
   {
    "i": 30858,
@@ -950,7 +1026,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.84
   },
   {
    "i": 20929,
@@ -976,7 +1052,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.96
   },
   {
    "i": 26609,
@@ -989,7 +1065,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.89
   },
   {
    "i": 20548,
@@ -1002,7 +1078,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.63
+   "conf": 0.59
   },
   {
    "i": 26279,
@@ -1015,7 +1091,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.4
+   "conf": 0.33
   },
   {
    "i": 13442,
@@ -1042,7 +1118,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.84
   },
   {
    "i": 23098,
@@ -1055,7 +1131,7 @@
     "por_autor"
    ],
    "postura": "trata_sin_resolver",
-   "conf": 0.16
+   "conf": 0.11
   },
   {
    "i": 26951,
@@ -1068,7 +1144,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 1.0
   },
   {
    "i": 27067,
@@ -1083,7 +1159,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.8
+   "conf": 0.77
   },
   {
    "i": 15796,
@@ -1096,7 +1172,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.87
   },
   {
    "i": 31780,
@@ -1109,7 +1185,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.88
   },
   {
    "i": 13853,
@@ -1122,7 +1198,9 @@
     "tesis"
    ],
    "postura": "apoya",
-   "conf": 0.8
+   "conf": 0.81,
+   "alcance": "especifica",
+   "alcance_conf": 0.96
   },
   {
    "i": 21094,
@@ -1148,7 +1226,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.91
+   "conf": 0.92
   },
   {
    "i": 2776,
@@ -1161,7 +1239,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.76
+   "conf": 0.64,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 30893,
@@ -1174,7 +1254,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.52
+   "conf": 0.49
   },
   {
    "i": 31795,
@@ -1187,7 +1267,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.8
   },
   {
    "i": 29452,
@@ -1200,7 +1280,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.99
   },
   {
    "i": 11853,
@@ -1213,7 +1293,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.92
   },
   {
    "i": 13970,
@@ -1241,7 +1321,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.4
+   "conf": 0.36,
+   "alcance": "general",
+   "alcance_conf": 0.7
   },
   {
    "i": 1375,
@@ -1254,7 +1336,7 @@
     "antitesis"
    ],
    "postura": "no_trata",
-   "conf": 0.15
+   "conf": 0.12
   },
   {
    "i": 17641,
@@ -1267,7 +1349,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.8
   },
   {
    "i": 27176,
@@ -1293,7 +1375,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.61
+   "conf": 0.53
   },
   {
    "i": 35370,
@@ -1307,7 +1389,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.91
+   "conf": 0.92
   },
   {
    "i": 3538,
@@ -1320,7 +1402,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.75
+   "conf": 0.79
   },
   {
    "i": 30788,
@@ -1334,7 +1416,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.29
+   "conf": 0.33
   },
   {
    "i": 12336,
@@ -1360,7 +1442,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.95
+   "conf": 0.97,
+   "alcance": "especifica",
+   "alcance_conf": 0.32
   },
   {
    "i": 32898,
@@ -1373,7 +1457,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.12
+   "conf": 0.19
   },
   {
    "i": 5210,
@@ -1412,7 +1496,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.96
   },
   {
    "i": 19458,
@@ -1426,7 +1510,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.2
+   "conf": 0.24
   },
   {
    "i": 24475,
@@ -1438,8 +1522,10 @@
    "vias": [
     "por_autor"
    ],
-   "postura": "no_trata",
-   "conf": 0.39
+   "postura": "contradice",
+   "conf": 0.33,
+   "alcance": "general",
+   "alcance_conf": 0.8
   },
   {
    "i": 13448,
@@ -1452,7 +1538,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.84
   },
   {
    "i": 18129,
@@ -1465,7 +1551,9 @@
     "antitesis"
    ],
    "postura": "contradice",
-   "conf": 1.0
+   "conf": 1.0,
+   "alcance": "general",
+   "alcance_conf": 0.9
   },
   {
    "i": 12573,
@@ -1478,7 +1566,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.83
   },
   {
    "i": 9706,
@@ -1491,7 +1579,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.59
+   "conf": 0.61
   },
   {
    "i": 13732,
@@ -1517,7 +1605,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.67
+   "conf": 0.75
   },
   {
    "i": 32519,
@@ -1530,7 +1618,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.31
+   "conf": 0.27,
+   "alcance": "general",
+   "alcance_conf": 0.38
   },
   {
    "i": 16855,
@@ -1556,7 +1646,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.48
+   "conf": 0.51
   },
   {
    "i": 2823,
@@ -1569,7 +1659,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 1.0
+   "conf": 0.99
   },
   {
    "i": 32886,
@@ -1582,7 +1672,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.83
+   "conf": 0.84
   },
   {
    "i": 5212,
@@ -1609,7 +1699,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.92
   },
   {
    "i": 446,
@@ -1622,7 +1712,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.61
+   "conf": 0.69
   },
   {
    "i": 33721,
@@ -1635,7 +1725,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.57
+   "conf": 0.65
   },
   {
    "i": 26309,
@@ -1649,7 +1739,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.61
+   "conf": 0.63,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 1546,
@@ -1662,7 +1754,7 @@
     "antitesis"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.79
   },
   {
    "i": 17402,
@@ -1675,7 +1767,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.88
   },
   {
    "i": 17142,
@@ -1702,7 +1794,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.36
+   "conf": 0.35
   },
   {
    "i": 11308,
@@ -1715,7 +1807,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.75
+   "conf": 0.79
   },
   {
    "i": 13070,
@@ -1741,7 +1833,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.33
+   "conf": 0.47
   },
   {
    "i": 19706,
@@ -1768,7 +1860,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.64
   },
   {
    "i": 15228,
@@ -1781,7 +1873,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.81
+   "conf": 0.88
   },
   {
    "i": 16873,
@@ -1794,7 +1886,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.76
   },
   {
    "i": 29993,
@@ -1807,7 +1899,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.97
+   "conf": 0.97,
+   "alcance": "general",
+   "alcance_conf": 0.94
   },
   {
    "i": 24385,
@@ -1820,7 +1914,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.36
+   "conf": 0.43
   },
   {
    "i": 11589,
@@ -1846,7 +1940,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.96
   },
   {
    "i": 11591,
@@ -1859,7 +1953,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.64
   },
   {
    "i": 22086,
@@ -1873,7 +1967,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.47
+   "conf": 0.49,
+   "alcance": "general",
+   "alcance_conf": 0.7
   },
   {
    "i": 14962,
@@ -1886,7 +1982,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.88
   },
   {
    "i": 24244,
@@ -1913,7 +2009,9 @@
     "por_autor"
    ],
    "postura": "contradice",
-   "conf": 0.35
+   "conf": 0.29,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 26390,
@@ -1926,7 +2024,7 @@
     "antitesis"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.85
   },
   {
    "i": 18931,
@@ -1978,7 +2076,9 @@
     "antitesis"
    ],
    "postura": "apoya",
-   "conf": 0.72
+   "conf": 0.71,
+   "alcance": "especifica",
+   "alcance_conf": 0.92
   },
   {
    "i": 13292,
@@ -1991,7 +2091,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.37
+   "conf": 0.52
   },
   {
    "i": 30734,
@@ -2004,7 +2104,7 @@
     "tesis"
    ],
    "postura": "no_trata",
-   "conf": 0.39
+   "conf": 0.4
   },
   {
    "i": 21859,
@@ -2017,7 +2117,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.96
   },
   {
    "i": 21447,
@@ -2030,7 +2130,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.92
+   "conf": 0.93
   },
   {
    "i": 19598,
@@ -2043,7 +2143,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.45
+   "conf": 0.35
   },
   {
    "i": 4517,
@@ -2056,7 +2156,7 @@
     "antitesis"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.97
   },
   {
    "i": 21632,
@@ -2069,7 +2169,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.55
+   "conf": 0.52
   },
   {
    "i": 4948,
@@ -2082,7 +2182,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.25
+   "conf": 0.2,
+   "alcance": "especifica",
+   "alcance_conf": 0.14
   },
   {
    "i": 19595,
@@ -2095,7 +2197,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.89
   },
   {
    "i": 29209,
@@ -2108,7 +2210,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.72
+   "conf": 0.68,
+   "alcance": "especifica",
+   "alcance_conf": 0.9
   },
   {
    "i": 21461,
@@ -2121,7 +2225,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.84
   },
   {
    "i": 3747,
@@ -2160,7 +2264,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.71
+   "conf": 0.67,
+   "alcance": "general",
+   "alcance_conf": 0.28
   },
   {
    "i": 22039,
@@ -2186,7 +2292,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.77
+   "conf": 0.83
   },
   {
    "i": 15124,
@@ -2225,7 +2331,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.8
+   "conf": 0.81
   },
   {
    "i": 15007,
@@ -2251,7 +2357,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.23
+   "conf": 0.41
   },
   {
    "i": 13131,
@@ -2277,7 +2383,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.64
+   "conf": 0.71
   },
   {
    "i": 5652,
@@ -2304,7 +2410,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 6857,
@@ -2317,7 +2423,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.87
   },
   {
    "i": 19001,
@@ -2343,7 +2449,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.95
   },
   {
    "i": 9026,
@@ -2356,7 +2462,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.72
   },
   {
    "i": 5672,
@@ -2382,7 +2488,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.8
+   "conf": 0.73
   },
   {
    "i": 35868,
@@ -2421,7 +2527,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.55
+   "conf": 0.52
   },
   {
    "i": 29729,
@@ -2434,7 +2540,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.92
   },
   {
    "i": 8259,
@@ -2447,7 +2553,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.97
   },
   {
    "i": 15146,
@@ -2460,7 +2566,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.93
   },
   {
    "i": 29203,
@@ -2473,7 +2579,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.32
+   "conf": 0.44,
+   "alcance": "especifica",
+   "alcance_conf": 0.92
   },
   {
    "i": 31034,
@@ -2565,7 +2673,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.87
   },
   {
    "i": 6660,
@@ -2591,7 +2699,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.31
+   "conf": 0.4
   },
   {
    "i": 14519,
@@ -2617,7 +2725,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.52
+   "conf": 0.44
   },
   {
    "i": 36197,
@@ -2643,7 +2751,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.69
+   "conf": 0.64
   },
   {
    "i": 36538,
@@ -2656,7 +2764,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.88
+   "conf": 0.87
   },
   {
    "i": 5670,
@@ -2669,7 +2777,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.76
+   "conf": 0.79
   },
   {
    "i": 5773,
@@ -2682,7 +2790,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.91
   },
   {
    "i": 6711,
@@ -2695,7 +2803,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.83
   },
   {
    "i": 26906,
@@ -2721,7 +2829,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.6
+   "conf": 0.61
   },
   {
    "i": 36185,
@@ -2748,7 +2856,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.51
+   "conf": 0.56
   },
   {
    "i": 22078,
@@ -2761,7 +2869,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.48
+   "conf": 0.37
   },
   {
    "i": 26369,
@@ -2774,7 +2882,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.97
+   "conf": 0.97,
+   "alcance": "general",
+   "alcance_conf": 0.9
   },
   {
    "i": 13831,
@@ -2787,7 +2897,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 1.0
+   "conf": 1.0,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
   },
   {
    "i": 5435,
@@ -2800,7 +2912,9 @@
     "por_autor"
    ],
    "postura": "apoya",
-   "conf": 0.72
+   "conf": 0.71,
+   "alcance": "especifica",
+   "alcance_conf": 0.56
   },
   {
    "i": 12562,
@@ -2813,7 +2927,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.71
   },
   {
    "i": 26250,
@@ -2839,7 +2953,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.8
+   "conf": 0.77,
+   "alcance": "general",
+   "alcance_conf": 0.42
   },
   {
    "i": 33693,
@@ -2852,7 +2968,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.91
   },
   {
    "i": 29725,
@@ -2878,7 +2994,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.71
+   "conf": 0.73
   },
   {
    "i": 515,
@@ -2891,7 +3007,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.87
   },
   {
    "i": 5649,
@@ -2917,7 +3033,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.96
   },
   {
    "i": 12374,
@@ -2943,7 +3059,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.92
+   "conf": 0.96
   },
   {
    "i": 5807,
@@ -2956,7 +3072,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.97
   },
   {
    "i": 2660,
@@ -2969,7 +3085,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.64
+   "conf": 0.72
   },
   {
    "i": 31035,
@@ -2994,8 +3110,8 @@
    "vias": [
     "lexica"
    ],
-   "postura": "no_trata",
-   "conf": 0.36
+   "postura": "trata_sin_resolver",
+   "conf": 0.27
   },
   {
    "i": 6950,
@@ -3008,7 +3124,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.96
   },
   {
    "i": 22979,
@@ -3021,7 +3137,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.61
+   "conf": 0.68,
+   "alcance": "general",
+   "alcance_conf": 0.9
   },
   {
    "i": 5406,
@@ -3047,7 +3165,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.96
   },
   {
    "i": 17916,
@@ -3060,7 +3178,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.72
+   "conf": 0.75
   },
   {
    "i": 32488,
@@ -3073,7 +3191,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.31
+   "conf": 0.33,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 26124,
@@ -3086,7 +3206,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.81
+   "conf": 0.84,
+   "alcance": "general",
+   "alcance_conf": 0.82
   },
   {
    "i": 12424,
@@ -3099,7 +3221,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.91
   },
   {
    "i": 11561,
@@ -3125,7 +3247,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.96
   },
   {
    "i": 27034,
@@ -3151,7 +3273,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.61
+   "conf": 0.59
   },
   {
    "i": 445,
@@ -3164,7 +3286,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.65
   },
   {
    "i": 580,
@@ -3190,7 +3312,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.91
+   "conf": 0.92
   },
   {
    "i": 33254,
@@ -3229,7 +3351,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.84
+   "conf": 0.85
   },
   {
    "i": 28780,
@@ -3242,7 +3364,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.72
+   "conf": 0.79
   },
   {
    "i": 32669,
@@ -3254,8 +3376,8 @@
    "vias": [
     "lexica"
    ],
-   "postura": "no_trata",
-   "conf": 0.08
+   "postura": "trata_sin_resolver",
+   "conf": 0.09
   },
   {
    "i": 5091,
@@ -3268,7 +3390,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.44
+   "conf": 0.52,
+   "alcance": "general",
+   "alcance_conf": 0.94
   },
   {
    "i": 14123,
@@ -3294,7 +3418,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.96
   },
   {
    "i": 12403,
@@ -3320,7 +3444,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.96
   },
   {
    "i": 31705,
@@ -3359,7 +3483,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.81
+   "conf": 0.83
   },
   {
    "i": 546,
@@ -3372,7 +3496,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.88
   },
   {
    "i": 21415,
@@ -3385,7 +3509,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.36
+   "conf": 0.4,
+   "alcance": "general",
+   "alcance_conf": 0.88
   },
   {
    "i": 562,
@@ -3398,7 +3524,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.95
   },
   {
    "i": 16172,
@@ -3424,7 +3550,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.91
+   "conf": 0.89
   },
   {
    "i": 30768,
@@ -3437,7 +3563,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.93
   },
   {
    "i": 33339,
@@ -3463,7 +3589,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.72
+   "conf": 0.69
   },
   {
    "i": 10,
@@ -3489,7 +3615,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.91
+   "conf": 0.92,
+   "alcance": "general",
+   "alcance_conf": 0.94
   },
   {
    "i": 33318,
@@ -3515,7 +3643,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.93
+   "conf": 0.96
   },
   {
    "i": 6625,
@@ -3528,7 +3656,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.63
+   "conf": 0.72
   },
   {
    "i": 14817,
@@ -3554,7 +3682,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.97
   },
   {
    "i": 6449,
@@ -3580,7 +3708,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.65
+   "conf": 0.63
   },
   {
    "i": 11546,
@@ -3593,7 +3721,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.88
   },
   {
    "i": 3969,
@@ -3605,7 +3733,7 @@
    "vias": [
     "lexica"
    ],
-   "postura": "no_trata",
+   "postura": "trata_sin_resolver",
    "conf": 0.29
   },
   {
@@ -3619,7 +3747,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.64
+   "conf": 0.68,
+   "alcance": "general",
+   "alcance_conf": 0.42
   },
   {
    "i": 30376,
@@ -3645,7 +3775,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.85
+   "conf": 0.89
   },
   {
    "i": 12018,
@@ -3671,7 +3801,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.4
+   "conf": 0.47
   },
   {
    "i": 15826,
@@ -3697,7 +3827,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.97
   },
   {
    "i": 3118,
@@ -3710,7 +3840,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.77
+   "conf": 0.67
   },
   {
    "i": 26862,
@@ -3763,7 +3893,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.25
+   "conf": 0.27
   },
   {
    "i": 12239,
@@ -3789,7 +3919,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 1.0
   },
   {
    "i": 30378,
@@ -3802,7 +3932,7 @@
     "por_autor"
    ],
    "postura": "no_trata",
-   "conf": 0.97
+   "conf": 0.99
   },
   {
    "i": 34763,
@@ -3868,7 +3998,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.77
+   "conf": 0.83,
+   "alcance": "general",
+   "alcance_conf": 0.98
   },
   {
    "i": 30331,
@@ -3907,7 +4039,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.37
+   "conf": 0.44
   },
   {
    "i": 303,
@@ -3959,7 +4091,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.59
+   "conf": 0.56,
+   "alcance": "general",
+   "alcance_conf": 0.96
   },
   {
    "i": 5722,
@@ -4024,7 +4158,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.97
   },
   {
    "i": 21482,
@@ -4037,7 +4171,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.89
+   "conf": 0.92
   },
   {
    "i": 19302,
@@ -4050,7 +4184,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.97
   },
   {
    "i": 22080,
@@ -4063,7 +4197,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.64
   },
   {
    "i": 18813,
@@ -4076,7 +4210,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.97
   },
   {
    "i": 472,
@@ -4089,7 +4223,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.36
+   "conf": 0.35,
+   "alcance": "general",
+   "alcance_conf": 1.0
   },
   {
    "i": 26919,
@@ -4102,7 +4238,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.92
+   "conf": 0.89
   },
   {
    "i": 4127,
@@ -4128,7 +4264,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.39
+   "conf": 0.4,
+   "alcance": "especifica",
+   "alcance_conf": 0.62
   },
   {
    "i": 18085,
@@ -4141,7 +4279,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 24154,
@@ -4154,7 +4292,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.69
+   "conf": 0.57
   },
   {
    "i": 16709,
@@ -4180,7 +4318,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.55
+   "conf": 0.45
   },
   {
    "i": 5911,
@@ -4245,7 +4383,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.31
+   "conf": 0.36,
+   "alcance": "general",
+   "alcance_conf": 0.92
   },
   {
    "i": 15097,
@@ -4271,7 +4411,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.67
+   "conf": 0.72
   },
   {
    "i": 443,
@@ -4297,7 +4437,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 0.95
   },
   {
    "i": 24596,
@@ -4349,7 +4489,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 7122,
@@ -4375,7 +4515,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 12705,
@@ -4414,7 +4554,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.92
+   "conf": 0.95
   },
   {
    "i": 22966,
@@ -4427,7 +4567,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.52
+   "conf": 0.51,
+   "alcance": "general",
+   "alcance_conf": 0.94
   },
   {
    "i": 43,
@@ -4453,7 +4595,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.96
+   "conf": 1.0
   },
   {
    "i": 24417,
@@ -4479,7 +4621,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.27
+   "conf": 0.31
   },
   {
    "i": 29501,
@@ -4505,7 +4647,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.61
+   "conf": 0.59
   },
   {
    "i": 5817,
@@ -4518,7 +4660,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.95
+   "conf": 0.96
   },
   {
    "i": 36155,
@@ -4544,7 +4686,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.87
+   "conf": 0.83
   },
   {
    "i": 31056,
@@ -4570,7 +4712,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 0.97
   },
   {
    "i": 4836,
@@ -4583,7 +4725,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.81
+   "conf": 0.79
   },
   {
    "i": 12399,
@@ -4609,7 +4751,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.73
+   "conf": 0.76
   },
   {
    "i": 5549,
@@ -4622,7 +4764,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.68
+   "conf": 0.72
   },
   {
    "i": 33152,
@@ -4648,7 +4790,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.92
+   "conf": 0.95
   },
   {
    "i": 29543,
@@ -4674,7 +4816,9 @@
     "lexica"
    ],
    "postura": "apoya",
-   "conf": 0.41
+   "conf": 0.32,
+   "alcance": "general",
+   "alcance_conf": 0.82
   },
   {
    "i": 19018,
@@ -4726,7 +4870,9 @@
     "lexica"
    ],
    "postura": "contradice",
-   "conf": 0.75
+   "conf": 0.79,
+   "alcance": "general",
+   "alcance_conf": 0.84
   },
   {
    "i": 5954,
@@ -4869,7 +5015,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.59
+   "conf": 0.51
   },
   {
    "i": 33164,
@@ -4986,7 +5132,7 @@
     "lexica"
    ],
    "postura": "no_trata",
-   "conf": 0.99
+   "conf": 1.0
   },
   {
    "i": 64,
@@ -5005,9 +5151,10 @@
  "autores": {
   "Platón": {
    "veredicto": "apoya",
-   "conf": 0.53,
+   "nivel": "expreso",
+   "conf": 0.35,
    "pasajes": 17,
-   "relevantes": 11,
+   "relevantes": 6,
    "cuenta": {
     "contradice": 4,
     "apoya": 7,
@@ -5016,7 +5163,8 @@
   },
   "Tomás de Aquino": {
    "veredicto": "no_trata",
-   "conf": 0.24,
+   "nivel": "inferido",
+   "conf": 0.17,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5026,24 +5174,27 @@
   },
   "Hume": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 9
   },
   "Kant": {
    "veredicto": "contradice",
-   "conf": 0.81,
+   "nivel": "inferido",
+   "conf": 0.84,
    "pasajes": 7,
    "relevantes": 3,
    "cuenta": {
-    "no_trata": 4,
-    "trata_sin_resolver": 1,
-    "contradice": 2
+    "no_trata": 3,
+    "contradice": 3,
+    "trata_sin_resolver": 1
    }
   },
   "Schopenhauer": {
    "veredicto": "apoya",
-   "conf": 0.55,
+   "nivel": "expreso",
+   "conf": 0.76,
    "pasajes": 5,
-   "relevantes": 5,
+   "relevantes": 3,
    "cuenta": {
     "contradice": 2,
     "apoya": 3
@@ -5051,7 +5202,8 @@
   },
   "Stirner": {
    "veredicto": "apoya",
-   "conf": 0.95,
+   "nivel": "expreso",
+   "conf": 0.92,
    "pasajes": 7,
    "relevantes": 4,
    "cuenta": {
@@ -5062,17 +5214,20 @@
   },
   "Grocio": {
    "veredicto": "apoya",
+   "nivel": "expreso",
    "conf": 1.0,
    "pasajes": 13,
    "relevantes": 4,
    "cuenta": {
     "apoya": 4,
-    "no_trata": 9
+    "no_trata": 8,
+    "trata_sin_resolver": 1
    }
   },
   "Aristóteles": {
    "veredicto": "contradice",
-   "conf": 0.6,
+   "nivel": "inferido",
+   "conf": 0.53,
    "pasajes": 8,
    "relevantes": 1,
    "cuenta": {
@@ -5082,7 +5237,8 @@
   },
   "William James": {
    "veredicto": "apoya",
-   "conf": 0.57,
+   "nivel": "inferido",
+   "conf": 0.56,
    "pasajes": 6,
    "relevantes": 2,
    "cuenta": {
@@ -5092,11 +5248,13 @@
   },
   "Voltaire": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Mill": {
    "veredicto": "apoya",
-   "conf": 0.51,
+   "nivel": "inferido",
+   "conf": 0.53,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5106,17 +5264,19 @@
   },
   "Montaigne": {
    "veredicto": "contradice",
-   "conf": 0.87,
+   "nivel": "expreso",
+   "conf": 0.25,
    "pasajes": 6,
-   "relevantes": 2,
+   "relevantes": 1,
    "cuenta": {
     "contradice": 2,
     "no_trata": 4
    }
   },
   "Maquiavelo": {
-   "veredicto": "no_trata",
-   "conf": 0.25,
+   "veredicto": "apoya",
+   "nivel": "inferido",
+   "conf": 0.28,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5126,7 +5286,8 @@
   },
   "Pascal": {
    "veredicto": "contradice",
-   "conf": 0.43,
+   "nivel": "inferido",
+   "conf": 0.44,
    "pasajes": 6,
    "relevantes": 1,
    "cuenta": {
@@ -5136,6 +5297,7 @@
   },
   "Spinoza": {
    "veredicto": "contradice",
+   "nivel": "expreso",
    "conf": 0.93,
    "pasajes": 7,
    "relevantes": 1,
@@ -5146,7 +5308,8 @@
   },
   "Leibniz": {
    "veredicto": "contradice",
-   "conf": 0.47,
+   "nivel": "inferido",
+   "conf": 0.32,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5155,10 +5318,11 @@
    }
   },
   "Cicerón": {
-   "veredicto": "contradice",
-   "conf": 0.53,
+   "veredicto": "apoya",
+   "nivel": "expreso",
+   "conf": 0.47,
    "pasajes": 8,
-   "relevantes": 4,
+   "relevantes": 1,
    "cuenta": {
     "contradice": 3,
     "no_trata": 4,
@@ -5167,22 +5331,26 @@
   },
   "Nietzsche": {
    "veredicto": "apoya",
-   "conf": 0.53,
+   "nivel": "inferido",
+   "conf": 0.45,
    "pasajes": 7,
    "relevantes": 3,
    "cuenta": {
     "apoya": 2,
-    "no_trata": 4,
-    "contradice": 1
+    "no_trata": 3,
+    "contradice": 1,
+    "trata_sin_resolver": 1
    }
   },
   "Kierkegaard": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Mandeville": {
    "veredicto": "contradice",
-   "conf": 0.93,
+   "nivel": "inferido",
+   "conf": 0.92,
    "pasajes": 9,
    "relevantes": 2,
    "cuenta": {
@@ -5192,19 +5360,23 @@
   },
   "Locke": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Zhuangzi": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Boecio": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Rousseau": {
    "veredicto": "no_trata",
-   "conf": 0.36,
+   "nivel": "inferido",
+   "conf": 0.44,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5214,11 +5386,19 @@
   },
   "Wollstonecraft": {
    "veredicto": "no_trata",
-   "pasajes": 7
+   "nivel": "inferido",
+   "conf": 0.33,
+   "pasajes": 7,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 6,
+    "contradice": 1
+   }
   },
   "Spencer": {
    "veredicto": "apoya",
-   "conf": 0.57,
+   "nivel": "inferido",
+   "conf": 0.63,
    "pasajes": 8,
    "relevantes": 1,
    "cuenta": {
@@ -5228,6 +5408,7 @@
   },
   "Emerson": {
    "veredicto": "contradice",
+   "nivel": "inferido",
    "conf": 0.95,
    "pasajes": 8,
    "relevantes": 4,
@@ -5238,11 +5419,13 @@
   },
   "Feuerbach": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Santayana": {
    "veredicto": "contradice",
-   "conf": 0.35,
+   "nivel": "inferido",
+   "conf": 0.37,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5252,7 +5435,8 @@
   },
   "Séneca": {
    "veredicto": "apoya",
-   "conf": 0.81,
+   "nivel": "expreso",
+   "conf": 0.83,
    "pasajes": 6,
    "relevantes": 1,
    "cuenta": {
@@ -5262,23 +5446,28 @@
   },
   "Lao Tse": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Dewey": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Bacon": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Berkeley": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Thoreau": {
    "veredicto": "contradice",
-   "conf": 0.93,
+   "nivel": "inferido",
+   "conf": 0.96,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5288,7 +5477,8 @@
   },
   "Erasmo": {
    "veredicto": "contradice",
-   "conf": 0.52,
+   "nivel": "inferido",
+   "conf": 0.55,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5298,7 +5488,8 @@
   },
   "Adam Smith": {
    "veredicto": "contradice",
-   "conf": 0.61,
+   "nivel": "inferido",
+   "conf": 0.63,
    "pasajes": 6,
    "relevantes": 1,
    "cuenta": {
@@ -5308,19 +5499,23 @@
   },
   "Descartes": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Hegel": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Epicteto": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Agustín": {
    "veredicto": "contradice",
-   "conf": 0.69,
+   "nivel": "inferido",
+   "conf": 0.75,
    "pasajes": 7,
    "relevantes": 2,
    "cuenta": {
@@ -5330,27 +5525,33 @@
   },
   "Marco Aurelio": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Hobbes": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Russell": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Peirce": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Moro": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Confucio": {
-   "veredicto": "contradice",
-   "conf": 0.29,
+   "veredicto": "no_trata",
+   "nivel": "inferido",
+   "conf": 0.35,
    "pasajes": 7,
    "relevantes": 1,
    "cuenta": {
@@ -5360,22 +5561,27 @@
   },
   "Bergson": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Presocráticos": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Plotino": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 7
   },
   "Marx y Engels": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   },
   "Lucrecio": {
    "veredicto": "no_trata",
+   "nivel": "-",
    "pasajes": 6
   }
  }
