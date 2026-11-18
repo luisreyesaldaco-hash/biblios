@@ -32,3 +32,12 @@
   Calicles a favor. Con contexto previo es indispensable. Pendiente: Glaucón sale "a favor" (11) cuando hace de abogado
   del diablo (libro II): la voz no es la creencia.
 - **Siguiente:** mapa visual de las estrellas; que Luis escriba/elija tesis por estrella; examen común con soporte (OK pendiente).
+
+## 17/18-nov-2026 — Dialéctica (Atlas filosófico v0) y el desvío a LegalAtlas
+- **`dialectica/`**: q001 "¿es lícito mentir para salvar la vida de un inocente?" completa. `buscar.py` (e5 en Newton, corpus
+  completo 36,540 pasajes + vía por autor + vía léxica) → `clasificar.py` (Jev a ciegas: postura por pasaje y por autor,
+  expreso vs. inferido con el "núcleo") → `gen_pagina.py` + `pagina_tpl.html` → `q001.html`.
+  Página publicada: https://claude.ai/artifact/4qUBmCfsVjvvyH8YxV4gyY (commit 0fc37c2). Costo total de Jev < $0.02.
+- `.env` pasó a 600 (estaba 644).
+- El método se llevó a jurisprudencia en `~/lab/legalatlas`, que **ya es de la lane legalatlas-c3** (ver su RETOMAR).
+- **Siguiente:** q002 con el mismo método; Glaucón (voz ≠ creencia); mapa visual de las estrellas de Platón.
