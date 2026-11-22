@@ -51,6 +51,6 @@ scp newton-max:biblios-atlas/{vectores.npy,mapa2d.npy,mapa3d.npy,universo.xlsx} 
 Para actualizar: regenerar el html y republicar el mismo archivo (misma URL).
 
 ## Reglas
-- Git local, **sin remoto** (como Knst). Datos grandes fuera de git (`.gitignore`).
+- **Repo PÚBLICO** desde el 22-nov-2026: https://github.com/luisreyesaldaco-hash/biblios (rama `main`). Todo commit se vuelve público al hacer push: nada con derechos (p. ej. el PDF de Attention), ni secretos, ni notas privadas. Datos grandes fuera de git (`.gitignore`).
 - Solo textos de dominio público en `fuentes/`.
 - La filosofía es de Luis; la herramienta mapea y diagnostica, no escribe su sistema.
