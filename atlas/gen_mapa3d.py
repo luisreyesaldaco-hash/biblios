@@ -36,12 +36,43 @@ G, E = R['galaxias']['etiquetas'], R['estrellas']['etiquetas']
 Q, gal_de, gal_de_pt = colapsar(P, G, E, hueco_gal=0.3, abrir=1.5, cielo=1.35)
 for i, p in enumerate(pts):
     p += [gal_de_pt[i], E[i], round(float(Q[i, 0]), 4), round(float(Q[i, 1]), 4), round(float(Q[i, 2]), 4)]
-temas = {'galaxias': {int(k): {'n': v['n'], 'palabras': v['palabras'][:5], 'autores': v['autores']} for k, v in R['galaxias']['grupos'].items()
-                      if int(k) in set(gal_de.values())},
-         'estrellas': {int(k): {'n': v['n'], 'palabras': v['palabras'][:5], 'autores': v['autores'], 'galaxia': gal_de[int(k)]}
+# Nombres legibles: Toponymy + qwen2.5:32b local (nombrar.py, en Newton) -> nombres.json, con 6 correcciones a mano (20-nov-2026).
+NOMBRES = json.load(open('nombres.json'))
+NOMBRES['galaxias'].update({'1': 'Kant y la Crítica de la Ética',    # no es Kant: Schopenhauer, Peirce, James hablando de él
+                            '6': 'Estado, Ley y Gobierno',           # 'Poder Legislativo' le quedaba chico
+                            '7': 'Clase Obrera y Explotación',       # errata
+                            '5': 'Relatos, Anécdotas e Historia'})   # no es Platón (8%): es el género narrativo, anécdota y diálogo
+NOMBRES['estrellas'].update({'55': 'Simpatía y Aprobación Moral',    # repetía el nombre de la galaxia 11 (Smith, Hume)
+                             '26': 'Consuelo y Pérdida Familiar', '58': 'Cantidad y Relatividad'})   # erratas
+# Pasajes centrales de cada estrella: los más cercanos a su centro en los vectores ORIGINALES (en el espacio centrado salían
+# pasajes genéricos), uno por autor para que se vea quién y cómo habla del tema.
+Vn = V / np.linalg.norm(V, axis=1, keepdims=True)
+def centrales(s, k=3):
+    idx = np.where(np.array(E) == s)[0]; cen = Vn[idx].mean(0)
+    out, vistos = [], set()
+    for i in idx[np.argsort(-(Vn[idx] @ cen))]:
+        if F[i]['autor'] in vistos: continue
+        out.append(int(i)); vistos.add(F[i]['autor'])
+        if len(out) == k: break
+    return out
+temas = {'galaxias': {int(k): {'n': v['n'], 'nombre': NOMBRES['galaxias'][k], 'palabras': v['palabras'][:5], 'autores': v['autores']}
+                      for k, v in R['galaxias']['grupos'].items() if int(k) in set(gal_de.values())},
+         'estrellas': {int(k): {'n': v['n'], 'nombre': NOMBRES['estrellas'][k], 'palabras': v['palabras'][:5], 'autores': v['autores'], 'galaxia': gal_de[int(k)], 'rep': centrales(int(k))}
                        for k, v in R['estrellas']['grupos'].items()}}
 print(len(temas['galaxias']), 'galaxias con estrellas,', len(temas['estrellas']), 'estrellas')
-datos = {'autores': autores, 'temas': temas, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
+# Quaestiones sacadas del mapa (dialectica/q*_dialectica.json con 'estrella' en cada pasaje): postura de cada pasaje según Jev.
+import glob
+quaestiones = []
+for f in sorted(glob.glob('../dialectica/q*_dialectica.json')):
+    D = json.load(open(f)); Cq = D['pasajes']
+    if not all('estrella' in c for c in Cq): continue
+    clave = {k: v.split()[0] for k, v in D['q'].get('clave_previa', {}).items() if not k.startswith('_')}
+    quaestiones.append({'id': D['q']['id'], 'prop': D['q']['proposicion_es'], 'estrellas': sorted({int(c['estrella']) for c in Cq}),
+                        'postura': {int(c['i']): c['postura'][0] for c in Cq},   # a(poya) c(ontradice) t(rata sin resolver) n(o trata)
+                        'autores': {a: {'v': v['veredicto'], 'nivel': v['nivel'], 'conf': v.get('conf'), 'clave': clave.get(a),
+                                        'cuenta': v.get('cuenta', {})} for a, v in D['autores'].items() if v['nivel'] != '-'}})
+print(len(quaestiones), 'quaestiones del mapa')
+datos = {'autores': autores, 'temas': temas, 'quaestiones': quaestiones, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
          'obrasAutor': obrasAutor, 'distObras': distObras}
 
 tpl = open('universo3d_tpl.html', encoding='utf-8').read()

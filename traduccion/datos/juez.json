@@ -1,0 +1,6057 @@
+[
+ {
+  "corpus": "attention",
+  "n": 0,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.76
+ },
+ {
+  "corpus": "attention",
+  "n": 0,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "attention",
+  "n": 1,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.72
+ },
+ {
+  "corpus": "attention",
+  "n": 1,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.91
+ },
+ {
+  "corpus": "attention",
+  "n": 2,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.64
+ },
+ {
+  "corpus": "attention",
+  "n": 2,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.38
+ },
+ {
+  "corpus": "attention",
+  "n": 3,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "attention",
+  "n": 3,
+  "traductor": "es_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.22
+ },
+ {
+  "corpus": "attention",
+  "n": 4,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 4,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 5,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.5
+ },
+ {
+  "corpus": "attention",
+  "n": 5,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.89
+ },
+ {
+  "corpus": "attention",
+  "n": 6,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.38
+ },
+ {
+  "corpus": "attention",
+  "n": 6,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.8
+ },
+ {
+  "corpus": "attention",
+  "n": 7,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.73
+ },
+ {
+  "corpus": "attention",
+  "n": 7,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.79
+ },
+ {
+  "corpus": "attention",
+  "n": 8,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.91
+ },
+ {
+  "corpus": "attention",
+  "n": 8,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.92
+ },
+ {
+  "corpus": "attention",
+  "n": 9,
+  "traductor": "es_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "attention",
+  "n": 9,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.73
+ },
+ {
+  "corpus": "attention",
+  "n": 10,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.67
+ },
+ {
+  "corpus": "attention",
+  "n": 10,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.85
+ },
+ {
+  "corpus": "attention",
+  "n": 11,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.8
+ },
+ {
+  "corpus": "attention",
+  "n": 11,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.79
+ },
+ {
+  "corpus": "attention",
+  "n": 12,
+  "traductor": "es_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.11
+ },
+ {
+  "corpus": "attention",
+  "n": 12,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.6
+ },
+ {
+  "corpus": "attention",
+  "n": 13,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 13,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.89
+ },
+ {
+  "corpus": "attention",
+  "n": 14,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.86
+ },
+ {
+  "corpus": "attention",
+  "n": 14,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 15,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.83
+ },
+ {
+  "corpus": "attention",
+  "n": 15,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.92
+ },
+ {
+  "corpus": "attention",
+  "n": 16,
+  "traductor": "es_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.35
+ },
+ {
+  "corpus": "attention",
+  "n": 16,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.74
+ },
+ {
+  "corpus": "attention",
+  "n": 17,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.88
+ },
+ {
+  "corpus": "attention",
+  "n": 17,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.88
+ },
+ {
+  "corpus": "attention",
+  "n": 18,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 18,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 19,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.91
+ },
+ {
+  "corpus": "attention",
+  "n": 19,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.94
+ },
+ {
+  "corpus": "attention",
+  "n": 20,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.86
+ },
+ {
+  "corpus": "attention",
+  "n": 20,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 21,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.86
+ },
+ {
+  "corpus": "attention",
+  "n": 21,
+  "traductor": "es_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "attention",
+  "n": 22,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.53
+ },
+ {
+  "corpus": "attention",
+  "n": 22,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.89
+ },
+ {
+  "corpus": "attention",
+  "n": 23,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.74
+ },
+ {
+  "corpus": "attention",
+  "n": 23,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.85
+ },
+ {
+  "corpus": "attention",
+  "n": 24,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.92
+ },
+ {
+  "corpus": "attention",
+  "n": 24,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.92
+ },
+ {
+  "corpus": "attention",
+  "n": 25,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.92
+ },
+ {
+  "corpus": "attention",
+  "n": 25,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.86
+ },
+ {
+  "corpus": "attention",
+  "n": 26,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.94
+ },
+ {
+  "corpus": "attention",
+  "n": 26,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.91
+ },
+ {
+  "corpus": "attention",
+  "n": 27,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "attention",
+  "n": 27,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.88
+ },
+ {
+  "corpus": "attention",
+  "n": 28,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "attention",
+  "n": 28,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.77
+ },
+ {
+  "corpus": "attention",
+  "n": 29,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.73
+ },
+ {
+  "corpus": "attention",
+  "n": 29,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 30,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.55
+ },
+ {
+  "corpus": "attention",
+  "n": 30,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.82
+ },
+ {
+  "corpus": "attention",
+  "n": 31,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.77
+ },
+ {
+  "corpus": "attention",
+  "n": 31,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.74
+ },
+ {
+  "corpus": "attention",
+  "n": 32,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.76
+ },
+ {
+  "corpus": "attention",
+  "n": 32,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.85
+ },
+ {
+  "corpus": "attention",
+  "n": 33,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.88
+ },
+ {
+  "corpus": "attention",
+  "n": 33,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.83
+ },
+ {
+  "corpus": "attention",
+  "n": 34,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.82
+ },
+ {
+  "corpus": "attention",
+  "n": 34,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.89
+ },
+ {
+  "corpus": "attention",
+  "n": 35,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 35,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.94
+ },
+ {
+  "corpus": "attention",
+  "n": 36,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.88
+ },
+ {
+  "corpus": "attention",
+  "n": 36,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 37,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.83
+ },
+ {
+  "corpus": "attention",
+  "n": 37,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.89
+ },
+ {
+  "corpus": "attention",
+  "n": 38,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "attention",
+  "n": 38,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.94
+ },
+ {
+  "corpus": "attention",
+  "n": 39,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.67
+ },
+ {
+  "corpus": "attention",
+  "n": 39,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "attention",
+  "n": 40,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.97
+ },
+ {
+  "corpus": "attention",
+  "n": 40,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.97
+ },
+ {
+  "corpus": "attention",
+  "n": 41,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.96
+ },
+ {
+  "corpus": "attention",
+  "n": 41,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.91
+ },
+ {
+  "corpus": "attention",
+  "n": 42,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "attention",
+  "n": 42,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.97
+ },
+ {
+  "corpus": "attention",
+  "n": 43,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.5
+ },
+ {
+  "corpus": "attention",
+  "n": 43,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.58
+ },
+ {
+  "corpus": "attention",
+  "n": 44,
+  "traductor": "es_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "attention",
+  "n": 44,
+  "traductor": "es_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "attention",
+  "n": 45,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.83
+ },
+ {
+  "corpus": "attention",
+  "n": 45,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.82
+ },
+ {
+  "corpus": "attention",
+  "n": 46,
+  "traductor": "es_tonto",
+  "juicio": "fiel",
+  "conf": 0.85
+ },
+ {
+  "corpus": "attention",
+  "n": 46,
+  "traductor": "es_bueno",
+  "juicio": "fiel",
+  "conf": 0.83
+ },
+ {
+  "corpus": "hegel",
+  "n": 3,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 3,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 3,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 6,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 1.0
+ },
+ {
+  "corpus": "hegel",
+  "n": 6,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 6,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 7,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 7,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 7,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 8,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 8,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 8,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 10,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 10,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 10,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 12,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 12,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 12,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 13,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 13,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 13,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 14,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 14,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 14,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 15,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 15,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.72
+ },
+ {
+  "corpus": "hegel",
+  "n": 15,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 16,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 16,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 16,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 17,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 17,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 17,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 19,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 19,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 19,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 20,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 20,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 20,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 21,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 21,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 21,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 22,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 22,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 22,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 23,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 23,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 23,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 24,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 24,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 24,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 26,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.72
+ },
+ {
+  "corpus": "hegel",
+  "n": 26,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 26,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 27,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 27,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 27,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 30,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 30,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 30,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 31,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 31,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 31,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 35,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 35,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 35,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 36,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 36,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 36,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 37,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 37,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 37,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 38,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 38,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 38,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 42,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 42,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 42,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 43,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 43,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 43,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 44,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 44,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 44,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 46,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.52
+ },
+ {
+  "corpus": "hegel",
+  "n": 46,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 46,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 47,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 47,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 47,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 48,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 48,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 48,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 49,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 49,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 49,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 50,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 50,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 50,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 51,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 51,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 51,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.49
+ },
+ {
+  "corpus": "hegel",
+  "n": 52,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 52,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 52,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 53,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 53,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 53,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 55,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 55,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 55,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 56,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 56,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 56,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 57,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 57,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 57,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 60,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 60,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 60,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 61,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 61,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 61,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 62,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 62,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 62,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 63,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 63,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 63,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 64,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.64
+ },
+ {
+  "corpus": "hegel",
+  "n": 64,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 64,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 66,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 66,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 66,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 67,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 67,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 67,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 68,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 68,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 68,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 69,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 69,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 69,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 73,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 73,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.07
+ },
+ {
+  "corpus": "hegel",
+  "n": 73,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 74,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 74,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 74,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 75,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 75,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 75,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 76,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 76,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.06
+ },
+ {
+  "corpus": "hegel",
+  "n": 76,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 78,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 78,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 78,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 79,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 79,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 79,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 80,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 80,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 80,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 85,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 85,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 85,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 88,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 88,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 88,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 91,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 91,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 91,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.06
+ },
+ {
+  "corpus": "hegel",
+  "n": 92,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 92,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 92,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 93,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 93,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 93,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 94,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 94,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 94,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 95,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 95,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 95,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 96,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.49
+ },
+ {
+  "corpus": "hegel",
+  "n": 96,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 96,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 97,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 97,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 97,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 98,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 98,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 98,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 99,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 99,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 99,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 100,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 100,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 100,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 101,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 101,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 101,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 102,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 102,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 102,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 106,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 106,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 106,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 107,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 107,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 107,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 108,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 108,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 108,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 109,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 109,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 109,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 110,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 110,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 110,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 111,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 111,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 111,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 112,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 112,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 112,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 113,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.74
+ },
+ {
+  "corpus": "hegel",
+  "n": 113,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 113,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 116,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.49
+ },
+ {
+  "corpus": "hegel",
+  "n": 116,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.07
+ },
+ {
+  "corpus": "hegel",
+  "n": 116,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 117,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 117,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 117,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 120,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 120,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 120,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 121,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 121,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 121,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 122,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 122,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 122,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 123,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 123,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 123,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 124,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 124,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.92
+ },
+ {
+  "corpus": "hegel",
+  "n": 124,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 125,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 125,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.61
+ },
+ {
+  "corpus": "hegel",
+  "n": 125,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 126,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 126,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 126,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 127,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 127,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 127,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.1
+ },
+ {
+  "corpus": "hegel",
+  "n": 128,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.68
+ },
+ {
+  "corpus": "hegel",
+  "n": 128,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 128,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 130,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 130,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 130,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 131,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 131,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 131,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 133,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 133,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 133,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 134,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 134,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 134,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 135,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 135,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 135,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 136,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 136,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 136,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 137,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 137,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 137,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 138,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 138,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 138,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 139,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 139,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.55
+ },
+ {
+  "corpus": "hegel",
+  "n": 139,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 140,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 140,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 140,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 143,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 143,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 143,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.06
+ },
+ {
+  "corpus": "hegel",
+  "n": 144,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 144,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 144,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 145,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 145,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 145,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 146,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 146,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 146,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 147,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 147,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 147,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 148,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 148,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 148,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 149,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 149,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 149,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 150,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 150,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 150,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 151,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 151,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 151,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 152,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 152,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 152,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 153,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 153,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 153,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 154,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 154,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 154,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 155,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.58
+ },
+ {
+  "corpus": "hegel",
+  "n": 155,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 155,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 156,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 156,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 156,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 157,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 157,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 157,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 159,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 159,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 159,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 162,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 162,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 162,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 163,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 163,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 163,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 164,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 164,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 164,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 165,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 165,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 165,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 166,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 166,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 166,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 167,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 167,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 167,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 168,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 168,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 168,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 171,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.55
+ },
+ {
+  "corpus": "hegel",
+  "n": 171,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 171,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 174,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 174,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 174,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 175,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 175,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 175,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 176,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 176,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.49
+ },
+ {
+  "corpus": "hegel",
+  "n": 176,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 177,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 177,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 177,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 178,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 178,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 178,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 179,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 179,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 179,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 180,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.8
+ },
+ {
+  "corpus": "hegel",
+  "n": 180,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 180,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 183,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 183,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 183,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 184,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 184,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 184,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 185,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 185,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 185,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 186,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 186,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 186,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 187,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 187,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 187,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 191,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 191,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 191,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 192,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 192,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 192,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 193,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 193,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 193,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 194,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 194,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 194,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 197,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 197,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 197,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 200,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 200,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.62
+ },
+ {
+  "corpus": "hegel",
+  "n": 200,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 201,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 201,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 201,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 202,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 202,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 202,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.64
+ },
+ {
+  "corpus": "hegel",
+  "n": 203,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 203,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 203,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 204,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.52
+ },
+ {
+  "corpus": "hegel",
+  "n": 204,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 204,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 206,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 206,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 206,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 207,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 207,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 207,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 212,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 212,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 212,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 213,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 213,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 213,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 214,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.64
+ },
+ {
+  "corpus": "hegel",
+  "n": 214,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 214,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 216,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 216,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 216,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 217,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 217,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 217,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 220,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 220,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 220,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 221,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 221,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 221,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 222,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 222,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 222,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 223,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 223,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 223,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 225,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 225,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 225,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 226,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 226,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 226,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 227,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 227,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 227,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 232,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 232,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.72
+ },
+ {
+  "corpus": "hegel",
+  "n": 232,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 233,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.6
+ },
+ {
+  "corpus": "hegel",
+  "n": 233,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.1
+ },
+ {
+  "corpus": "hegel",
+  "n": 233,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.09
+ },
+ {
+  "corpus": "hegel",
+  "n": 234,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 234,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 234,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.1
+ },
+ {
+  "corpus": "hegel",
+  "n": 235,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 235,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 235,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 236,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 236,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 236,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 237,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 237,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 237,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 238,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 238,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 238,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 239,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 239,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 239,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 240,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 240,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 240,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.01
+ },
+ {
+  "corpus": "hegel",
+  "n": 241,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 241,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 241,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 242,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 242,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 242,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 243,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 243,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 243,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 244,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.52
+ },
+ {
+  "corpus": "hegel",
+  "n": 244,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 244,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.55
+ },
+ {
+  "corpus": "hegel",
+  "n": 245,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 245,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 245,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 246,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 246,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 246,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.86
+ },
+ {
+  "corpus": "hegel",
+  "n": 247,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 247,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 247,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 248,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 248,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 248,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.49
+ },
+ {
+  "corpus": "hegel",
+  "n": 249,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 249,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 249,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 251,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 251,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 251,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 254,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 254,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 254,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 261,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 261,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 261,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 262,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 262,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 262,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 263,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 263,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 263,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 265,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 265,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 265,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 266,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.5
+ },
+ {
+  "corpus": "hegel",
+  "n": 266,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 266,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 267,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 267,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 267,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 268,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 268,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 268,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 269,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 269,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 269,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 270,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.77
+ },
+ {
+  "corpus": "hegel",
+  "n": 270,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 270,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 273,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 273,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 273,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 276,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 276,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 276,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 277,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 277,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.61
+ },
+ {
+  "corpus": "hegel",
+  "n": 277,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.62
+ },
+ {
+  "corpus": "hegel",
+  "n": 278,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 278,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 278,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 279,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 279,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 279,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 280,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 280,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 280,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 281,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 281,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 281,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 282,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 282,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.1
+ },
+ {
+  "corpus": "hegel",
+  "n": 282,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.02
+ },
+ {
+  "corpus": "hegel",
+  "n": 283,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 283,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 283,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 284,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 284,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.11
+ },
+ {
+  "corpus": "hegel",
+  "n": 284,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 285,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 285,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 285,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 286,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.52
+ },
+ {
+  "corpus": "hegel",
+  "n": 286,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 286,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 288,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.62
+ },
+ {
+  "corpus": "hegel",
+  "n": 288,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 288,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 289,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 289,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 289,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 290,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 290,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 290,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 291,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 291,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 291,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 292,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 292,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 292,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 293,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.73
+ },
+ {
+  "corpus": "hegel",
+  "n": 293,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 293,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.06
+ },
+ {
+  "corpus": "hegel",
+  "n": 294,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 294,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 294,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 295,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.67
+ },
+ {
+  "corpus": "hegel",
+  "n": 295,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 295,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 297,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.96
+ },
+ {
+  "corpus": "hegel",
+  "n": 297,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 297,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 299,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 299,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 299,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 300,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 300,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 300,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 301,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 301,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 301,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 302,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 302,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 302,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 303,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 303,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 303,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 304,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 304,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 304,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 307,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 307,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 307,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 308,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 308,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 308,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 309,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.66
+ },
+ {
+  "corpus": "hegel",
+  "n": 309,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 309,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 310,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 310,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 310,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 311,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 311,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 311,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 312,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 312,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 312,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 313,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 313,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 313,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 314,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 314,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 314,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 315,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 315,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 315,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 316,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 316,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 316,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 317,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 317,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 317,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 318,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 318,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 318,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.53
+ },
+ {
+  "corpus": "hegel",
+  "n": 319,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 319,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 319,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 322,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 322,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 322,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 323,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 323,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.4
+ },
+ {
+  "corpus": "hegel",
+  "n": 323,
+  "traductor": "en_bueno",
+  "juicio": "error_de_sentido",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 324,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 324,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 324,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 326,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 326,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 326,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 327,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 327,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 327,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 328,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 328,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 328,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 331,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.43
+ },
+ {
+  "corpus": "hegel",
+  "n": 331,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 331,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 332,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 332,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 332,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 333,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 333,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 333,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 334,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 334,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 334,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 335,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 335,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.38
+ },
+ {
+  "corpus": "hegel",
+  "n": 335,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 336,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 336,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 336,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 337,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 337,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.24
+ },
+ {
+  "corpus": "hegel",
+  "n": 337,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 338,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.44
+ },
+ {
+  "corpus": "hegel",
+  "n": 338,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 338,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 339,
+  "traductor": "en_dyde",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 339,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.19
+ },
+ {
+  "corpus": "hegel",
+  "n": 339,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 342,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.46
+ },
+ {
+  "corpus": "hegel",
+  "n": 342,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 342,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 343,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 343,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 343,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 344,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 344,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 344,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 345,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 345,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 345,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 346,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 346,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 346,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 347,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 347,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 347,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 348,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.13
+ },
+ {
+  "corpus": "hegel",
+  "n": 348,
+  "traductor": "en_tonto",
+  "juicio": "error_de_sentido",
+  "conf": 0.48
+ },
+ {
+  "corpus": "hegel",
+  "n": 348,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 349,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.35
+ },
+ {
+  "corpus": "hegel",
+  "n": 349,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 349,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 352,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.34
+ },
+ {
+  "corpus": "hegel",
+  "n": 352,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 352,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.14
+ },
+ {
+  "corpus": "hegel",
+  "n": 353,
+  "traductor": "en_dyde",
+  "juicio": "error_de_sentido",
+  "conf": 0.26
+ },
+ {
+  "corpus": "hegel",
+  "n": 353,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.18
+ },
+ {
+  "corpus": "hegel",
+  "n": 353,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.3
+ },
+ {
+  "corpus": "hegel",
+  "n": 355,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.2
+ },
+ {
+  "corpus": "hegel",
+  "n": 355,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.22
+ },
+ {
+  "corpus": "hegel",
+  "n": 355,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 356,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 356,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 356,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.16
+ },
+ {
+  "corpus": "hegel",
+  "n": 357,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.58
+ },
+ {
+  "corpus": "hegel",
+  "n": 357,
+  "traductor": "en_tonto",
+  "juicio": "desviacion_menor",
+  "conf": 0.37
+ },
+ {
+  "corpus": "hegel",
+  "n": 357,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 358,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.28
+ },
+ {
+  "corpus": "hegel",
+  "n": 358,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.33
+ },
+ {
+  "corpus": "hegel",
+  "n": 358,
+  "traductor": "en_bueno",
+  "juicio": "fiel",
+  "conf": 0.42
+ },
+ {
+  "corpus": "hegel",
+  "n": 359,
+  "traductor": "en_dyde",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ },
+ {
+  "corpus": "hegel",
+  "n": 359,
+  "traductor": "en_tonto",
+  "juicio": "fiel",
+  "conf": 0.25
+ },
+ {
+  "corpus": "hegel",
+  "n": 359,
+  "traductor": "en_bueno",
+  "juicio": "desviacion_menor",
+  "conf": 0.31
+ }
+]

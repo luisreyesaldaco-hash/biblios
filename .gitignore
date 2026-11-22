@@ -20,3 +20,12 @@ oradores/platon.html
 
 # corpus completo: regenerable con atlas/completo.py
 atlas/completo.json
+
+# traduccion/: el paper de Attention tiene derechos (PDF, su texto y sus traducciones NO se publican);
+# las fuentes de Hegel (TEI de Zeno, OCR de Dyde) se re-bajan y los pares se regeneran con preparar_hegel.py
+traduccion/datos/attention.pdf
+traduccion/datos/attention_chunks.json
+traduccion/datos/traducciones.jsonl
+traduccion/datos/hegel_rechtsphilosophie.xml
+traduccion/datos/dyde_1896_ocr.txt
+traduccion/datos/hegel_pares.json

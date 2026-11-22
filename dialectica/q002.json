@@ -1,0 +1,26 @@
+{
+ "id": "q002",
+ "proposicion": "The human will is free: our choices are not determined by antecedent causes, and we could have chosen otherwise.",
+ "proposicion_es": "La voluntad humana es libre: nuestras decisiones no están determinadas por causas anteriores y pudimos haber elegido otra cosa.",
+ "origen": "Primera quaestio sacada del MAPA (20-nov-2026): los pasajes son las dos estrellas del libre albedrío, no una búsqueda.",
+ "nucleo": "whether the will itself is free of determination: whether choices are necessitated by prior causes (motives, character, the laws of nature, fate, God's foreknowledge or predestination), or whether a person could really have chosen otherwise",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (20-nov-2026), de historia de la filosofía. Los COMPATIBILISTAS (libertad = hacer lo que uno quiere, pero la voluntad está determinada) cuentan como 'contradice' frente a esta tesis. Casos difíciles marcados con (?).",
+  "Bergson": "apoya (Ensayo sobre los datos inmediatos: el acto libre brota del yo entero y no es previsible; refuta el determinismo físico y psicológico)",
+  "Tomás de Aquino": "apoya (liberum arbitrium: la voluntad no está necesitada por ningún bien particular, I q.83, I-II q.10/13)",
+  "Kant": "apoya (libertad trascendental: el fenómeno está determinado, pero la voluntad como noúmeno es libre; la ley moral es su ratio cognoscendi)",
+  "Schopenhauer": "contradice (operari sequitur esse: cada acto del individuo es necesario dado su carácter y el motivo; libre solo la Voluntad como cosa en sí)",
+  "Leibniz": "apoya (?) (las razones inclinan sin necesitar; libertad = inteligencia + espontaneidad + contingencia; compatibilista sui generis)",
+  "Voltaire": "contradice (Diccionario, 'Libertad': soy libre de hacer lo que quiero, no de querer lo que quiero)",
+  "Russell": "contradice (determinista y compatibilista: el libre albedrío no exige excepciones a la causalidad)",
+  "William James": "apoya (indeterminismo; 'libre albedrío' significa novedades reales en el mundo, Pragmatismo lect. III)",
+  "Aristóteles": "apoya (lo voluntario y lo que depende de nosotros, Ética Nicomáquea III)",
+  "Hume": "contradice (doctrina de la necesidad; libertad = poder de actuar según la voluntad, Investigación §8)",
+  "Spinoza": "contradice (no hay voluntad libre; los hombres se creen libres porque ignoran las causas, Ética I apéndice, II p48)",
+  "Locke": "contradice (preguntar si la voluntad es libre es impropio; la voluntad la determina el malestar, Ensayo II.21)",
+  "Epicteto": "apoya (la prohairesis no puede ser forzada ni por Zeus)",
+  "Spencer": "contradice (el libre albedrío es una ilusión, Principios de psicología)",
+  "Agustín": "apoya (libre albedrío de la voluntad; en Confesiones la voluntad dividida)",
+  "Boecio": "apoya (la presciencia divina no necesita los actos libres, Consolación V)"
+ }
+}

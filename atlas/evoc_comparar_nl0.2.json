@@ -1,0 +1,633 @@
+{
+ "actual": {
+  "galaxias": {
+   "grupos": 18,
+   "ruido": 0.07212631320267862,
+   "nmi_autor": 0.16768258475440379,
+   "ari_vs_galaxias": 1.0,
+   "nmi_vs_galaxias": 1.0,
+   "ari_vs_estrellas": 0.3988017924458683,
+   "nmi_vs_estrellas": 0.7252925267731397
+  },
+  "estrellas": {
+   "grupos": 78,
+   "ruido": 0.1329483320022117,
+   "nmi_autor": 0.29614141171728603,
+   "ari_vs_galaxias": 0.3988017924458683,
+   "nmi_vs_galaxias": 0.7252925267731398,
+   "ari_vs_estrellas": 1.0,
+   "nmi_vs_estrellas": 1.0
+  }
+ },
+ "evoc": [
+  {
+   "grupos": 446,
+   "ruido": 0.6662775695767034,
+   "nmi_autor": 0.5530431976384617,
+   "ari_vs_galaxias": 0.056033614154078176,
+   "nmi_vs_galaxias": 0.5260638296553553,
+   "ari_vs_estrellas": 0.22861081628103463,
+   "nmi_vs_estrellas": 0.7190051658253048,
+   "mayores": [
+    {
+     "n": 82,
+     "autores": [
+      [
+       "Leibniz",
+       18
+      ],
+      [
+       "Voltaire",
+       10
+      ],
+      [
+       "Tomás de Aquino",
+       9
+      ]
+     ]
+    },
+    {
+     "n": 54,
+     "autores": [
+      [
+       "Stirner",
+       19
+      ],
+      [
+       "Dewey",
+       9
+      ],
+      [
+       "Spencer",
+       4
+      ]
+     ]
+    },
+    {
+     "n": 49,
+     "autores": [
+      [
+       "Descartes",
+       33
+      ],
+      [
+       "Leibniz",
+       3
+      ],
+      [
+       "Agustín",
+       2
+      ]
+     ]
+    },
+    {
+     "n": 47,
+     "autores": [
+      [
+       "Schopenhauer",
+       5
+      ],
+      [
+       "Feuerbach",
+       5
+      ],
+      [
+       "Mill",
+       5
+      ]
+     ]
+    },
+    {
+     "n": 46,
+     "autores": [
+      [
+       "Adam Smith",
+       19
+      ],
+      [
+       "Feuerbach",
+       4
+      ],
+      [
+       "Santayana",
+       4
+      ]
+     ]
+    },
+    {
+     "n": 44,
+     "autores": [
+      [
+       "Hume",
+       44
+      ]
+     ]
+    },
+    {
+     "n": 42,
+     "autores": [
+      [
+       "Cicerón",
+       19
+      ],
+      [
+       "Maquiavelo",
+       11
+      ],
+      [
+       "Aristóteles",
+       7
+      ]
+     ]
+    },
+    {
+     "n": 41,
+     "autores": [
+      [
+       "Locke",
+       41
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "grupos": 208,
+   "ruido": 0.6889475947656202,
+   "nmi_autor": 0.5234159330320892,
+   "ari_vs_galaxias": 0.10892300867631771,
+   "nmi_vs_galaxias": 0.5674255277949518,
+   "ari_vs_estrellas": 0.37057003865002824,
+   "nmi_vs_estrellas": 0.7550337919763177,
+   "mayores": [
+    {
+     "n": 112,
+     "autores": [
+      [
+       "Cicerón",
+       22
+      ],
+      [
+       "Maquiavelo",
+       16
+      ],
+      [
+       "Emerson",
+       11
+      ]
+     ]
+    },
+    {
+     "n": 82,
+     "autores": [
+      [
+       "Leibniz",
+       18
+      ],
+      [
+       "Voltaire",
+       10
+      ],
+      [
+       "Tomás de Aquino",
+       9
+      ]
+     ]
+    },
+    {
+     "n": 72,
+     "autores": [
+      [
+       "Presocráticos",
+       34
+      ],
+      [
+       "Lucrecio",
+       13
+      ],
+      [
+       "Bacon",
+       9
+      ]
+     ]
+    },
+    {
+     "n": 66,
+     "autores": [
+      [
+       "Bergson",
+       26
+      ],
+      [
+       "Russell",
+       13
+      ],
+      [
+       "Agustín",
+       7
+      ]
+     ]
+    },
+    {
+     "n": 66,
+     "autores": [
+      [
+       "Bacon",
+       29
+      ],
+      [
+       "Berkeley",
+       13
+      ],
+      [
+       "Spencer",
+       6
+      ]
+     ]
+    },
+    {
+     "n": 62,
+     "autores": [
+      [
+       "Locke",
+       45
+      ],
+      [
+       "Hobbes",
+       9
+      ],
+      [
+       "Mill",
+       5
+      ]
+     ]
+    },
+    {
+     "n": 62,
+     "autores": [
+      [
+       "Berkeley",
+       62
+      ]
+     ]
+    },
+    {
+     "n": 58,
+     "autores": [
+      [
+       "Agustín",
+       12
+      ],
+      [
+       "Séneca",
+       7
+      ],
+      [
+       "Zhuangzi",
+       5
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "grupos": 75,
+   "ruido": 0.7267309700804817,
+   "nmi_autor": 0.47121261571998563,
+   "ari_vs_galaxias": 0.2709706580300708,
+   "nmi_vs_galaxias": 0.639701202604654,
+   "ari_vs_estrellas": 0.5730108246761286,
+   "nmi_vs_estrellas": 0.7999834232215658,
+   "mayores": [
+    {
+     "n": 274,
+     "autores": [
+      [
+       "Rousseau",
+       48
+      ],
+      [
+       "Mandeville",
+       41
+      ],
+      [
+       "Lucrecio",
+       13
+      ]
+     ]
+    },
+    {
+     "n": 176,
+     "autores": [
+      [
+       "Spinoza",
+       62
+      ],
+      [
+       "Kierkegaard",
+       16
+      ],
+      [
+       "Tomás de Aquino",
+       15
+      ]
+     ]
+    },
+    {
+     "n": 172,
+     "autores": [
+      [
+       "Aristóteles",
+       61
+      ],
+      [
+       "Rousseau",
+       24
+      ],
+      [
+       "Cicerón",
+       14
+      ]
+     ]
+    },
+    {
+     "n": 157,
+     "autores": [
+      [
+       "Plotino",
+       24
+      ],
+      [
+       "Leibniz",
+       22
+      ],
+      [
+       "Hegel",
+       15
+      ]
+     ]
+    },
+    {
+     "n": 141,
+     "autores": [
+      [
+       "Presocráticos",
+       51
+      ],
+      [
+       "Lucrecio",
+       32
+      ],
+      [
+       "Cicerón",
+       10
+      ]
+     ]
+    },
+    {
+     "n": 114,
+     "autores": [
+      [
+       "Zhuangzi",
+       18
+      ],
+      [
+       "Confucio",
+       16
+      ],
+      [
+       "Montaigne",
+       6
+      ]
+     ]
+    },
+    {
+     "n": 114,
+     "autores": [
+      [
+       "Schopenhauer",
+       39
+      ],
+      [
+       "Kierkegaard",
+       27
+      ],
+      [
+       "Bergson",
+       11
+      ]
+     ]
+    },
+    {
+     "n": 112,
+     "autores": [
+      [
+       "Cicerón",
+       22
+      ],
+      [
+       "Maquiavelo",
+       16
+      ],
+      [
+       "Emerson",
+       11
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "grupos": 16,
+   "ruido": 0.7732383117282055,
+   "nmi_autor": 0.2822204035466568,
+   "ari_vs_galaxias": 0.6296311272058186,
+   "nmi_vs_galaxias": 0.7193151329436234,
+   "ari_vs_estrellas": 0.4661700331162643,
+   "nmi_vs_estrellas": 0.7127348534359939,
+   "mayores": [
+    {
+     "n": 622,
+     "autores": [
+      [
+       "Pascal",
+       74
+      ],
+      [
+       "Hobbes",
+       55
+      ],
+      [
+       "Agustín",
+       42
+      ]
+     ]
+    },
+    {
+     "n": 499,
+     "autores": [
+      [
+       "Locke",
+       99
+      ],
+      [
+       "Aristóteles",
+       77
+      ],
+      [
+       "Rousseau",
+       68
+      ]
+     ]
+    },
+    {
+     "n": 350,
+     "autores": [
+      [
+       "Zhuangzi",
+       35
+      ],
+      [
+       "Cicerón",
+       25
+      ],
+      [
+       "Séneca",
+       25
+      ]
+     ]
+    },
+    {
+     "n": 341,
+     "autores": [
+      [
+       "Spinoza",
+       75
+      ],
+      [
+       "Adam Smith",
+       32
+      ],
+      [
+       "Tomás de Aquino",
+       28
+      ]
+     ]
+    },
+    {
+     "n": 274,
+     "autores": [
+      [
+       "Rousseau",
+       48
+      ],
+      [
+       "Mandeville",
+       41
+      ],
+      [
+       "Lucrecio",
+       13
+      ]
+     ]
+    },
+    {
+     "n": 197,
+     "autores": [
+      [
+       "Russell",
+       33
+      ],
+      [
+       "Berkeley",
+       20
+      ],
+      [
+       "Plotino",
+       16
+      ]
+     ]
+    },
+    {
+     "n": 188,
+     "autores": [
+      [
+       "Agustín",
+       21
+      ],
+      [
+       "Séneca",
+       19
+      ],
+      [
+       "Marco Aurelio",
+       10
+      ]
+     ]
+    },
+    {
+     "n": 157,
+     "autores": [
+      [
+       "Hume",
+       17
+      ],
+      [
+       "Plotino",
+       15
+      ],
+      [
+       "Kant",
+       15
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "grupos": 2,
+   "ruido": 0.7537629784358297,
+   "nmi_autor": 0.06456654404897122,
+   "ari_vs_galaxias": 0.19805171593591236,
+   "nmi_vs_galaxias": 0.3605749603513425,
+   "ari_vs_estrellas": 0.07895503736679554,
+   "nmi_vs_estrellas": 0.2848197749854673,
+   "mayores": [
+    {
+     "n": 2306,
+     "autores": [
+      [
+       "Aristóteles",
+       120
+      ],
+      [
+       "Locke",
+       112
+      ],
+      [
+       "Cicerón",
+       99
+      ]
+     ]
+    },
+    {
+     "n": 1702,
+     "autores": [
+      [
+       "Plotino",
+       92
+      ],
+      [
+       "Presocráticos",
+       85
+      ],
+      [
+       "Pascal",
+       82
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}
