@@ -1,0 +1,334 @@
+{
+ "id": "s38_0",
+ "negacion": "The principle of utility is not the sole criterion for moral action.",
+ "pasajes": [
+  {
+   "i": "892",
+   "autor": "Aristóteles",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "9795",
+   "autor": "Kant",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "11772",
+   "autor": "Mill",
+   "postura": "trata_sin_resolver",
+   "negada": "contradice",
+   "conf_neg": 0.48,
+   "coherente": false
+  },
+  {
+   "i": "11773",
+   "autor": "Mill",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.47,
+   "coherente": true
+  },
+  {
+   "i": "11775",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "11781",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.63,
+   "coherente": true
+  },
+  {
+   "i": "11782",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "11788",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "11789",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "11807",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.45,
+   "coherente": true
+  },
+  {
+   "i": "11809",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "11810",
+   "autor": "Mill",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.44,
+   "coherente": true
+  },
+  {
+   "i": "11811",
+   "autor": "Mill",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "11812",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.69,
+   "coherente": true
+  },
+  {
+   "i": "11814",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "11815",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "13474",
+   "autor": "Marx y Engels",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.27,
+   "coherente": true
+  },
+  {
+   "i": "13475",
+   "autor": "Marx y Engels",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.48,
+   "coherente": false
+  },
+  {
+   "i": "13477",
+   "autor": "Marx y Engels",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.52,
+   "coherente": true
+  },
+  {
+   "i": "13711",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "13776",
+   "autor": "Spencer",
+   "postura": "trata_sin_resolver",
+   "negada": "apoya",
+   "conf_neg": 0.65,
+   "coherente": false
+  },
+  {
+   "i": "13777",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.44,
+   "coherente": true
+  },
+  {
+   "i": "13778",
+   "autor": "Spencer",
+   "postura": "trata_sin_resolver",
+   "negada": "apoya",
+   "conf_neg": 0.67,
+   "coherente": false
+  },
+  {
+   "i": "13779",
+   "autor": "Spencer",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.37,
+   "coherente": true
+  },
+  {
+   "i": "13780",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "13781",
+   "autor": "Spencer",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.28,
+   "coherente": true
+  },
+  {
+   "i": "13782",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "13783",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "13784",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.68,
+   "coherente": false
+  },
+  {
+   "i": "13785",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.45,
+   "coherente": true
+  },
+  {
+   "i": "13786",
+   "autor": "Spencer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.09,
+   "coherente": true
+  },
+  {
+   "i": "13787",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.84,
+   "coherente": true
+  },
+  {
+   "i": "13788",
+   "autor": "Spencer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.27,
+   "coherente": true
+  },
+  {
+   "i": "13789",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "13791",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.35,
+   "coherente": false
+  },
+  {
+   "i": "13792",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "13795",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "13796",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.23,
+   "coherente": true
+  },
+  {
+   "i": "13797",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.35,
+   "coherente": true
+  },
+  {
+   "i": "13798",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.28,
+   "coherente": true
+  },
+  {
+   "i": "15763",
+   "autor": "Santayana",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.93,
+   "coherente": true
+  }
+ ]
+}

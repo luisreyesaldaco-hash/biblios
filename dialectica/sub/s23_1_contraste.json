@@ -1,0 +1,286 @@
+{
+ "id": "s23_1",
+ "negacion": "The highest good in life is not the pursuit of pleasure.",
+ "pasajes": [
+  {
+   "i": "1877",
+   "autor": "Cicerón",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.72,
+   "coherente": true
+  },
+  {
+   "i": "1879",
+   "autor": "Cicerón",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.59,
+   "coherente": true
+  },
+  {
+   "i": "2315",
+   "autor": "Séneca",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.52,
+   "coherente": true
+  },
+  {
+   "i": "2325",
+   "autor": "Séneca",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.61,
+   "coherente": true
+  },
+  {
+   "i": "2343",
+   "autor": "Séneca",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.25,
+   "coherente": true
+  },
+  {
+   "i": "2347",
+   "autor": "Séneca",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.59,
+   "coherente": true
+  },
+  {
+   "i": "2672",
+   "autor": "Marco Aurelio",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "2673",
+   "autor": "Marco Aurelio",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "2674",
+   "autor": "Marco Aurelio",
+   "postura": "contradice",
+   "negada": "no_trata",
+   "conf_neg": 0.47,
+   "coherente": false
+  },
+  {
+   "i": "3426",
+   "autor": "Agustín",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "3705",
+   "autor": "Boecio",
+   "postura": "trata_sin_resolver",
+   "negada": "apoya",
+   "conf_neg": 0.21,
+   "coherente": false
+  },
+  {
+   "i": "4073",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.76,
+   "coherente": true
+  },
+  {
+   "i": "6328",
+   "autor": "Pascal",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "6330",
+   "autor": "Pascal",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.37,
+   "coherente": true
+  },
+  {
+   "i": "7637",
+   "autor": "Mandeville",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.69,
+   "coherente": true
+  },
+  {
+   "i": "7682",
+   "autor": "Mandeville",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.24,
+   "coherente": true
+  },
+  {
+   "i": "9403",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "9562",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "9563",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.31,
+   "coherente": true
+  },
+  {
+   "i": "9570",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.47,
+   "coherente": true
+  },
+  {
+   "i": "9571",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "9575",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.52,
+   "coherente": true
+  },
+  {
+   "i": "9579",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.51,
+   "coherente": false
+  },
+  {
+   "i": "9581",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.57,
+   "coherente": true
+  },
+  {
+   "i": "9583",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.28,
+   "coherente": true
+  },
+  {
+   "i": "9584",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "contradice",
+   "conf_neg": 0.23,
+   "coherente": false
+  },
+  {
+   "i": "9585",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.36,
+   "coherente": true
+  },
+  {
+   "i": "9596",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.29,
+   "coherente": true
+  },
+  {
+   "i": "9830",
+   "autor": "Kant",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.45,
+   "coherente": true
+  },
+  {
+   "i": "9838",
+   "autor": "Kant",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "11182",
+   "autor": "Emerson",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.65,
+   "coherente": true
+  },
+  {
+   "i": "11184",
+   "autor": "Emerson",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "11776",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.51,
+   "coherente": false
+  },
+  {
+   "i": "11848",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.2,
+   "coherente": true
+  },
+  {
+   "i": "12136",
+   "autor": "Stirner",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.2,
+   "coherente": true
+  }
+ ]
+}

@@ -1,0 +1,590 @@
+{
+ "id": "s33_1",
+ "negacion": "The human will does not necessarily tend toward the good: a person can knowingly will what they believe to be evil.",
+ "pasajes": [
+  {
+   "i": "2629",
+   "autor": "Epicteto",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.55,
+   "coherente": false
+  },
+  {
+   "i": "3018",
+   "autor": "Plotino",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.56,
+   "coherente": true
+  },
+  {
+   "i": "3025",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.33,
+   "coherente": false
+  },
+  {
+   "i": "3158",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.33,
+   "coherente": false
+  },
+  {
+   "i": "3378",
+   "autor": "Agustín",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.33,
+   "coherente": false
+  },
+  {
+   "i": "3818",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.35,
+   "coherente": true
+  },
+  {
+   "i": "3852",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.44,
+   "coherente": true
+  },
+  {
+   "i": "4010",
+   "autor": "Tomás de Aquino",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.24,
+   "coherente": true
+  },
+  {
+   "i": "4011",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.32,
+   "coherente": true
+  },
+  {
+   "i": "4012",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.47,
+   "coherente": true
+  },
+  {
+   "i": "4013",
+   "autor": "Tomás de Aquino",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.39,
+   "coherente": false
+  },
+  {
+   "i": "4014",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.35,
+   "coherente": true
+  },
+  {
+   "i": "4015",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "4018",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.51,
+   "coherente": false
+  },
+  {
+   "i": "4020",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.4,
+   "coherente": true
+  },
+  {
+   "i": "4021",
+   "autor": "Tomás de Aquino",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.53,
+   "coherente": false
+  },
+  {
+   "i": "4081",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.79,
+   "coherente": false
+  },
+  {
+   "i": "4084",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "4086",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.51,
+   "coherente": false
+  },
+  {
+   "i": "4087",
+   "autor": "Tomás de Aquino",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.23,
+   "coherente": true
+  },
+  {
+   "i": "4092",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.2,
+   "coherente": false
+  },
+  {
+   "i": "4093",
+   "autor": "Tomás de Aquino",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.55,
+   "coherente": true
+  },
+  {
+   "i": "4096",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "4102",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.81,
+   "coherente": true
+  },
+  {
+   "i": "4103",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.75,
+   "coherente": true
+  },
+  {
+   "i": "4104",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.39,
+   "coherente": true
+  },
+  {
+   "i": "4105",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "4106",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "4107",
+   "autor": "Tomás de Aquino",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.65,
+   "coherente": false
+  },
+  {
+   "i": "4166",
+   "autor": "Tomás de Aquino",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.48,
+   "coherente": false
+  },
+  {
+   "i": "4167",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.21,
+   "coherente": false
+  },
+  {
+   "i": "4664",
+   "autor": "Moro",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.19,
+   "coherente": true
+  },
+  {
+   "i": "5437",
+   "autor": "Grocio",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.19,
+   "coherente": true
+  },
+  {
+   "i": "6711",
+   "autor": "Spinoza",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.84,
+   "coherente": true
+  },
+  {
+   "i": "7359",
+   "autor": "Leibniz",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.16,
+   "coherente": false
+  },
+  {
+   "i": "7361",
+   "autor": "Leibniz",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "7497",
+   "autor": "Leibniz",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.81,
+   "coherente": false
+  },
+  {
+   "i": "7591",
+   "autor": "Leibniz",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.37,
+   "coherente": false
+  },
+  {
+   "i": "8712",
+   "autor": "Hume",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.19,
+   "coherente": true
+  },
+  {
+   "i": "9468",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "9471",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.68,
+   "coherente": true
+  },
+  {
+   "i": "9474",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9729",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.69,
+   "coherente": true
+  },
+  {
+   "i": "9750",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.61,
+   "coherente": false
+  },
+  {
+   "i": "9796",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.2,
+   "coherente": true
+  },
+  {
+   "i": "9797",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.56,
+   "coherente": false
+  },
+  {
+   "i": "9828",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "9835",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.41,
+   "coherente": true
+  },
+  {
+   "i": "9843",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "10678",
+   "autor": "Hegel",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.43,
+   "coherente": true
+  },
+  {
+   "i": "10752",
+   "autor": "Schopenhauer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.36,
+   "coherente": true
+  },
+  {
+   "i": "10799",
+   "autor": "Schopenhauer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.55,
+   "coherente": true
+  },
+  {
+   "i": "10818",
+   "autor": "Schopenhauer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.51,
+   "coherente": true
+  },
+  {
+   "i": "11011",
+   "autor": "Schopenhauer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.53,
+   "coherente": true
+  },
+  {
+   "i": "11102",
+   "autor": "Emerson",
+   "postura": "apoya",
+   "negada": "no_trata",
+   "conf_neg": 0.45,
+   "coherente": false
+  },
+  {
+   "i": "11135",
+   "autor": "Emerson",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.6,
+   "coherente": true
+  },
+  {
+   "i": "11231",
+   "autor": "Emerson",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "11306",
+   "autor": "Emerson",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "11307",
+   "autor": "Emerson",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.24,
+   "coherente": true
+  },
+  {
+   "i": "11444",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "11447",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.27,
+   "coherente": true
+  },
+  {
+   "i": "11448",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.39,
+   "coherente": true
+  },
+  {
+   "i": "11449",
+   "autor": "Feuerbach",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.35,
+   "coherente": false
+  },
+  {
+   "i": "11462",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "11564",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.71,
+   "coherente": true
+  },
+  {
+   "i": "11918",
+   "autor": "Mill",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.47,
+   "coherente": true
+  },
+  {
+   "i": "13487",
+   "autor": "Marx y Engels",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.67,
+   "coherente": true
+  },
+  {
+   "i": "13488",
+   "autor": "Marx y Engels",
+   "postura": "no_trata",
+   "negada": "apoya",
+   "conf_neg": 0.53,
+   "coherente": false
+  },
+  {
+   "i": "13490",
+   "autor": "Marx y Engels",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "13545",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.8,
+   "coherente": true
+  },
+  {
+   "i": "13546",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.41,
+   "coherente": true
+  },
+  {
+   "i": "13547",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.37,
+   "coherente": true
+  },
+  {
+   "i": "14244",
+   "autor": "William James",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.76,
+   "coherente": true
+  }
+ ]
+}

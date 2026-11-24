@@ -1,0 +1,590 @@
+{
+ "id": "s56_0",
+ "negacion": "The ultimate moral principle is not derived from human rationality alone but depends on divine authority.",
+ "pasajes": [
+  {
+   "i": "939",
+   "autor": "Aristóteles",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "3760",
+   "autor": "Boecio",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.39,
+   "coherente": true
+  },
+  {
+   "i": "4074",
+   "autor": "Tomás de Aquino",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.61,
+   "coherente": true
+  },
+  {
+   "i": "4120",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.61,
+   "coherente": true
+  },
+  {
+   "i": "4123",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.92,
+   "coherente": true
+  },
+  {
+   "i": "4152",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.73,
+   "coherente": true
+  },
+  {
+   "i": "6994",
+   "autor": "Locke",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "8994",
+   "autor": "Rousseau",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.53,
+   "coherente": true
+  },
+  {
+   "i": "9016",
+   "autor": "Rousseau",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.92,
+   "coherente": true
+  },
+  {
+   "i": "9080",
+   "autor": "Rousseau",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "9489",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.75,
+   "coherente": true
+  },
+  {
+   "i": "9497",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "9634",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.84,
+   "coherente": true
+  },
+  {
+   "i": "9636",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "no_trata",
+   "conf_neg": 0.63,
+   "coherente": false
+  },
+  {
+   "i": "9739",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9740",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9741",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "9752",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "no_trata",
+   "conf_neg": 0.25,
+   "coherente": false
+  },
+  {
+   "i": "9754",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.72,
+   "coherente": true
+  },
+  {
+   "i": "9755",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.71,
+   "coherente": true
+  },
+  {
+   "i": "9758",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.92,
+   "coherente": true
+  },
+  {
+   "i": "9759",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "9760",
+   "autor": "Kant",
+   "postura": "trata_sin_resolver",
+   "negada": "contradice",
+   "conf_neg": 0.32,
+   "coherente": false
+  },
+  {
+   "i": "9762",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "9763",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "9765",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "9766",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "9767",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "9768",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "9769",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9770",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "9771",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.8,
+   "coherente": true
+  },
+  {
+   "i": "9772",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.71,
+   "coherente": true
+  },
+  {
+   "i": "9773",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.92,
+   "coherente": true
+  },
+  {
+   "i": "9774",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.92,
+   "coherente": true
+  },
+  {
+   "i": "9775",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9776",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "9777",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "9778",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "9781",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.63,
+   "coherente": true
+  },
+  {
+   "i": "9783",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "9785",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "9789",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.73,
+   "coherente": true
+  },
+  {
+   "i": "9798",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "9799",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "9800",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.83,
+   "coherente": true
+  },
+  {
+   "i": "9814",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.83,
+   "coherente": true
+  },
+  {
+   "i": "9815",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "9816",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "9817",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.43,
+   "coherente": true
+  },
+  {
+   "i": "9818",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.68,
+   "coherente": true
+  },
+  {
+   "i": "9820",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.49,
+   "coherente": true
+  },
+  {
+   "i": "9821",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "9829",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9845",
+   "autor": "Kant",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.8,
+   "coherente": true
+  },
+  {
+   "i": "10677",
+   "autor": "Hegel",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.75,
+   "coherente": true
+  },
+  {
+   "i": "10688",
+   "autor": "Hegel",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.51,
+   "coherente": true
+  },
+  {
+   "i": "11092",
+   "autor": "Emerson",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.44,
+   "coherente": true
+  },
+  {
+   "i": "11799",
+   "autor": "Mill",
+   "postura": "trata_sin_resolver",
+   "negada": "contradice",
+   "conf_neg": 0.28,
+   "coherente": false
+  },
+  {
+   "i": "11802",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "11804",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.79,
+   "coherente": true
+  },
+  {
+   "i": "11907",
+   "autor": "Mill",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "12391",
+   "autor": "Stirner",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.53,
+   "coherente": true
+  },
+  {
+   "i": "12766",
+   "autor": "Kierkegaard",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "13569",
+   "autor": "Spencer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.64,
+   "coherente": true
+  },
+  {
+   "i": "13663",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.49,
+   "coherente": true
+  },
+  {
+   "i": "13751",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.33,
+   "coherente": false
+  },
+  {
+   "i": "14273",
+   "autor": "William James",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.53,
+   "coherente": true
+  },
+  {
+   "i": "14589",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.51,
+   "coherente": true
+  },
+  {
+   "i": "15371",
+   "autor": "Dewey",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.47,
+   "coherente": false
+  },
+  {
+   "i": "15373",
+   "autor": "Dewey",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.44,
+   "coherente": true
+  },
+  {
+   "i": "15448",
+   "autor": "Dewey",
+   "postura": "trata_sin_resolver",
+   "negada": "no_trata",
+   "conf_neg": 0.33,
+   "coherente": false
+  },
+  {
+   "i": "15745",
+   "autor": "Santayana",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.2,
+   "coherente": true
+  }
+ ]
+}

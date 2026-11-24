@@ -1,0 +1,278 @@
+{
+ "id": "s23_2",
+ "negacion": "Virtue cannot be taught.",
+ "pasajes": [
+  {
+   "i": "945",
+   "autor": "Aristóteles",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.51,
+   "coherente": true
+  },
+  {
+   "i": "989",
+   "autor": "Aristóteles",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.64,
+   "coherente": true
+  },
+  {
+   "i": "1284",
+   "autor": "Zhuangzi",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.27,
+   "coherente": false
+  },
+  {
+   "i": "1979",
+   "autor": "Cicerón",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "3116",
+   "autor": "Plotino",
+   "postura": "trata_sin_resolver",
+   "negada": "no_trata",
+   "conf_neg": 0.25,
+   "coherente": false
+  },
+  {
+   "i": "3117",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.81,
+   "coherente": true
+  },
+  {
+   "i": "3118",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.55,
+   "coherente": true
+  },
+  {
+   "i": "3119",
+   "autor": "Plotino",
+   "postura": "trata_sin_resolver",
+   "negada": "no_trata",
+   "conf_neg": 0.25,
+   "coherente": false
+  },
+  {
+   "i": "3120",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.67,
+   "coherente": true
+  },
+  {
+   "i": "3123",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.69,
+   "coherente": true
+  },
+  {
+   "i": "3124",
+   "autor": "Plotino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.57,
+   "coherente": true
+  },
+  {
+   "i": "4057",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "4066",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "4067",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.87,
+   "coherente": true
+  },
+  {
+   "i": "4070",
+   "autor": "Tomás de Aquino",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "9041",
+   "autor": "Rousseau",
+   "postura": "trata_sin_resolver",
+   "negada": "apoya",
+   "conf_neg": 0.15,
+   "coherente": false
+  },
+  {
+   "i": "9351",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.2,
+   "coherente": true
+  },
+  {
+   "i": "9560",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.73,
+   "coherente": true
+  },
+  {
+   "i": "9565",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.75,
+   "coherente": true
+  },
+  {
+   "i": "9566",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.49,
+   "coherente": true
+  },
+  {
+   "i": "9567",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "no_trata",
+   "conf_neg": 0.16,
+   "coherente": false
+  },
+  {
+   "i": "9568",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.45,
+   "coherente": false
+  },
+  {
+   "i": "9590",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.52,
+   "coherente": true
+  },
+  {
+   "i": "9630",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.36,
+   "coherente": true
+  },
+  {
+   "i": "10594",
+   "autor": "Hegel",
+   "postura": "trata_sin_resolver",
+   "negada": "no_trata",
+   "conf_neg": 0.47,
+   "coherente": false
+  },
+  {
+   "i": "10597",
+   "autor": "Hegel",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.55,
+   "coherente": true
+  },
+  {
+   "i": "10622",
+   "autor": "Hegel",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.59,
+   "coherente": true
+  },
+  {
+   "i": "10820",
+   "autor": "Schopenhauer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "10821",
+   "autor": "Schopenhauer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "11046",
+   "autor": "Schopenhauer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.48,
+   "coherente": true
+  },
+  {
+   "i": "11051",
+   "autor": "Schopenhauer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "11603",
+   "autor": "Feuerbach",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "11914",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "15744",
+   "autor": "Santayana",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.11,
+   "coherente": true
+  }
+ ]
+}

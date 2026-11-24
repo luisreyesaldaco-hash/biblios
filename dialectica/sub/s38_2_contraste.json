@@ -1,0 +1,406 @@
+{
+ "id": "s38_2",
+ "negacion": "Altruistic behavior is motivated by calculated self-interest rather than by a natural desire to alleviate suffering.",
+ "pasajes": [
+  {
+   "i": "9169",
+   "autor": "Rousseau",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "9267",
+   "autor": "Rousseau",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "9268",
+   "autor": "Rousseau",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "10957",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "11044",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "11045",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "11050",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 1.0,
+   "coherente": true
+  },
+  {
+   "i": "11061",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "11067",
+   "autor": "Schopenhauer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "11808",
+   "autor": "Mill",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "12145",
+   "autor": "Stirner",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.65,
+   "coherente": false
+  },
+  {
+   "i": "12743",
+   "autor": "Kierkegaard",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.57,
+   "coherente": true
+  },
+  {
+   "i": "13736",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "13737",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.88,
+   "coherente": true
+  },
+  {
+   "i": "13740",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.17,
+   "coherente": false
+  },
+  {
+   "i": "13743",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.81,
+   "coherente": true
+  },
+  {
+   "i": "13747",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "no_trata",
+   "conf_neg": 0.23,
+   "coherente": false
+  },
+  {
+   "i": "13748",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.16,
+   "coherente": true
+  },
+  {
+   "i": "13749",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "13750",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.83,
+   "coherente": true
+  },
+  {
+   "i": "13760",
+   "autor": "Spencer",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.27,
+   "coherente": true
+  },
+  {
+   "i": "13770",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.32,
+   "coherente": true
+  },
+  {
+   "i": "13773",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.73,
+   "coherente": true
+  },
+  {
+   "i": "13775",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.45,
+   "coherente": false
+  },
+  {
+   "i": "13799",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.39,
+   "coherente": false
+  },
+  {
+   "i": "13800",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.13,
+   "coherente": false
+  },
+  {
+   "i": "13805",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.63,
+   "coherente": true
+  },
+  {
+   "i": "13812",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.13,
+   "coherente": true
+  },
+  {
+   "i": "13813",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.4,
+   "coherente": false
+  },
+  {
+   "i": "13814",
+   "autor": "Spencer",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.99,
+   "coherente": true
+  },
+  {
+   "i": "13815",
+   "autor": "Spencer",
+   "postura": "trata_sin_resolver",
+   "negada": "contradice",
+   "conf_neg": 0.19,
+   "coherente": false
+  },
+  {
+   "i": "13816",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.52,
+   "coherente": false
+  },
+  {
+   "i": "13817",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.35,
+   "coherente": true
+  },
+  {
+   "i": "13818",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.56,
+   "coherente": false
+  },
+  {
+   "i": "13819",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.63,
+   "coherente": true
+  },
+  {
+   "i": "13820",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.83,
+   "coherente": false
+  },
+  {
+   "i": "13822",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.67,
+   "coherente": true
+  },
+  {
+   "i": "13823",
+   "autor": "Spencer",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.71,
+   "coherente": false
+  },
+  {
+   "i": "14560",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.77,
+   "coherente": true
+  },
+  {
+   "i": "14561",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.57,
+   "coherente": true
+  },
+  {
+   "i": "14562",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "no_trata",
+   "conf_neg": 0.23,
+   "coherente": false
+  },
+  {
+   "i": "14563",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "14564",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.91,
+   "coherente": true
+  },
+  {
+   "i": "14565",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.84,
+   "coherente": true
+  },
+  {
+   "i": "14566",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "no_trata",
+   "conf_neg": 0.61,
+   "coherente": false
+  },
+  {
+   "i": "14567",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "14568",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "no_trata",
+   "conf_neg": 0.39,
+   "coherente": false
+  },
+  {
+   "i": "14569",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.75,
+   "coherente": true
+  },
+  {
+   "i": "14586",
+   "autor": "Nietzsche",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.55,
+   "coherente": true
+  },
+  {
+   "i": "15082",
+   "autor": "Bergson",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.95,
+   "coherente": true
+  }
+ ]
+}

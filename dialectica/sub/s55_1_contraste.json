@@ -1,0 +1,326 @@
+{
+ "id": "s55_1",
+ "negacion": "Moral approbation is not derived from self-love but from an inherent moral sense or sentiment.",
+ "pasajes": [
+  {
+   "i": "6715",
+   "autor": "Spinoza",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "7419",
+   "autor": "Leibniz",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "8551",
+   "autor": "Voltaire",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "8796",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.55,
+   "coherente": false
+  },
+  {
+   "i": "8800",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.95,
+   "coherente": true
+  },
+  {
+   "i": "8801",
+   "autor": "Hume",
+   "postura": "no_trata",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.36,
+   "coherente": false
+  },
+  {
+   "i": "8806",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.73,
+   "coherente": false
+  },
+  {
+   "i": "8820",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.89,
+   "coherente": true
+  },
+  {
+   "i": "8823",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.31,
+   "coherente": false
+  },
+  {
+   "i": "8829",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "8851",
+   "autor": "Hume",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.29,
+   "coherente": false
+  },
+  {
+   "i": "8855",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "8857",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.97,
+   "coherente": true
+  },
+  {
+   "i": "8862",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.32,
+   "coherente": false
+  },
+  {
+   "i": "8863",
+   "autor": "Hume",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.84,
+   "coherente": true
+  },
+  {
+   "i": "8882",
+   "autor": "Hume",
+   "postura": "no_trata",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.51,
+   "coherente": false
+  },
+  {
+   "i": "8883",
+   "autor": "Hume",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.52,
+   "coherente": true
+  },
+  {
+   "i": "9336",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.8,
+   "coherente": true
+  },
+  {
+   "i": "9338",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.36,
+   "coherente": false
+  },
+  {
+   "i": "9389",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.33,
+   "coherente": true
+  },
+  {
+   "i": "9407",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.56,
+   "coherente": true
+  },
+  {
+   "i": "9477",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "apoya",
+   "conf_neg": 0.53,
+   "coherente": false
+  },
+  {
+   "i": "9531",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "apoya",
+   "conf_neg": 0.85,
+   "coherente": true
+  },
+  {
+   "i": "9557",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.93,
+   "coherente": true
+  },
+  {
+   "i": "9558",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.71,
+   "coherente": true
+  },
+  {
+   "i": "9573",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.45,
+   "coherente": true
+  },
+  {
+   "i": "9574",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.23,
+   "coherente": false
+  },
+  {
+   "i": "9594",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.2,
+   "coherente": false
+  },
+  {
+   "i": "9605",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.96,
+   "coherente": true
+  },
+  {
+   "i": "9606",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.61,
+   "coherente": true
+  },
+  {
+   "i": "9616",
+   "autor": "Adam Smith",
+   "postura": "trata_sin_resolver",
+   "negada": "apoya",
+   "conf_neg": 0.48,
+   "coherente": false
+  },
+  {
+   "i": "9617",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.36,
+   "coherente": true
+  },
+  {
+   "i": "9622",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.61,
+   "coherente": false
+  },
+  {
+   "i": "9624",
+   "autor": "Adam Smith",
+   "postura": "contradice",
+   "negada": "contradice",
+   "conf_neg": 0.81,
+   "coherente": false
+  },
+  {
+   "i": "9625",
+   "autor": "Adam Smith",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.81,
+   "coherente": true
+  },
+  {
+   "i": "9626",
+   "autor": "Adam Smith",
+   "postura": "no_trata",
+   "negada": "trata_sin_resolver",
+   "conf_neg": 0.19,
+   "coherente": false
+  },
+  {
+   "i": "9779",
+   "autor": "Kant",
+   "postura": "no_trata",
+   "negada": "contradice",
+   "conf_neg": 0.29,
+   "coherente": false
+  },
+  {
+   "i": "12266",
+   "autor": "Stirner",
+   "postura": "apoya",
+   "negada": "contradice",
+   "conf_neg": 0.33,
+   "coherente": true
+  },
+  {
+   "i": "12965",
+   "autor": "Thoreau",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.8,
+   "coherente": true
+  },
+  {
+   "i": "14588",
+   "autor": "Nietzsche",
+   "postura": "no_trata",
+   "negada": "no_trata",
+   "conf_neg": 0.81,
+   "coherente": true
+  }
+ ]
+}
