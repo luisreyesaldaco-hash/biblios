@@ -1,0 +1,15 @@
+{
+ "id": "s23_1",
+ "estrella": 23,
+ "subtema": "El Bien y la Virtud",
+ "proposicion": "The highest good in life is the pursuit of pleasure.",
+ "proposicion_es": "El bien más alto en la vida es la búsqueda del placer.",
+ "nucleo": "whether the highest good in life is the pursuit of pleasure",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Adam Smith": "contradice",
+  "Séneca": "contradice",
+  "Marco Aurelio": "contradice"
+ }
+}

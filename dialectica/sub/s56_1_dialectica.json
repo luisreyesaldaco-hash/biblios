@@ -1,0 +1,887 @@
+{
+ "q": {
+  "id": "s56_1",
+  "estrella": 56,
+  "subtema": "Acciones y Moralidad",
+  "proposicion": "Moral goodness is primarily determined by the inherent nature of actions rather than their consequences.",
+  "proposicion_es": "La bondad moral se determina principalmente por la naturaleza inherente de las acciones, no por sus consecuencias.",
+  "nucleo": "whether moral goodness is based on the inherent nature of actions or their consequences.",
+  "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+  "clave_previa": {
+   "_nota": "Fijada ANTES de correr (24-nov-2026).",
+   "Kant": "apoya",
+   "Tomás de Aquino": "apoya",
+   "Adam Smith": "apoya (?)",
+   "Mill": "contradice",
+   "Spencer": "contradice",
+   "Hume": "contradice (?)",
+   "Dewey": "contradice (?)"
+  }
+ },
+ "pasajes": [
+  {
+   "i": "912",
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "pos": "113",
+   "texto": "However, nobody perhaps maintains its identity with Opinion simply; but it is not the same with opinion of any kind,[8] because by choosing good and bad things we are constituted of a certain character, but by having opinions on them we are not. Again, we choose to take or avoid, and so on, but we opine what a thing is, or for what it is serviceable, or how; but we do not opine to take or avoid. Further, Moral Choice is commended rather for having a right object than for being judicious, but Opinion for being formed in accordance with truth. Again, we choose such things as we pretty well know to be good, but we form opinions respecting such as we do not know at all.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.52
+  },
+  {
+   "i": "943",
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "pos": "304",
+   "texto": "As to our not being more apt to do what is noble and just by reason of possessing Practical Wisdom, we must begin a little higher up,[51] taking this for our starting-point. As we say that men may do things in themselves just and yet not be just men; for instance, when men do what the laws require of them, either against their will, or by reason of ignorance or something else, at all events not for the sake of the things themselves; and yet they do what they ought and all that the good man should do; so it seems that to be a good man one must do each act in a particular frame of mind, I mean from Moral Choice and for the sake of the things themselves which are done. Now it is Virtue which makes the Moral Choice right, but whatever is naturally required to carry out that Choice comes under the province not of Virtue but of a different faculty. We must halt, as it were, awhile, and speak more clearly on these points.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.64,
+   "alcance": "especifica",
+   "alcance_conf": 0.12
+  },
+  {
+   "i": "4075",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1085",
+   "texto": "Obj. 2: Further, moral virtues perfect man in the active life. But the active life does not remain after this life: for Gregory says (Moral. iv, 18): \"The works of the active life pass away from the body.\" Therefore moral virtues do not remain after this life. Obj. 3: Further, temperance and fortitude, which are moral virtues, are in the irrational parts of the soul, as the Philosopher states (Ethic. iii, 10). Now the irrational parts of the soul are corrupted, when the body is corrupted: since they are acts of bodily organs. Therefore it seems that the moral virtues do not remain after this life. _On the contrary,_ It is written (Wis. 1:15) that \"justice is perpetual and immortal.\"",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.92
+  },
+  {
+   "i": "4127",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1662",
+   "texto": "Obj. 2: Further, those precepts that are styled ceremonial seem to refer to the Divine worship. But Divine worship is the act of a virtue, viz. religion, which, as Tully says (De Invent. ii) \"offers worship and ceremony to the Godhead.\" Since, then, the moral precepts are about acts of virtue, as stated above (A. 2), it seems that the ceremonial precepts should not be distinct from the moral. Obj. 3: Further, the ceremonial precepts seem to be those which signify something figuratively. But, as Augustine observes (De Doctr. Christ. ii, 3, 4), \"of all signs employed by men words hold the first place.\" Therefore there is no need for the Law to contain ceremonial precepts about certain figurative actions.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.79
+  },
+  {
+   "i": "4128",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1666",
+   "texto": "Obj. 2: Further, a gloss on Ps. 118:102, \"I have not declined from Thy judgments,\" says, i.e. \"from the rule of life Thou hast set for me.\" But a rule of life belongs to the moral precepts. Therefore the judicial precepts should not be considered as distinct from the moral precepts. Obj. 3: Further, judgment seems to be an act of justice, according to Ps. 93:15: \"Until justice be turned into judgment.\" But acts of justice, like the acts of other virtues, belong to the moral precepts. Therefore the moral precepts include the judicial precepts, and consequently should not be held as distinct from them. _On the contrary,_ It is written (Deut. 6:1): \"These are the precepts and ceremonies, and judgments\": where \"precepts\" stands for \"moral precepts\" antonomastically. Therefore there are judicial precepts besides moral and ceremonial precepts.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.91
+  },
+  {
+   "i": "4130",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1679",
+   "texto": "This suffices for the Replies to the Objections. ________________________ SECOND ARTICLE [I-II, Q. 100, Art. 2] Whether the Moral Precepts of the Law Are About All the Acts of Virtue? Objection 1: It would seem that the moral precepts of the Law are not about all the acts of virtue. For observance of the precepts of the Old Law is called justification, according to Ps. 118:8: \"I will keep Thy justifications.\" But justification is the execution of justice. Therefore the moral precepts are only about acts of justice. Obj. 2: Further, that which comes under a precept has the character of a duty. But the character of duty belongs to justice alone and to none of the other virtues, for the proper act of justice consists in rendering to each one his due. Therefore the precepts of the moral law are not about the acts of the other virtues, but only about the acts of justice.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.87
+  },
+  {
+   "i": "4137",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1733",
+   "texto": "Obj. 2: Further, the moral precepts are distinct from the judicial and ceremonial precepts, as stated above (Q. 99, AA. 3, 4). But the determinations of the general moral precepts belong to the judicial and ceremonial precepts: and the general moral precepts are contained in the decalogue, or are even presupposed to the decalogue, as stated above (A. 3). Therefore it was unsuitable to lay down other moral precepts besides the decalogue. Obj. 3: Further, the moral precepts are about the acts of all the virtues, as stated above (A. 2). Therefore, as the Law contains, besides the decalogue, moral precepts pertaining to religion, liberality, mercy, and chastity; so there should have been added some precepts pertaining to the other virtues, for instance, fortitude, sobriety, and so forth. And yet such is not the case. It is therefore unbecoming to distinguish other moral precepts in the Law besides those of the decalogue.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.87
+  },
+  {
+   "i": "6995",
+   "autor": "Locke",
+   "obra": "An Essay Concerning Humane Understanding, Volume 1",
+   "pos": "481",
+   "texto": "13. These three Laws the Rules of moral Good and Evil. These three then, first, the law of God; secondly, the law of politic societies; thirdly, the law of fashion, or private censure, are those to which men variously compare their actions: and it is by their conformity to one of these laws that they take their measures, when they would judge of their moral rectitude, and denominate their actions good or bad. 14. Morality is the Relation of Voluntary Actions to these Rules. Whether the rule to which, as to a touchstone, we bring our voluntary actions, to examine them by, and try their goodness, and accordingly to name them, which is, as it were, the mark of the value we set upon them: whether, I say, we take that rule from the fashion of the country, or the will of a law-maker, the mind is easily able to observe the relation any action hath to it, and to judge whether the action agrees or disagrees with the rule; and so hath a notion of moral goodness or evil, which is either conformity or not conformity of any action to that rule: and therefore is often called moral rectitude. This rule being nothing but a collection of several simple ideas, the conformity thereto is but so ordering the action, that the simple ideas belonging to it may correspond to those which the law requires. And thus we see how moral beings and notions are founded on, and terminated in, these simple ideas we have received from sensation or reflection.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.6,
+   "alcance": "general",
+   "alcance_conf": 0.68
+  },
+  {
+   "i": "6996",
+   "autor": "Locke",
+   "obra": "An Essay Concerning Humane Understanding, Volume 1",
+   "pos": "483",
+   "texto": "16. The Denominations of Actions often mislead us. But because very frequently the positive idea of the action, and its moral relation, are comprehended together under one name, and the same word made use of to express both the mode or action, and its moral rectitude or obliquity: therefore the relation itself is less taken notice of; and there is often no distinction made between the positive idea of the action, and the reference it has to a rule. By which confusion of these two distinct considerations under one term, those who yield too easily to the impressions of sounds, and are forward to take names for things, are often misled in their judgment of actions. Thus, the taking from another what is his, without his knowledge or allowance, is properly called STEALING: but that name, being commonly understood to signify also the moral gravity of the action, and to denote its contrariety to the law, men are apt to condemn whatever they hear called stealing, as an ill action, disagreeing with the rule of right. And yet the private taking away his sword from a madman, to prevent his doing mischief, though it be properly denominated stealing, as the name of such a mixed mode; yet when compared to the law of God, and considered in its relation to that supreme rule, it is no sin or transgression, though the name stealing ordinarily carries such an intimation with it.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.72,
+   "alcance": "general",
+   "alcance_conf": 0.16
+  },
+  {
+   "i": "6997",
+   "autor": "Locke",
+   "obra": "An Essay Concerning Humane Understanding, Volume 1",
+   "pos": "484",
+   "texto": "17. Relations innumerable, and only the most considerable here mentioned. And thus much for the relation of human actions to a law, which, therefore, I call MORAL RELATIONS. It would make a volume to go over all sorts of RELATIONS: it is not, therefore, to be expected that I should here mention them all. It suffices to our present purpose to show by these, what the ideas are we have of this comprehensive consideration called RELATION. Which is so various, and the occasions of it so many, (as many as there can be of comparing things one to another,) that it is not very easy to reduce it to rules, or under just heads. Those I have mentioned, I think, are some of the most considerable; and such as may serve to let us see from whence we get our ideas of relations, and wherein they are founded. But before I quit this argument, from what has been said give me leave to observe:",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.56
+  },
+  {
+   "i": "8795",
+   "autor": "Hume",
+   "obra": "A Treatise of Human Nature",
+   "pos": "892",
+   "texto": "There have been many systems of morality advanced by philosophers in all ages; but if they are strictly examined, they may be reduced to two, which alone merit our attention. Moral good and evil are certainly distinguished by our sentiments, not by reason: But these sentiments may arise either from the mere species or appearance of characters and passions, or from reflections on their tendency to the happiness of mankind, and of particular persons. My opinion is, that both these causes are intermixed in our judgments of morals; after the same manner as they are in our decisions concerning most kinds of external beauty: Though I am also of opinion, that reflections on the tendencies of actions have by far the greatest influence, and determine all the great lines of our duty. There are, however, instances, in cases of less moment, wherein this immediate taste or sentiment produces our approbation. Wit, and a certain easy and disengaged behaviour, are qualities immediately agreeable to others, and command their love and esteem. Some of these qualities produce satisfaction in others by particular original principles of human nature, which cannot be accounted for: Others may be resolved into principles, which are more general. This will best appear upon a particular enquiry.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.99,
+   "alcance": "especifica",
+   "alcance_conf": 1.0
+  },
+  {
+   "i": "8798",
+   "autor": "Hume",
+   "obra": "A Treatise of Human Nature",
+   "pos": "919",
+   "texto": "But though this distinction betwixt voluntary and involuntary be not sufficient to justify the distinction betwixt natural abilities and moral virtues, yet the former distinction will afford us a plausible reason, why moralists have invented the latter. Men have observed, that though natural abilities and moral qualities be in the main on the same footing, there is, however, this difference betwixt them, that the former are almost invariable by any art or industry; while the latter, or at least, the actions, that proceed from them, may be changed by the motives of rewards and punishments, praise and blame. Hence legislators, and divines, and moralists, have principally applied themselves to the regulating these voluntary actions, and have endeavoured to produce additional motives, for being virtuous in that particular. They knew, that to punish a man for folly, or exhort him to be prudent and sagacious, would have but little effect; though the same punishments and exhortations, with regard to justice and injustice, might have a considerable influence. But as men, in common life and conversation, do not carry those ends in view, but naturally praise or blame whatever pleases or displeases them, they do not seem much to regard this distinction, but consider prudence under the character of virtue as well as benevolence, and penetration as well as justice. Nay, we find, that all moralists, whose judgment is not perverted by a strict adherence to a system, enter into the same way of thinking; and that the antient moralists in particular made no scruple of placing prudence at the head of",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.37,
+   "alcance": "general",
+   "alcance_conf": 0.8
+  },
+  {
+   "i": "8864",
+   "autor": "Hume",
+   "obra": "An Enquiry Concerning the Principles of Morals",
+   "pos": "173",
+   "texto": "No, say you, the morality consists in the relation of actions to the rule of right; and they are denominated good or ill, according as they agree or disagree with it. What then is this rule of right? In what does it consist? How is it determined? By reason, you say, which examines the moral relations of actions. So that moral relations are determined by the comparison of action to a rule. And that rule is determined by considering the moral relations of objects. Is not this fine reasoning? All this is metaphysics, you cry. That is enough; there needs nothing more to give a strong presumption of falsehood. Yes, reply I, here are metaphysics surely; but they are all on your side, who advance an abstruse hypothesis, which can never be made intelligible, nor quadrate with any particular instance or illustration. The hypothesis which we embrace is plain. It maintains that morality is determined by sentiment. It defines virtue to be WHATEVER MENTAL ACTION OR QUALITY GIVES TO A SPECTATOR THE PLEASING SENTIMENT OF APPROBATION; and vice the contrary. We then proceed to examine a plain matter of fact, to wit, what actions have this influence. We consider all the circumstances in which these actions agree, and thence endeavour to extract some general observations with regard to these sentiments. If you call this metaphysics, and find anything abstruse here, you need only conclude that your turn of mind is not suited to the moral sciences.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.96,
+   "alcance": "general",
+   "alcance_conf": 0.32
+  },
+  {
+   "i": "9493",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "182",
+   "texto": "It is thus that the general rules of morality are formed. They are ultimately founded upon experience of what, in particular instances, our moral faculties, our natural sense of merit and propriety, approve, or disapprove of. We do not originally approve or condemn particular actions; because, upon examination, they appear to be agreeable or inconsistent with a certain general rule. The general rule, on the contrary, is formed by finding from experience, that all actions of a certain kind, or circumstanced in a certain manner, are approved or disapproved of. To the man who first saw an inhuman murder, committed from avarice, envy, or unjust resentment, and upon one too that loved and trusted the murderer, who beheld the last agonies of the dying person, who heard him, with his expiring breath, complain more of the perfidy and ingratitude of his false friend, than of the violence which had been done to him, there could be no occasion, in order to conceive how horrible such an action was, that he should reflect, that one of the most sacred rules of conduct was what prohibited the taking away the life of an innocent person, that this was a plain violation of that rule, and consequently a very blamable action. His detestation of this crime, it is evident, would arise instantaneously and antecedent to his having formed to himself any such general rule. The general rule, on the contrary, which he might afterwards form, would be founded upon the detestation which he felt necessarily arise in his own breast, at the thought",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.67,
+   "alcance": "general",
+   "alcance_conf": 0.08
+  },
+  {
+   "i": "9494",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "183",
+   "texto": "When we read in history or romance, the account of actions either of generosity or of baseness, the admiration which we conceive for the one, and the contempt which we feel for the other, neither of them arise from reflecting that there are certain general rules which declare all actions of the one kind admirable, and all actions of the other contemptible. Those general rules, on the contrary, are all formed from the experience we have had of the effects which actions of all different kinds naturally produce upon us. An amiable action, a respectable action, an horrid action, are all of them actions which naturally excite the love, the respect, or the horror of the spectator, for the person who performs them. The general rules which determine what actions are, and what are not, the objects of each of those sentiments, can be formed no other way than by observing what actions actually and in fact excite them.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.99,
+   "alcance": "especifica",
+   "alcance_conf": 0.94
+  },
+  {
+   "i": "9495",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "184",
+   "texto": "When these general rules, indeed, have been formed, when they are universally acknowledged and established, by the concurring sentiments of mankind, we frequently appeal to them as to the standards of judgment, in debating concerning the degree of praise or blame that is due to certain actions of a complicated and dubious nature. They are upon these occasions commonly cited as the ultimate foundations of what is just and unjust in human conduct; and this circumstance seems to have misled several very eminent authors, to draw up their systems in such a manner, as if they had supposed that the original judgments of mankind with regard to right and wrong, were formed like the decisions of a court of judicatory, by considering first the general rule, and then, secondly, whether the particular action under consideration fell properly within its comprehension.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.71,
+   "alcance": "general",
+   "alcance_conf": 0.32
+  },
+  {
+   "i": "9516",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "205",
+   "texto": "The rules of justice may be compared to the rules of grammar; the rules of the other virtues to the rules which critics lay down for the attainment of what is sublime and elegant in composition. The one, are precise, accurate, and indispensable. The other, are loose, vague, and indeterminate, and present us rather with a general idea of the perfection we ought to aim at, than afford us any certain and infallible directions for acquiring it. A man may learn to write grammatically by rule, with the most absolute infallibility; and so, perhaps, he may be taught to act justly. But there are no rules whose observance will infallibly lead us to the attainment of elegance or sublimity in writing, though there are some which may help us, in some measure, to correct and ascertain the vague ideas which we might otherwise have entertained of those perfections: and there are no rules by the knowledge of which we can infallibly be taught to act upon all occasions with prudence, with just magnanimity, or proper beneficence. Though there are some which may enable us to correct and ascertain in several respects, the imperfect ideas which we might otherwise have entertained of those virtues.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "trata_sin_resolver",
+   "conf": 0.11
+  },
+  {
+   "i": "9556",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "247",
+   "texto": "There is an obvious reason why custom should never pervert our sentiments with regard to the general style and character of conduct and behaviour, in the same degree as with regard to the propriety or unlawfulness of particular usages. There never can be any such custom. No society could subsist a moment, in which the usual strain of mens conduct and behaviour was of a piece with the horrible practice I just now mentioned. [Illustration] PART VI. Of Systems of MORAL PHILOSOPHY. CONSISTING OF FOUR SECTIONS. SECTION I. Of the questions which ought to be examined in a theory of moral sentiments. If we examine the most celebrated and remarkable of the different theories which have been given concerning the nature and origin of our moral sentiments, we shall find that almost all of them coincide with some part or other of that which I have been endeavouring to give an account of; and that if every thing which has already been said be fully considered, we shall be at no loss to explain what was the view or aspect of nature which led each particular author to form his particular system. From some one or other of those principles which I have been endeavouring to unfold, every system of morality that ever had any reputation in the world has, perhaps, ultimately been derived. As they are all of them, in this respect, founded upon natural principles, they are all of them in some measure in the right. But as many of them are derived from a partial and imperfect",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "trata_sin_resolver",
+   "conf": 0.33
+  },
+  {
+   "i": "9592",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "288",
+   "texto": "Though the standard by which casuists frequently determine what is right or wrong in human conduct, be its tendency to the welfare or disorder of society, it does not follow that a regard to the welfare of society should be the sole virtuous motive of action, but only that, in any competition, it ought to cast the balance against all other motives. Benevolence may, perhaps, be the sole principle of action in the Deity, and there are several, not improbable, arguments which tend to persuade us that it is so. It is not easy to conceive what other motive an independent and all perfect being, who stands in need of nothing external, and whose happiness is complete in himself, can act from. But whatever may be the case with the Deity, so imperfect a creature as man, the support of whose existence requires so many things external to him, must often act from many other motives. The condition of human nature were peculiarly hard, if those affections, which, by the very nature of our being, ought frequently to influence our conduct, could upon no occasion appear virtuous, or deserve esteem and commendation from any body.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.8,
+   "alcance": "especifica",
+   "alcance_conf": 0.5
+  },
+  {
+   "i": "9614",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "311",
+   "texto": "That virtue consists in conformity to reason, is true in some respects, and this faculty may very justly be considered, as in some sense, the source and principle of approbation and disapprobation, and of all solid judgments concerning right and wrong. It is by reason that we discover those general rules of justice by which we ought to regulate our actions: and it is by the same faculty that we form those more vague and indeterminate ideas of what is prudent, of what is decent, of what is generous or noble, which we carry constantly about with us, and according to which we endeavour, as well as we can, to model the tenour of our conduct. The general maxims of morality are formed, like all other general maxims, from experience and induction. We observe in a great variety of particular cases what pleases or displeases our moral faculties, what these approve or disapprove of, and, by induction from this experience, we establish those general rules. But induction is always regarded as one of the operations of reason. From reason, therefore, we are very properly said to derive all those general maxims and ideas. It is by these, however, that we regulate the greater part of our moral judgments, which would be extremely uncertain and precarious if they depended altogether upon what is liable to so many variations as immediate sentiment and feeling, which the different states of health and humour are capable of altering so essentially. As our most solid judgments, therefore, with regard to right and wrong, are regulated",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.6,
+   "alcance": "general",
+   "alcance_conf": 0.86
+  },
+  {
+   "i": "9615",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "312",
+   "texto": "But though reason is undoubtedly the source of the general rules of morality, and of all the moral judgments which we form by means of them; it is altogether absurd and unintelligible to suppose that the first perceptions of right and wrong can be derived from reason, even in those particular cases upon the experience of which the general rules are formed. These first perceptions, as well all other experiments upon which any general rules are founded, cannot be the object of reason, but of immediate sense and feeling. It is by finding in a vast variety of instances that one tenour of conduct constantly pleases in a certain manner, and that another as constantly displeases the mind, that we form the general rules of morality. But reason cannot render any particular object either agreeable or disagreeable to the mind for its own sake. Reason may show that this object is the means of obtaining some other which is naturally either pleasing or displeasing, and in this manner may render it either agreeable or disagreeable for the sake of something else. But nothing can be agreeable or disagreeable for its own sake, which is not rendered such by immediate sense and feeling. If virtue, therefore, in every particular instance, necessarily pleases for its own sake, and if vice as certainly displeases the mind, it cannot be reason, but immediate sense and feeling, which, in this manner, reconciles us to the one, and alienates us from the other.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.92,
+   "alcance": "especifica",
+   "alcance_conf": 0.02
+  },
+  {
+   "i": "9627",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "326",
+   "texto": "SECTION IV. Of the manner in which different authors have treated of the practical rules of morality. It was observed in the third part of this discourse, that the rules of justice are the only rules of morality which are precise and accurate; that those of all the other virtues are loose, vague, and indeterminate; that the first may be compared to the rules of grammar; the others to those which critics lay down for the attainment of what is sublime and elegant in composition, and which present us rather with a general idea of the perfection we ought to aim at, than afford us any certain and infallible directions for acquiring it. As the different rules of morality admit such different degrees of accuracy, those authors who have endeavoured to collect and digest them into systems have done it in two different manners; and one set has followed thro’ the whole that loose method to which they were naturally directed by the consideration of one species of virtues; while another has as universally endeavoured to introduce into their precepts that sort of accuracy of which only some of them are susceptible. The first have wrote like critics, the second like grammarians.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.53
+  },
+  {
+   "i": "9640",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "339",
+   "texto": "The moral duties which fell under the consideration of the casuists were chiefly those which can, in some measure at least, be circumscribed within general rules, and of which the violation is naturally attended with some degree of remorse and some dread of suffering punishment. The design of that institution which gave occasion to their works, was to appease those terrors of conscience which attend upon the infringement of such duties. But it is not every virtue of which the defect is accompanied with any very severe compunctions of this kind, and no man applies to his confessor for absolution, because he did not perform the most generous, the most friendly, or the most magnanimous action which, in his circumstances, it was possible to perform. In failures of this kind, the rule that is violated is commonly not very determinate, and is generally of such a nature too, that though the observance of it might entitle to honour and reward, the violation seems to expose to no positive blame, censure, or punishment. The exercise of such virtues the casuists seem to have regarded as a sort of works of supererogation, which could not be very strictly enacted, and which it was therefore unnecessary for them to treat of.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.21
+  },
+  {
+   "i": "9743",
+   "autor": "Kant",
+   "obra": "Fundamental Principles of the Metaphysic of Morals",
+   "pos": "27",
+   "texto": "In fact, it is absolutely impossible to make out by experience with complete certainty a single case in which the maxim of an action, however right in itself, rested simply on moral grounds and on the conception of duty. Sometimes it happens that with the sharpest self-examination we can find nothing beside the moral principle of duty which could have been powerful enough to move us to this or that action and to so great a sacrifice; yet we cannot from this infer with certainty that it was not really some secret impulse of self-love, under the false appearance of duty, that was the actual determining cause of the will. We like them to flatter ourselves by falsely taking credit for a more noble motive; whereas in fact we can never, even by the strictest examination, get completely behind the secret springs of action; since, when the question is of moral worth, it is not with the actions which we see that we are concerned, but with those inward principles of them which we do not see.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.68,
+   "alcance": "general",
+   "alcance_conf": 0.42
+  },
+  {
+   "i": "9749",
+   "autor": "Kant",
+   "obra": "Fundamental Principles of the Metaphysic of Morals",
+   "pos": "34",
+   "texto": "* I have a letter from the late excellent Sulzer, in which he asks me what can be the reason that moral instruction, although containing much that is convincing for the reason, yet accomplishes so little? My answer was postponed in order that I might make it complete. But it is simply this: that the teachers themselves have not got their own notions clear, and when they endeavour to make up for this by raking up motives of moral goodness from every quarter, trying to make their physic right strong, they spoil it. For the commonest understanding shows that if we imagine, on the one hand, an act of honesty done with steadfast mind, apart from every view to advantage of any kind in this world or another, and even under the greatest temptations of necessity or allurement, and, on the other hand, a similar act which was affected, in however low a degree, by a foreign motive, the former leaves far behind and eclipses the second; it elevates the soul and inspires the wish to be able to act in like manner oneself. Even moderately young children feel this impression, ana one should never represent duties to them in any other light.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.92,
+   "alcance": "especifica",
+   "alcance_conf": 0.64
+  },
+  {
+   "i": "9792",
+   "autor": "Kant",
+   "obra": "The Critique of Practical Reason",
+   "pos": "4",
+   "texto": "{PREFACE ^paragraph 15} * A reviewer who wanted to find some fault with this work has hit the truth better, perhaps, than he thought, when he says that no new principle of morality is set forth in it, but only a new formula. But who would think of introducing a new principle of all morality and making himself as it were the first discoverer of it, just as if all the world before him were ignorant what duty was or had been in thorough-going error? But whoever knows of what importance to a mathematician a formula is, which defines accurately what is to be done to work a problem, will not think that a formula is insignificant and useless which does the same for all duty in general.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.47
+  },
+  {
+   "i": "9813",
+   "autor": "Kant",
+   "obra": "The Critique of Practical Reason",
+   "pos": "71",
+   "texto": "This is the proper place to explain the paradox of method in a critique of practical reason, namely, that the concept of good and evil must not be determined before the moral law (of which it seems as if it must be the foundation), but only after it and by means of it. In fact, even if we did not know that the principle of morality is a pure a priori law determining the will, yet, that we may not assume principles quite gratuitously, we must, at least at first, leave it undecided, whether the will has merely empirical principles of determination, or whether it has not also pure a priori principles; for it is contrary to all rules of philosophical method to assume as decided that which is the very point in question. Supposing that we wished to begin with the concept of good, in order to deduce from it the laws of the will, then this concept of an object (as a good) would at the same time assign to us this object as the sole determining principle of the will. Now, since this concept had not any practical a priori law for its standard, the criterion of good or evil could not be placed in anything but the agreement of the object with our feeling of pleasure or pain; and the use of reason could only consist in determining in the first place this pleasure or pain in connexion with all the sensations of my existence, and in the second place the means of securing to myself",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.47,
+   "alcance": "especifica",
+   "alcance_conf": 0.12
+  },
+  {
+   "i": "9824",
+   "autor": "Kant",
+   "obra": "The Critique of Practical Reason",
+   "pos": "105",
+   "texto": "But it does not follow that this distinction between the principle of happiness and that of morality is an opposition between them, and pure practical reason does not require that we should renounce all claim to happiness, but only that the moment duty is in question we should take no account of happiness. It may even in certain respects be a duty to provide for happiness; partly, because (including skill, wealth, riches) it contains means for the fulfilment of our duty; partly, because the absence of it (e.g., poverty) implies temptations to transgress our duty. But it can never be an immediate duty to promote our happiness, still less can it be the principle of all duty. Now, as all determining principles of the will, except the law of pure practical reason alone (the moral law), are all empirical and, therefore, as such, belong to the principle of happiness, they must all be kept apart from the supreme principle of morality and never be incorporated with it as a condition; since this would be to destroy all moral worth just as much as any empirical admixture with geometrical principles would destroy the certainty of mathematical evidence, which in Plato's opinion is the most excellent thing in mathematics, even surpassing their utility.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.84,
+   "alcance": "especifica",
+   "alcance_conf": 0.68
+  },
+  {
+   "i": "9831",
+   "autor": "Kant",
+   "obra": "The Critique of Practical Reason",
+   "pos": "126",
+   "texto": "Now it is clear from the Analytic that the maxims of virtue and those of private happiness are quite heterogeneous as to their supreme practical principle, and, although they belong to one summum bonum which together they make possible, yet they are so far from coinciding that they restrict and check one another very much in the same subject. Thus the question: \"How is the summum bonum practically possible?\" still remains an unsolved problem, notwithstanding all the attempts at coalition that have hitherto been made. The Analytic has, however, shown what it is that makes the problem difficult to solve; namely, that happiness and morality are two specifically distinct elements of the summum bonum and, therefore, their combination cannot be analytically cognised (as if the man that seeks his own happiness should find by mere analysis of his conception that in so acting he is virtuous, or as if the man that follows virtue should in the consciousness of such conduct find that he is already happy ipso facto), but must be a synthesis of concepts. Now since this combination is recognised as a priori, and therefore as practically necessary, and consequently not as derived from experience, so that the possibility of the summum bonum does not rest on any empirical principle, it follows that the deduction [legitimation] of this concept must be transcendental. It is a priori (morally) necessary to produce the summum bonum by freedom of will: therefore the condition of its possibility must rest solely on a priori principles of cognition.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.29
+  },
+  {
+   "i": "10547",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "8",
+   "texto": "And thus the first range of Objective Mind postulates the second, which Hegel calls “Morality.” The word is to be taken in its strict sense as a protest against the quasi-physical order of law. It is the morality of conscience and of the good will, of the inner rectitude of soul and purpose, as all-sufficient and supreme. Here is brought out the complementary factor in social life: the element of liberty, spontaneity, self-consciousness. The motto of mere inward morality (as opposed to the spirit of legality) is (in Kant’s words): “There is nothing without qualification good, in heaven or earth, but only a good will.” The essential condition of goodness is that the action be done with purpose and intelligence, and in full persuasion of its goodness by the conscience of the agent. The characteristic of Morality thus described is its essential inwardness, and the sovereignty of the conscience over all heteronomy. Its justification is that it protests against the authority of a mere external or objective order, subsisting and ruling in separation from the subjectivity. Its defect is the turn it gives to this assertion of the rights of subjective conscience: briefly in the circumstance that it tends to set up a mere individualism against a mere universalism, instead of realising the unity and essential interdependence of the two.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.6,
+   "alcance": "general",
+   "alcance_conf": 0.22
+  },
+  {
+   "i": "10592",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "98",
+   "texto": "The moralists of last century sometimes divided the field of ethics by assigning to man three grades or kinds of duty: duties to himself, duties to society, and duties to God. For the distinction there is a good deal to be said: there are also faults to be found with it. It may be said, amongst other things, that to speak of duties to self is a metaphorical way of talking, and that God lies out of the range of human duty altogether, except in so far as religious service forms a part of social obligation. It may be urged that man is essentially a social being, and that it is only in his relations to other such beings that his morality can find a sphere. The sphere of morality, according to Dr. Bain, embraces whatever “society has seen fit to enforce with all the rigour of positive inflictions. Positive good deeds and self-sacrifice ... transcend the region of morality proper and occupy a sphere of their own(62).” And there is little doubt that this restriction is in accordance with a main current of usage. It may even be said that there are tendencies towards a narrower usage still, which would restrict the term to questions affecting the relations of the sexes. But, without going so far, we may accept the standpoint which finds in the phrase “popular or social” sanction, as equivalent to the moral sanction, a description of the average level of common opinion on the topic. The morality of an age or country thus denotes, first, the",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.19,
+   "alcance": "general",
+   "alcance_conf": 0.96
+  },
+  {
+   "i": "10593",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "99",
+   "texto": "But in two directions this conception of morality needs to be supplementing. There is, on one hand, what is called duty to God. The phrase is not altogether appropriate: for it follows too closely the analogy of social requirement, and treats Deity as an additional and social authority,—a lord paramount over merely human sovereigns. But though there may be some use in the analogy, to press the conception is seriously to narrow the divine character and the scope of religion. As in similar cases, we cannot change one term without altering its correlative. And therefore to describe our relation to God under the name of duty is to narrow and falsify that relation. The word is no longer applicable in this connexion without a strain, and where it exists it indicates the survival of a conception of theocracy: of God regarded as a glorification of the magistrate, as king of kings and lord of lords. It is the social world—and indeed we may say the outside of the social world—that is the sphere of duties. Duty is still with these reductions a great august name: but in literal strictness it only rules over the medial sphere of life, the sphere which lies between the individual as such and his universal humanity(63). Beyond duty, lies the sphere of conscience and of religion. And that is not the mere insistence by the individual to have a voice and a vote in determining the social order. It is the sense that the social order, however omnipotent it may seem, is limited and finite,",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.64
+  },
+  {
+   "i": "10595",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "105",
+   "texto": "And though it is easy to step into exaggeration, it is still well to emphasise this larger conception of ethics. The moral principle of the “maximising of life,” as it has been called(67), may be open to misconception (—so, unfortunately are all moral principles when stated in the effrontery of isolation): but it has its truth in the conviction that all moral evil is marked by a tendency to lower or lessen the total vitality. So too Friedrich Nietzsche’s maxim, _Sei vornehm_(68), ensue distinction, and above all things be not common or vulgar (_gemein_), will easily lend itself to distortion. But it is good advice for all that, even though it may be difficult to define in a general formula wherein distinction consists, to mark the boundary between self-respect and vanity or obstinacy, or to say wherein lies the beauty and dignity of human nature. Kant has laid it down as the principle of duty to ask ourselves if in our act we are prepared to universalise the maxim implied by our conduct. And that this—which essentially bids us look at an act in the whole of its relations and context—is a safeguard against some forms of moral evil, is certain. But there is an opposite—or rather an apparently opposite—principle which bids us be individual, be true to our own selves, and never allow ourselves to be dismayed from our own unique responsibility. Perhaps the two principles are not so far apart as they seem. In any case true individuality is the last word and the first word in ethics;",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.44,
+   "alcance": "especifica",
+   "alcance_conf": 0.06
+  },
+  {
+   "i": "10618",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "160",
+   "texto": "Still, on the whole, “morality” in this narrower sense belongs to an age of reflection, and is formal or nominal goodness rather than the genuine and full reality. It is the protest against mere instinctive or customary virtue, which is but compliance with traditional authority, and compliance with it as if it were a sort of quasi-natural law. Moralising reflection is the awakening of subjectivity and of a deeper personality. The age which thus precedes morality is not an age in which kindness, or love, or generosity is unknown. And if Hegel says that “Morality,” strictly so called, began with Socrates, he does not thereby accuse the pre-Socratic Greeks of inhumanity. But what he does say is that such ethical life as existed was in the main a thing of custom and law: of law, moreover, which was not set objectively forward, but left still in the stage of uncontradicted usage, a custom which was a second nature, part of the essential and quasi-physical ordinance of life. The individual had not yet learned to set his self-consciousness against these usages and ask for their justification. These are like the so-called law of the Medes and Persians which alters not: customs of immemorial antiquity and unquestionable sway. They are part of a system of things with which for good or evil the individual is utterly identified, bound as it were hand and foot. These are, as a traveller says(103), “oral and unwritten traditions which teach that certain rules of conduct are to be observed under certain penalties; and without the aid",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "no_trata",
+   "conf": 0.2
+  },
+  {
+   "i": "10968",
+   "autor": "Schopenhauer",
+   "obra": "The Basis of Morality",
+   "pos": "22",
+   "texto": "In every age much good morality has been preached; but the explanation of its _raison d'être_ has always been encompassed with difficulties. On the whole we discern an endeavour to get at some objective truth, from which the ethical injunctions could-be logically deduced; and it has been sought for both in the nature of things, and in the nature of man; but in vain. The result was always the same. The will of each human unit was found to gravitate solely towards its own individual welfare, the idea of which in its entirety is designated by the term \"blissfulness\" (_Glückseligkeit_); and this striving after self-satisfaction leads mankind by a path very, different to the one morality would fain point out. The endeavour was next made now to identify \"blissfulness\" with virtue, now to represent it as virtue's consequence and effect. Both attempts have always failed; and this for no want of sophistry. Then recourse was had to artificial formulas, purely objective and abstract, as well _a posteriori_ as _a priori_, from which correct ethical conduct undoubtedly admitted of being deduced. But there was nothing found in man's nature to afford these a footing, whereby they might have availed to guide the strivings of his volition, in face of its egoistic tendency. It appears to me superfluous to verify all this by describing and criticising every hitherto existing foundation of morality; not only because I share Augustine's opinion, _non est pro magno habendum quid homines senserint, sed quae sit rei veritas_ (It is the truth about a thing, not men's opinions",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "trata_sin_resolver",
+   "conf": 0.33
+  },
+  {
+   "i": "11690",
+   "autor": "Feuerbach",
+   "obra": "The Essence of Christianity",
+   "pos": "313",
+   "texto": "In Christianity the moral laws are regarded as the commandments of God; morality is even made the criterion of piety; but ethics have nevertheless a subordinate rank, they have not in themselves a religious significance. This belongs only to faith. Above morality hovers God, as a being distinct from man, a being to whom the best is due, while the remnants only fall to the share of man. All those dispositions which ought to be devoted to life, to man--all the best powers of humanity, are lavished on the being who wants nothing. The real cause is converted into an impersonal means, a merely conceptional, imaginary cause usurps the place of the true one. Man thanks God for those benefits which have been rendered to him even at the cost of sacrifice by his fellow-man. The gratitude which he expresses to his benefactor is only ostensible; it is paid, not to him, but to God. He is thankful, grateful to God, but unthankful to man. [225] Thus is the moral sentiment subverted into religion! Thus does man sacrifice man to God! The bloody human sacrifice is in fact only a rude, material expression of the inmost secret of religion. Where bloody human sacrifices are offered to God, such sacrifices are regarded as the highest thing, physical existence as the chief good. For this reason life is sacrificed to God, and it is so on extraordinary occasions; the supposition being that this is the way to show him the greatest honour. If Christianity no longer, at least in our day, offers",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.32,
+   "alcance": "general",
+   "alcance_conf": 0.92
+  },
+  {
+   "i": "11692",
+   "autor": "Feuerbach",
+   "obra": "The Essence of Christianity",
+   "pos": "315",
+   "texto": "Wherever morality is based on theology, wherever the right is made dependent on divine authority, the most immoral, unjust, infamous things can be justified and established. I can found morality on theology only when I myself have already defined the Divine Being by means of morality. In the contrary case, I have no criterion of the moral and immoral, but merely an unmoral, arbitrary basis, from which I may deduce anything I please. Thus, if I would found morality on God, I must first of all place it in God: for Morality, Right, in short, all substantial relations, have their only basis in themselves, can only have a real foundation--such as truth demands--when they are thus based. To place anything in God, or to derive anything from God, is nothing more than to withdraw it from the test of reason, to institute it as indubitable, unassailable, sacred, without rendering an account why. Hence self-delusion, if not wicked, insidious design, is at the root of all efforts to establish morality, right, on theology. Where we are in earnest about the right we need no incitement or support from above. We need no Christian rule of political right: we need only one which is rational, just, human. The right, the true, the good, has always its ground of sacredness in itself, in its quality. Where man is in earnest about ethics, they have in themselves the validity of a divine power. If morality has no foundation in itself, there is no inherent necessity for morality; morality is then surrendered to the groundless",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.99,
+   "alcance": "especifica",
+   "alcance_conf": 0.18
+  },
+  {
+   "i": "11771",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "1",
+   "texto": "To inquire how far the bad effects of this deficiency have been mitigated in practice, or to what extent the moral beliefs of mankind have been vitiated or made uncertain by the absence of any distinct recognition of an ultimate standard, would imply a complete survey and criticism of past and present ethical doctrine. It would, however, be easy to show that whatever steadiness or consistency these moral beliefs have attained, has been mainly due to the tacit influence of a standard not recognised. Although the non-existence of an acknowledged first principle has made ethics not so much a guide as a consecration of men's actual sentiments, still, as men's sentiments, both of favour and of aversion, are greatly influenced by what they suppose to be the effects of things upon their happiness, the principle of utility, or as Bentham latterly called it, the greatest happiness principle, has had a large share in forming the moral doctrines even of those who most scornfully reject its authority. Nor is there any school of thought which refuses to admit that the influence of actions on happiness is a most material and even predominant consideration in many of the details of morals, however unwilling to acknowledge it as the fundamental principle of morality, and the source of moral obligation. I might go much further, and say that to all those _à priori_ moralists who deem it necessary to argue at all, utilitarian arguments are indispensable. It is not my present purpose to criticise these thinkers; but I cannot help referring, for illustration, to",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 1.0,
+   "alcance": "especifica",
+   "alcance_conf": 0.92
+  },
+  {
+   "i": "11790",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "20",
+   "texto": "The objectors to utilitarianism cannot always be charged with representing it in a discreditable light. On the contrary, those among them who entertain anything like a just idea of its disinterested character, sometimes find fault with its standard as being too high for humanity. They say it is exacting too much to require that people shall always act from the inducement of promoting the general interests of society. But this is to mistake the very meaning of a standard of morals, and to confound the rule of action with the motive of it. It is the business of ethics to tell us what are our duties, or by what test we may know them; but no system of ethics requires that the sole motive of all we do shall be a feeling of duty; on the contrary, ninety-nine hundredths of all our actions are done from other motives, and rightly so done, if the rule of duty does not condemn them. It is the more unjust to utilitarianism that this particular misapprehension should be made a ground of objection to it, inasmuch as utilitarian moralists have gone beyond almost all others in affirming that the motive has nothing to do with the morality of the action, though much with the worth of the agent. He who saves a fellow creature from drowning does what is morally right, whether his motive be duty, or the hope of being paid for his trouble: he who betrays the friend that trusts him, is guilty of a crime, even if his object be to",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.88,
+   "alcance": "especifica",
+   "alcance_conf": 0.46
+  },
+  {
+   "i": "11791",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "21",
+   "texto": "The same considerations dispose of another reproach against the doctrine of utility, founded on a still grosser misconception of the purpose of a standard of morality, and of the very meaning of the words right and wrong. It is often affirmed that utilitarianism renders men cold and unsympathizing; that it chills their moral feelings towards individuals; that it makes them regard only the dry and hard consideration of the consequences of actions, not taking into their moral estimate the qualities from which those actions emanate. If the assertion means that they do not allow their judgment respecting the rightness or wrongness of an action to be influenced by their opinion of the qualities of the person who does it, this is a complaint not against utilitarianism, but against having any standard of morality at all; for certainly no known ethical standard decides an action to be good or bad because it is done by a good or a bad man, still less because done by an amiable, a brave, or a benevolent man or the contrary. These considerations are relevant, not to the estimation of actions, but of persons; and there is nothing in the utilitarian theory inconsistent with the fact that there are other things which interest us in persons besides the rightness and wrongness of their actions. The Stoics, indeed, with the paradoxical misuse of language which was part of their system, and by which they strove to raise themselves above all concern about anything but virtue, were fond of saying that he who has that has everything;",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.84,
+   "alcance": "especifica",
+   "alcance_conf": 0.76
+  },
+  {
+   "i": "11792",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "22",
+   "texto": "If no more be meant by the objection than that many utilitarians look on the morality of actions, as measured by the utilitarian standard, with too exclusive a regard, and do not lay sufficient stress upon the other beauties of character which go towards making a human being loveable or admirable, this may be admitted. Utilitarians who have cultivated their moral feelings, but not their sympathies nor their artistic perceptions, do fall into this mistake; and so do all other moralists under the same conditions. What can be said in excuse for other moralists is equally available for them, namely, that if there is to be any error, it is better that it should be on that side. As a matter of fact, we may affirm that among utilitarians as among adherents of other systems, there is every imaginable degree of rigidity and of laxity in the application of their standard: some are even puritanically rigorous, while others are as indulgent as can possibly be desired by sinner or by sentimentalist. But on the whole, a doctrine which brings prominently forward the interest that mankind have in the repression and prevention of conduct which violates the moral law, is likely to be inferior to no other in turning the sanctions of opinion against such violations. It is true, the question, What does violate the moral law? is one on which those who recognise different standards of morality are likely now and then to differ. But difference of opinion on moral questions was not first introduced into the world by utilitarianism,",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.77,
+   "alcance": "general",
+   "alcance_conf": 0.04
+  },
+  {
+   "i": "11795",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "25",
+   "texto": "Again, defenders of utility often find themselves called upon to reply to such objections as this--that there is not time, previous to action, for calculating and weighing the effects of any line of conduct on the general happiness. This is exactly as if any one were to say that it is impossible to guide our conduct by Christianity, because there is not time, on every occasion on which anything has to be done, to read through the Old and New Testaments. The answer to the objection is, that there has been ample time, namely, the whole past duration of the human species. During all that time mankind have been learning by experience the tendencies of actions; on which experience all the prudence, as well as all the morality of life, is dependent. People talk as if the commencement of this course of experience had hitherto been put off, and as if, at the moment when some man feels tempted to meddle with the property or life of another, he had to begin considering for the first time whether murder and theft are injurious to human happiness. Even then I do not think that he would find the question very puzzling; but, at all events, the matter is now done to his hand. It is truly a whimsical supposition, that if mankind were agreed in considering utility to be the test of morality, they would remain without any agreement as to what is useful, and would take no measures for having their notions on the subject taught to the young, and",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.99,
+   "alcance": "especifica",
+   "alcance_conf": 0.52
+  },
+  {
+   "i": "11796",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "26",
+   "texto": "The remainder of the stock arguments against utilitarianism mostly consist in laying to its charge the common infirmities of human nature, and the general difficulties which embarrass conscientious persons in shaping their course through life. We are told that an utilitarian will be apt to make his own particular case an exception to moral rules, and, when under temptation, will see an utility in the breach of a rule, greater than he will see in its observance. But is utility the only creed which is able to furnish us with excuses for evil doing, and means of cheating our own conscience? They are afforded in abundance by all doctrines which recognise as a fact in morals the existence of conflicting considerations; which all doctrines do, that have been believed by sane persons. It is not the fault of any creed, but of the complicated nature of human affairs, that rules of conduct cannot be so framed as to require no exceptions, and that hardly any kind of action can safely be laid down as either always obligatory or always condemnable. There is no ethical creed which does not temper the rigidity of its laws, by giving a certain latitude, under the moral responsibility of the agent, for accommodation to peculiarities of circumstances; and under every creed, at the opening thus made, self-deception and dishonest casuistry get in. There exists no moral system under which there do not arise unequivocal cases of conflicting obligation. These are the real difficulties, the knotty points both in the theory of ethics, and in the",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.49,
+   "alcance": "general",
+   "alcance_conf": 0.42
+  },
+  {
+   "i": "11800",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "30",
+   "texto": "If the view adopted by the utilitarian philosophy of the nature of the moral sense be correct, this difficulty will always present itself, until the influences which form moral character have taken the same hold of the principle which they have taken of some of the consequences--until, by the improvement of education, the feeling of unity with our fellow creatures shall be (what it cannot be doubted that Christ intended it to be) as deeply rooted in our character, and to our own consciousness as completely a part of our nature, as the horror of crime is in an ordinarily well-brought-up young person. In the mean time, however, the difficulty has no peculiar application to the doctrine of utility, but is inherent in every attempt to analyse morality and reduce it to principles; which, unless the principle is already in men's minds invested with as much sacredness as any of its applications, always seems to divest them of a part of their sanctity.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.49,
+   "alcance": "especifica",
+   "alcance_conf": 0.02
+  },
+  {
+   "i": "11801",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "31",
+   "texto": "The principle of utility either has, or there is no reason why it might not have, all the sanctions which belong to any other system of morals. Those sanctions are either external or internal. Of the external sanctions it is not necessary to speak at any length. They are, the hope of favour and the fear of displeasure from our fellow creatures or from the Ruler of the Universe, along with whatever we may have of sympathy or affection for them or of love and awe of Him, inclining us to do His will independently of selfish consequences. There is evidently no reason why all these motives for observance should not attach themselves to the utilitarian morality, as completely and as powerfully as to any other. Indeed, those of them which refer to our fellow creatures are sure to do so, in proportion to the amount of general intelligence; for whether there be any other ground of moral obligation than the general happiness or not, men do desire happiness; and however imperfect may be their own practice, they desire and commend all conduct in others towards themselves, by which they think their happiness is promoted. With regard to the religious motive, if men believe, as most profess to do, in the goodness of God, those who think that conduciveness to the general happiness is the essence, or even only the criterion, of good, must necessarily believe that it is also that which God approves. The whole force therefore of external reward and punishment, whether physical or moral, and whether proceeding",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.84,
+   "alcance": "especifica",
+   "alcance_conf": 0.24
+  },
+  {
+   "i": "11803",
+   "autor": "Mill",
+   "obra": "Utilitarianism",
+   "pos": "33",
+   "texto": "The ultimate sanction, therefore, of all morality (external motives apart) being a subjective feeling in our own minds, I see nothing embarrassing to those whose standard is utility, in the question, what is the sanction of that particular standard? We may answer, the same as of all other moral standards--the conscientious feelings of mankind. Undoubtedly this sanction has no binding efficacy on those who do not possess the feelings it appeals to; but neither will these persons be more obedient to any other moral principle than to the utilitarian one. On them morality of any kind has no hold but through the external sanctions. Meanwhile the feelings exist, a feet in human nature, the reality of which, and the great power with which they are capable of acting on those in whom they have been duly cultivated, are proved by experience. No reason has ever been shown why they may not be cultivated to as great intensity in connection with the utilitarian, as with any other rule of morals.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.65,
+   "alcance": "general",
+   "alcance_conf": 0.56
+  },
+  {
+   "i": "13706",
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "pos": "225",
+   "texto": "\"But justice, what is it that we are to understand by justice: and why not happiness but justice? What happiness is, every man knows, because, what pleasure is, every man knows, and what pain is, every man knows. But what justice is--this is what on every occasion is the subject-matter of dispute. Be the meaning of the word justice what it will, what regard is it entitled to otherwise than as a means of happiness.\"[C] Let us first consider the assertion here made respecting the relative intelligibilities of these two ends, and let us afterward consider what is implied by the choice of happiness instead of justice. Bentham's positive assertion that, \"what happiness is every man knows, because, what pleasure is, every man knows,\" is met by counter-assertions equally positive. \"Who can tell,\" asks Plato, \"what pleasure really is, or know it in its essence, except the philosopher, who alone is conversant with realities.\"[D] Aristotle, too, after commenting on the different opinions held by the vulgar, by the political, by the contemplative, says of happiness that, \"to some it seems to be virtue, to others prudence, and to others a kind of wisdom: to some again, these, or some one of these, with pleasure, or at least, not without pleasure; others again include external prosperity.\"[E] And Aristotle, like Plato, comes to the remarkable conclusion that the pleasures of the intellect, reached by the contemplative life, constitute the highest happiness![F]",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.73,
+   "alcance": "general",
+   "alcance_conf": 0.08
+  },
+  {
+   "i": "13713",
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "pos": "232",
+   "texto": "Beyond ignoring the probability, or rather the certainty, that past experience generalized by past intelligence, must by this time have disclosed partially, if not wholly, some of the essential conditions to the achievement of happiness, Bentham's proposition ignores the formulated knowledge of them actually existing. For whence come the conception of justice and the answering sentiment. He will scarcely say that they are meaningless, although his proposition implies as much; and if he admits that they have meanings, he must choose between two alternatives either of which is fatal to his hypothesis. Are they supernaturally caused modes of thinking and feeling, tending to make men fulfill the conditions to happiness? If so their authority is peremptory. Are they modes of thinking and feeling naturally caused in men by experience of these conditions? If so, their authority is no less peremptory. Not only, then, does Bentham fail to infer that certain principles of guidance must by this time have been ascertained, but he refuses to recognize these principles as actually reached and present to him.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "apoya",
+   "conf": 0.21,
+   "alcance": "general",
+   "alcance_conf": 0.16
+  },
+  {
+   "i": "13852",
+   "autor": "Spencer",
+   "obra": "The Data of Ethics",
+   "pos": "392",
+   "texto": "As foregoing chapters in various places imply, the entire field of Ethics includes the two great divisions, personal and social. There is a class of actions directed to personal ends, which are to be judged in their relations to personal well-being, considered apart from the well-being of others: though they secondarily affect fellow-men these primarily affect the agent himself, and must be classed as intrinsically right or wrong according to their beneficial or detrimental effects on him. There are actions of another class which affect fellow-men immediately and remotely, and which, though their results to self are not to be ignored, must be judged as good or bad mainly by their results to others. Actions of this last class fall into two groups. Those of the one group achieve ends in ways that do or do not unduly interfere with the pursuit of ends by others--actions which, because of this difference, we call respectively unjust or just. Those forming the other group are of a kind which influence the states of others without directly interfering with the relations between their labors and the results, in one way or the other--actions which we speak of as beneficent or maleficent. And the conduct which we regard as beneficent is itself subdivisible according as it shows us a self-repression to avoid giving pain, or an expenditure of effort to give pleasure--negative beneficence and positive beneficence.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.95,
+   "alcance": "especifica",
+   "alcance_conf": 0.68
+  },
+  {
+   "i": "14570",
+   "autor": "Nietzsche",
+   "obra": "Beyond Good and Evil",
+   "pos": "66",
+   "texto": "183. \"I am affected, not because you have deceived me, but because I can no longer believe in you.\" 184. There is a haughtiness of kindness which has the appearance of wickedness. 185. \"I dislike him.\"--Why?--\"I am not a match for him.\"--Did any one ever answer so? CHAPTER V. THE NATURAL HISTORY OF MORALS 186. The moral sentiment in Europe at present is perhaps as subtle, belated, diverse, sensitive, and refined, as the \"Science of Morals\" belonging thereto is recent, initial, awkward, and coarse-fingered:--an interesting contrast, which sometimes becomes incarnate and obvious in the very person of a moralist. Indeed, the expression, \"Science of Morals\" is, in respect to what is designated thereby, far too presumptuous and counter to GOOD taste,--which is always a foretaste of more modest expressions. One ought to avow with the utmost fairness WHAT is still necessary here for a long time, WHAT is alone proper for the present: namely, the collection of material, the comprehensive survey and classification of an immense domain of delicate sentiments of worth, and distinctions of worth, which live, grow, propagate, and perish--and perhaps attempts to give a clear idea of the recurring and more common forms of these living crystallizations--as preparation for a THEORY OF TYPES of morality. To be sure, people have not hitherto been so modest. All the philosophers, with a pedantic and ridiculous seriousness, demanded of themselves something very much higher, more pretentious, and ceremonious, when they concerned themselves with morality as a science: they wanted to GIVE A BASIC to morality--and every philosopher hitherto has believed",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "trata_sin_resolver",
+   "conf": 0.36
+  },
+  {
+   "i": "14580",
+   "autor": "Nietzsche",
+   "obra": "Beyond Good and Evil",
+   "pos": "81",
+   "texto": "202. Let us at once say again what we have already said a hundred times, for people's ears nowadays are unwilling to hear such truths--OUR truths. We know well enough how offensive it sounds when any one plainly, and without metaphor, counts man among the animals, but it will be accounted to us almost a CRIME, that it is precisely in respect to men of \"modern ideas\" that we have constantly applied the terms \"herd,\" \"herd-instincts,\" and such like expressions. What avail is it? We cannot do otherwise, for it is precisely here that our new insight is. We have found that in all the principal moral judgments, Europe has become unanimous, including likewise the countries where European influence prevails in Europe people evidently KNOW what Socrates thought he did not know, and what the famous serpent of old once promised to teach--they \"know\" today what is good and evil. It must then sound hard and be distasteful to the ear, when we always insist that that which here thinks it knows, that which here glorifies itself with praise and blame, and calls itself good, is the instinct of the herding human animal, the instinct which has come and is ever coming more and more to the front, to preponderance and supremacy over other instincts, according to the increasing physiological approximation and resemblance of which it is the symptom. MORALITY IN EUROPE AT PRESENT IS HERDING-ANIMAL MORALITY, and therefore, as we understand the matter, only one kind of human morality, beside which, before which, and after which many other moralities,",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.59,
+   "alcance": "general",
+   "alcance_conf": 0.96
+  },
+  {
+   "i": "15361",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "156",
+   "texto": "The blunt assertion that every moral situation is a unique situation having its own irreplaceable good may seem not merely blunt but preposterous. For the established tradition teaches that it is precisely the irregularity of special cases which makes necessary the guidance of conduct by universals, and that the essence of the virtuous disposition is willingness to subordinate every particular case to adjudication by a fixed principle. It would then follow that submission of a generic end and law to determination by the concrete situation entails complete confusion and unrestrained licentiousness. Let us, however, follow the pragmatic rule, and in order to discover the meaning of the idea ask for its consequences. Then it surprisingly turns out that the primary significance of the unique and morally ultimate character of the concrete situation is to transfer the weight and burden of morality to intelligence. It does not destroy responsibility; it only locates it. A moral situation is one in which judgment and choice are required antecedently to overt action. The practical meaning of the situation--that is to say the action needed to satisfy it--is not self-evident. It has to be searched for. There are conflicting desires and alternative apparent goods. What is needed is to find the right course of action, the right good. Hence, inquiry is exacted: observation of the detailed makeup of the situation; analysis into its diverse factors; clarification of what is obscure; discounting of the more insistent and vivid traits; tracing the consequences of the various modes of action that suggest themselves; regarding the decision reached as",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.79,
+   "alcance": "general",
+   "alcance_conf": 0.14
+  },
+  {
+   "i": "15363",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "159",
+   "texto": "Meantime, the special moral perplexities where the aid of intelligence is required go unenlightened. We cannot seek or attain health, wealth, learning, justice or kindness in general. Action is always specific, concrete, individualized, unique. And consequently judgments as to acts to be performed must be similarly specific. To say that a man seeks health or justice is only to say that he seeks to live healthily or justly. These things, like truth, are adverbial. They are modifiers of action in special cases. How to live healthily or justly is a matter which differs with every person. It varies with his past experience, his opportunities, his temperamental and acquired weaknesses and abilities. Not man in general but a particular man suffering from some particular disability aims to live healthily, and consequently health cannot mean for him exactly what it means for any other mortal. Healthy living is not something to be attained by itself apart from other ways of living. A man needs to be healthy _in_ his life, not apart from it, and what does life mean except the aggregate of his pursuits and activities? A man who aims at health as a distinct end becomes a valetudinarian, or a fanatic, or a mechanical performer of exercises, or an athlete so one-sided that his pursuit of bodily development injures his heart. When the endeavor to realize a so-called end does not temper and color all other activities, life is portioned out into strips and fractions. Certain acts and times are devoted to getting health, others to cultivating religion, others to",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.6,
+   "alcance": "general",
+   "alcance_conf": 0.82
+  },
+  {
+   "i": "15365",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "161",
+   "texto": "_Moral_ goods and ends exist only when something has to be done. The fact that something has to be done proves that there are deficiencies, evils in the existent situation. This ill is just the specific ill that it is. It never is an exact duplicate of anything else. Consequently the good of the situation has to be discovered, projected and attained on the basis of the exact defect and trouble to be rectified. It cannot intelligently be injected into the situation from without. Yet it is the part of wisdom to compare different cases, to gather together the ills from which humanity suffers, and to generalize the corresponding goods into classes. Health, wealth, industry, temperance, amiability, courtesy, learning, esthetic capacity, initiative, courage, patience, enterprise, thoroughness and a multitude of other generalized ends are acknowledged as goods. But the _value_ of this systematization is intellectual or analytic. Classifications _suggest_ possible traits to be on the lookout for in studying a particular case; they suggest methods of action to be tried in removing the inferred causes of ill. They are tools of insight; their value is in promoting an individualized response in the individual situation.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.87,
+   "alcance": "general",
+   "alcance_conf": 0.08
+  },
+  {
+   "i": "15366",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "162",
+   "texto": "Morals is not a catalogue of acts nor a set of rules to be applied like drugstore prescriptions or cook-book recipes. The need in morals is for specific methods of inquiry and of contrivance: Methods of inquiry to locate difficulties and evils; methods of contrivance to form plans to be used as working hypotheses in dealing with them. And the pragmatic import of the logic of individualized situations, each having its own irreplaceable good and principle, is to transfer the attention of theory from preoccupation with general conceptions to the problem of developing effective methods of inquiry. Two ethical consequences of great moment should be remarked. The belief in fixed values has bred a division of ends into intrinsic and instrumental, of those that are really worth while in themselves and those that are of importance only as means to intrinsic goods. Indeed, it is often thought to be the very beginning of wisdom, of moral discrimination, to make this distinction. Dialectically, the distinction is interesting and seems harmless. But carried into practice it has an import that is tragic. Historically, it has been the source and justification of a hard and fast difference between ideal goods on one side and material goods on the other. At present those who would be liberal conceive intrinsic goods as esthetic in nature rather than as exclusively religious or as intellectually contemplative. But the effect is the same. So-called intrinsic goods, whether religious or esthetic, are divorced from those interests of daily life which because of their constancy and urgency form the preoccupation",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.89,
+   "alcance": "general",
+   "alcance_conf": 0.22
+  },
+  {
+   "i": "15368",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "164",
+   "texto": "The other generic change lies in doing away once for all with the traditional distinction between moral goods, like the virtues, and natural goods like health, economic security, art, science and the like. The point of view under discussion is not the only one which has deplored this rigid distinction and endeavored to abolish it. Some schools have even gone so far as to regard moral excellencies, qualities of character as of value only because they promote natural goods. But the experimental logic when carried into morals makes every quality that is judged to be good according as it contributes to amelioration of existing ills. And in so doing, it enforces the moral meaning of natural science. When all is said and done in criticism of present social deficiencies, one may well wonder whether the root difficulty does not lie in the separation of natural and moral science. When physics, chemistry, biology, medicine, contribute to the detection of concrete human woes and to the development of plans for remedying them and relieving the human estate, they become moral; they become part of the apparatus of moral inquiry or science. The latter then loses its peculiar flavor of the didactic and pedantic; its ultra-moralistic and hortatory tone. It loses its thinness and shrillness as well as its vagueness. It gains agencies that are efficacious. But the gain is not confined to the side of moral science. Natural science loses its divorce from humanity; it becomes itself humanistic in quality. It is something to be pursued not in a technical and specialized",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.95,
+   "alcance": "especifica",
+   "alcance_conf": 0.36
+  },
+  {
+   "i": "15370",
+   "autor": "Dewey",
+   "obra": "Reconstruction in Philosophy",
+   "pos": "166",
+   "texto": "These general considerations may be amplified. First: Inquiry, discovery take the same place in morals that they have come to occupy in sciences of nature. Validation, demonstration become experimental, a matter of consequences. Reason, always an honorific term in ethics, becomes actualized in the methods by which the needs and conditions, the obstacles and resources, of situations are scrutinized in detail, and intelligent plans of improvement are worked out. Remote and abstract generalities promote jumping at conclusions, \"anticipations of nature.\" Bad consequences are then deplored as due to natural perversity and untoward fate. But shifting the issue to analysis of a specific situation makes inquiry obligatory and alert observation of consequences imperative. No past decision nor old principle can ever be wholly relied upon to justify a course of action. No amount of pains taken in forming a purpose in a definite case is final; the consequences of its adoption must be carefully noted, and a purpose held only as a working hypothesis until results confirm its rightness. Mistakes are no longer either mere unavoidable accidents to be mourned or moral sins to be expiated and forgiven. They are lessons in wrong methods of using intelligence and instructions as to a better course in the future. They are indications of the need of revision, development, readjustment. Ends grow, standards of judgment are improved. Man is under just as much obligation to develop his most advanced standards and ideals as to use conscientiously those which he already possesses. Moral life is protected from falling into formalism and rigid repetition. It is",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 1.0,
+   "alcance": "especifica",
+   "alcance_conf": 0.9
+  },
+  {
+   "i": "15673",
+   "autor": "Santayana",
+   "obra": "The Life of Reason: The Phases of Human Progress",
+   "pos": "685",
+   "texto": "[Sidenote: Primary and secondary morality.] Herein lies the great difference between first-hand and second-hand morality. The retailers of moral truth, the town-criers that go shouting in the streets some sentence passed long ago in reason’s court against some inadmissible desire, know nothing of justice or mercy or reason—three principles essentially identical. They thunder conclusions without remembering the premisses, and expose their precepts, daily, of course, grown more thin and unrepresentative, to the aversion and neglect of all who genuinely love what is good. The masters of life, on the contrary, the first framers and discoverers of moral ideals, are persons who disregard those worn conventions and their professional interpreters: they are persons who have a fresh sense for the universal need and cry of human souls, and reconstruct the world of duty to make it fit better with the world of desire and of possible happiness. Primary morality, inspired by love of something naturally good, is accordingly charitable and ready to forgive; while secondary morality, founded on prejudice, is fanatical and ruthless.",
+   "estrella": "56",
+   "subtema": "s56_1",
+   "postura": "contradice",
+   "conf": 0.53,
+   "alcance": "general",
+   "alcance_conf": 0.44
+  }
+ ],
+ "autores": {
+  "Aristóteles": {
+   "veredicto": "apoya",
+   "nivel": "expreso",
+   "conf": 0.37,
+   "pasajes": 2,
+   "relevantes": 1,
+   "cuenta": {
+    "no_trata": 1,
+    "apoya": 1
+   }
+  },
+  "Tomás de Aquino": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 5
+  },
+  "Locke": {
+   "veredicto": "contradice",
+   "nivel": "inferido",
+   "conf": 0.61,
+   "pasajes": 3,
+   "relevantes": 2,
+   "cuenta": {
+    "contradice": 2,
+    "no_trata": 1
+   }
+  },
+  "Hume": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.99,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 3
+   }
+  },
+  "Adam Smith": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.99,
+   "pasajes": 10,
+   "relevantes": 3,
+   "cuenta": {
+    "contradice": 5,
+    "trata_sin_resolver": 2,
+    "apoya": 1,
+    "no_trata": 2
+   }
+  },
+  "Kant": {
+   "veredicto": "apoya",
+   "nivel": "expreso",
+   "conf": 0.87,
+   "pasajes": 6,
+   "relevantes": 3,
+   "cuenta": {
+    "apoya": 3,
+    "no_trata": 2,
+    "contradice": 1
+   }
+  },
+  "Hegel": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.52,
+   "pasajes": 5,
+   "relevantes": 1,
+   "cuenta": {
+    "apoya": 1,
+    "contradice": 2,
+    "no_trata": 2
+   }
+  },
+  "Schopenhauer": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Feuerbach": {
+   "veredicto": "apoya",
+   "nivel": "expreso",
+   "conf": 0.97,
+   "pasajes": 2,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1,
+    "apoya": 1
+   }
+  },
+  "Mill": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 1.0,
+   "pasajes": 9,
+   "relevantes": 6,
+   "cuenta": {
+    "contradice": 9
+   }
+  },
+  "Spencer": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.91,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 2,
+    "apoya": 1
+   }
+  },
+  "Nietzsche": {
+   "veredicto": "contradice",
+   "nivel": "inferido",
+   "conf": 0.6,
+   "pasajes": 2,
+   "relevantes": 1,
+   "cuenta": {
+    "trata_sin_resolver": 1,
+    "contradice": 1
+   }
+  },
+  "Dewey": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 1.0,
+   "pasajes": 6,
+   "relevantes": 2,
+   "cuenta": {
+    "contradice": 6
+   }
+  },
+  "Santayana": {
+   "veredicto": "contradice",
+   "nivel": "inferido",
+   "conf": 0.45,
+   "pasajes": 1,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1
+   }
+  }
+ }
+}

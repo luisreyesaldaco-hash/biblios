@@ -2,8 +2,9 @@
 Uso: python clasificar.py q001.json  → q001_dialectica.json"""
 import json, sys, pathlib, collections, urllib.request
 from concurrent.futures import ThreadPoolExecutor
-AQUI = pathlib.Path(__file__).resolve().parent
-KEY = dict(l.split("=", 1) for l in (AQUI.parent / ".env").read_text().splitlines() if "=" in l)["TYPESAFE_API_KEY"].strip()
+AQUI = pathlib.Path(sys.argv[1]).resolve().parent   # junto al archivo de la quaestio (dialectica/ o dialectica/sub/)
+RAIZ = pathlib.Path(__file__).resolve().parent.parent
+KEY = dict(l.split("=", 1) for l in (RAIZ / ".env").read_text().splitlines() if "=" in l)["TYPESAFE_API_KEY"].strip()
 Q = json.load(open(sys.argv[1])); C = json.load(open(AQUI / (Q["id"] + "_candidatos.json")))["candidatos"]
 H = Q["proposicion"]
 ETQ = {"apoya": "The text asserts or supports the proposition.",

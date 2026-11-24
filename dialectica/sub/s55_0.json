@@ -1,0 +1,23 @@
+{
+ "id": "s55_0",
+ "estrella": 55,
+ "subtema": "Amor propio y virtud",
+ "proposicion": "Self-love can never be the sole motive of virtuous actions.",
+ "proposicion_es": "El amor propio nunca puede ser el único motivo de acciones virtuosas.",
+ "nucleo": "whether self-love can be the sole motive of virtuous actions.",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Adam Smith": "apoya",
+  "Hume": "apoya",
+  "Kant": "apoya",
+  "Schopenhauer": "apoya",
+  "Tomás de Aquino": "apoya",
+  "Pascal": "apoya",
+  "Spinoza": "contradice",
+  "Stirner": "contradice",
+  "Feuerbach": "contradice (?)",
+  "Locke": "contradice (?)",
+  "Mill": "apoya (?)"
+ }
+}

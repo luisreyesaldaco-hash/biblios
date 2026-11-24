@@ -1,0 +1,16 @@
+{
+ "id": "s38_2",
+ "estrella": 38,
+ "subtema": "Altruismo y Egoísmo Social",
+ "proposicion": "Altruistic behavior is inherently motivated by a natural human desire to alleviate suffering rather than by calculated self-interest.",
+ "proposicion_es": "El comportamiento altruista está motivado inherentemente por el deseo natural humano de aliviar el sufrimiento, más que por el interés calculado en sí mismo.",
+ "nucleo": "whether altruistic behavior stems from a natural desire to alleviate suffering or from calculated self-interest.",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Schopenhauer": "apoya",
+  "Rousseau": "apoya",
+  "Nietzsche": "contradice",
+  "Spencer": "trata_sin_resolver (?)"
+ }
+}

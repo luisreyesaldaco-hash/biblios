@@ -1,0 +1,19 @@
+{
+ "id": "s33_1",
+ "estrella": 33,
+ "subtema": "Voluntad y Bien",
+ "proposicion": "The human will necessarily tends toward the good: no one wills what they believe to be evil.",
+ "proposicion_es": "La voluntad humana tiende necesariamente al bien: nadie quiere lo que cree que es un mal.",
+ "nucleo": "whether the will can knowingly will evil, or necessarily wills what it takes to be good",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Tomás de Aquino": "apoya",
+  "Leibniz": "apoya",
+  "Plotino": "apoya",
+  "Schopenhauer": "contradice",
+  "Kant": "contradice (?) mal radical: la voluntad puede elegir contra la ley",
+  "Feuerbach": "apoya (?)",
+  "Emerson": "apoya (?)"
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "id": "s55_1",
+ "estrella": 55,
+ "subtema": "Aprobación y Virtud",
+ "proposicion": "The principle of approbation is fundamentally derived from self-love rather than an inherent moral sense.",
+ "proposicion_es": "El principio de aprobación se deriva fundamentalmente del amor propio en lugar de un sentido moral inherente.",
+ "nucleo": "whether the principle of approbation stems from self-love or an inherent moral sense.",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Adam Smith": "contradice",
+  "Hume": "contradice"
+ }
+}

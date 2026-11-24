@@ -1,0 +1,18 @@
+{
+ "id": "s56_0",
+ "estrella": 56,
+ "subtema": "Principios Morales Universales",
+ "proposicion": "The ultimate moral principle is derived from human rationality and not from divine authority.",
+ "proposicion_es": "El principio moral supremo se deriva de la razón humana y no de la autoridad divina.",
+ "nucleo": "whether the ultimate moral principle is grounded in human rationality or divine authority.",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Kant": "apoya",
+  "Mill": "apoya",
+  "Spencer": "apoya",
+  "Dewey": "apoya",
+  "Rousseau": "apoya (?)",
+  "Tomás de Aquino": "contradice (?) la ley natural es razón, pero participa de la ley eterna"
+ }
+}

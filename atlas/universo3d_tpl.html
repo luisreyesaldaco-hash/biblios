@@ -81,6 +81,11 @@ aside > * { flex-shrink: 0; }
 .foco .veredictos li { grid-template-columns: minmax(0,1fr) auto auto; }
 .foco .veredictos .v { font-family: var(--mono); font-size: .72rem; }
 .foco .veredictos .ok { font-family: var(--mono); font-size: .72rem; color: var(--dim); }
+.subtemas { display: grid; gap: .15rem; margin-bottom: .7rem; }
+.subtemas button { all: unset; display: grid; grid-template-columns: 10px minmax(0,1fr) auto; gap: .5rem; align-items: center; padding: .25rem .35rem; border-radius: 4px; font-size: .82rem; cursor: pointer; }
+.subtemas button:hover, .subtemas button[aria-pressed="true"] { background: color-mix(in srgb, var(--ink) 9%, transparent); }
+.subtemas button:focus-visible { outline: 2px solid var(--star); }
+.subtemas button span:last-child { font-family: var(--mono); font-size: .72rem; color: var(--dim); }
 .foco .limpiar { all: unset; cursor: pointer; font-family: var(--mono); font-size: .72rem; color: var(--dim); text-decoration: underline; }
 .etq.tema { font-size: 12px; font-weight: 600; letter-spacing: .02em; color: var(--star); }
 .error { position: absolute; inset: 0; display: grid; place-items: center; color: var(--dim); padding: 2rem; text-align: center; }
@@ -132,7 +137,11 @@ aside > * { flex-shrink: 0; }
 const DATOS = /*DATOS*/null;
 const { autores, obras, pts, vecinos, obrasAutor, distObras, temas } = DATOS;
 const QS = DATOS.quaestiones || [];
-const qDe = s => QS.find(q => q.estrellas.includes(s));
+const SUBS = DATOS.subtemas || [], subDe = DATOS.subDe || {};
+const subsDe = s => SUBS.filter(x => x.estrella === s);
+const qDe = s => subsDe(s).length ? null : QS.find(q => !q.subtema && q.estrellas.includes(s));   // estrella sin subtemas: su quaestio
+const subQ = id => { const x = SUBS.find(y => y.id === id); return x && x.q ? QS.find(q => q.id === x.q) : null; };
+const colorSub = (s, id) => PALETA[subsDe(s).findIndex(x => x.id === id) % PALETA.length];
 const POSTURA = { a: ['#5fd38d', 'a favor'], c: ['#f0716b', 'en contra'], t: ['#d9b45a', 'sin resolver'], n: ['#59607a', 'no trata la tesis'] };
 const nombreTema = t => t.nombre || t.palabras.slice(0, 3).join(' · ');
 const PALETA = ['#f2b84b', '#5ec8e0', '#ee6f91', '#8bd46a', '#b48cf0', '#f08a4b', '#6ad4b8'];
@@ -146,7 +155,7 @@ document.getElementById('sub').textContent =
 
 const cielo = document.getElementById('cielo'), host = document.getElementById('gl');
 const tip = document.getElementById('tip');
-let foco = -1, focoE = -1, porObra = true, porPostura = true, girar = !matchMedia('(prefers-reduced-motion: reduce)').matches, conNombres = true;
+let foco = -1, focoE = -1, focoSub = null, porObra = true, porPostura = true, girar = !matchMedia('(prefers-reduced-motion: reduce)').matches, conNombres = true;
 
 if (!window.THREE) {
   host.innerHTML = '<div class="error">No se pudo cargar la librería 3D. Recarga la página.</div>';
@@ -189,19 +198,22 @@ function iniciar() {
   pts.forEach((p, i) => { if (p.length > 8) p1.set([p[8], p[9], p[10]], i * 3); });
   // Separación por postura: la estrella elegida se abre en dos (a favor ← · → en contra; sin resolver arriba, no trata abajo).
   const off = new Float32Array(pos.length); let sepK = 0, sepMeta = 0, sepDe2 = null;
-  function separar(s, Q) {
-    const clave = Q ? Q.id + ':' + s : null;
-    const clave2 = s >= 0 ? (Q ? clave : 'solo:' + s) : null;
+  function separar(s, Q, sub) {
+    const clave2 = s >= 0 ? [s, sub, Q ? Q.id : ''].join(':') : null;
+    const subs = s >= 0 ? subsDe(s) : [];
+    const anillo = id => { const k = subs.findIndex(x => x.id === id), a = 2 * Math.PI * k / Math.max(1, subs.length); return [0.22 * Math.cos(a), 0.22 * Math.sin(a), 0]; };
+    const dentro = i => pts[i][7] === s && (!sub || subDe[i] === sub);
     if (clave2 === sepDe2) return; sepDe2 = clave2;
     if (s < 0) { sepMeta = 0; irA = { c: new THREE.Vector3(0, 0, 0), d: 3.1 }; return; }
     off.fill(0); sepK = 0;
     const c = [0, 0, 0]; let n = 0;
-    pts.forEach((p, i) => { if (p[7] === s) { for (let j = 0; j < 3; j++) c[j] += p1[i * 3 + j]; n++; } });
+    pts.forEach((p, i) => { if (dentro(i)) { for (let j = 0; j < 3; j++) c[j] += p1[i * 3 + j]; n++; } });
     for (let j = 0; j < 3; j++) c[j] /= n;
     const DIR = { a: [-0.2, 0, 0], c: [0.2, 0, 0], t: [0, 0.14, 0], n: [0, -0.16, 0] };
     pts.forEach((p, i) => {
       if (p[7] !== s) return;
-      const d = Q ? DIR[Q.postura[i] || 'n'] : [0, 0, 0];   // sin quaestio: solo se abre la estrella, sin bandos
+      // con quaestio: bandos; con subtemas y ninguno elegido: cada subtema en su lugar del anillo; si no: solo se abre
+      const d = Q && dentro(i) ? DIR[Q.postura[i] || 'n'] : (!sub && subs.length && subDe[i] ? anillo(subDe[i]) : [0, 0, 0]);
       for (let j = 0; j < 3; j++) off[i * 3 + j] = (p1[i * 3 + j] - c[j]) * 1.6 + d[j];
     });
     sepMeta = 1; irA = { c: new THREE.Vector3(c[0], c[1], c[2]), d: 1.3 };
@@ -276,12 +288,14 @@ function iniciar() {
 
   function pintar() {
     const tmp = new THREE.Color();
-    const Q = focoE >= 0 && porPostura ? qDe(focoE) : null;   // estrella con quaestio: color por postura (Jev)
-    separar(focoE, Q);
+    const Q = focoE >= 0 && porPostura ? (focoSub ? subQ(focoSub) : qDe(focoE)) : null;   // con quaestio: color por postura (Jev)
+    separar(focoE, Q, focoSub);
+    const porSub = focoE >= 0 && !focoSub && subsDe(focoE).length > 0;
     for (let i = 0; i < pts.length; i++) {
-      const on = focoE >= 0 ? pts[i][7] === focoE : (foco < 0 || pts[i][3] === foco);
+      const on = focoE >= 0 ? pts[i][7] === focoE && (!focoSub || subDe[i] === focoSub) : (foco < 0 || pts[i][3] === foco);
       let c = [base[i * 3], base[i * 3 + 1], base[i * 3 + 2]];
       if (on && foco >= 0 && porObra) { tmp.set(tono(foco, pts[i][4])); c = [tmp.r, tmp.g, tmp.b]; }
+      if (on && porSub) { tmp.set(subDe[i] ? colorSub(focoE, subDe[i]) : '#59607a'); c = [tmp.r, tmp.g, tmp.b]; }
       if (on && Q) { tmp.set(POSTURA[Q.postura[i] || 'n'][0]); c = [tmp.r, tmp.g, tmp.b]; }
       for (let j = 0; j < 3; j++) {
         const polvo = pts[i][7] < 0 ? 1 - 0.88 * kT : 1;   // al colapsar, lo que no cae en ningún tema se apaga
@@ -310,7 +324,7 @@ function iniciar() {
     mouse.set(((e.clientX - r.left) / r.width) * 2 - 1, -((e.clientY - r.top) / r.height) * 2 + 1);
     ray.setFromCamera(mouse, camera);
     const hits = ray.intersectObject(estrellas);
-    const h = hits.find(x => (foco < 0 || pts[x.index][3] === foco) && (focoE < 0 || pts[x.index][7] === focoE));
+    const h = hits.find(x => (foco < 0 || pts[x.index][3] === foco) && (focoE < 0 || pts[x.index][7] === focoE) && (!focoSub || subDe[x.index] === focoSub));
     return { i: h ? h.index : -1, x: e.clientX - r.left, y: e.clientY - r.top };
   }
 
@@ -339,7 +353,10 @@ function iniciar() {
     const { i } = elegir(e);
     if (t > 0.6) {   // colapsado: el clic elige la estrella (el tema) del pasaje
       const s = i >= 0 ? pts[i][7] : -1;
-      enfocarEstrella(s >= 0 && s !== focoE ? s : -1);
+      const sb = i >= 0 ? subDe[i] || null : null;
+      if (s >= 0 && s === focoE && sb && !focoSub) enfocarEstrella(s, sb);   // dentro de la estrella: el clic elige el subtema
+      else if (focoSub && i < 0) enfocarEstrella(focoE);                        // fuera del subtema: vuelve a la estrella
+      else enfocarEstrella(s >= 0 && s !== focoE ? s : -1);
     } else enfocar(i >= 0 ? (foco === pts[i][3] ? -1 : pts[i][3]) : -1);
   });
   renderer.domElement.addEventListener('pointerleave', () => { tip.hidden = true; marca.visible = false; });
@@ -405,7 +422,8 @@ function iniciar() {
     if (focoE >= 0 && t > 0.6) {
       v.copy(centrosE[focoE]).project(camera);
       etqE.hidden = v.z > 1;
-      if (etqE.textContent !== nombreTema(temas.estrellas[focoE])) etqE.textContent = nombreTema(temas.estrellas[focoE]);
+      const nE = focoSub ? SUBS.find(x => x.id === focoSub).nombre : nombreTema(temas.estrellas[focoE]);
+      if (etqE.textContent !== nE) etqE.textContent = nE;
       etqE.style.left = ((v.x + 1) / 2 * W) + 'px';
       etqE.style.top = ((1 - v.y) / 2 * H + 22) + 'px';
     } else etqE.hidden = true;
@@ -448,9 +466,9 @@ const botonesE = new Map();
   }
 })();
 
-function enfocarEstrella(s) {
+function enfocarEstrella(s, sub = null) {
   if (s < 0) { enfocar(-1); return; }
-  foco = -1; focoE = s;
+  foco = -1; focoE = s; focoSub = sub;
   botones.forEach(b => b.setAttribute('aria-pressed', 'false'));
   botonesE.forEach((b, k) => { b.setAttribute('aria-pressed', String(k === s)); if (k === s) b.closest('details').open = true; });
   const E = temas.estrellas[s], G = temas.galaxias[E.galaxia];
@@ -460,7 +478,22 @@ function enfocarEstrella(s) {
   const gl = document.createElement('p'); gl.className = 'gal';
   gl.textContent = `${E.n.toLocaleString('es-MX')} pasajes · galaxia «${G ? nombreTema(G) : '—'}»`; box.append(gl);
   const pw = document.createElement('p'); pw.className = 'palabras'; pw.textContent = E.palabras.join(' · '); box.append(pw);
-  const Q = qDe(s);
+  const subs = subsDe(s);
+  if (subs.length) {   // tercer nivel
+    const rs = document.createElement('p'); rs.className = 'rotulo';
+    rs.textContent = sub ? 'Subtema' : 'Subtemas · elige uno para ver quién está a favor y en contra'; box.append(rs);
+    const ls = document.createElement('div'); ls.className = 'subtemas';
+    subs.forEach(x => {
+      const b = document.createElement('button'); b.type = 'button'; b.setAttribute('aria-pressed', String(x.id === sub));
+      const d = document.createElement('span'); d.className = 'punto'; d.style.background = colorSub(s, x.id);
+      const nm = document.createElement('span'); nm.textContent = x.nombre;
+      const c = document.createElement('span'); c.textContent = x.q ? x.n + ' pas.' : x.n + ' pas. · sin tesis';
+      b.append(d, nm, c); b.addEventListener('click', () => enfocarEstrella(s, x.id === sub ? null : x.id)); ls.append(b);
+    });
+    box.append(ls);
+  }
+  const Q = sub ? subQ(sub) : qDe(s);
+  const enQ = i => pts[i][7] === s && (!sub || subDe[i] === sub);
   if (Q) {
     const qb = document.createElement('div'); qb.className = 'quaestio';
     const qr = document.createElement('p'); qr.className = 'rotulo'; qr.textContent = `Quaestio ${Q.id} · a favor y en contra (Jev, a ciegas)`; qb.append(qr);
@@ -470,7 +503,7 @@ function enfocarEstrella(s) {
     cb.addEventListener('change', () => { porPostura = cb.checked; if (window.__pintar) window.__pintar(); });
     tg.append(cb, document.createTextNode(' Pintar los pasajes por postura')); qb.append(tg);
     const cnt = { a: 0, c: 0, t: 0, n: 0 };
-    pts.forEach((p, i) => { if (p[7] === s) cnt[Q.postura[i] || 'n']++; });
+    pts.forEach((p, i) => { if (enQ(i)) cnt[Q.postura[i] || 'n']++; });
     const lg = document.createElement('div'); lg.className = 'leyenda';
     for (const k of ['a', 'c', 't', 'n']) {
       const sp = document.createElement('span'); const d = document.createElement('span'); d.className = 'punto'; d.style.background = POSTURA[k][0];
@@ -564,7 +597,7 @@ function obrasPanel(k, box) {
 }
 
 function enfocar(k) {
-  foco = k; focoE = -1; botonesE.forEach((b, s) => b.setAttribute('aria-pressed', 'false'));
+  foco = k; focoE = -1; focoSub = null; botonesE.forEach((b, s) => b.setAttribute('aria-pressed', 'false'));
   botones.forEach((b, i) => b.setAttribute('aria-pressed', String(i === k)));
   const box = document.getElementById('foco'); box.innerHTML = '';
   const rot = document.createElement('p'); rot.className = 'rotulo'; rot.textContent = 'Enfoque'; box.append(rot);

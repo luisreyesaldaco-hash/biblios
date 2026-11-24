@@ -1,0 +1,19 @@
+{
+ "id": "s56_1",
+ "estrella": 56,
+ "subtema": "Acciones y Moralidad",
+ "proposicion": "Moral goodness is primarily determined by the inherent nature of actions rather than their consequences.",
+ "proposicion_es": "La bondad moral se determina principalmente por la naturaleza inherente de las acciones, no por sus consecuencias.",
+ "nucleo": "whether moral goodness is based on the inherent nature of actions or their consequences.",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Kant": "apoya",
+  "Tomás de Aquino": "apoya",
+  "Adam Smith": "apoya (?)",
+  "Mill": "contradice",
+  "Spencer": "contradice",
+  "Hume": "contradice (?)",
+  "Dewey": "contradice (?)"
+ }
+}

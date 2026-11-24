@@ -1,0 +1,17 @@
+{
+ "id": "s23_0",
+ "estrella": 23,
+ "subtema": "Razón y Virtud",
+ "proposicion": "Virtue is a kind of knowledge: whoever truly knows the good will do it.",
+ "proposicion_es": "La virtud es conocimiento: quien conoce de verdad el bien, lo hace.",
+ "nucleo": "whether knowing the good is sufficient for acting well, or whether virtue also needs habit, will or passion",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Tomás de Aquino": "contradice",
+  "Pascal": "contradice",
+  "Adam Smith": "contradice",
+  "Hobbes": "contradice (?)",
+  "Mill": "contradice (?)"
+ }
+}

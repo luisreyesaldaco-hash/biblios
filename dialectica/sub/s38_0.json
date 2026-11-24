@@ -1,0 +1,15 @@
+{
+ "id": "s38_0",
+ "estrella": 38,
+ "subtema": "El Bien y la Acción",
+ "proposicion": "The principle of utility is the sole criterion for moral action.",
+ "proposicion_es": "El principio de utilidad es el único criterio para la acción moral.",
+ "nucleo": "whether the principle of utility alone determines moral action",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Mill": "apoya",
+  "Marx y Engels": "contradice",
+  "Spencer": "contradice (?) critica el utilitarismo empírico de Bentham"
+ }
+}

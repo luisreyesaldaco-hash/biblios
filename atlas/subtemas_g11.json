@@ -1,0 +1,1871 @@
+[
+ {
+  "id": "s33_0",
+  "estrella": 33,
+  "n": 79,
+  "pasajes": [
+   907,
+   908,
+   909,
+   911,
+   913,
+   933,
+   2607,
+   2610,
+   2788,
+   2833,
+   3026,
+   3430,
+   3793,
+   3952,
+   3999,
+   4083,
+   6186,
+   6774,
+   6962,
+   6964,
+   6965,
+   7371,
+   7374,
+   7388,
+   7424,
+   7504,
+   8153,
+   8154,
+   8422,
+   8423,
+   8424,
+   8425,
+   8426,
+   8428,
+   8480,
+   8481,
+   8482,
+   8665,
+   8667,
+   9196,
+   9500,
+   9713,
+   9714,
+   9784,
+   9787,
+   9788,
+   9793,
+   9805,
+   9806,
+   9807,
+   9809,
+   9825,
+   9832,
+   9841,
+   9953,
+   10400,
+   10472,
+   10480,
+   10532,
+   10679,
+   10790,
+   10792,
+   10793,
+   10796,
+   10797,
+   10831,
+   10832,
+   10833,
+   11610,
+   14227,
+   14228,
+   14401,
+   14402,
+   14403,
+   14404,
+   15069,
+   15157,
+   16151,
+   16275
+  ],
+  "autores": [
+   [
+    "Kant",
+    14
+   ],
+   [
+    "Voltaire",
+    9
+   ],
+   [
+    "Schopenhauer",
+    8
+   ],
+   [
+    "Aristóteles",
+    6
+   ],
+   [
+    "William James",
+    6
+   ],
+   [
+    "Leibniz",
+    5
+   ],
+   [
+    "Hegel",
+    5
+   ],
+   [
+    "Tomás de Aquino",
+    3
+   ],
+   [
+    "Locke",
+    3
+   ],
+   [
+    "Epicteto",
+    2
+   ],
+   [
+    "Marco Aurelio",
+    2
+   ],
+   [
+    "Berkeley",
+    2
+   ],
+   [
+    "Hume",
+    2
+   ],
+   [
+    "Bergson",
+    2
+   ],
+   [
+    "Russell",
+    2
+   ],
+   [
+    "Plotino",
+    1
+   ],
+   [
+    "Agustín",
+    1
+   ],
+   [
+    "Boecio",
+    1
+   ],
+   [
+    "Descartes",
+    1
+   ],
+   [
+    "Spinoza",
+    1
+   ],
+   [
+    "Rousseau",
+    1
+   ],
+   [
+    "Adam Smith",
+    1
+   ],
+   [
+    "Feuerbach",
+    1
+   ]
+  ],
+  "palabras": [
+   "free",
+   "freedom",
+   "reason",
+   "necessity",
+   "power",
+   "knowledge",
+   "nature",
+   "world"
+  ],
+  "centrales": [
+   {
+    "i": 10797,
+    "autor": "Schopenhauer",
+    "texto": "Therefore, by true repentance, which, however, shows itself as action also, it can be obliterated, as a falsely drawn line, from that picture of our will which our course of life is. I may insert the remark here, as a very good comparison, that the relation between wish and deed has a purely accidental but accurate analogy with that between the accumulation and discharge of electricity. As the result of the whole of this discussion of the freedom of the will and what relates to it, we find that although the will may, in itself and apart from the phenomenon, be called free and even omnipotent, yet in its particular phenomena enlightened by knowledge, as in men and brutes, it is determined by motives to which the special character regularly"
+   },
+   {
+    "i": 8667,
+    "autor": "Hume",
+    "texto": "77. It will be equally easy to prove, and from the same arguments, that _liberty_, according to that definition above mentioned, in which all men agree, is also essential to morality, and that no human actions, where it is wanting, are susceptible of any moral qualities, or can be the objects either of approbation or dislike. For as actions are objects of our moral sentiment, so far only as they are indications of the internal character, passions, and affections; it is impossible that they can give rise either to praise or blame, where they proceed not from these principles, but are derived altogether from external violence. 78. I pretend not to have obviated or removed all objections to this theory, with regard to necessity and liberty. I can foresee other"
+   },
+   {
+    "i": 7374,
+    "autor": "Leibniz",
+    "texto": "51. As for _volition_ itself, to say that it is an object of free will is incorrect. We will to act, strictly speaking, and we do not will to will; else we could still say that we will to have the will to will, and that would go on to infinity. Besides, we do not always follow the latest judgement of practical understanding when we resolve to will; but we always follow, in our willing, the result of all the inclinations that come from the direction both of reasons and passions, and this often happens without an express judgement of the understanding. 52. All is therefore certain and determined beforehand in man, as everywhere else, and the human soul is a kind of _spiritual automaton_, although contingent actions in general"
+   },
+   {
+    "i": 6186,
+    "autor": "Descartes",
+    "texto": "I have not here assumed any thing concerning the _Freedom_ of _Mans Will_, unless what all Men do Experience in themselves, and is most evident by the Light of Nature. Neither see I any Reason, Why he should say that this is Contradictious to any former Position. Perhaps there may be Many, who respecting _Gods predisposal_ of Things cannot Comprehend, How their _Freedom_ of _Will_ Consists there-with, but yet there is no Man who, respecting himself only, does not find by Experience, That ’tis one and the same Thing to be _Willing_, and to be _Free_. But ’tis no Place to Enquire what the Opinion of others may be in this Matter. OBJECT. XIII. * _As for Example, When lately I set my self to examine Whether any Thing Do"
+   },
+   {
+    "i": 8424,
+    "autor": "Voltaire",
+    "texto": "Now you receive all your ideas; therefore you receive your wish, you wish therefore necessarily. The word \"liberty\" does not therefore belong in any way to your will. You ask me how thought and wish are formed in us. I answer you that I have not the remotest idea. I do not know how ideas are made any more than how the world was made. All that is given to us is to grope for what passes in our incomprehensible machine. The will, therefore, is not a faculty that one can call free. A free will is an expression absolutely void of sense, and what the scholastics have called will of indifference, that is to say willing without cause, is a chimera unworthy of being combated."
+   },
+   {
+    "i": 2610,
+    "autor": "Epicteto",
+    "texto": "Whether then have you nothing which is in your own power, which depends on yourself only and cannot be taken from you, or have you anything of the kind? I know not. Look at the thing then thus, and examine it. Is any man able to make you assent to that which is false? No man. In the matter of assent then you are free from hindrance and obstruction. Granted. Well; and can a man force you to desire to move towards that to which you do not choose? He can, for when he threatens me with death or bonds he compels me to desire to move towards it. If then you despise death and bonds, do you still pay any regard to him? No. Is then the despising of"
+   }
+  ]
+ },
+ {
+  "id": "s33_1",
+  "estrella": 33,
+  "n": 73,
+  "pasajes": [
+   2629,
+   3018,
+   3025,
+   3158,
+   3378,
+   3818,
+   3852,
+   4010,
+   4011,
+   4012,
+   4013,
+   4014,
+   4015,
+   4018,
+   4020,
+   4021,
+   4081,
+   4084,
+   4086,
+   4087,
+   4092,
+   4093,
+   4096,
+   4102,
+   4103,
+   4104,
+   4105,
+   4106,
+   4107,
+   4166,
+   4167,
+   4664,
+   5437,
+   6711,
+   7359,
+   7361,
+   7497,
+   7591,
+   8712,
+   9468,
+   9471,
+   9474,
+   9729,
+   9750,
+   9796,
+   9797,
+   9828,
+   9835,
+   9843,
+   10678,
+   10752,
+   10799,
+   10818,
+   11011,
+   11102,
+   11135,
+   11231,
+   11306,
+   11307,
+   11444,
+   11447,
+   11448,
+   11449,
+   11462,
+   11564,
+   11918,
+   13487,
+   13488,
+   13490,
+   13545,
+   13546,
+   13547,
+   14244
+  ],
+  "autores": [
+   [
+    "Tomás de Aquino",
+    26
+   ],
+   [
+    "Kant",
+    7
+   ],
+   [
+    "Feuerbach",
+    6
+   ],
+   [
+    "Emerson",
+    5
+   ],
+   [
+    "Leibniz",
+    4
+   ],
+   [
+    "Schopenhauer",
+    4
+   ],
+   [
+    "Plotino",
+    3
+   ],
+   [
+    "Adam Smith",
+    3
+   ],
+   [
+    "Marx y Engels",
+    3
+   ],
+   [
+    "Spencer",
+    3
+   ],
+   [
+    "Epicteto",
+    1
+   ],
+   [
+    "Agustín",
+    1
+   ],
+   [
+    "Moro",
+    1
+   ],
+   [
+    "Grocio",
+    1
+   ],
+   [
+    "Spinoza",
+    1
+   ],
+   [
+    "Hume",
+    1
+   ],
+   [
+    "Hegel",
+    1
+   ],
+   [
+    "Mill",
+    1
+   ],
+   [
+    "William James",
+    1
+   ]
+  ],
+  "palabras": [
+   "evil",
+   "good",
+   "action",
+   "nature",
+   "reason",
+   "human",
+   "does",
+   "moral"
+  ],
+  "centrales": [
+   {
+    "i": 4093,
+    "autor": "Tomás de Aquino",
+    "texto": "_I answer that,_ The will is related differently to good and to evil. Because from the very nature of the power, it is inclined to the rational good, as its proper object; wherefore every sin is said to be contrary to nature. Hence, if a will be inclined, by its choice, to some evil, this must be occasioned by something else. Sometimes, in fact, this is occasioned through some defect in the reason, as when anyone sins through ignorance; and sometimes this arises through the impulse of the sensitive appetite, as when anyone sins through passion. Yet neither of these amounts to a sin through certain malice; for then alone does anyone sin through certain malice, when his will is moved to evil of its own accord. This may happen"
+   },
+   {
+    "i": 10818,
+    "autor": "Schopenhauer",
+    "texto": "It follows from what has been said above, that the _good_ is, according to its concept, των πρως τι; thus every good is essentially relative, for its being consists in its relation to a desiring will. _Absolute good_ is, therefore, a contradiction in terms; highest good, _summum bonum_, really signifies the same thing—a final satisfaction of the will, after which no new desire could arise,—a last motive, the attainment of which would afford enduring satisfaction of the will. But, according to the investigations which have already been conducted in this Fourth Book, such a consummation is not even thinkable. The will can just as little cease from willing altogether on account of some particular satisfaction, as time can end or begin; for it there is no such thing as a"
+   },
+   {
+    "i": 2629,
+    "autor": "Epicteto",
+    "texto": "Now is not that which will happen independent of the will? Yes. And the nature of good and of evil, is it not in the things which are within the power of the will? Yes. Is it in your power then to treat according to nature everything which happens? Can any person hinder you? No man. No longer then say to me, How will it be? For, however it may be, you will dispose of it well, and the result to you will be a fortunate one. What would Hercules have been if he said: How shall a great lion not appear to me, or a great boar, or savage men? And what do you care for that? If a great boar appear, you will fight a greater fight; if"
+   },
+   {
+    "i": 11306,
+    "autor": "Emerson",
+    "texto": "This is a natural power, like light and heat, and all nature cooperates with it. The reason why we feel one man's presence and do not feel another's is as simple as gravity. Truth is the summit of being; justice is the application of it to affairs. All individual natures stand in a scale, according to the purity of this element in them. The will of the pure runs down from them into other natures as water runs down from a higher into a lower vessel. This natural force is no more to be withstood than any other natural force. We can drive a stone upward for a moment into the air, but it is yet true that all stones will forever fall; and whatever instances can be quoted of"
+   },
+   {
+    "i": 3025,
+    "autor": "Plotino",
+    "texto": "THE HUMAN SOUL AS AN INDEPENDENT PRINCIPLE. 8. What other cause, besides the preceding, will we have to invoke so as to let nothing occur without a cause, to maintain order and interdependence of things in the world, and in order to preserve the possibility of predictions and omens without destroying our personality? We shall have to introduce among the number of beings another principle, namely: the soul; and not only the World-soul, but even the individual soul of every person. In the universal concatenation of causes and effects, this soul is a principle of no little importance, because, instead of, like all other things, being born of a \"seminal reason,\" it constitutes a \"primary cause.\" Outside of a body, she remains absolute mistress of herself, free and independent of"
+   },
+   {
+    "i": 9750,
+    "autor": "Kant",
+    "texto": "* The dependence of the desires on sensations is called inclination, and this accordingly always indicates a want. The dependence of a contingently determinable will on principles of reason is called an interest. This therefore, is found only in the case of a dependent will which does not always of itself conform to reason; in the Divine will we cannot conceive any interest. But the human will can also take an interest in a thing without therefore acting from interest. The former signifies the practical interest in the action, the latter the pathological in the object of the action. The former indicates only dependence of the will on principles of reason in themselves; the second, dependence on principles of reason for the sake of inclination, reason supplying only the practical"
+   }
+  ]
+ },
+ {
+  "id": "s55_0",
+  "estrella": 55,
+  "n": 94,
+  "pasajes": [
+   904,
+   906,
+   967,
+   970,
+   982,
+   2209,
+   2817,
+   4065,
+   4072,
+   4080,
+   4665,
+   5490,
+   6374,
+   6403,
+   6441,
+   6729,
+   6730,
+   6731,
+   6744,
+   6757,
+   6903,
+   6972,
+   7128,
+   7606,
+   7693,
+   8693,
+   8827,
+   8854,
+   8856,
+   8870,
+   8971,
+   8972,
+   9265,
+   9282,
+   9438,
+   9472,
+   9486,
+   9559,
+   9587,
+   9588,
+   9589,
+   9591,
+   9595,
+   9621,
+   9734,
+   9735,
+   9744,
+   9751,
+   9757,
+   10263,
+   10408,
+   10591,
+   10819,
+   11019,
+   11054,
+   11055,
+   11056,
+   11193,
+   11197,
+   11311,
+   11415,
+   11484,
+   11546,
+   11679,
+   11680,
+   11681,
+   11682,
+   11685,
+   11728,
+   11871,
+   11925,
+   11932,
+   12166,
+   12260,
+   12270,
+   12407,
+   12461,
+   12756,
+   12804,
+   12810,
+   12844,
+   12865,
+   12866,
+   12867,
+   12869,
+   12870,
+   13590,
+   13752,
+   13769,
+   13905,
+   14152,
+   15378,
+   15749,
+   15765
+  ],
+  "autores": [
+   [
+    "Adam Smith",
+    10
+   ],
+   [
+    "Feuerbach",
+    8
+   ],
+   [
+    "Thoreau",
+    8
+   ],
+   [
+    "Hume",
+    7
+   ],
+   [
+    "Aristóteles",
+    5
+   ],
+   [
+    "Spinoza",
+    5
+   ],
+   [
+    "Kant",
+    5
+   ],
+   [
+    "Schopenhauer",
+    5
+   ],
+   [
+    "Stirner",
+    5
+   ],
+   [
+    "Emerson",
+    4
+   ],
+   [
+    "Tomás de Aquino",
+    3
+   ],
+   [
+    "Pascal",
+    3
+   ],
+   [
+    "Locke",
+    3
+   ],
+   [
+    "Mill",
+    3
+   ],
+   [
+    "Spencer",
+    3
+   ],
+   [
+    "Mandeville",
+    2
+   ],
+   [
+    "Rousseau",
+    2
+   ],
+   [
+    "Hegel",
+    2
+   ],
+   [
+    "Peirce",
+    2
+   ],
+   [
+    "Santayana",
+    2
+   ],
+   [
+    "Séneca",
+    1
+   ],
+   [
+    "Marco Aurelio",
+    1
+   ],
+   [
+    "Moro",
+    1
+   ],
+   [
+    "Grocio",
+    1
+   ],
+   [
+    "Wollstonecraft",
+    1
+   ],
+   [
+    "Kierkegaard",
+    1
+   ],
+   [
+    "Dewey",
+    1
+   ]
+  ],
+  "palabras": [
+   "good",
+   "love",
+   "virtue",
+   "self",
+   "does",
+   "human",
+   "nature",
+   "action"
+  ],
+  "centrales": [
+   {
+    "i": 9591,
+    "autor": "Adam Smith",
+    "texto": "Regard to our own private happiness and interest too, appear upon many occasions very laudable principles of action. The habits of œconomy, industry, discretion, attention, and application of thought, are generally supposed to be cultivated from self-interested motives, and at the same time are apprehended to be very praise-worthy qualities, which deserve the esteem and approbation of every body. The mixture of a selfish motive, it is true, seems often to sully the beauty of those actions which ought to arise from a benevolent affection. The cause of this, however, is not that self-love can never be the motive of a virtuous action, but that the benevolent principle appears in this particular case to want its due degree of strength, and to be altogether unsuitable to its object. The character,"
+   },
+   {
+    "i": 4665,
+    "autor": "Moro",
+    "texto": "“They think it is an evidence of true wisdom for a man to pursue his own advantage as far as the laws allow it, they account it piety to prefer the public good to one’s private concerns, but they think it unjust for a man to seek for pleasure by snatching another man’s pleasures from him; and, on the contrary, they think it a sign of a gentle and good soul for a man to dispense with his own advantage for the good of others, and that by this means a good man finds as much pleasure one way as he parts with another; for as he may expect the like from others when he may come to need it, so, if that should fail him, yet the sense of"
+   },
+   {
+    "i": 6744,
+    "autor": "Spinoza",
+    "texto": "Another Proof.--The good, which a man desires for himself and loves, he will love more constantly, if he sees that others love it also (III. xxxi.); he will therefore endeavour that others should love it also; and as the good in question is common to all, and therefore all can rejoice therein, he will endeavour, for the same reason, to bring about that all should rejoice therein, and this he will do the more (III. xxxvii.), in proportion as his own enjoyment of the good is greater. Note I.--He who, guided by emotion only, endeavours to cause others to love what he loves himself, and to make the rest of the world live according to his own fancy, acts solely by impulse, and is, therefore, hateful, especially, to those who"
+   },
+   {
+    "i": 8854,
+    "autor": "Hume",
+    "texto": "It seems a happiness in the present theory, that it enters not into that vulgar dispute concerning the DEGREES of benevolence or self-love, which prevail in human nature; a dispute which is never likely to have any issue, both because men, who have taken part, are not easily convinced, and because the phenomena, which can be produced on either side, are so dispersed, so uncertain, and subject to so many interpretations, that it is scarcely possible accurately to compare them, or draw from them any determinate inference or conclusion. It is sufficient for our present purpose, if it be allowed, what surely, without the greatest absurdity cannot be disputed, that there is some benevolence, however small, infused into our bosom; some spark of friendship for human kind; some particle of"
+   },
+   {
+    "i": 7693,
+    "autor": "Mandeville",
+    "texto": "The exercise of this virtue, relates either to opinion, or to action, and is manifested in what we think of others, or what we do for them. To be charitable, then, in the first place, we ought to put the best construction on all that others do or say, that things are capable of. If a man builds a fine house, though he has not one symptom of humility, furnishes it richly, and lays out a good estate in plate and pictures, we ought not to think that he does it out of vanity, but to encourage artists, employ hands, and set the poor to work for the good of his country: and if a man sleeps at church, so he does not snore, we ought to think he shuts"
+   },
+   {
+    "i": 11055,
+    "autor": "Schopenhauer",
+    "texto": "By the proper presentment of motives =legality= may be secured, but not =morality=. It is possible to remodel what one does, but not what one =wills to do=; and it is to the will alone that real moral worth belongs. It is not possible to change the goal which the will strives after, but only the path expected to lead thither. Instruction may alter the selection of means, but not the choice of the ultimate object which the individual keeps before him in all he does; this is determined by his will in accordance with its original nature. It is true that the egoist may be brought to understand that, if he gives up certain small advantages, he will gain greater; and the malicious man may be taught that by"
+   }
+  ]
+ },
+ {
+  "id": "s55_1",
+  "estrella": 55,
+  "n": 40,
+  "pasajes": [
+   6715,
+   7419,
+   8551,
+   8796,
+   8800,
+   8801,
+   8806,
+   8820,
+   8823,
+   8829,
+   8851,
+   8855,
+   8857,
+   8862,
+   8863,
+   8882,
+   8883,
+   9336,
+   9338,
+   9389,
+   9407,
+   9477,
+   9531,
+   9557,
+   9558,
+   9573,
+   9574,
+   9594,
+   9605,
+   9606,
+   9616,
+   9617,
+   9622,
+   9624,
+   9625,
+   9626,
+   9779,
+   12266,
+   12965,
+   14588
+  ],
+  "autores": [
+   [
+    "Adam Smith",
+    19
+   ],
+   [
+    "Hume",
+    14
+   ],
+   [
+    "Spinoza",
+    1
+   ],
+   [
+    "Leibniz",
+    1
+   ],
+   [
+    "Voltaire",
+    1
+   ],
+   [
+    "Kant",
+    1
+   ],
+   [
+    "Stirner",
+    1
+   ],
+   [
+    "Thoreau",
+    1
+   ],
+   [
+    "Nietzsche",
+    1
+   ]
+  ],
+  "palabras": [
+   "approbation",
+   "virtue",
+   "sentiment",
+   "principle",
+   "qualities",
+   "agreeable",
+   "nature",
+   "according"
+  ],
+  "centrales": [
+   {
+    "i": 9606,
+    "autor": "Adam Smith",
+    "texto": "Before I proceed to give an account of those different systems, I must observe, that the determination of this second question, though of the greatest importance in speculation, is of none in practice. The question concerning the nature of virtue necessarily has some influence upon our notions of right and wrong in many particular cases. That concerning the principle of approbation can possibly have no such effect. To examine from what contrivance or mechanism within, those different notions or sentiments arise, is a mere matter of philosophical curiosity. CHAP. I. _Of those systems which deduce the principle of approbation from self-love._ Those who account for the principle of approbation from self-love, do not all account for it in the same manner, and there is a good deal of confusion and"
+   },
+   {
+    "i": 8823,
+    "autor": "Hume",
+    "texto": "Usefulness is agreeable, and engages our approbation. This is a matter of fact, confirmed by daily observation. But, USEFUL? For what? For somebody's interest, surely. Whose interest then? Not our own only: For our approbation frequently extends farther. It must, therefore, be the interest of those, who are served by the character or action approved of; and these we may conclude, however remote, are not totally indifferent to us. By opening up this principle, we shall discover one great source of moral distinctions. PART II. Self-love is a principle in human nature of such extensive energy, and the interest of each individual is, in general, so closely connected with that of the community, that those philosophers were excusable, who fancied that all our concern for the public might be resolved"
+   },
+   {
+    "i": 9779,
+    "autor": "Kant",
+    "texto": "* I class the principle of moral feeling under that of happiness, because every empirical interest promises to contribute to our well-being by the agreeableness that a thing affords, whether it be immediately and without a view to profit, or whether profit be regarded. We must likewise, with Hutcheson, class the principle of sympathy with the happiness of others under his assumed moral sense. Amongst the rational principles of morality, the ontological conception of perfection, notwithstanding its defects, is better than the theological conception which derives morality from a Divine absolutely perfect will. The former is, no doubt, empty and indefinite and consequently useless for finding in the boundless field of possible reality the greatest amount suitable for us; moreover, in attempting to distinguish specifically the reality of which we"
+   },
+   {
+    "i": 7419,
+    "autor": "Leibniz",
+    "texto": "124. IX. 'The way whereby that master can give proof of greatest love for virtue is to cause it, if he can, to be always practised without any mixture of vice. If it is easy for him to procure for his subjects this advantage, and nevertheless he permits vice to raise its head, save that he punishes it finally after having long tolerated it, his affection for virtue is not the greatest one can conceive; it is therefore not infinite.' I am not yet half way through the nineteen maxims, and already I am weary of refuting, and making the same answer always. M. Bayle multiplies unnecessarily his so-called maxims in opposition to my dogmas. If things connected together may be separated, the parts from their whole, the human kind"
+   },
+   {
+    "i": 8551,
+    "autor": "Voltaire",
+    "texto": "There are some universal, necessary prejudices, which even make virtue. In all countries children are taught to recognize a rewarding and revenging God; to respect and love their father and their mother; to look on theft as a crime, selfish lying as a vice before they can guess what is a vice and what a virtue. There are then some very good prejudices; they are those which are ratified by judgment when one reasons. Sentiment is not a simple prejudice; it is something much stronger. A mother does not love her son because she has been told she must love him; she cherishes him happily in spite of herself. It is not through prejudice that you run to the help of an unknown child about to fall into a precipice,"
+   },
+   {
+    "i": 6715,
+    "autor": "Spinoza",
+    "texto": "VII. By an end, for the sake of which we do something, I mean a desire. VIII. By virtue (virtus) and power I mean the same thing; that is (III. vii), virtue, in so far as it is referred to man, is a man's nature or essence, in so far as it has the power of effecting what can only be understood by the laws of that nature. AXIOM. There is no individual thing in nature, than which there is not another more powerful and strong. Whatsoever thing be given, there is something stronger whereby it can be destroyed. PROPOSITIONS. PROP. I. No positive quality possessed by a false idea is removed by the presence of what is true, in virtue of its being true."
+   }
+  ]
+ },
+ {
+  "id": "s56_0",
+  "estrella": 56,
+  "n": 73,
+  "pasajes": [
+   939,
+   3760,
+   4074,
+   4120,
+   4123,
+   4152,
+   6994,
+   8994,
+   9016,
+   9080,
+   9489,
+   9497,
+   9634,
+   9636,
+   9739,
+   9740,
+   9741,
+   9752,
+   9754,
+   9755,
+   9758,
+   9759,
+   9760,
+   9762,
+   9763,
+   9765,
+   9766,
+   9767,
+   9768,
+   9769,
+   9770,
+   9771,
+   9772,
+   9773,
+   9774,
+   9775,
+   9776,
+   9777,
+   9778,
+   9781,
+   9783,
+   9785,
+   9789,
+   9798,
+   9799,
+   9800,
+   9814,
+   9815,
+   9816,
+   9817,
+   9818,
+   9820,
+   9821,
+   9829,
+   9845,
+   10677,
+   10688,
+   11092,
+   11799,
+   11802,
+   11804,
+   11907,
+   12391,
+   12766,
+   13569,
+   13663,
+   13751,
+   14273,
+   14589,
+   15371,
+   15373,
+   15448,
+   15745
+  ],
+  "autores": [
+   [
+    "Kant",
+    41
+   ],
+   [
+    "Tomás de Aquino",
+    4
+   ],
+   [
+    "Adam Smith",
+    4
+   ],
+   [
+    "Mill",
+    4
+   ],
+   [
+    "Rousseau",
+    3
+   ],
+   [
+    "Spencer",
+    3
+   ],
+   [
+    "Dewey",
+    3
+   ],
+   [
+    "Hegel",
+    2
+   ],
+   [
+    "Aristóteles",
+    1
+   ],
+   [
+    "Boecio",
+    1
+   ],
+   [
+    "Locke",
+    1
+   ],
+   [
+    "Emerson",
+    1
+   ],
+   [
+    "Stirner",
+    1
+   ],
+   [
+    "Kierkegaard",
+    1
+   ],
+   [
+    "William James",
+    1
+   ],
+   [
+    "Nietzsche",
+    1
+   ],
+   [
+    "Santayana",
+    1
+   ]
+  ],
+  "palabras": [
+   "principle",
+   "universal",
+   "moral",
+   "rational",
+   "practical",
+   "reason",
+   "laws",
+   "good"
+  ],
+  "centrales": [
+   {
+    "i": 9763,
+    "autor": "Kant",
+    "texto": "If then there is a supreme practical principle or, in respect of the human will, a categorical imperative, it must be one which, being drawn from the conception of that which is necessarily an end for everyone because it is an end in itself, constitutes an objective principle of will, and can therefore serve as a universal practical law. The foundation of this principle is: rational nature exists as an end in itself. Man necessarily conceives his own existence as being so; so far then this is a subjective principle of human actions. But every other rational being regards its existence similarly, just on the same rational principle that holds for me: * so that it is at the same time an objective principle, from which as a supreme practical"
+   },
+   {
+    "i": 11799,
+    "autor": "Mill",
+    "texto": "CHAPTER III. OF THE ULTIMATE SANCTION OF THE PRINCIPLE OF UTILITY. The question is often asked, and properly so, in regard to any supposed moral standard--What is its sanction? what are the motives to obey it? or more specifically, what is the source of its obligation? whence does it derive its binding force? It is a necessary part of moral philosophy to provide the answer to this question; which, though frequently assuming the shape of an objection to the utilitarian morality, as if it had some special applicability to that above others, really arises in regard to all standards. It arises, in fact, whenever a person is called on to adopt a standard or refer morality to any basis on which he has not been accustomed to rest it. For"
+   },
+   {
+    "i": 4074,
+    "autor": "Tomás de Aquino",
+    "texto": "_On the contrary,_ The Philosopher says (Ethic. v, 1) that \"justice is the most excellent of the virtues.\" _I answer that,_ A virtue considered in its species may be greater or less, either simply or relatively. A virtue is said to be greater simply, whereby a greater rational good shines forth, as stated above (A. 1). In this way justice is the most excellent of all the moral virtues, as being most akin to reason. This is made evident by considering its subject and its object: its subject, because this is the will, and the will is the rational appetite, as stated above (Q. 8, A. 1; Q. 26, A. 1): its object or matter, because it is about operations, whereby man is set in order not only in himself,"
+   },
+   {
+    "i": 10677,
+    "autor": "Hegel",
+    "texto": "(β) The Impulses and Choice(147). § 473. The practical ought is a “real” judgment. Will, which is essentially self-determination, finds in the conformity—as immediate and merely _found_ to hand—of the existing mode to its requirement a negation, and something inappropriate to it. If the will is to satisfy itself, if the implicit unity of the universality and the special mode is to be realised, the conformity of its inner requirement and of the existent thing ought to be its act and institution. The will, as regards the form of its content, is at first still a natural will, directly identical with its specific mode:—natural _impulse_ and _inclination_. Should, however, the totality of the practical spirit throw itself into a single one of the many restricted forms of impulse, each being"
+   },
+   {
+    "i": 12391,
+    "autor": "Stirner",
+    "texto": "If we formulate the sense of this law, it will be about as follows: Every man must have a something that is more to him than himself. You are to put your \"private interest\" in the background when it is a question of the welfare of others, the weal of the fatherland, of society, the common weal, the weal of mankind, the good cause, and the like! Fatherland, society, mankind, etc., must be more to you than yourself, and as against their interest your \"private interest\" must stand back; for you must not be an--egoist. Love is a far-reaching religious demand, which is not, as might be supposed, limited to love to God and man, but stands foremost in every regard. Whatever we do, think, will, the ground of it"
+   },
+   {
+    "i": 9497,
+    "autor": "Adam Smith",
+    "texto": "CHAP. III. _Of the influence and authority of the general rules of morality, and that they are justly regarded as the laws of the Deity._ The regard to those general rules of conduct, is what is properly called a sense of duty, a principle of the greatest consequence in human life, and the only principle by which the bulk of mankind are capable of directing their actions. Many men behave very decently, and through the whole of their lives avoid any considerable degree of blame, who yet, perhaps, never felt the sentiment upon the propriety of which we found our approbation of their conduct, but acted merely from a regard to what they saw were the established rules of behaviour. The man who has received great benefits from another person,"
+   }
+  ]
+ },
+ {
+  "id": "s56_1",
+  "estrella": 56,
+  "n": 58,
+  "pasajes": [
+   912,
+   943,
+   4075,
+   4127,
+   4128,
+   4130,
+   4137,
+   6995,
+   6996,
+   6997,
+   8795,
+   8798,
+   8864,
+   9493,
+   9494,
+   9495,
+   9516,
+   9556,
+   9592,
+   9614,
+   9615,
+   9627,
+   9640,
+   9743,
+   9749,
+   9792,
+   9813,
+   9824,
+   9831,
+   10547,
+   10592,
+   10593,
+   10595,
+   10618,
+   10968,
+   11690,
+   11692,
+   11771,
+   11790,
+   11791,
+   11792,
+   11795,
+   11796,
+   11800,
+   11801,
+   11803,
+   13706,
+   13713,
+   13852,
+   14570,
+   14580,
+   15361,
+   15363,
+   15365,
+   15366,
+   15368,
+   15370,
+   15673
+  ],
+  "autores": [
+   [
+    "Adam Smith",
+    10
+   ],
+   [
+    "Mill",
+    9
+   ],
+   [
+    "Kant",
+    6
+   ],
+   [
+    "Dewey",
+    6
+   ],
+   [
+    "Tomás de Aquino",
+    5
+   ],
+   [
+    "Hegel",
+    5
+   ],
+   [
+    "Locke",
+    3
+   ],
+   [
+    "Hume",
+    3
+   ],
+   [
+    "Spencer",
+    3
+   ],
+   [
+    "Aristóteles",
+    2
+   ],
+   [
+    "Feuerbach",
+    2
+   ],
+   [
+    "Nietzsche",
+    2
+   ],
+   [
+    "Schopenhauer",
+    1
+   ],
+   [
+    "Santayana",
+    1
+   ]
+  ],
+  "palabras": [
+   "moral",
+   "morality",
+   "actions",
+   "general",
+   "action",
+   "precepts",
+   "rules",
+   "good"
+  ],
+  "centrales": [
+   {
+    "i": 9614,
+    "autor": "Adam Smith",
+    "texto": "That virtue consists in conformity to reason, is true in some respects, and this faculty may very justly be considered, as in some sense, the source and principle of approbation and disapprobation, and of all solid judgments concerning right and wrong. It is by reason that we discover those general rules of justice by which we ought to regulate our actions: and it is by the same faculty that we form those more vague and indeterminate ideas of what is prudent, of what is decent, of what is generous or noble, which we carry constantly about with us, and according to which we endeavour, as well as we can, to model the tenour of our conduct. The general maxims of morality are formed, like all other general maxims, from experience"
+   },
+   {
+    "i": 8795,
+    "autor": "Hume",
+    "texto": "There have been many systems of morality advanced by philosophers in all ages; but if they are strictly examined, they may be reduced to two, which alone merit our attention. Moral good and evil are certainly distinguished by our sentiments, not by reason: But these sentiments may arise either from the mere species or appearance of characters and passions, or from reflections on their tendency to the happiness of mankind, and of particular persons. My opinion is, that both these causes are intermixed in our judgments of morals; after the same manner as they are in our decisions concerning most kinds of external beauty: Though I am also of opinion, that reflections on the tendencies of actions have by far the greatest influence, and determine all the great lines of"
+   },
+   {
+    "i": 10968,
+    "autor": "Schopenhauer",
+    "texto": "In every age much good morality has been preached; but the explanation of its _raison d'être_ has always been encompassed with difficulties. On the whole we discern an endeavour to get at some objective truth, from which the ethical injunctions could-be logically deduced; and it has been sought for both in the nature of things, and in the nature of man; but in vain. The result was always the same. The will of each human unit was found to gravitate solely towards its own individual welfare, the idea of which in its entirety is designated by the term \"blissfulness\" (_Glückseligkeit_); and this striving after self-satisfaction leads mankind by a path very, different to the one morality would fain point out. The endeavour was next made now to identify \"blissfulness\" with"
+   },
+   {
+    "i": 11771,
+    "autor": "Mill",
+    "texto": "To inquire how far the bad effects of this deficiency have been mitigated in practice, or to what extent the moral beliefs of mankind have been vitiated or made uncertain by the absence of any distinct recognition of an ultimate standard, would imply a complete survey and criticism of past and present ethical doctrine. It would, however, be easy to show that whatever steadiness or consistency these moral beliefs have attained, has been mainly due to the tacit influence of a standard not recognised. Although the non-existence of an acknowledged first principle has made ethics not so much a guide as a consecration of men's actual sentiments, still, as men's sentiments, both of favour and of aversion, are greatly influenced by what they suppose to be the effects of things"
+   },
+   {
+    "i": 6995,
+    "autor": "Locke",
+    "texto": "13. These three Laws the Rules of moral Good and Evil. These three then, first, the law of God; secondly, the law of politic societies; thirdly, the law of fashion, or private censure, are those to which men variously compare their actions: and it is by their conformity to one of these laws that they take their measures, when they would judge of their moral rectitude, and denominate their actions good or bad. 14. Morality is the Relation of Voluntary Actions to these Rules. Whether the rule to which, as to a touchstone, we bring our voluntary actions, to examine them by, and try their goodness, and accordingly to name them, which is, as it were, the mark of the value we set upon them: whether, I say, we take"
+   },
+   {
+    "i": 943,
+    "autor": "Aristóteles",
+    "texto": "As to our not being more apt to do what is noble and just by reason of possessing Practical Wisdom, we must begin a little higher up,[51] taking this for our starting-point. As we say that men may do things in themselves just and yet not be just men; for instance, when men do what the laws require of them, either against their will, or by reason of ignorance or something else, at all events not for the sake of the things themselves; and yet they do what they ought and all that the good man should do; so it seems that to be a good man one must do each act in a particular frame of mind, I mean from Moral Choice and for the sake of the things"
+   }
+  ]
+ },
+ {
+  "id": "s23_0",
+  "estrella": 23,
+  "n": 38,
+  "pasajes": [
+   944,
+   1876,
+   3854,
+   3956,
+   4058,
+   4060,
+   4062,
+   4069,
+   4071,
+   5615,
+   5616,
+   5628,
+   5629,
+   5630,
+   5631,
+   5632,
+   5654,
+   6203,
+   6324,
+   6327,
+   6366,
+   7315,
+   8352,
+   9342,
+   9343,
+   9530,
+   9532,
+   10221,
+   10343,
+   10567,
+   11141,
+   11392,
+   11413,
+   11921,
+   11922,
+   12005,
+   15412,
+   15855
+  ],
+  "autores": [
+   [
+    "Hobbes",
+    8
+   ],
+   [
+    "Tomás de Aquino",
+    7
+   ],
+   [
+    "Pascal",
+    4
+   ],
+   [
+    "Adam Smith",
+    4
+   ],
+   [
+    "Emerson",
+    3
+   ],
+   [
+    "Mill",
+    3
+   ],
+   [
+    "Wollstonecraft",
+    2
+   ],
+   [
+    "Aristóteles",
+    1
+   ],
+   [
+    "Cicerón",
+    1
+   ],
+   [
+    "Leibniz",
+    1
+   ],
+   [
+    "Voltaire",
+    1
+   ],
+   [
+    "Hegel",
+    1
+   ],
+   [
+    "Dewey",
+    1
+   ],
+   [
+    "Santayana",
+    1
+   ]
+  ],
+  "palabras": [
+   "things",
+   "reason",
+   "science",
+   "prudence",
+   "good",
+   "intellect",
+   "thing",
+   "right"
+  ],
+  "centrales": [
+   {
+    "i": 4071,
+    "autor": "Tomás de Aquino",
+    "texto": "Nevertheless, all intelligible things are related to first principles. And in this way, all the intellectual virtues depend on the understanding of principles; even as prudence depends on the moral virtues, as stated. On the other hand, the universal principles which are the object of the virtue of understanding of principles, do not depend on the conclusions, which are the objects of the other intellectual virtues, as do the moral virtues depend on prudence, because the appetite, in a fashion, moves the reason, and the reason the appetite, as stated above (Q. 9, A. 1; Q. 58, A. 5, ad 1). Reply Obj. 4: Those things to which the moral virtues incline, are as the principles of prudence: whereas the products of art are not the principles, but the matter"
+   },
+   {
+    "i": 6203,
+    "autor": "Pascal",
+    "texto": "4 _Mathematics, intuition._--True eloquence makes light of eloquence, true morality makes light of morality; that is to say, the morality of the judgment, which has no rules, makes light of the morality of the intellect. For it is to judgment that perception belongs, as science belongs to intellect. Intuition is the part of judgment, mathematics of intellect. To make light of philosophy is to be a true philosopher. 5 Those who judge of a work by rule[3] are in regard to others as those who have a watch are in regard to others. One says, \"It is two hours ago\"; the other says, \"It is only three-quarters of an hour.\" I look at my watch, and say to the one, \"You are weary,\" and to the other, \"Time gallops with"
+   },
+   {
+    "i": 11392,
+    "autor": "Emerson",
+    "texto": "The end and the means, the gamester and the game,--life is made up of the intermixture and reaction of these two amicable powers, whose marriage appears beforehand monstrous, as each denies and tends to abolish the other. We must reconcile the contradictions as we can, but their discord and their concord introduce wild absurdities into our thinking and speech. No sentence will hold the whole truth, and the only way in which we can be just, is by giving ourselves the lie; Speech is better than silence; silence is better than speech;--All things are in contact; every atom has a sphere of repulsion;--Things are, and are not, at the same time;--and the like. All the universe over, there is but one thing, this old Two-Face, creator-creature, mind-matter, right-wrong, of which"
+   },
+   {
+    "i": 5630,
+    "autor": "Hobbes",
+    "texto": "Prudence When the thoughts of a man, that has a designe in hand, running over a multitude of things, observes how they conduce to that designe; or what designe they may conduce into; if his observations be such as are not easie, or usuall, This wit of his is called PRUDENCE; and dependeth on much Experience, and Memory of the like things, and their consequences heretofore. In which there is not so much difference of Men, as there is in their Fancies and Judgements; Because the Experience of men equall in age, is not much unequall, as to the quantity; but lyes in different occasions; every one having his private designes. To govern well a family, and a kingdome, are not different degrees of Prudence; but different sorts of businesse;"
+   },
+   {
+    "i": 1876,
+    "autor": "Cicerón",
+    "texto": "XXIX. _A._ Indeed I cannot; but I should be glad to prevail on you, unless it is troublesome (as you are under no confinement from obligations to any particular sect, but gather from all of them whatever strikes you most as having the appearance of probability), as you just now seemed to advise the Peripatetics and the Old Academy boldly to speak out without reserve, \"that wise men are always the happiest\"--I should be glad to hear how you think it consistent for them to say so, when you have said so much against that opinion, and the conclusions of the Stoics. _M._ I will make use, then, of that liberty which no one has the privilege of using in philosophy but those of our school, whose discourses determine nothing,"
+   },
+   {
+    "i": 10221,
+    "autor": "Wollstonecraft",
+    "texto": "Mental as well as bodily exertion is, at first, irksome; so much so, that the many would fain let others both work and think for them. An observation which I have often made will illustrate my meaning. When in a circle of strangers, or acquaintances, a person of moderate abilities, asserts an opinion with heat, I will venture to affirm, for I have traced this fact home, very often, that it is a prejudice. These echoes have a high respect for the understanding of some relation or friend, and without fully comprehending the opinions, which they are so eager to retail, they maintain them with a degree of obstinacy, that would surprise even the person who concocted them. I know that a kind of fashion now prevails of respecting prejudices;"
+   }
+  ]
+ },
+ {
+  "id": "s23_1",
+  "estrella": 23,
+  "n": 35,
+  "pasajes": [
+   1877,
+   1879,
+   2315,
+   2325,
+   2343,
+   2347,
+   2672,
+   2673,
+   2674,
+   3426,
+   3705,
+   4073,
+   6328,
+   6330,
+   7637,
+   7682,
+   9403,
+   9562,
+   9563,
+   9570,
+   9571,
+   9575,
+   9579,
+   9581,
+   9583,
+   9584,
+   9585,
+   9596,
+   9830,
+   9838,
+   11182,
+   11184,
+   11776,
+   11848,
+   12136
+  ],
+  "autores": [
+   [
+    "Adam Smith",
+    12
+   ],
+   [
+    "Séneca",
+    4
+   ],
+   [
+    "Marco Aurelio",
+    3
+   ],
+   [
+    "Cicerón",
+    2
+   ],
+   [
+    "Pascal",
+    2
+   ],
+   [
+    "Mandeville",
+    2
+   ],
+   [
+    "Kant",
+    2
+   ],
+   [
+    "Emerson",
+    2
+   ],
+   [
+    "Mill",
+    2
+   ],
+   [
+    "Agustín",
+    1
+   ],
+   [
+    "Boecio",
+    1
+   ],
+   [
+    "Tomás de Aquino",
+    1
+   ],
+   [
+    "Stirner",
+    1
+   ]
+  ],
+  "palabras": [
+   "pleasure",
+   "virtue",
+   "good",
+   "happiness",
+   "nature",
+   "according",
+   "objects",
+   "life"
+  ],
+  "centrales": [
+   {
+    "i": 9575,
+    "autor": "Adam Smith",
+    "texto": "CHAP. II. _Of those systems which make virtue consist in prudence._ The most ancient of those systems which make virtue consist in prudence, and of which any considerable remains have come down to us, is that of Epicurus, who is said, however, to have borrowed all the leading principles of his philosophy, from some of those who had gone before him, particularly From Aristippus; though it is very probable, notwithstanding this allegation of his enemies, that at least his manner of applying those principles was altogether his own. According to Epicurus,[16] bodily pleasure and pain were the sole ultimate objects of natural desire and aversion. That they were always the natural objects of those passions, he thought required no proof. Pleasure might, indeed, appear sometimes to be avoided; not, however,"
+   },
+   {
+    "i": 1877,
+    "autor": "Cicerón",
+    "texto": "XXX. These, then, are the opinions, as I think, that are held and defended--the first four are simple ones: \"that nothing is good but what is honest,\" according to the Stoics; \"nothing good but pleasure,\" as Epicurus maintains; \"nothing good but a freedom from pain,\" as Hieronymus[62] asserts; \"nothing good but an enjoyment of the principal, or all, or the greatest goods of nature,\" as Carneades maintained against the Stoics--these are simple, the others are mixed propositions. Then there are three kinds of goods: the greatest being those of the mind; the next best those of the body; the third are external goods, as the Peripatetics call them, and the Old Academics differ very little from them. Dinomachus[63] and Callipho[64] have coupled pleasure with honesty; but Diodorus[65] the Peripatetic has"
+   },
+   {
+    "i": 3705,
+    "autor": "Boecio",
+    "texto": "'Thou hast, then, set before thine eyes something like a scheme of human happiness--wealth, rank, power, glory, pleasure. Now Epicurus, from a sole regard to these considerations, with some consistency concluded the highest good to be pleasure, because all the other objects seem to bring some delight to the soul. But to return to human pursuits and aims: man's mind seeks to recover its proper good, in spite of the mistiness of its recollection, but, like a drunken man, knows not by what path to return home. Think you they are wrong who strive to escape want? Nay, truly there is nothing which can so well complete happiness as a state abounding in all good things, needing nothing from outside, but wholly self-sufficing. Do they fall into error who deem"
+   },
+   {
+    "i": 2325,
+    "autor": "Séneca",
+    "texto": "XIII. I myself believe, though my Stoic comrades would be unwilling to hear me say so, that the teaching of Epicurus was upright and holy, and even, if you examine it narrowly, stern: for this much talked of pleasure is reduced to a very narrow compass, and he bids pleasure submit to the same law which we bid virtue do—I mean, to obey nature. Luxury, however, is not satisfied with what is enough for nature. What is the consequence? Whoever thinks that happiness consists in lazy sloth, and alternations of gluttony and profligacy, requires a good patron for a bad action, and when he has become an Epicurean, having been led to do so by the attractive name of that school, he follows, not the pleasure which he there hears"
+   },
+   {
+    "i": 9838,
+    "autor": "Kant",
+    "texto": "{BOOK_2|CHAPTER_2 ^paragraph 45} From this deduction it is now intelligible why the Greek schools could never attain the solution of their problem of the practical possibility of the summum bonum, because they made the rule of the use which the will of man makes of his freedom the sole and sufficient ground of this possibility, thinking that they had no need for that purpose of the existence of God. No doubt they were so far right that they established the principle of morals of itself independently of this postulate, from the relation of reason only to the will, and consequently made it the supreme practical condition of the summum bonum; but it was not therefore the whole condition of its possibility. The Epicureans had indeed assumed as the supreme principle"
+   },
+   {
+    "i": 4073,
+    "autor": "Tomás de Aquino",
+    "texto": "If, however, we consider virtue on the part of the subject, it may then be greater or less, either in relation to different times, or in different men. Because one man is better disposed than another to attain to the mean of virtue which is defined by right reason; and this, on account of either greater habituation, or a better natural disposition, or a more discerning judgment of reason, or again a greater gift of grace, which is given to each one \"according to the measure of the giving of Christ,\" as stated in Eph. 4:9. And here the Stoics erred, for they held that no man should be deemed virtuous, unless he were, in the highest degree, disposed to virtue. Because the nature of virtue does not require that"
+   }
+  ]
+ },
+ {
+  "id": "s23_2",
+  "estrella": 23,
+  "n": 34,
+  "pasajes": [
+   945,
+   989,
+   1284,
+   1979,
+   3116,
+   3117,
+   3118,
+   3119,
+   3120,
+   3123,
+   3124,
+   4057,
+   4066,
+   4067,
+   4070,
+   9041,
+   9351,
+   9560,
+   9565,
+   9566,
+   9567,
+   9568,
+   9590,
+   9630,
+   10594,
+   10597,
+   10622,
+   10820,
+   10821,
+   11046,
+   11051,
+   11603,
+   11914,
+   15744
+  ],
+  "autores": [
+   [
+    "Adam Smith",
+    8
+   ],
+   [
+    "Plotino",
+    7
+   ],
+   [
+    "Tomás de Aquino",
+    4
+   ],
+   [
+    "Schopenhauer",
+    4
+   ],
+   [
+    "Hegel",
+    3
+   ],
+   [
+    "Aristóteles",
+    2
+   ],
+   [
+    "Zhuangzi",
+    1
+   ],
+   [
+    "Cicerón",
+    1
+   ],
+   [
+    "Rousseau",
+    1
+   ],
+   [
+    "Feuerbach",
+    1
+   ],
+   [
+    "Mill",
+    1
+   ],
+   [
+    "Santayana",
+    1
+   ]
+  ],
+  "palabras": [
+   "virtue",
+   "virtues",
+   "moral",
+   "life",
+   "soul",
+   "nature",
+   "plato",
+   "aristotle"
+  ],
+  "centrales": [
+   {
+    "i": 4067,
+    "autor": "Tomás de Aquino",
+    "texto": "_On the contrary,_ Augustine says (De Moribus Eccl. xi) that \"there are four virtues, corresponding to the various emotions of love,\" and he applies this to the four virtues mentioned above. Therefore the same four virtues are distinct from one another. _I answer that,_ As stated above (A. 3), these four virtues are understood differently by various writers. For some take them as signifying certain general conditions of the human mind, to be found in all the virtues: so that, to wit, prudence is merely a certain rectitude of discretion in any actions or matters whatever; justice, a certain rectitude of the mind, whereby a man does what he ought in any matters; temperance, a disposition of the mind, moderating any passions or operations, so as to keep them within"
+   },
+   {
+    "i": 9560,
+    "autor": "Adam Smith",
+    "texto": "CHAP. I. _Of those systems which make virtue consist in propriety._ According to Plato, to Aristotle, and to Zeno, virtue consists in the propriety of conduct, or in the suitableness of the affection from which we act to the object which excites it. I. In the system of Plato[8] the soul is considered as something like a little state or republic, composed of three different faculties or orders. Footnote 8: See Plato de Rep. lib. iv. The first is the judging faculty, the faculty which determines not only what are the proper means for attaining any end, but also what ends are fit to be pursued, and what degree of relative value we ought to put upon each. This faculty Plato called, as it is very properly called reason, and"
+   },
+   {
+    "i": 3116,
+    "autor": "Plotino",
+    "texto": "FIRST ENNEAD, BOOK TWO. Concerning Virtue. VIRTUE THE ROAD TO ESCAPE EVILS. 1. Man must flee from (this world) here below (for two reasons): because it is the nature of the soul to flee from evil, and because inevitable evil prevails and dominates this world here below. What is this flight (and how can we accomplish it)? (Plato),[337] tells us it consists in \"being assimilated to divinity.\" This then can be accomplished by judiciously conforming to justice, and holiness; in short, by virtue. CAN THESE VIRTUES BE ASCRIBED TO THE DIVINITY? If then it be by virtue that we are assimilated (to divinity), does this divinity to whom we are trying to achieve assimilation, Himself possess virtue? Besides, what divinity is this? Surely it must be He who must most"
+   },
+   {
+    "i": 10820,
+    "autor": "Schopenhauer",
+    "texto": "For virtue certainly proceeds from knowledge, but not from the abstract knowledge that can be communicated through words. If it were so, virtue could be taught, and by here expressing in abstract language its nature and the knowledge which lies at its foundation, we should make every one who comprehends this even ethically better. But this is by no means the case. On the contrary, ethical discourses and preaching will just as little produce a virtuous man as all the systems of æsthetics from Aristotle downwards have succeeded in producing a poet. For the real inner nature of virtue the concept is unfruitful, just as it is in art, and it is only in a completely subordinate position that it can be of use as a tool in the elaboration"
+   },
+   {
+    "i": 10622,
+    "autor": "Hegel",
+    "texto": "It is here alone, in this estate which is absolutely disinterested, that the virtues appear in their true light. To the ordinary moralising standpoint they seem severally to be, in their separation, charged with independent value. But from the higher point of view the existence, and still more the accentuation of single virtues, is a mark of incompleteness. Even quality, it has been said, involves its defects: it can only shine by eclipsing or reflecting something else. The completely moral is not the sum of the several virtues, but the reduction of them to indifference. It is thus that when Plato tries to get at the unity of virtue, their aspect of difference tends to be subordinated. “The movement of absolute morality runs through all the virtues, but settles fixedly"
+   },
+   {
+    "i": 1979,
+    "autor": "Cicerón",
+    "texto": "II. Nor is it sufficient to possess this virtue as if it were some kind of art, unless we put it in practice. An art, indeed, though not exercised, may still be retained in knowledge; but virtue consists wholly in its proper use and action. Now, the noblest use of virtue is the government of the Commonwealth, and the carrying-out in real action, not in words only, of all those identical theories which those philosophers discuss at every corner. For nothing is spoken by philosophers, so far as they speak correctly and honorably, which has not been discovered and confirmed by those persons who have been the founders of the laws of states. For whence comes piety, or from whom has religion been derived? Whence comes law, either that of"
+   }
+  ]
+ },
+ {
+  "id": "s38_0",
+  "estrella": 38,
+  "n": 41,
+  "pasajes": [
+   892,
+   9795,
+   11772,
+   11773,
+   11775,
+   11781,
+   11782,
+   11788,
+   11789,
+   11807,
+   11809,
+   11810,
+   11811,
+   11812,
+   11814,
+   11815,
+   13474,
+   13475,
+   13477,
+   13711,
+   13776,
+   13777,
+   13778,
+   13779,
+   13780,
+   13781,
+   13782,
+   13783,
+   13784,
+   13785,
+   13786,
+   13787,
+   13788,
+   13789,
+   13791,
+   13792,
+   13795,
+   13796,
+   13797,
+   13798,
+   15763
+  ],
+  "autores": [
+   [
+    "Spencer",
+    21
+   ],
+   [
+    "Mill",
+    14
+   ],
+   [
+    "Marx y Engels",
+    3
+   ],
+   [
+    "Aristóteles",
+    1
+   ],
+   [
+    "Kant",
+    1
+   ],
+   [
+    "Santayana",
+    1
+   ]
+  ],
+  "palabras": [
+   "happiness",
+   "action",
+   "pleasure",
+   "principle",
+   "good",
+   "means",
+   "general",
+   "desire"
+  ],
+  "centrales": [
+   {
+    "i": 13795,
+    "autor": "Spencer",
+    "texto": "Cutting off, then, at the one end, those pleasures which are inseparable from maintenance of the physique in an uninjured state; and cutting off at the other end the pleasures of successful action; the amount that remains is so greatly diminished as to make untenable the assumption that happiness at large admits of distribution after the manner which utilitarianism assumes. § 89. In yet one more way may be shown the inconsistency of this transfigured utilitarianism which regards its doctrine as embodying the Christian maxim--\"Love your neighbor as yourself,\" and of that altruism which, going still further, enunciates the maxim--\"Live for others.\" A right rule of conduct must be one which may with advantage be adopted by all. \"Act according to that maxim only, which you can wish, at the"
+   },
+   {
+    "i": 11815,
+    "autor": "Mill",
+    "texto": "We have now, then, an answer to the question, of what sort of proof the principle of utility is susceptible. If the opinion which I have now stated is psychologically true--if human nature is so constituted as to desire nothing which is not either a part of happiness or a means of happiness, we can have no other proof, and we require no other, that these are the only things desirable. If so, happiness is the sole end of human action, and the promotion of it the test by which to judge of all human conduct; from whence it necessarily follows that it must be the criterion of morality, since a part is included in the whole. And now to decide whether this is really so; whether mankind do desire"
+   },
+   {
+    "i": 13475,
+    "autor": "Marx y Engels",
+    "texto": "The desire for happiness contents itself only very exceptionally, and by no means to the profit of one's self or other people with self. But it requires the outside world--means of satisfying itself--therefore means of subsistence, an individual of the other sex, books, convention, argument, activity, these means and matters of satisfaction are matters of utility and labor. Feuerbach's system of morality either predicates that these means and matters of satisfaction are given to every man _per se_, or, since it gives him only unpractical advice, is not worth a jot to the people who are without these means. And this Feuerbach himself shows clearly in forcible words, \"One thinks differently in a palace than in a hut.\" \"Where owing to misery and hunger you have no material in your"
+   },
+   {
+    "i": 15763,
+    "autor": "Santayana",
+    "texto": "Hedonistic ethics have always had to struggle against the moral sense of mankind. Earnest minds, that feel the weight and dignity of life, rebel against the assertion that the aim of right conduct is enjoyment. Pleasure usually appears to them as a temptation, and they sometimes go so far as to make avoidance of it a virtue. The truth is that morality is not mainly concerned with the attainment of pleasure; it is rather concerned, in all its deeper and more authoritative maxims, with the prevention of suffering. There is something artificial in the deliberate pursuit of pleasure; there is something absurd in the obligation to enjoy oneself. We feel no duty in that direction; we take to enjoyment naturally enough after the work of life is done, and the"
+   },
+   {
+    "i": 9795,
+    "autor": "Kant",
+    "texto": "The principle of private happiness, however much understanding and reason may be used in it, cannot contain any other determining principles for the will than those which belong to the lower desires; and either there are no [higher] desires at all, or pure reason must of itself alone be practical; that is, it must be able to determine the will by the mere form of the practical rule without supposing any feeling, and consequently without any idea of the pleasant or unpleasant, which is the matter of the desire, and which is always an empirical condition of the principles. Then only, when reason of itself determines the will (not as the servant of the inclination), it is really a higher desire to which that which is pathologically determined is subordinate,"
+   },
+   {
+    "i": 892,
+    "autor": "Aristóteles",
+    "texto": "On looking back it will be seen that the discussion of the central topic of the nature and formation of character has expanded into a Philosophy of Human Conduct, merging at its beginning and end into metaphysics The result is a Moral Philosophy set against a background of Political Theory and general Philosophy. The most characteristic features of this Moral Philosophy are due to the fact of its essentially teleological view of human life and action: (1) Every human activity, but especially every human practical activity, is directed towards a simple End discoverable by reflection, and this End is conceived of as the object of universal human desire, as something to be enjoyed, not as something which ought to be done or enacted. Anstotle’s Moral Philosophy is not hedonistic but"
+   }
+  ]
+ },
+ {
+  "id": "s38_1",
+  "estrella": 38,
+  "n": 15,
+  "pasajes": [
+   12681,
+   12682,
+   12683,
+   12684,
+   12685,
+   12686,
+   12687,
+   12688,
+   12689,
+   12690,
+   12691,
+   12692,
+   12693,
+   12694,
+   12749
+  ],
+  "autores": [
+   [
+    "Kierkegaard",
+    15
+   ]
+  ],
+  "palabras": [
+   "come",
+   "hither",
+   "help",
+   "laden",
+   "labor",
+   "heavy",
+   "rest",
+   "does"
+  ],
+  "centrales": [
+   {
+    "i": 12692,
+    "autor": "Kierkegaard",
+    "texto": "III COME HITHER UNTO ME ALL YE THAT LABOR AND ARE HEAVY LADEN, AND I WILL GIVE YOU REST. \"Come hither!\" For he supposes that they that labor and are heavy laden feel their burden and their labor, and that they stand there now, perplexed and sighing--one casting about with his eyes to discover whether there is help in sight anywhere; another with his eyes fixed on the ground, because he can see no consolation; and a third with his eyes staring heavenward, as though help was bound to come from heaven--but all seeking. Therefore he sayeth: \"come hither!\" But he invites not him who has ceased to seek and to sorrow.--\"Come hither!\" For he who invites knows that it is a mark of true suffering, if one walks alone"
+   }
+  ]
+ },
+ {
+  "id": "s38_2",
+  "estrella": 38,
+  "n": 50,
+  "pasajes": [
+   9169,
+   9267,
+   9268,
+   10957,
+   11044,
+   11045,
+   11050,
+   11061,
+   11067,
+   11808,
+   12145,
+   12743,
+   13736,
+   13737,
+   13740,
+   13743,
+   13747,
+   13748,
+   13749,
+   13750,
+   13760,
+   13770,
+   13773,
+   13775,
+   13799,
+   13800,
+   13805,
+   13812,
+   13813,
+   13814,
+   13815,
+   13816,
+   13817,
+   13818,
+   13819,
+   13820,
+   13822,
+   13823,
+   14560,
+   14561,
+   14562,
+   14563,
+   14564,
+   14565,
+   14566,
+   14567,
+   14568,
+   14569,
+   14586,
+   15082
+  ],
+  "autores": [
+   [
+    "Spencer",
+    26
+   ],
+   [
+    "Nietzsche",
+    11
+   ],
+   [
+    "Schopenhauer",
+    6
+   ],
+   [
+    "Rousseau",
+    3
+   ],
+   [
+    "Mill",
+    1
+   ],
+   [
+    "Stirner",
+    1
+   ],
+   [
+    "Kierkegaard",
+    1
+   ],
+   [
+    "Bergson",
+    1
+   ]
+  ],
+  "palabras": [
+   "altruism",
+   "self",
+   "life",
+   "egoism",
+   "egoistic",
+   "pleasure",
+   "altruistic",
+   "social"
+  ],
+  "centrales": [
+   {
+    "i": 13816,
+    "autor": "Spencer",
+    "texto": "Change the point of view, and this truth presents itself under another aspect. We have already seen that with the progress of adaptation each becomes so constituted that he cannot be helped without in some way arresting a pleasurable activity. There cannot be a beneficial interference between faculty and function when the two are adjusted. Consequently, in proportion as mankind approach complete adjustment of their natures to social needs, there must be fewer and smaller opportunities for giving aid. Yet again, as was pointed out in the last chapter, the sympathy which prompts efforts for others' welfare must be pained by self-injury on the part of others; and must, therefore, cause aversion to accept benefits derived from their self-injuries. What is to be inferred? While each, when occasion offers, is"
+   },
+   {
+    "i": 11044,
+    "autor": "Schopenhauer",
+    "texto": "(8) It is perhaps not impossible to investigate and explain metaphysically the ultimate cause of that Compassion in which alone all non-egoistic conduct can have its source; but let us for the moment put aside such inquiries, and consider the phaenomenon in question, from the empirical point of view, simply as a natural arrangement. Now if Nature's intention was to soften as much as possible the numberless sufferings of every sort, to which our life is exposed, and which no one altogether escapes; if she wished to provide some counterbalance for the burning Egoism, which fills all beings, and often develops into malice; it will at once strike every one as obvious that she could not have chosen any method more effectual than that of planting in the human heart"
+   },
+   {
+    "i": 9268,
+    "autor": "Rousseau",
+    "texto": "It is therefore certain that pity is a natural sentiment, which, by moderating in every individual the activity of self-love, contributes to the mutual preservation of the whole species. It is this pity which hurries us without reflection to the assistance of those we see in distress; it is this pity which, in a state of nature, stands for laws, for manners, for virtue, with this advantage, that no one is tempted to disobey her sweet and gentle voice: it is this pity which will always hinder a robust savage from plundering a feeble child, or infirm old man, of the subsistence they have acquired with pain and difficulty, if he has but the least prospect of providing for himself by any other means: it is this pity which, instead"
+   },
+   {
+    "i": 11808,
+    "autor": "Mill",
+    "texto": "Neither is it necessary to the feeling which constitutes the binding force of the utilitarian morality on those who recognize it, to wait for those social influences which would make its obligation felt by mankind at large. In the comparatively early state of human advancement in which we now live, a person cannot indeed feel that entireness of sympathy with all others, which would make any real discordance in the general direction of their conduct in life impossible; but already a person in whom the social feeling is at all developed, cannot bring himself to think of the rest of his fellow creatures as struggling rivals with him for the means of happiness, whom he must desire to see defeated in their object in order that he may succeed in"
+   },
+   {
+    "i": 15082,
+    "autor": "Bergson",
+    "texto": "[Sidenote: The moral feelings. Pity. Its increasing intensity is a qualitative progress.] The moral feelings might be studied in the same way. Let us take pity as an example. It consists in the first place in putting oneself mentally in the place of others, in suffering their pain. But if it were nothing more, as some have maintained, it would inspire us with the idea of avoiding the wretched rather than helping them, for pain is naturally abhorrent to us. This feeling of horror may indeed be at the root of pity; but a new element soon comes in, the need of helping our fellow-men and of alleviating their suffering. Shall we say with La Rochefoucauld that this so-called sympathy is a calculation, \"a shrewd insurance against evils to come\"?"
+   },
+   {
+    "i": 14560,
+    "autor": "Nietzsche",
+    "texto": "75. The degree and nature of a man's sensuality extends to the highest altitudes of his spirit. 76. Under peaceful conditions the militant man attacks himself. 77. With his principles a man seeks either to dominate, or justify, or honour, or reproach, or conceal his habits: two men with the same principles probably seek fundamentally different ends therewith. 78. He who despises himself, nevertheless esteems himself thereby, as a despiser. 79. A soul which knows that it is loved, but does not itself love, betrays its sediment: its dregs come up. 80. A thing that is explained ceases to concern us--What did the God mean who gave the advice, \"Know thyself!\" Did it perhaps imply \"Cease to be concerned about thyself! become objective!\"--And Socrates?--And the \"scientific man\"?"
+   }
+  ]
+ }
+]

@@ -1,0 +1,16 @@
+{
+ "id": "s23_2",
+ "estrella": 23,
+ "subtema": "Virtud y Naturaleza",
+ "proposicion": "Virtue can be taught.",
+ "proposicion_es": "La virtud se puede enseñar.",
+ "nucleo": "whether virtue can be acquired by instruction, or only by nature, habit or grace",
+ "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+ "clave_previa": {
+  "_nota": "Fijada ANTES de correr (24-nov-2026).",
+  "Schopenhauer": "contradice",
+  "Plotino": "contradice (?)",
+  "Tomás de Aquino": "apoya (?)",
+  "Hegel": "apoya (?)"
+ }
+}

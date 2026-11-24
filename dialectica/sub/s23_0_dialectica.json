@@ -1,0 +1,549 @@
+{
+ "q": {
+  "id": "s23_0",
+  "estrella": 23,
+  "subtema": "Razón y Virtud",
+  "proposicion": "Virtue is a kind of knowledge: whoever truly knows the good will do it.",
+  "proposicion_es": "La virtud es conocimiento: quien conoce de verdad el bien, lo hace.",
+  "nucleo": "whether knowing the good is sufficient for acting well, or whether virtue also needs habit, will or passion",
+  "origen": "Tercer nivel del mapa (subtema de la galaxia 11); tesis: borrador de qwen2.5:32b revisado a mano.",
+  "clave_previa": {
+   "_nota": "Fijada ANTES de correr (24-nov-2026).",
+   "Tomás de Aquino": "contradice",
+   "Pascal": "contradice",
+   "Adam Smith": "contradice",
+   "Hobbes": "contradice (?)",
+   "Mill": "contradice (?)"
+  }
+ },
+ "pasajes": [
+  {
+   "i": "944",
+   "autor": "Aristóteles",
+   "obra": "The Nicomachean ethics of Aristotle",
+   "pos": "307",
+   "texto": "So that, as in the case of the Opinionative faculty, there are two forms, Cleverness and Practical Wisdom; so also in the case of the Moral there are two, Natural Virtue and Matured; and of these the latter cannot be formed without Practical Wisdom.[58] This leads some to say that all the Virtues are merely intellectual Practical Wisdom, and Socrates was partly right in his enquiry and partly wrong: wrong in that he thought all the Virtues were merely intellectual Practical Wisdom, right in saying they were not independent of that faculty. A proof of which is that now all, in defining Virtue, add on the “state” [mentioning also to what standard it has reference, namely that] “which is accordant with Right Reason:” now “right” means in accordance with Practical Wisdom. So then all seem to have an instinctive notion that that state which is in accordance with Practical Wisdom is Virtue; however, we must make a slight change in their statement, because that state is Virtue, not merely which is in accordance with but which implies the possession of Right Reason; which, upon such matters, is Practical Wisdom. The difference between us and Socrates is this: he thought the Virtues were reasoning processes (_i.e._ that they were all instances of Knowledge in its strict sense), but we say they imply the possession of Reason.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.95,
+   "alcance": "especifica",
+   "alcance_conf": 0.9
+  },
+  {
+   "i": "1876",
+   "autor": "Cicerón",
+   "obra": "Cicero's Tusculan Disputations",
+   "pos": "214",
+   "texto": "XXIX. _A._ Indeed I cannot; but I should be glad to prevail on you, unless it is troublesome (as you are under no confinement from obligations to any particular sect, but gather from all of them whatever strikes you most as having the appearance of probability), as you just now seemed to advise the Peripatetics and the Old Academy boldly to speak out without reserve, \"that wise men are always the happiest\"--I should be glad to hear how you think it consistent for them to say so, when you have said so much against that opinion, and the conclusions of the Stoics. _M._ I will make use, then, of that liberty which no one has the privilege of using in philosophy but those of our school, whose discourses determine nothing, but take in everything, leaving them unsupported by the authority of any particular person, to be judged of by others, according to their weight. And as you seem desirous of knowing how it is that, notwithstanding the different opinions of philosophers with regard to the ends of goods, virtue has still sufficient security for the effecting of a happy life--which security, as we are informed, Carneades used indeed to dispute against; but he disputed as against the Stoics, whose opinions he combated with great zeal and vehemence. I, however, shall handle the question with more temper; for if the Stoics have rightly settled the _ends_ of goods, the affair is at an end; for a wise man must necessarily be always happy. But let us examine, if we can, the",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "trata_sin_resolver",
+   "conf": 0.48
+  },
+  {
+   "i": "3854",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I (Prima Pars)",
+   "pos": "399",
+   "texto": "Reply Obj. 2: Two things pertain to the care of providence--namely, the \"reason of order,\" which is called providence and disposition; and the execution of order, which is termed government. Of these, the first is eternal, and the second is temporal. Reply Obj. 3: Providence resides in the intellect; but presupposes the act of willing the end. Nobody gives a precept about things done for an end; unless he will that end. Hence prudence presupposes the moral virtues, by means of which the appetitive faculty is directed towards good, as the Philosopher says. Even if Providence has to do with the divine will and intellect equally, this would not affect the divine simplicity, since in God both the will and intellect are one and the same thing, as we have said above (Q. 19). _______________________",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.35,
+   "alcance": "especifica",
+   "alcance_conf": 0.28
+  },
+  {
+   "i": "3956",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I (Prima Pars)",
+   "pos": "1645",
+   "texto": "_On the contrary,_ What a man does while asleep, against the moral law, is not imputed to him as a sin; as Augustine says (Gen. ad lit. xii, 15). But this would not be the case if man, while asleep, had free use of his reason and intellect. Therefore the judgment of the intellect is hindered by suspension of the senses. _I answer that,_ As we have said above (A. 7), our intellect's proper and proportionate object is the nature of a sensible thing. Now a perfect judgment concerning anything cannot be formed, unless all that pertains to that thing's nature be known; especially if that be ignored which is the term and end of judgment. Now the Philosopher says (De Coel. iii), that \"as the end of a practical science is action, so the end of natural science is that which is perceived principally through the senses\"; for the smith does not seek knowledge of a knife except for the purpose of action, in order that he may produce a certain individual knife; and in like manner the natural philosopher does not seek to know the nature of a stone and of a horse, save for the purpose of knowing the essential properties of those things which he perceives with his senses. Now it is clear that a smith cannot judge perfectly of a knife unless he knows the action of the knife: and in like manner the natural philosopher cannot judge perfectly of natural things, unless he knows sensible things. But in the present state of life whatever",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.73,
+   "alcance": "general",
+   "alcance_conf": 0.66
+  },
+  {
+   "i": "4058",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "904",
+   "texto": "Reply Obj. 3: Science is contrasted with virtue taken in the second sense, wherein it belongs to the appetitive faculty. ________________________ SECOND ARTICLE [I-II, Q. 57, Art. 2] Whether There Are Only Three Habits of the Speculative Intellect, Viz. Wisdom, Science and Understanding? Objection 1: It would seem unfitting to distinguish three virtues of the speculative intellect, viz. wisdom, science and understanding. Because a species is a kind of science, as stated in _Ethic._ vi, 7. Therefore wisdom should not be condivided with science among the intellectual virtues. Obj. 2: Further, in differentiating powers, habits and acts in respect of their objects, we consider chiefly the formal aspect of these objects, as we have already explained (I, Q. 77, A. 3). Therefore diversity of habits is taken, not from their material objects, but from the formal aspect of those objects. Now the principle of a demonstration is the formal aspect under which the conclusion is known. Therefore the understanding of principles should not be set down as a habit or virtue distinct from the knowledge of conclusions.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.45,
+   "alcance": "general",
+   "alcance_conf": 0.64
+  },
+  {
+   "i": "4060",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "914",
+   "texto": "The reason for this difference is that art is the \"right reason of things to be made\"; whereas prudence is the \"right reason of things to be done.\" Now \"making\" and \"doing\" differ, as stated in _Metaph._ ix, text. 16, in that \"making\" is an action passing into outward matter, e.g. \"to build,\" \"to saw,\" and so forth; whereas \"doing\" is an action abiding in the agent, e.g. \"to see,\" \"to will,\" and the like. Accordingly prudence stands in the same relation to such like human actions, consisting in the use of powers and habits, as art does to outward making: since each is the perfect reason about the things with which it is concerned. But perfection and rectitude of reason in speculative matters, depend on the principles from which reason argues; just as we have said above (A. 2, ad 2) that science depends on and presupposes understanding, which is the habit of principles. Now in human acts the end is what the principles are in speculative matters, as stated in _Ethic._ vii, 8. Consequently, it is requisite for prudence, which is right reason about things to be done, that man be well disposed with regard to the ends: and this depends on the rectitude of his appetite. Wherefore, for prudence there is need of a moral virtue, which rectifies the appetite. On the other hand the good of things made by art is not the good of man's appetite, but the good of those things themselves: wherefore art does not presuppose rectitude of the appetite. The consequence is",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.64,
+   "alcance": "especifica",
+   "alcance_conf": 0.68
+  },
+  {
+   "i": "4062",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "960",
+   "texto": "Now it is evident that in moral matters the reason holds the place of commander and mover, while the appetitive power is commanded and moved. But the appetite does not receive the direction of reason univocally so to say; because it is rational, not essentially, but by participation (Ethic. i, 13). Consequently objects made appetible by the direction of reason belong to various species, according to their various relations to reason: so that it follows that moral virtues are of various species and are not one only. Reply Obj. 1: The object of the reason is truth. Now in all moral matters, which are contingent matters of action, there is but one kind of truth. Consequently, there is but one virtue to direct all such matters, viz. prudence. On the other hand, the object of the appetitive power is the appetible good, which varies in kind according to its various relations to reason, the directing power.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.59,
+   "alcance": "general",
+   "alcance_conf": 0.5
+  },
+  {
+   "i": "4069",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1035",
+   "texto": "Reply Obj. 2: There is no need for an indefinite series of virtues: because the measure and rule of intellectual virtue is not another kind of virtue, but things themselves. Reply Obj. 3: The things themselves that are contrary have no contrariety in the mind, because one is the reason for knowing the other: nevertheless there is in the intellect contrariety of affirmation and negation, which are contraries, as stated at the end of _Peri Hermen[e]ias._ For though \"to be\" and \"not to be\" are not in contrary, but in contradictory opposition to one another, so long as we consider their signification in things themselves, for on the one hand we have \"being\" and on the other we have simply \"non-being\"; yet if we refer them to the act of the mind, there is something positive in both cases. Hence \"to be\" and \"not to be\" are contradictory: but the opinion stating that \"good is good\" is contrary to the opinion stating that \"good is not good\": and between two such contraries intellectual virtue observes the mean. ________________________",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.88
+  },
+  {
+   "i": "4071",
+   "autor": "Tomás de Aquino",
+   "obra": "Summa Theologica, Part I-II (Pars Prima Secundae)",
+   "pos": "1047",
+   "texto": "Nevertheless, all intelligible things are related to first principles. And in this way, all the intellectual virtues depend on the understanding of principles; even as prudence depends on the moral virtues, as stated. On the other hand, the universal principles which are the object of the virtue of understanding of principles, do not depend on the conclusions, which are the objects of the other intellectual virtues, as do the moral virtues depend on prudence, because the appetite, in a fashion, moves the reason, and the reason the appetite, as stated above (Q. 9, A. 1; Q. 58, A. 5, ad 1). Reply Obj. 4: Those things to which the moral virtues incline, are as the principles of prudence: whereas the products of art are not the principles, but the matter of art. Now it is evident that, though reason may be right in one part of the matter, and not in another, yet in no way can it be called right reason, if it be deficient in any principle whatever. Thus, if a man be wrong about the principle, \"A whole is greater than its part,\" he cannot acquire the science of geometry, because he must necessarily wander from the truth in his conclusion. Moreover, things _done_ are related to one another, but not things _made,_ as stated above (ad 3). Consequently the lack of prudence in one department of things to be done, would result in a deficiency affecting other things to be done: whereas this does not occur in things to be made. ________________________",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.41
+  },
+  {
+   "i": "5615",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "30",
+   "texto": "Prudence & Sapience, With Their Difference As, much Experience, is Prudence; so, is much Science, Sapience. For though wee usually have one name of Wisedome for them both; yet the Latines did always distinguish between Prudentia and Sapientia, ascribing the former to Experience, the later to Science. But to make their difference appeare more cleerly, let us suppose one man endued with an excellent naturall use, and dexterity in handling his armes; and another to have added to that dexterity, an acquired Science, of where he can offend, or be offended by his adversarie, in every possible posture, or guard: The ability of the former, would be to the ability of the later, as Prudence to Sapience; both usefull; but the later infallible. But they that trusting onely to the authority of books, follow the blind blindly, are like him that trusting to the false rules of the master of fence, ventures praesumptuously upon an adversary, that either kills, or disgraces him.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.72
+  },
+  {
+   "i": "5616",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "31",
+   "texto": "Signes Of Science The signes of Science, are some, certain and infallible; some, uncertain. Certain, when he that pretendeth the Science of any thing, can teach the same; that is to say, demonstrate the truth thereof perspicuously to another: Uncertain, when onely some particular events answer to his pretence, and upon many occasions prove so as he sayes they must. Signes of prudence are all uncertain; because to observe by experience, and remember all circumstances that may alter the successe, is impossible. But in any businesse, whereof a man has not infallible Science to proceed by; to forsake his own natural judgement, and be guided by generall sentences read in Authors, and subject to many exceptions, is a signe of folly, and generally scorned by the name of Pedantry. And even of those men themselves, that in Councells of the Common-wealth, love to shew their reading of Politiques and History, very few do it in their domestique affaires, where their particular interest is concerned; having Prudence enough for their private affaires: but in publique they study more the reputation of their owne wit, than the successe of anothers businesse.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.88
+  },
+  {
+   "i": "5628",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "58",
+   "texto": "CHAPTER VIII. OF THE VERTUES COMMONLY CALLED INTELLECTUAL; AND THEIR CONTRARY DEFECTS Intellectuall Vertue Defined Vertue generally, in all sorts of subjects, is somewhat that is valued for eminence; and consisteth in comparison. For if all things were equally in all men, nothing would be prized. And by Vertues INTELLECTUALL, are always understood such abilityes of the mind, as men praise, value, and desire should be in themselves; and go commonly under the name of a Good Witte; though the same word Witte, be used also, to distinguish one certain ability from the rest. Wit, Naturall, Or Acquired These Vertues are of two sorts; Naturall, and Acquired. By Naturall, I mean not, that which a man hath from his Birth: for that is nothing else but Sense; wherein men differ so little one from another, and from brute Beasts, as it is not to be reckoned amongst Vertues. But I mean, that Witte, which is gotten by Use onely, and Experience; without Method, Culture, or Instruction. This NATURALL WITTE, consisteth principally in two things; Celerity Of Imagining, (that is, swift succession of one thought to another;) and Steddy Direction to some approved end. On the Contrary a slow Imagination, maketh that Defect, or fault of the mind, which is commonly called DULNESSE, Stupidity, and sometimes by other names that signifie slownesse of motion, or difficulty to be moved.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.72
+  },
+  {
+   "i": "5629",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "59",
+   "texto": "Good Wit, Or Fancy; Good Judgement; Discretion And this difference of quicknesse, is caused by the difference of mens passions; that love and dislike, some one thing, some another: and therefore some mens thoughts run one way, some another: and are held to, and observe differently the things that passe through their imagination. And whereas in his succession of mens thoughts, there is nothing to observe in the things they think on, but either in what they be Like One Another, or in what they be Unlike, or What They Serve For, or How They Serve To Such A Purpose; Those that observe their similitudes, in case they be such as are but rarely observed by others, are sayd to have a Good Wit; by which, in this occasion, is meant a Good Fancy. But they that observe their differences, and dissimilitudes; which is called Distinguishing, and Discerning, and Judging between thing and thing; in case, such discerning be not easie, are said to have a Good Judgement: and particularly in matter of conversation and businesse; wherein, times, places, and persons are to be discerned, this Vertue is called DISCRETION. The former, that is, Fancy, without the help of Judgement, is not commended as a Vertue: but the later which is Judgement, and Discretion, is commended for it selfe, without the help of Fancy. Besides the Discretion of times, places, and persons, necessary to a good Fancy, there is required also an often application of his thoughts to their End; that is to say, to some use to be made",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.89
+  },
+  {
+   "i": "5630",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "63",
+   "texto": "Prudence When the thoughts of a man, that has a designe in hand, running over a multitude of things, observes how they conduce to that designe; or what designe they may conduce into; if his observations be such as are not easie, or usuall, This wit of his is called PRUDENCE; and dependeth on much Experience, and Memory of the like things, and their consequences heretofore. In which there is not so much difference of Men, as there is in their Fancies and Judgements; Because the Experience of men equall in age, is not much unequall, as to the quantity; but lyes in different occasions; every one having his private designes. To govern well a family, and a kingdome, are not different degrees of Prudence; but different sorts of businesse; no more then to draw a picture in little, or as great, or greater then the life, are different degrees of Art. A plain husband-man is more Prudent in affaires of his own house, then a Privy Counseller in the affaires of another man.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": "5631",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "64",
+   "texto": "Craft To Prudence, if you adde the use of unjust, or dishonest means, such as usually are prompted to men by Feare, or Want; you have that Crooked Wisdome, which is called CRAFT; which is a signe of Pusillanimity. For Magnanimity is contempt of unjust, or dishonest helps. And that which the Latines Call Versutia, (translated into English, Shifting,) and is a putting off of a present danger or incommodity, by engaging into a greater, as when a man robbs one to pay another, is but a shorter sighted Craft, called Versutia, from Versura, which signifies taking mony at usurie, for the present payment of interest. Acquired Wit As for Acquired Wit, (I mean acquired by method and instruction,) there is none but Reason; which is grounded on the right use of Speech; and produceth the Sciences. But of Reason and Science, I have already spoken in the fifth and sixth Chapters.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "5632",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "66",
+   "texto": "Giddinesse Madnesse And therefore, a man who has no great Passion for any of these things; but is as men terme it indifferent; though he may be so farre a good man, as to be free from giving offence; yet he cannot possibly have either a great Fancy, or much Judgement. For the Thoughts, are to the Desires, as Scouts, and Spies, to range abroad, and find the way to the things Desired: All Stedinesse of the minds motion, and all quicknesse of the same, proceeding from thence. For as to have no Desire, is to be Dead: so to have weak Passions, is Dulnesse; and to have Passions indifferently for every thing, GIDDINESSE, and Distraction; and to have stronger, and more vehement Passions for any thing, than is ordinarily seen in others, is that which men call MADNESSE.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "5654",
+   "autor": "Hobbes",
+   "obra": "Leviathan",
+   "pos": "95",
+   "texto": "Worthinesse Fitnesse WORTHINESSE, is a thing different from the worth, or value of a man; and also from his merit, or desert; and consisteth in a particular power, or ability for that, whereof he is said to be worthy: which particular ability, is usually named FITNESSE, or Aptitude. For he is Worthiest to be a Commander, to be a Judge, or to have any other charge, that is best fitted, with the qualities required to the well discharging of it; and Worthiest of Riches, that has the qualities most requisite for the well using of them: any of which qualities being absent, one may neverthelesse be a Worthy man, and valuable for some thing else. Again, a man may be Worthy of Riches, Office, and Employment, that neverthelesse, can plead no right to have it before another; and therefore cannot be said to merit or deserve it. For Merit, praesupposeth a right, and that the thing deserved is due by promise: Of which I shall say more hereafter, when I shall speak of Contracts.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 1.0
+  },
+  {
+   "i": "6203",
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "pos": "8",
+   "texto": "4 _Mathematics, intuition._--True eloquence makes light of eloquence, true morality makes light of morality; that is to say, the morality of the judgment, which has no rules, makes light of the morality of the intellect. For it is to judgment that perception belongs, as science belongs to intellect. Intuition is the part of judgment, mathematics of intellect. To make light of philosophy is to be a true philosopher. 5 Those who judge of a work by rule[3] are in regard to others as those who have a watch are in regard to others. One says, \"It is two hours ago\"; the other says, \"It is only three-quarters of an hour.\" I look at my watch, and say to the one, \"You are weary,\" and to the other, \"Time gallops with you\"; for it is only an hour and a half ago, and I laugh at those who tell me that time goes slowly with me, and that I judge by imagination. They do not know that I judge by my watch.[4]",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.65
+  },
+  {
+   "i": "6324",
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "pos": "192",
+   "texto": "334 _The reason of effects._--Lust and force are the source of all our actions; lust causes voluntary actions, force involuntary ones. 335 _The reason of effects._--It is then true to say that all the world is under a delusion; for, although the opinions of the people are sound, they are not so as conceived by them, since they think the truth to be where it is not. Truth is indeed in their opinions, but not at the point where they imagine it. [Thus] it is true that we must honour noblemen, but not because noble birth is real superiority, etc. 336 _The reason of effects._--We must keep our thought secret, and judge everything by it, while talking like the people.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "6327",
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "pos": "196",
+   "texto": "All our dignity consists, then, in thought. By it we must elevate ourselves, and not by space and time which we cannot fill. Let us endeavour, then, to think well; this is the principle of morality. 348 _A thinking reed._--It is not from space that I must seek my dignity, but from the government of my thought. I shall have no more if I possess worlds. By space the universe encompasses and swallows me up like an atom; by thought I comprehend the world. 349 _Immateriality of the soul._--Philosophers[129] who have mastered their passions. What matter could do that? 350 _The Stoics._--They conclude that what has been done once can be done always, and that since the desire of glory imparts some power to those whom it possesses, others can do likewise. There are feverish movements which health cannot imitate.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.17
+  },
+  {
+   "i": "6366",
+   "autor": "Pascal",
+   "obra": "Pascal's Pensées",
+   "pos": "261",
+   "texto": "464 _Philosophers._--We are full of things which take us out of ourselves. Our instinct makes us feel that we must seek our happiness outside ourselves. Our passions impel us outside, even when no objects present themselves to excite them. External objects tempt us of themselves, and call to us, even when we are not thinking of them. And thus philosophers have said in vain, \"Retire within yourselves, you will find your good there.\" We do not believe them, and those who believe them are the most empty and the most foolish. 465 The Stoics say, \"Retire within yourselves; it is there you will find your rest.\" And that is not true. Others say, \"Go out of yourselves; seek happiness in amusement.\" And this is not true. Illness comes.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.55
+  },
+  {
+   "i": "7315",
+   "autor": "Leibniz",
+   "obra": "Theodicy",
+   "pos": "128",
+   "texto": "31. This negligence is a general defect of humanity, and one not to be laid to the charge of any particular person. _Abundamus dulcibus vitiis_, as Quintilian said of the style of Seneca, and we take pleasure in going astray. Exactitude incommodes us and rules we regard as puerilities. Thus it is that common logic (although it is more or less sufficient for the examination of arguments that tend towards certainty) is relegated to schoolboys; and there is not even a thought for a kind of logic which should determine the balance between probabilities, and would be so necessary in deliberations of importance. So true is it that our mistakes for the most part come from scorn or lack of the art of thinking: for nothing is more imperfect than our logic when we pass beyond necessary arguments. The most excellent philosophers of our time, such as the authors of _The Art of Thinking_, of _The Search for Truth_ and of the _Essay concerning Human Understanding_, have been very far from indicating to us the true means fitted to assist the faculty whose business it is to make us weigh the probabilities of the true and the false: not to mention the art of discovery, in which success is still more difficult of attainment, and whereof we have nothing beyond very imperfect samples in mathematics.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.87
+  },
+  {
+   "i": "8352",
+   "autor": "Voltaire",
+   "obra": "Voltaire's Philosophical Dictionary",
+   "pos": "103",
+   "texto": "_CONTRADICTIONS_ If some literary society wishes to undertake the dictionary of contradictions, I subscribe for twenty folio volumes. The world can exist only by contradictions: what is needed to abolish them? to assemble the states of the human race. But from the manner in which men are made, it would be a fresh contradiction if they were to agree. Assemble all the rabbits of the universe, there will not be two different opinions among them. I know only two kinds of immutable beings on the earth, mathematicians and animals; they are led by two invariable rules, demonstration and instinct: and even the mathematicians have had some disputes, but the animals have never varied. The contrasts, the light and shade in which public men are represented in history, are not contradictions, they are faithful portraits of human nature.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.73
+  },
+  {
+   "i": "9342",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "18",
+   "texto": "When the sentiments of our companion coincide with our own in things of this kind, which are obvious and easy, and in which, perhaps, we never found a single person who differed from us, though we, no doubt, must approve of them, yet he seems to deserve no praise or admiration on account of them. But when they not only coincide with our own, but lead and direct our own; when in forming them he appears to have attended to many things which we had overlooked, and to have adjusted them to all the various circumstances of their objects; we not only approve of them, but wonder and are surprised at their uncommon and unexpected acuteness and comprehensiveness, and he appears to deserve a very high degree of admiration and applause. For approbation heightened by wonder and surprise, constitutes the sentiment which is properly palled admiration, and of which applause is the natural expression. The decision of the man who judges that exquisite beauty is preferable to the grossest deformity, or that twice two are equal to four, must certainly be approved of by all the world, but will not, surely, be much admired. It is the acute and delicate discernment of the man of taste, who distinguishes the minute, and scarce perceptible, differences of beauty and deformity; it is the comprehensive accuracy of the experienced mathematician, who unravels, with ease, the most intricate and perplexed proportions; it is the great leader in science and taste, the man who directs and conducts our own sentiments, the extent and superior justness",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "9343",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "19",
+   "texto": "The utility of those qualities, it may be thought, is what first recommends them to us; and, no doubt, the consideration of this, when we come to attend to it, gives them a new value. Originally, however, we approve of another man’s judgment, not as something useful, but as right, as accurate, as agreeable to truth and reality: and it is evident we attribute those qualities to it for no other reason but because we find that it agrees with our own. Taste, in the same manner, is originally approved of, not as useful, but as just, as delicate, and as precisely suited to its object. The idea of the utility of all qualities of this kind, is plainly an after-thought, and not what first recommended them to our approbation.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "9530",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "219",
+   "texto": "The same ingenious and agreeable author who first explained why utility pleases, has been so struck with this view of things, as to resolve our whole approbation of virtue into a perception of this species of beauty which results from the appearance of utility. No qualities of the mind, he observes, are approved of as virtuous, but such as are useful or agreeable either to the person himself or to others; and no qualities are disapproved of as vicious but such as have a contrary tendency. And Nature, indeed, seems to have so happily adjusted our sentiments of approbation and disapprobation, to the conveniency both of the individual and of the society, that after the strictest examination it will be found, I believe, that this is universally the case. But still I affirm, that it is not the view of this utility or hurtfulness which is either the first or principal source of our approbation and disapprobation. These sentiments are no doubt enhanced and enlivened by the perception of the beauty or deformity which results from this utility or hurtfulness. But still, I say, they are originally and essentially different from this perception.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.65
+  },
+  {
+   "i": "9532",
+   "autor": "Adam Smith",
+   "obra": "The Theory of Moral Sentiments",
+   "pos": "221",
+   "texto": "The qualities most useful to ourselves are, first of all, superior reason and understanding, by which we are capable of discerning the remote consequences of all our actions, and of foreseeing the advantage or detriment which is likely to result from them: and secondly, self-command, by which we are enabled to abstain from present pleasure or to endure present pain, in order to obtain a greater pleasure or to avoid a greater pain in some future time. In the union of those two qualities consists the virtue of prudence, of all the virtues that which is most useful to the individual. With regard to the first of those qualities, it has been observed on a former occasion, that superior reason and understanding are originally approved of as just and right and accurate, and not merely as useful or advantageous. It is in the abstruser sciences, particularly in the higher parts of mathematics, that the greatest and most admired exertions of human reason have been displayed. But the utility of those sciences, either to the individual or to the public, is not very obvious, and to prove it requires a discussion which is not always very easily comprehended. It was not, therefore, their utility which first recommended them to the public admiration. This quality was but little insisted upon, till it became necessary to make some reply to the reproaches of those, who, having themselves no taste for such sublime discoveries, endeavoured to depreciate them as useless.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.65
+  },
+  {
+   "i": "10221",
+   "autor": "Wollstonecraft",
+   "obra": "A Vindication of the Rights of Woman",
+   "pos": "227",
+   "texto": "Mental as well as bodily exertion is, at first, irksome; so much so, that the many would fain let others both work and think for them. An observation which I have often made will illustrate my meaning. When in a circle of strangers, or acquaintances, a person of moderate abilities, asserts an opinion with heat, I will venture to affirm, for I have traced this fact home, very often, that it is a prejudice. These echoes have a high respect for the understanding of some relation or friend, and without fully comprehending the opinions, which they are so eager to retail, they maintain them with a degree of obstinacy, that would surprise even the person who concocted them. I know that a kind of fashion now prevails of respecting prejudices; and when any one dares to face them, though actuated by humanity and armed by reason, he is superciliously asked, whether his ancestors were fools. No, I should reply; opinions, at first, of every description, were all, probably, considered, and therefore were founded on some reason; yet not unfrequently, of course, it was rather a local expedient than a fundamental principle, that would be reasonable at all times. But, moss-covered opinions assume the disproportioned form of prejudices, when they are indolently adopted only because age has given them a venerable aspect, though the reason on which they were built ceases to be a reason, or cannot be traced. Why are we to love prejudices, merely because they are prejudices? A prejudice is a fond obstinate persuasion, for which we can",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.69
+  },
+  {
+   "i": "10343",
+   "autor": "Wollstonecraft",
+   "obra": "A Vindication of the Rights of Woman",
+   "pos": "367",
+   "texto": "Besides, by the exercise of their bodies and minds, women would acquire that mental activity so necessary in the maternal character, united with the fortitude that distinguishes steadiness of conduct from the obstinate perverseness of weakness. For it is dangerous to advise the indolent to be steady, because they instantly become rigorous, and to save themselves trouble, punish with severity faults that the patient fortitude of reason might have prevented. But fortitude presupposes strength of mind, and is strength of mind to be acquired by indolent acquiescence? By asking advice instead of exerting the judgment? By obeying through fear, instead of practising the forbearance, which we all stand in need of ourselves? The conclusion which I wish to draw is obvious; make women rational creatures and free citizens, and they will quickly become good wives, and mothers; that is--if men do not neglect the duties of husbands and fathers.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.49
+  },
+  {
+   "i": "10567",
+   "autor": "Hegel",
+   "obra": "Hegel's Philosophy of Mind",
+   "pos": "47",
+   "texto": "At an early period Herbart had become impressed with the necessity of applying mathematics to psychology(29). To the usual objection, that psychical facts do not admit of measurement, he had a ready reply. We can calculate even on hypothetical assumptions: indeed, could we measure, we should scarcely take the trouble to calculate(30). To calculate (i.e. to deduce mathematically) is to perform a general experiment, and to perform it in the medium where there is least likelihood of error or disturbance. There may be anomalies enough apparent in the mental life: there may be the great anomalies of Genius and of Freedom of Will; but the Newton and the Kepler of psychology will show by calculation on assumed conditions of psychic nature that these aberrations can be explained by mechanical laws. “The human Soul is no puppet-theatre: our wishes and resolutions are no marionettes: no juggler stands behind; but our true and proper life lies in our volition, and this life has its rule not outside, but in itself: it has its own purely mental rule, by no means borrowed from the material world. But this rule is in it sure and fixed; and on account of this its fixed quality it has more similarity to (what is otherwise heterogeneous) the laws of impact and pressure than to the marvels of an alleged inexplicable freedom(31).”",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": "11141",
+   "autor": "Emerson",
+   "obra": "Essays — First Series",
+   "pos": "110",
+   "texto": "The simplicity of the universe is very different from the simplicity of a machine. He who sees moral nature out and out and thoroughly knows how knowledge is acquired and character formed, is a pedant. The simplicity of nature is not that which may easily be read, but is inexhaustible. The last analysis can no wise be made. We judge of a man’s wisdom by his hope, knowing that the perception of the inexhaustibleness of nature is an immortal youth. The wild fertility of nature is felt in comparing our rigid names and reputations with our fluid consciousness. We pass in the world for sects and schools, for erudition and piety, and we are all the time jejune babes. One sees very well how Pyrrhonism grew up. Every man sees that he is that middle point whereof every thing may be affirmed and denied with equal reason. He is old, he is young, he is very wise, he is altogether ignorant. He hears and feels what you say of the seraphim, and of the tin-peddler. There is no permanent wise man except in the figment of the Stoics. We side with the hero, as we read or paint, against the coward and the robber; but we have been ourselves that coward and robber, and shall be again,—not in the low circumstance, but in comparison with the grandeurs possible to the soul.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.43,
+   "alcance": "general",
+   "alcance_conf": 0.94
+  },
+  {
+   "i": "11392",
+   "autor": "Emerson",
+   "obra": "Essays — Second Series",
+   "pos": "139",
+   "texto": "The end and the means, the gamester and the game,--life is made up of the intermixture and reaction of these two amicable powers, whose marriage appears beforehand monstrous, as each denies and tends to abolish the other. We must reconcile the contradictions as we can, but their discord and their concord introduce wild absurdities into our thinking and speech. No sentence will hold the whole truth, and the only way in which we can be just, is by giving ourselves the lie; Speech is better than silence; silence is better than speech;--All things are in contact; every atom has a sphere of repulsion;--Things are, and are not, at the same time;--and the like. All the universe over, there is but one thing, this old Two-Face, creator-creature, mind-matter, right-wrong, of which any proposition may be affirmed or denied. Very fitly therefore I assert that every man is a partialist, that nature secures him as an instrument by self-conceit, preventing the tendencies to religion and science; and now further assert, that, each man's genius being nearly and affectionately explored, he is justified in his individuality, as his nature is found to be immense; and now I add that every man is a universalist also, and, as our earth, whilst it spins on its own axis, spins all the time around the sun through the celestial spaces, so the least of its rational children, the most dedicated to his private affair, works out, though as it were under a disguise, the universal problem. We fancy men are individuals; so are pumpkins; but every",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.83
+  },
+  {
+   "i": "11413",
+   "autor": "Emerson",
+   "obra": "Essays — Second Series",
+   "pos": "160",
+   "texto": "Well, we are all the children of genius, the children of virtue,--and feel their inspirations in our happier hours. Is not every man sometimes a radical in politics? Men are conservatives when they are least vigorous, or when they are most luxurious. They are conservatives after dinner, or before taking their rest; when they are sick, or aged: in the morning, or when their intellect or their conscience has been aroused; when they hear music, or when they read poetry, they are radicals. In the circle of the rankest tories that could be collected in England, Old or New, let a powerful and stimulating intellect, a man of great heart and mind, act on them, and very quickly these frozen conservators will yield to the friendly influence, these hopeless will begin to hope, these haters will begin to love, these immovable statues will begin to spin and revolve. I cannot help recalling the fine anecdote which Warton relates of Bishop Berkeley, when he was preparing to leave England with his plan of planting the gospel among the American savages. \"Lord Bathurst told me that the members of the Scriblerus club being met at his house at dinner, they agreed to rally Berkeley, who was also his guest, on his scheme at Bermudas. Berkeley, having listened to the many lively things they had to say, begged to be heard in his turn, and displayed his plan with such an astonishing and animating force of eloquence and enthusiasm, that they were struck dumb, and, after some pause, rose up all together with",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.72
+  },
+  {
+   "i": "11921",
+   "autor": "Mill",
+   "obra": "On Liberty",
+   "pos": "72",
+   "texto": "In the first place, then, I would suggest that they might possibly learn something from them. It will not be denied by anybody, that originality is a valuable element in human affairs. There is always need of persons not only to discover new truths, and point out when what were once truths are true no longer, but also to commence new practices, and set the example of more enlightened conduct, and better taste and sense in human life. This cannot well be gainsaid by anybody who does not believe that the world has already attained perfection in all its ways and practices. It is true that this benefit is not capable of being rendered by everybody alike: there are but few persons, in comparison with the whole of mankind, whose experiments, if adopted by others, would be likely to be any improvement on established practice. But these few are the salt of the earth; without them, human life would become a stagnant pool. Not only is it they who introduce good things which did not before exist; it is they who keep the life in those which already existed. If there were nothing new to be done, would human intellect cease to be necessary? Would it be a reason why those who do the old things should forget why they are done, and do them like cattle, not like human beings? There is only too great a tendency in the best beliefs and practices to degenerate into the mechanical; and unless there were a succession of persons whose ever-recurring originality",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.95
+  },
+  {
+   "i": "11922",
+   "autor": "Mill",
+   "obra": "On Liberty",
+   "pos": "73",
+   "texto": "I insist thus emphatically on the importance of genius, and the necessity of allowing it to unfold itself freely both in thought and in practice, being well aware that no one will deny the position in theory, but knowing also that almost every one, in reality, is totally indifferent to it. People think genius a fine thing if it enables a man to write an exciting poem, or paint a picture. But in its true sense, that of originality in thought and action, though no one says that it is not a thing to be admired, nearly all, at heart, think that they can do very well without it. Unhappily this is too natural to be wondered at. Originality is the one thing which unoriginal minds cannot feel the use of. They cannot see what it is to do for them: how should they? If they could see what it would do for them, it would not be originality. The first service which originality has to render them, is that of opening their eyes: which being once fully done, they would have a chance of being themselves original. Meanwhile, recollecting that nothing was ever yet done which some one was not the first to do, and that all good things which exist are the fruits of originality, let them be modest enough to believe that there is something still left for it to accomplish, and assure themselves that they are more in need of originality, the less they are conscious of the want.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.99
+  },
+  {
+   "i": "12005",
+   "autor": "Mill",
+   "obra": "A System of Logic, Ratiocinative and Inductive",
+   "pos": "356",
+   "texto": "§ 4. In the revision, or rather reconstruction, of his “Principles of Psychology,” as one of the stages or platforms in the imposing structure of his System of Philosophy, Mr. Spencer has resumed what he justly terms(96) the “amicable controversy that has been long pending between us;” expressing at the same time a regret, which I cordially share, that “this lengthened exposition of a single point of difference, unaccompanied by an exposition of the numerous points of concurrence, unavoidably produces an appearance of dissent very far greater than that which exists.” I believe, with Mr. Spencer, that the difference between us, if measured by our conclusions, is “superficial rather than substantial;” and the value I attach to so great an amount of agreement, in the field of analytic psychology, with a thinker of his force and depth, is such as I can hardly overstate. But I also agree with him that the difference which exists in our premises is one of “profound importance, philosophically considered;” and not to be dismissed while any part of the case of either of us has not been fully examined and discussed.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.97
+  },
+  {
+   "i": "15412",
+   "autor": "Dewey",
+   "obra": "How We Think",
+   "pos": "18",
+   "texto": "[Sidenote: Mill on the business of life and the occupation of mind] These various values of the power of thought may be summed up in the following quotation from John Stuart Mill. \"To draw inferences,\" he says, \"has been said to be the great business of life. Every one has daily, hourly, and momentary need of ascertaining facts which he has not directly observed: not from any general purpose of adding to his stock of knowledge, but because the facts themselves are of importance to his interests or to his occupations. The business of the magistrate, of the military commander, of the navigator, of the physician, of the agriculturist, _is merely to judge of evidence and to act accordingly_.... As they do this well or ill, so they discharge well or ill the duties of their several callings. _It is the only occupation in which the mind never ceases to be engaged._\"[3]",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "no_trata",
+   "conf": 0.96
+  },
+  {
+   "i": "15855",
+   "autor": "Santayana",
+   "obra": "The Sense of Beauty: Being the Outlines of Aesthetic Theory",
+   "pos": "193",
+   "texto": "Opposed to this utilitarian theory stands the metaphysical one that would make the beauty or intrinsic rightness of things the source of their efficiency and of their power to survive. Taken literally, as it is generally meant, this idea must, from our point of view, appear preposterous. Beauty and rightness are relative to our judgment and emotion; they in no sense exist in nature or preside over her. She everywhere appears to move by mechanical law. The types of things exist by what, in relation to our approbation, is mere chance, and it is our faculties that must adapt themselves to our environment and not our environment to our faculties. Such is the naturalistic point of view which we have adopted.",
+   "estrella": "23",
+   "subtema": "s23_0",
+   "postura": "contradice",
+   "conf": 0.67,
+   "alcance": "general",
+   "alcance_conf": 0.88
+  }
+ ],
+ "autores": {
+  "Aristóteles": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.97,
+   "pasajes": 1,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1
+   }
+  },
+  "Cicerón": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Tomás de Aquino": {
+   "veredicto": "contradice",
+   "nivel": "expreso",
+   "conf": 0.72,
+   "pasajes": 7,
+   "relevantes": 2,
+   "cuenta": {
+    "contradice": 5,
+    "no_trata": 2
+   }
+  },
+  "Hobbes": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 8
+  },
+  "Pascal": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 4
+  },
+  "Leibniz": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Voltaire": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Adam Smith": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 4
+  },
+  "Wollstonecraft": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 2
+  },
+  "Hegel": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Emerson": {
+   "veredicto": "contradice",
+   "nivel": "inferido",
+   "conf": 0.44,
+   "pasajes": 3,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1,
+    "no_trata": 2
+   }
+  },
+  "Mill": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 3
+  },
+  "Dewey": {
+   "veredicto": "no_trata",
+   "nivel": "-",
+   "pasajes": 1
+  },
+  "Santayana": {
+   "veredicto": "contradice",
+   "nivel": "inferido",
+   "conf": 0.35,
+   "pasajes": 1,
+   "relevantes": 1,
+   "cuenta": {
+    "contradice": 1
+   }
+  }
+ }
+}

@@ -63,16 +63,27 @@ print(len(temas['galaxias']), 'galaxias con estrellas,', len(temas['estrellas'])
 # Quaestiones sacadas del mapa (dialectica/q*_dialectica.json con 'estrella' en cada pasaje): postura de cada pasaje según Jev.
 import glob
 quaestiones = []
-for f in sorted(glob.glob('../dialectica/q*_dialectica.json')):
+for f in sorted(glob.glob('../dialectica/q*_dialectica.json')) + sorted(glob.glob('../dialectica/sub/s*_dialectica.json')):
     D = json.load(open(f)); Cq = D['pasajes']
     if not all('estrella' in c for c in Cq): continue
     clave = {k: v.split()[0] for k, v in D['q'].get('clave_previa', {}).items() if not k.startswith('_')}
-    quaestiones.append({'id': D['q']['id'], 'prop': D['q']['proposicion_es'], 'estrellas': sorted({int(c['estrella']) for c in Cq}),
+    quaestiones.append({'id': D['q']['id'], 'prop': D['q']['proposicion_es'], 'subtema': D['q'].get('subtema'), 'estrellas': sorted({int(c['estrella']) for c in Cq}),
                         'postura': {int(c['i']): c['postura'][0] for c in Cq},   # a(poya) c(ontradice) t(rata sin resolver) n(o trata)
                         'autores': {a: {'v': v['veredicto'], 'nivel': v['nivel'], 'conf': v.get('conf'), 'clave': clave.get(a),
                                         'cuenta': v.get('cuenta', {})} for a, v in D['autores'].items() if v['nivel'] != '-'}})
 print(len(quaestiones), 'quaestiones del mapa')
-datos = {'autores': autores, 'temas': temas, 'quaestiones': quaestiones, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
+# Tercer nivel: subtemas dentro de las estrellas (subtemas.py + tesis_subtemas.py), cada uno con su quaestio si ya se corrió.
+subtemas, subDe = [], {}
+hechas = {q['id'] for q in quaestiones}
+REUSO = {'s33_0': 'q002'}   # es q002 al revés: se usa q002
+for f in sorted(glob.glob('subtemas_g*.json')):
+    Tn = {t['id']: t for t in json.load(open(f.replace('subtemas_', 'tesis_')))}
+    for x in json.load(open(f)):
+        q = REUSO.get(x['id'], x['id'] if x['id'] in hechas else None)
+        subtemas.append({'id': x['id'], 'estrella': x['estrella'], 'nombre': Tn[x['id']]['nombre'], 'n': x['n'], 'q': q})
+        for i in x['pasajes']: subDe[i] = x['id']
+print(len(subtemas), 'subtemas')
+datos = {'autores': autores, 'temas': temas, 'quaestiones': quaestiones, 'subtemas': subtemas, 'subDe': subDe, 'obras': obras, 'pts': pts, 'vecinos': vecinos,
          'obrasAutor': obrasAutor, 'distObras': distObras}
 
 tpl = open('universo3d_tpl.html', encoding='utf-8').read()

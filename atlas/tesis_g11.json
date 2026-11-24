@@ -1,0 +1,86 @@
+[
+ {
+  "nombre": "Libertad y Necesidad",
+  "tesis": "Human will is entirely determined by external factors and internal inclinations, leaving no room for genuine freedom.",
+  "tesis_es": "La voluntad humana está completamente determinada por factores externos e inclinaciones internas, sin dejar espacio para una libertad genuina.",
+  "nucleo": "whether human will is genuinely free or entirely determined.",
+  "id": "s33_0"
+ },
+ {
+  "nombre": "Voluntad y Bien",
+  "tesis": "Human will is inherently inclined towards good and can act independently of external influences.",
+  "tesis_es": "La voluntad humana está inherentemente inclinada hacia el bien y puede actuar independientemente de influencias externas.",
+  "nucleo": "whether human will is inherently inclined towards good and independent of external influences.",
+  "id": "s33_1"
+ },
+ {
+  "nombre": "Amor propio y virtud",
+  "tesis": "Self-love can never be the sole motive of virtuous actions.",
+  "tesis_es": "El amor propio nunca puede ser el único motivo de acciones virtuosas.",
+  "nucleo": "whether self-love can be the sole motive of virtuous actions.",
+  "id": "s55_0"
+ },
+ {
+  "nombre": "Aprobación y Virtud",
+  "tesis": "The principle of approbation is fundamentally derived from self-love rather than an inherent moral sense.",
+  "tesis_es": "El principio de aprobación se deriva fundamentalmente del amor propio en lugar de un sentido moral inherente.",
+  "nucleo": "whether the principle of approbation stems from self-love or an inherent moral sense.",
+  "id": "s55_1"
+ },
+ {
+  "nombre": "Principios Morales Universales",
+  "tesis": "The ultimate moral principle is derived from human rationality and not from divine authority.",
+  "tesis_es": "El principio moral ultimate se deriva de la racionalidad humana y no de la autoridad divina.",
+  "nucleo": "whether the ultimate moral principle is grounded in human rationality or divine authority.",
+  "id": "s56_0"
+ },
+ {
+  "nombre": "Acciones y Moralidad",
+  "tesis": "Moral goodness is primarily determined by the inherent nature of actions rather than their consequences.",
+  "tesis_es": "La bondad moral se determina principalmente por la naturaleza inherente de las acciones, no por sus consecuencias.",
+  "nucleo": "whether moral goodness is based on the inherent nature of actions or their consequences.",
+  "id": "s56_1"
+ },
+ {
+  "nombre": "Razón y Virtud",
+  "tesis": "Prudence is more dependent on moral virtues than on intellectual virtues.",
+  "tesis_es": "La prudencia depende más de las virtudes morales que de las virtudes intelectuales.",
+  "nucleo": "whether prudence relies more on moral virtues or intellectual virtues.",
+  "id": "s23_0"
+ },
+ {
+  "nombre": "El Bien y la Virtud",
+  "tesis": "The highest good in life is the pursuit of pleasure.",
+  "tesis_es": "El bien más alto en la vida es la búsqueda del placer.",
+  "nucleo": "whether the highest good in life is the pursuit of pleasure",
+  "id": "s23_1"
+ },
+ {
+  "nombre": "Virtud y Naturaleza",
+  "tesis": "Virtue can be taught through ethical discourses and preaching.",
+  "tesis_es": "La virtud puede ser enseñada a través de discursos éticos y predicaciones.",
+  "nucleo": "whether virtue can be taught through abstract knowledge and discourses.",
+  "id": "s23_2"
+ },
+ {
+  "nombre": "El Bien y la Acción",
+  "tesis": "The principle of utility is the sole criterion for moral action.",
+  "tesis_es": "El principio de utilidad es el único criterio para la acción moral.",
+  "nucleo": "whether the principle of utility alone determines moral action",
+  "id": "s38_0"
+ },
+ {
+  "nombre": "Descanso para los Cargados",
+  "tesis": "True relief can only be found through divine intervention.",
+  "tesis_es": "El verdadero descanso solo se puede encontrar a través de la intervención divina.",
+  "nucleo": "whether true relief is solely attainable through divine intervention.",
+  "id": "s38_1"
+ },
+ {
+  "nombre": "Altruismo y Egoísmo Social",
+  "tesis": "Altruistic behavior is inherently motivated by a natural human desire to alleviate suffering rather than by calculated self-interest.",
+  "tesis_es": "El comportamiento altruista está motivado inherentemente por el deseo natural humano de aliviar el sufrimiento, más que por el interés calculado en sí mismo.",
+  "nucleo": "whether altruistic behavior stems from a natural desire to alleviate suffering or from calculated self-interest.",
+  "id": "s38_2"
+ }
+]
